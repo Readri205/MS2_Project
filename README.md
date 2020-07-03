@@ -238,3 +238,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V1.4 Added second and third row boxes for table graphs, search and contacts boxes
 #### V1.5 Updated for background body color, text color and font weight
 #### V1.6 Added country html page, container boxes for images, map, graphs, search and contact details
+#### V1.7 Added country name header styling on country html page
