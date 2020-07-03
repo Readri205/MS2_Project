@@ -236,3 +236,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V1.2 Added google fonts, Jquery, fontawesome scripts, added navbar and header container
 #### V1.3 Added two containers home page for Information box and Map box
 #### V1.4 Added second and third row boxes for table graphs, search and contacts boxes
+#### V1.5 Updated for background body color, text color and font weight
