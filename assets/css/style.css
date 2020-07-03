@@ -82,3 +82,9 @@
   background-color: #000;
   color: #fff;
 }
+
+/*---------------Nav formating navbar fonts, active and hover ends here-----------------------------*/
+
+.card-box {
+    text-align: center;
+}
