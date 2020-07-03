@@ -94,8 +94,23 @@ body {
     text-align: center;
 }
 
+#africaMap {
+    height: 300px;
+}
 
-/*---------------Styel and formating country page fonts here-----------------------------*/
+.map-box {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 600px;
+    margin: 10px 0 0 0;
+    padding-bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*---------------Style and formating country page fonts here-----------------------------*/
 
 .country-top {
     margin-top: 55px;
