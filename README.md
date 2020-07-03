@@ -1,12 +1,12 @@
-<img src="" style="margin: 0;">
+<img src="assets/images/AdobeStock_322612165.gif" style="margin: 0;">
 
 <h1 align="center">Africa</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.]( https://readri205.github.io/MS2_Project/)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is the website for the Africa Continent. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src=""></h2>
 
 ## User Experience (UX)
 
@@ -232,3 +232,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Version control
 
 #### V1.0 Initial Commit
+#### V1.1 Added africa header image, country html page and README template
