@@ -241,3 +241,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V1.7 Added country name header styling on country html page
 #### V1.8 Added Leaflet and Mapbox link and JS scripts
 #### V1.9 Update with private restricted Mapbox access token
+#### V2.0 Amended africa map size with box size on index page

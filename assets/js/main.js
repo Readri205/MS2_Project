@@ -1,4 +1,4 @@
-const mymap = L.map("africaMap").setView([51.505, -0.09], 13);
+const mymap = L.map("africaMap").setView([1.6155, 16.0464], 3);
 
 L.mapbox.accessToken = "pk.eyJ1IjoicmVhZHJpMjA1IiwiYSI6ImNrYzU2YW13bzBlcjcycW1pZXBhejllYTUifQ.2HGnkodTpY_qhwDhTF9Aqw";
         
