@@ -233,3 +233,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 #### V1.0 Initial Commit
 #### V1.1 Added africa header image, country html page and README template
+#### V1.2 Added google fonts, Jquery, fontawesome scripts, added navbar and header container
