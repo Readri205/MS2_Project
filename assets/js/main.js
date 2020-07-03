@@ -1,6 +1,6 @@
 const mymap = L.map("africaMap").setView([51.505, -0.09], 13);
 
-L.mapbox.accessToken = "pk.eyJ1IjoicmVhZHJpMjA1IiwiYSI6ImNrYzU1dGFjbjBlamwyc3RpZmtpeGNjcTYifQ.nhMHaWYNmRRyAeYUBuPJrA";
+L.mapbox.accessToken = "pk.eyJ1IjoicmVhZHJpMjA1IiwiYSI6ImNrYzU2YW13bzBlcjcycW1pZXBhejllYTUifQ.2HGnkodTpY_qhwDhTF9Aqw";
         
         const attribution = '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 

@@ -240,3 +240,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V1.6 Added country html page, container boxes for images, map, graphs, search and contact details
 #### V1.7 Added country name header styling on country html page
 #### V1.8 Added Leaflet and Mapbox link and JS scripts
+#### V1.9 Update with private restricted Mapbox access token
