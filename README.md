@@ -245,3 +245,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V2.1 Added map js for country map on country html
 #### V2.2 Added Leaflet and Mapbox link and JS to country html
 #### V2.3 Moved country map to new country js file
+#### V2.4 Set up individual js files for africa and country maps
