@@ -32,13 +32,13 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="country.html">Country Details</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="outputs.html">Outputs</a>
+                    <a class="nav-link active" href="outputs.html">Outputs</a>
                   </li>
                 </ul>
               </div>
@@ -58,31 +58,36 @@
 <section class="container-fluid">
 	<div class="row">
 		<!-- The First box starts here -->
-		<div class="col-lg-8">
-			<div class="card-box">
-				<h3 class="uppercase">Information</h3>
-				<p>General information to put the continent into context relative to the rest of the world and
-					information about the number of countries, size in terms of land mass, population, economy relative
-					to the rest of the world.</p>
+		<div class="col-lg-4">
+			<div class="code-box">
+				<h3 class="uppercase">Country Code</h3>
+				<div id="country"></div>
 			</div>
 		</div>
 		<!-- The First box finishes here -->
 		<!-- The Second box starts here -->
 		<div class="col-lg-4">
-			<div class="map-box">
-				<h3 class="uppercase mapbox-blue">Africa Map</h3>
-				<div id="africaMap"></div>
+			<div class="code-box">
+				<h3 class="uppercase">Total Population</h3>
+				<div></div>
 			</div>
 		</div>
 		<!-- The Second box finishes here -->
+        <!-- The Third box starts here -->
+		<div class="col-lg-4">
+			<div class="code-box">
+				<h3 class="uppercase">Total GDP</h3>
+				<p></p>
+			</div>
+		</div>
+		<!-- The Third box finishes here -->
 	</div>
 	<div class="row">
 		<!-- The First box starts here -->
 		<div class="col-lg-4">
 			<div class="card-box">
-				<h3 class="uppercase">Country Information Table</h3>
-				<p>Whole of Africa table for Country Name, Country Code, Population for latest year, GDP for latest year
-					goes in here.</p>
+				<h3 class="uppercase">Output</h3>
+				<p></p>
 			</div>
 		</div>
 		<!-- The First box finishes here -->
@@ -90,7 +95,7 @@
 		<div class="col-lg-4">
 			<div class="card-box">
 				<h3 class="uppercase">Total Population</h3>
-				<p>Whole of Africa Population Graph goes in here.</p>
+				<p></p>
 			</div>
 		</div>
 		<!-- The Second box finishes here -->
@@ -98,30 +103,10 @@
 		<div class="col-lg-4">
 			<div class="card-box">
 				<h3 class="uppercase">Total GDP</h3>
-				<p>Whole of Africa GDP Graph goes in here.</p>
+				<p></p>
 			</div>
 		</div>
 		<!-- The Third box finishes here -->
-		<div class="row">
-			<!-- The First box starts here -->
-			<div class="col-lg-6">
-				<div class="card-box">
-					<h3 class="uppercase">Search Information</h3>
-					<p>Country search information goes in here with a search box drop down to search for country
-						specific details</p>
-				</div>
-			</div>
-			<!-- The First box finishes here -->
-			<!-- The Second box starts here -->
-			<div class="col-lg-6">
-				<div class="card-box">
-					<h3 class="uppercase">Contact Details</h3>
-					<p>Contact information details as to why its worth contacting and form goes in here, name, email,
-						contact no. [remember to include meta tag for any telephone numbers for Safari browser!]</p>
-				</div>
-			</div>
-			<!-- The Second box finishes here -->
-		</div>
 	</div>
 </section>
 <footer>
@@ -135,6 +120,5 @@
    crossorigin=""></script>
     <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/africa.js"></script>
 </body>
 </html>
