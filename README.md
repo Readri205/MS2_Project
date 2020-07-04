@@ -251,3 +251,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V2.7 Amended wb http queries to https to reduce CORS issue
 #### V2.8 Added GET for wb population data and write to output html
 #### V2.9 Added GET for wb gdp data and write to output html
+#### V3.0 Added chart js chart for population in output html

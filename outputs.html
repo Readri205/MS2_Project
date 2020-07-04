@@ -60,49 +60,50 @@
 		<!-- The First box starts here -->
 		<div class="col-lg-3">
 			<div class="code-box">
-				<h3 class="uppercase">Country Code</h3>
+				<h3>Country Code</h3>
 				<div id="country"></div>
 			</div>
 		</div>
-		<!-- The First box finishes here -->
-		<!-- The Second box starts here -->
-		<div class="col-lg-3">
-			<div class="code-box">
-				<h3 class="uppercase">Country Capital City with Lat & Long</h3>
-				<div id="cty"></div>
+			<!-- The First box finishes here -->
+			<!-- The Second box starts here -->
+			<div class="col-lg-3">
+				<div class="code-box">
+					<h3>Country Capital City with Lat & Long</h3>
+					<div id="cty"></div>
+                    <img src="https://www.countryflags.io/ng/shiny/64.png">
+				</div>
 			</div>
-		</div>
-		<!-- The Second box finishes here -->
-        <!-- The Third box starts here -->
-		<div class="col-lg-3">
-			<div class="code-box">
-				<h3 class="uppercase">Country Population</h3>
-				<div id="pop"></div>
+			<!-- The Second box finishes here -->
+			<!-- The Third box starts here -->
+			<div class="col-lg-3">
+				<div class="code-box">
+					<h3>Country Population</h3>
+					<div id="pop"></div>
+				</div>
 			</div>
-		</div>
-		<!-- The Third box finishes here -->
-        <!-- The Fourth box starts here -->
-		<div class="col-lg-3">
-			<div class="code-box">
-				<h3 class="uppercase">Country GDP</h3>
-				<div id="gdp"></div>
+			<!-- The Third box finishes here -->
+			<!-- The Fourth box starts here -->
+			<div class="col-lg-3">
+				<div class="code-box">
+					<h3>Country GDP</h3>
+					<div id="gdp"></div>
+				</div>
 			</div>
-		</div>
-		<!-- The Fourth box finishes here -->
+			<!-- The Fourth box finishes here -->
 	</div>
 	<div class="row">
 		<!-- The First box starts here -->
 		<div class="col-lg-4">
-			<div class="card-box">
-				<h3 class="uppercase">Total Country GDP</h3>
-				<p></p>
+			<div class="code-box">
+				<h3>Country Population</h3>
+				<canvas id="popChart" width="400" height="400"></canvas>
 			</div>
 		</div>
 		<!-- The First box finishes here -->
 		<!-- The Second box starts here -->
 		<div class="col-lg-4">
-			<div class="card-box">
-				<h3 class="uppercase">Population Graph</h3>
+			<div class="code-box">
+				<h3>Country GDP</h3>
 				<p></p>
 			</div>
 		</div>
@@ -110,7 +111,7 @@
 		<!-- The Third box starts here -->
 		<div class="col-lg-4">
 			<div class="card-box">
-				<h3 class="uppercase">GDP Graph</h3>
+				<h3>GDP Graph</h3>
 				<p></p>
 			</div>
 		</div>
@@ -127,6 +128,8 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
     <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/charts.js"></script>
 </body>
 </html>

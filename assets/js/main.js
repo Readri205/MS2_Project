@@ -11,14 +11,14 @@ xhttp.onreadystatechange = function() {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbgdp, true);
+xhttp.open("GET", baseUrlwbpop, true);
 //     <---------------------setRequestHeader only required for the 'referential rapidAPI key 'baseUrlcountry'--->
 //xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 xhttp.send();
 }
 
 function printDataToConsole(data) {
-    var item = data[1];
+    const item = data[1];
     console.log(item);
 }
 getData(printDataToConsole);
