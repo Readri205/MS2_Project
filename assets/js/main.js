@@ -3,7 +3,7 @@ var baseUrlwbpop = "https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOT
 var baseUrlwbgdp = "https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKTP.CD?format=json";
 var baseUrlcountry = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 
-//gets Generic data for viewing in console for selection from chosen API in 'Open';
+//<-------------------gets Generic data for viewing in console for selection from chosen API in 'Open';------------------------>
 function getData (cb) {
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -11,7 +11,8 @@ xhttp.onreadystatechange = function() {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbpop, true);
+xhttp.open("GET", baseUrlwbgdp, true);
+//     <---------------------setRequestHeader only required for the 'referential rapidAPI key 'baseUrlcountry'--->
 //xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 xhttp.send();
 }
@@ -21,6 +22,9 @@ function printDataToConsole(data) {
     console.log(item);
 }
 getData(printDataToConsole);
+
+//<---------End of API Console View gets Generic data for viewing in console for selection from chosen API in 'Open'----------------->
+
 
 //gets Country Codes for Africa from API in 'open';
 function getDataCountry (cb) {
@@ -81,3 +85,24 @@ function writePop(data) {
 });
 }
 getDataPop(writePop);
+
+//GETs World Bank GDP data by Country from API;
+function getDataGdp (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwbgdp, true);
+xhttp.send();
+}
+
+//Writes World Bank GDP data by Country (2018 - 2014) from API;
+function writeGdp(data) {
+    var item = data[1];
+    item.forEach (function (year) {
+    document.getElementById("gdp").innerHTML += ("<br>" + year.date + " " + year.value.toFixed(0) + "<br>");
+});
+}
+getDataGdp(writeGdp);
