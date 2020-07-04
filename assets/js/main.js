@@ -11,13 +11,14 @@ xhttp.onreadystatechange = function() {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbcty, true);
-//xhttps.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
+xhttp.open("GET", baseUrlwbpop, true);
+//xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 xhttp.send();
 }
 
 function printDataToConsole(data) {
-    console.log(data);
+    var item = data[1];
+    console.log(item);
 }
 getData(printDataToConsole);
 
@@ -59,3 +60,24 @@ function writeCty(data) {
     document.getElementById("cty").innerHTML = (data[1][0].name + " Capital City & Lat/Long Coords " + "<br>" + data[1][0].capitalCity + "<br>" + data[1][0].latitude + "<br>" + data[1][0].longitude);
 }
 getDataCty(writeCty);
+
+
+//GETs World Bank Population data by Country from API;
+function getDataPop (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwbpop, true);
+xhttp.send();
+}
+//Writes World Bank Population data by Country (2018 - 2014) from API;
+function writePop(data) {
+    var item = data[1];
+    item.forEach (function (year) {
+    document.getElementById("pop").innerHTML += ("<br>" + year.date + " " + year.value + "<br>");
+});
+}
+getDataPop(writePop);

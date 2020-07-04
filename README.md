@@ -249,3 +249,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V2.5 Add js for country code output to outputs html
 #### V2.6 Added js query for World Bank API for capital city and lat long
 #### V2.7 Amended wb http queries to https to reduce CORS issue
+#### V2.8 Added GET for wb population data and write to output html
