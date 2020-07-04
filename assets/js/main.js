@@ -41,3 +41,21 @@ function writeCountry(data) {
 });
 }
 getDataCountry(writeCountry);
+
+//gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
+function getDataCty (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       //document.getElementById("data").innerHTML = xhttp.responseText;
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwbcty, true);
+xhttp.send();
+}
+//Writes World Bank Country data (Country, Capital, Lat, Long) by Country from API;
+function writeCty(data) {
+    document.getElementById("cty").innerHTML = (data[1][0].name + " Capital City & Lat/Long Coords " + "<br>" + data[1][0].capitalCity + "<br>" + data[1][0].latitude + "<br>" + data[1][0].longitude);
+}
+getDataCty(writeCty);
