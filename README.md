@@ -244,3 +244,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V2.0 Amended africa map size with box size on index page
 #### V2.1 Added map js for country map on country html
 #### V2.2 Added Leaflet and Mapbox link and JS to country html
+#### V2.3 Moved country map to new country js file
