@@ -18,7 +18,7 @@ xhttp.send();
 }
 
 function printDataToConsole(data) {
-    const item = data[1];
+    item = data[1];
     console.log(item);
 }
 getData(printDataToConsole);
@@ -77,9 +77,9 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", baseUrlwbpop, true);
 xhttp.send();
 }
-//Writes World Bank Population data by Country (2018 - 2014) from API;
+//Writes World Bank Population data by Country from API;
 function writePop(data) {
-    var item = data[1];
+    const item = data[1];
     item.forEach (function (year) {
     document.getElementById("pop").innerHTML += ("<br>" + year.date + " " + year.value + "<br>");
 });
@@ -98,9 +98,9 @@ xhttp.open("GET", baseUrlwbgdp, true);
 xhttp.send();
 }
 
-//Writes World Bank GDP data by Country (2018 - 2014) from API;
+//Writes World Bank GDP data by Country from API;
 function writeGdp(data) {
-    var item = data[1];
+    const item = data[1];
     item.forEach (function (year) {
     document.getElementById("gdp").innerHTML += ("<br>" + year.date + " " + year.value.toFixed(0) + "<br>");
 });
