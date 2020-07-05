@@ -259,3 +259,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V3.5 Added contact boxes on html pages and linked emailjs function
 #### V3.6 Moved emailjs scripts to head of index and country pages
 #### V3.7 Added abuja image and updated css styles for image box
+#### V3.8 Added total pop and gdp graphs to index html

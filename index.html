@@ -64,8 +64,8 @@
 <section class="container-fluid">
 	<div class="row">
 		<!-- The First box starts here -->
-		<div class="col-lg-8">
-			<div class="card-box">
+		<div class="col-lg-6">
+			<div class="code-box">
 				<h3 class="uppercase">Information</h3>
 				<p>General information to put the continent into context relative to the rest of the world and
 					information about the number of countries, size in terms of land mass, population, economy relative
@@ -74,7 +74,7 @@
 		</div>
 		<!-- The First box finishes here -->
 		<!-- The Second box starts here -->
-		<div class="col-lg-4">
+		<div class="col-lg-6">
 			<div class="map-box">
 				<h3 class="uppercase">Africa Map</h3>
 				<div id="africaMap"></div>
@@ -85,7 +85,7 @@
 	<div class="row">
 		<!-- The First box starts here -->
 		<div class="col-lg-4">
-			<div class="card-box">
+			<div class="code-box">
 				<h3 class="uppercase">Country Information Table</h3>
 				<p>Whole of Africa table for Country Name, Country Code, Population for latest year, GDP for latest year
 					goes in here.</p>
@@ -94,17 +94,17 @@
 		<!-- The First box finishes here -->
 		<!-- The Second box starts here -->
 		<div class="col-lg-4">
-			<div class="card-box">
+			<div class="code-box">
 				<h3 class="uppercase">Total Population</h3>
-				<p>Whole of Africa Population Graph goes in here.</p>
+				<canvas id="totPop" width="400" height="400"></canvas>
 			</div>
 		</div>
 		<!-- The Second box finishes here -->
 		<!-- The Third box starts here -->
 		<div class="col-lg-4">
-			<div class="card-box">
+			<div class="code-box">
 				<h3 class="uppercase">Total GDP</h3>
-				<p>Whole of Africa GDP Graph goes in here.</p>
+				<canvas id="totGdp" width="400" height="400"></canvas>
 			</div>
 		</div>
 	</div>
@@ -151,6 +151,8 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
     <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+     <script type="text/javascript" src="assets/js/charts.js"></script>
     <script type="text/javascript" src="assets/js/africa.js"></script>
     <script type="text/javascript" src="assets/js/sendEmail.js"></script>
 </body>
