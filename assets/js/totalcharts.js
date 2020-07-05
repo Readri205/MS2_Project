@@ -1,6 +1,6 @@
-const ctyPop = document.getElementById('popChart').getContext('2d');
+const totPop = document.getElementById('totPop').getContext('2d');
 
-const popChart = new Chart(ctyPop, {
+const popChart = new Chart(totPop, {
     type: 'bar',
     data: {
         labels: ['2019', '2018', '2017', '2016', '2015', '2014'],
@@ -23,9 +23,9 @@ const popChart = new Chart(ctyPop, {
     }
 });
 
-const ctyGdp = document.getElementById('gdpChart').getContext('2d');
+const totGdp = document.getElementById('totGdp').getContext('2d');
 
-const gdpChart = new Chart(ctyGdp, {
+const gdpChart = new Chart(totGdp, {
     type: 'bar',
     data: {
         labels: ['2014', '2015', '2016', '2017', '2018', '2019'],
