@@ -253,3 +253,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V2.9 Added GET for wb gdp data and write to output html
 #### V3.0 Added chart js chart for population in output html
 #### V3.1 Switched mapbox access token for charts and updated for bootstrap scripts
+#### V3.2 Revised script order for navbar menu to work on small screen
