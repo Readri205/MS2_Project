@@ -257,3 +257,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V3.3 Added second chart for country GDP on outputs html page
 #### V3.4 Added default mapbox access token to africa and country maps
 #### V3.5 Added contact boxes on html pages and linked emailjs function
+#### V3.6 Moved emailjs scripts to head of index and country pages
