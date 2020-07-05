@@ -64,10 +64,8 @@
 	<div class="row">
 		<!-- The First box starts here -->
 		<div class="col-lg-6">
-			<div class="code-box">
-				<h3 class="uppercase">Capital City</h3>
-				<p>Image of Capital City goes in here.</p>
-			</div>
+			<div class="image-box namnso">
+            <h3>Abuja</h3></div>
 		</div>
 		<!-- The First box finishes here -->
 		<!-- The Second box starts here -->
@@ -84,7 +82,7 @@
 		<div class="col-lg-6">
 			<div class="code-box">
 				<h3 class="uppercase">Population</h3>
-				<p>Population Graph goes in here.</p>
+				<canvas id="popChart" width="400" height="400"></canvas>
 			</div>
 		</div>
 		<!-- The First box finishes here -->
@@ -92,7 +90,7 @@
 		<div class="col-lg-6">
 			<div class="code-box">
 				<h3 class="uppercase">GDP</h3>
-				<p>GDP Graph goes in here.</p>
+				<canvas id="gdpChart" width="400" height="400"></canvas>
 			</div>
 		</div>
 	</div>
@@ -139,6 +137,9 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
     <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+   
+     <script type="text/javascript" src="assets/js/charts.js"></script>
     <script type="text/javascript" src="assets/js/country.js"></script>
     <script type="text/javascript" src="assets/js/sendEmail.js"></script>
 </body>
