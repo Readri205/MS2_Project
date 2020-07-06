@@ -1,5 +1,7 @@
+const countryCode = "MU"
+
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
-var baseUrlwbpop = "https://api.worldbank.org/v2/country/SC/indicator/SP.POP.TOTL?format=json";
+var baseUrlwbpop = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 
 //GETs World Bank Population data by Country from API;
 function getDataPop (cb) {
@@ -20,7 +22,7 @@ function writePop(data) {
     const item = data[1];
     item.forEach (function (year) {
     xlabels.push(year.date);
-    ydata.push(year.value);
+    ydata.push(year.value / 1000000);
 });
     xlabels.reverse();
     ydata.reverse();
@@ -57,7 +59,7 @@ getDataPop(writePop);
 
 //<--------End of Graphs World Bank Population data by Country from API (the proper way around...);------->
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-var baseUrlwbgdp = "https://api.worldbank.org/v2/country/SC/indicator/NY.GDP.MKTP.CD?format=json";
+var baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 
 //<-------------------GETs World Bank GDP data by Country from API;------------------------>
 function getDataGdp (cb) {
@@ -79,7 +81,7 @@ function writeGdp(data) {
     const item = data[1];
     item.forEach (function(year) {
     glabels.push(year.date);
-    hdata.push(year.value);
+    hdata.push(year.value / 1000000000);
 });
     glabels.reverse();
     hdata.reverse();

@@ -1,11 +1,15 @@
+const ctyCode = "MU"
+
 //<-------------------API for Country Codes';------------------------>
 var baseUrlcountry = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
-var baseUrlwbcty = "https://api.worldbank.org/v2/country/NG?format=json";
+
+
+var baseUrlwbcty = "https://api.worldbank.org/v2/country/" + ctyCode + "?format=json";
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
-var baseUrlwbpop = "https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL?format=json";
+var baseUrlwbpop = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/SP.POP.TOTL?format=json";
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-var baseUrlwbgdp = "https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKTP.CD?format=json";
+var baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 
 
 //<-------------------gets Generic data for viewing in console for selection from chosen API in 'Open';------------------------>
@@ -118,7 +122,7 @@ function writeGdp(data) {
     const item = data[1];
     item.forEach (function (year) {
     glabels.push(year.date);
-    hdata.push(year.value.toFixed(0));
+    hdata.push(year.value);
     document.getElementById("gdp").innerHTML += ("<br>" + year.date + " " + year.value.toFixed(0) + "<br>");
 });
     console.log(glabels, hdata);
