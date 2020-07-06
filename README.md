@@ -263,3 +263,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V3.9 Split total and country charts into two js files
 #### V4.0 Added dropdown country search box on home page with css and js
 #### V4.1 Added js code to push world bank api labels and data into graphs on country page
+#### V4.2 Amended get and chart function on charts js page to load graphs on web load

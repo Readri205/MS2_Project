@@ -1,5 +1,5 @@
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
-var baseUrlwbpop = "https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL?format=json";
+var baseUrlwbpop = "https://api.worldbank.org/v2/country/SC/indicator/SP.POP.TOTL?format=json";
 
 //GETs World Bank Population data by Country from API;
 function getDataPop (cb) {
@@ -25,12 +25,10 @@ function writePop(data) {
     xlabels.reverse();
     ydata.reverse();
     console.log(xlabels, ydata);
-}
-getDataPop(writePop);
 
 //<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
 
-const ctyPop = document.getElementById('popChart').getContext('2d');
+const ctyPop = document.getElementById("popChart").getContext("2d");
 
 const popChart = new Chart(ctyPop, {
     type: 'line',
@@ -48,15 +46,18 @@ const popChart = new Chart(ctyPop, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: false
                 }
             }]
         }
     }
 });
+}
+getDataPop(writePop);
+
 //<--------End of Graphs World Bank Population data by Country from API (the proper way around...);------->
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-var baseUrlwbgdp = "https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKTP.CD?format=json";
+var baseUrlwbgdp = "https://api.worldbank.org/v2/country/SC/indicator/NY.GDP.MKTP.CD?format=json";
 
 //<-------------------GETs World Bank GDP data by Country from API;------------------------>
 function getDataGdp (cb) {
@@ -78,17 +79,14 @@ function writeGdp(data) {
     const item = data[1];
     item.forEach (function(year) {
     glabels.push(year.date);
-    hdata.push(year.value.toFixed(0));
+    hdata.push(year.value);
 });
     glabels.reverse();
     hdata.reverse();
     console.log(glabels, hdata);
-}
-getDataGdp(writeGdp);
-
 
 //<---------------Graphs World Bank Population data by Country from API (the proper way around...);---------->
-const ctyGdp = document.getElementById('gdpChart').getContext('2d');
+const ctyGdp = document.getElementById("gdpChart").getContext("2d");
 
 const gdpChart = new Chart(ctyGdp, {
     type: 'line',
@@ -106,10 +104,12 @@ const gdpChart = new Chart(ctyGdp, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: false
                 }
             }]
         }
     }
 });
+}
+getDataGdp(writeGdp);
 //<---------------End of Graphs World Bank GDP data by Country from API (the proper way around...);---------------->
