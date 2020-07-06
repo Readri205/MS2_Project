@@ -4,7 +4,6 @@ const ctyCode = "MU"
 var baseUrlcountry = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
 
-
 var baseUrlwbcty = "https://api.worldbank.org/v2/country/" + ctyCode + "?format=json";
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
 var baseUrlwbpop = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/SP.POP.TOTL?format=json";

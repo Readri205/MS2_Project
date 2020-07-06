@@ -1,5 +1,38 @@
+wbcty = "MU"
 
-const countrymap = L.map('countryMap').setView([9.0765, 7.3986], 6);
+//<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
+
+var baseUrlwbcty = "https://api.worldbank.org/v2/country/" + wbcty + "?format=json";
+
+
+//gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
+function getDataCty (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       //document.getElementById("data").innerHTML = xhttp.responseText;
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwbcty, true);
+xhttp.send();
+}
+//Writes World Bank Country data (Country, Capital, Lat, Long) by Country from API;
+const latit =[];
+const lngit =[];
+
+function writeCty(data) {
+    latit.push(data[1][0].latitude);
+    lngit.push(data[1][0].longitude);
+    
+    console.log(latit, lngit);
+}
+getDataCty(writeCty);
+
+const lat = (9.0765);
+const lng = (7.3986);
+
+const countrymap = L.map('countryMap').setView([lat, lng], 6);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
