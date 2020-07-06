@@ -265,3 +265,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V4.1 Added js code to push world bank api labels and data into graphs on country page
 #### V4.2 Amended get and chart function on charts js page to load graphs on web load
 #### V4.3 Added country code input for urls on main js file
+#### V4.4 Removed 'toFixed' in mainjs file

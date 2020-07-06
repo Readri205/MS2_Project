@@ -123,7 +123,7 @@ function writeGdp(data) {
     item.forEach (function (year) {
     glabels.push(year.date);
     hdata.push(year.value);
-    document.getElementById("gdp").innerHTML += ("<br>" + year.date + " " + year.value.toFixed(0) + "<br>");
+    document.getElementById("gdp").innerHTML += ("<br>" + year.date + " " + year.value + "<br>");
 });
     console.log(glabels, hdata);
 }
