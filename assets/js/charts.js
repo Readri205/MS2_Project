@@ -1,12 +1,44 @@
+//<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
+var baseUrlwbpop = "https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL?format=json";
+
+//GETs World Bank Population data by Country from API;
+function getDataPop (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwbpop, true);
+xhttp.send();
+}
+//<--------------Writes World Bank Population data by Country from API (the proper way around...);-------------->
+const xlabels =[];
+const ydata =[];
+
+function writePop(data) {
+    const item = data[1];
+    item.forEach (function (year) {
+    xlabels.push(year.date);
+    ydata.push(year.value);
+});
+    xlabels.reverse();
+    ydata.reverse();
+    console.log(xlabels, ydata);
+}
+getDataPop(writePop);
+
+//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
+
 const ctyPop = document.getElementById('popChart').getContext('2d');
 
 const popChart = new Chart(ctyPop, {
-    type: 'bar',
+    type: 'line',
     data: {
-        labels: ['2019', '2018', '2017', '2016', '2015', '2014'],
+        labels: xlabels,
         datasets: [{
             label: 'population in Millions',
-            data: [176.4, 181.1, 185.9, 190.9, 195.9, 200.9],
+            data: ydata,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
             borderWidth: 1
@@ -22,16 +54,49 @@ const popChart = new Chart(ctyPop, {
         }
     }
 });
+//<--------End of Graphs World Bank Population data by Country from API (the proper way around...);------->
+//<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
+var baseUrlwbgdp = "https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKTP.CD?format=json";
 
+//<-------------------GETs World Bank GDP data by Country from API;------------------------>
+function getDataGdp (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwbgdp, true);
+xhttp.send();
+}
+
+//<---------Writes World Bank GDP data by Country from API (the proper way around...);----------->
+const glabels =[];
+const hdata =[];
+
+function writeGdp(data) {
+    const item = data[1];
+    item.forEach (function(year) {
+    glabels.push(year.date);
+    hdata.push(year.value.toFixed(0));
+});
+    glabels.reverse();
+    hdata.reverse();
+    console.log(glabels, hdata);
+}
+getDataGdp(writeGdp);
+
+
+//<---------------Graphs World Bank Population data by Country from API (the proper way around...);---------->
 const ctyGdp = document.getElementById('gdpChart').getContext('2d');
 
 const gdpChart = new Chart(ctyGdp, {
-    type: 'bar',
+    type: 'line',
     data: {
-        labels: ['2014', '2015', '2016', '2017', '2018', '2019'],
+        labels: glabels,
         datasets: [{
             label: 'GDP in US$ Billions',
-            data: [448.1, 398.2, 375.7, 404.6, 494.6, 568.5],
+            data: hdata,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
             borderWidth: 1
@@ -47,3 +112,4 @@ const gdpChart = new Chart(ctyGdp, {
         }
     }
 });
+//<---------------End of Graphs World Bank GDP data by Country from API (the proper way around...);---------------->
