@@ -268,3 +268,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V4.4 Removed 'toFixed' in mainjs file
 #### V4.5 Added wb capital city url to country map js
 #### V4.6 Amended map generate function to auto update from url lat long
+#### V4.7 Added wb api url to flag js to write country info to country html

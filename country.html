@@ -25,8 +25,10 @@
     <div class="row">
         <div class="col-12 country-top">
 			<div>
-				<h3 class="country-header">Country</h3>
-				<h3 class="country-header">Flag and Country Code</h3>
+				<h3 id="iscountry" class="country-header uppercase"></h3>
+                <div class="country-header"><img src="https://www.countryflags.io/tn/shiny/64.png"></div>
+                <p id="capital" class="country-header"></p>
+                <p id="latlong" class="country-header"></p>
 			</div>
             <!-- Navbar starts here -->
             <nav class="navbar navbar-expand-sm topnav fixed-top navbar-dark">
@@ -66,7 +68,7 @@
 		<!-- The First box starts here -->
 		<div class="col-lg-6">
 			<div class="code-box">
-            <h3 class="uppercase">Abuja</h3>
+            <h3 id="capital2" class="uppercase"></h3>
 				<div class="image-box namnso"></div>
            </div>
 		</div>
@@ -141,6 +143,7 @@
      <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
      <script type="text/javascript" src="assets/js/charts.js"></script>
     <script type="text/javascript" src="assets/js/country.js"></script>
+    <script type="text/javascript" src="assets/js/flags.js"></script>
     <script type="text/javascript" src="assets/js/sendEmail.js"></script>
 </body>
 </html>
