@@ -24,15 +24,12 @@ const lngit =[];
 function writeCty(data) {
     latit.push(data[1][0].latitude);
     lngit.push(data[1][0].longitude);
-    
-    console.log(latit, lngit);
-}
-getDataCty(writeCty);
+    lat = parseFloat(latit);
+    lng = parseFloat(lngit);
 
-const lat = (9.0765);
-const lng = (7.3986);
+    console.log(latit, lngit, lat, lng);
 
-const countrymap = L.map('countryMap').setView([lat, lng], 6);
+const countrymap = L.map('countryMap').setView([lat, lng], 5);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -42,3 +39,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoicmVhZHJpMjA1IiwiYSI6ImNrYzU1dGFjbjBlamwyc3RpZmtpeGNjcTYifQ.nhMHaWYNmRRyAeYUBuPJrA'
 }).addTo(countrymap);
+}
+getDataCty(writeCty);
