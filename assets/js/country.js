@@ -1,13 +1,13 @@
-wbcty = "SO"
+//const wbcty = "SO"
 
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
 
-var baseUrlwbcty = "https://api.worldbank.org/v2/country/" + wbcty + "?format=json";
+const baseUrlwbcty = "https://api.worldbank.org/v2/country/" + countryCode + "?format=json";
 
 
 //gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
 function getDataCty (cb) {
-var xhttp = new XMLHttpRequest();
+const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        //document.getElementById("data").innerHTML = xhttp.responseText;

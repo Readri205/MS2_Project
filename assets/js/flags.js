@@ -1,10 +1,10 @@
-const ctyFlag = "SO";
+//const ctyFlag = "SO";
 
-const flag = "https://www.countryflags.io/" + ctyFlag + "/shiny/64.png";
+const flag = "https://www.countryflags.io/" + countryCode + "/shiny/64.png";
 
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
 
-const baseUrlwbcapital = "https://api.worldbank.org/v2/country/" + ctyFlag + "?format=json";
+const baseUrlwbcapital = "https://api.worldbank.org/v2/country/" + countryCode + "?format=json";
 
 //gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
 function getDataCty (cb) {

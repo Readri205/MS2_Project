@@ -271,3 +271,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V4.7 Added wb api url to flag js to write country info to country html
 #### V4.8 Added country code to js pages to update flag for country
 #### V4.9 Added country names to search dropdown list
+#### V5.0 Amended const to one input on charts js to change country details output
