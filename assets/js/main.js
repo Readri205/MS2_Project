@@ -1,19 +1,21 @@
-const ctyCode = "TN"
+const ctyCode = "GW";
+
+const flags = "https://www.countryflags.io/" + ctyCode + "/shiny/64.png";
 
 //<-------------------API for Country Codes';------------------------>
-var baseUrlcountry = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
+const baseUrlcountry = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
 
-var baseUrlwbcty = "https://api.worldbank.org/v2/country/" + ctyCode + "?format=json";
+const baseUrlwbcty = "https://api.worldbank.org/v2/country/" + ctyCode + "?format=json";
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
-var baseUrlwbpop = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/SP.POP.TOTL?format=json";
+const baseUrlwbpop = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/SP.POP.TOTL?format=json";
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-var baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/NY.GDP.MKTP.CD?format=json";
+const baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 
 
 //<-------------------gets Generic data for viewing in console for selection from chosen API in 'Open';------------------------>
 function getData (cb) {
-var xhttp = new XMLHttpRequest();
+const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));
@@ -39,7 +41,7 @@ getData(printDataToConsole);
 
 //gets Country Codes for Africa from API in 'open';
 function getDataCountry (cb) {
-var xhttp = new XMLHttpRequest();
+const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));
@@ -60,7 +62,7 @@ getDataCountry(writeCountry);
 
 //gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
 function getDataCty (cb) {
-var xhttp = new XMLHttpRequest();
+const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        //document.getElementById("data").innerHTML = xhttp.responseText;
@@ -73,13 +75,17 @@ xhttp.send();
 //Writes World Bank Country data (Country, Capital, Lat, Long) by Country from API;
 function writeCty(data) {
     document.getElementById("cty").innerHTML = (data[1][0].name + " Capital City & Lat/Long Coords " + "<br>" + data[1][0].capitalCity + "<br>" + data[1][0].latitude + "<br>" + data[1][0].longitude);
+
+    document.getElementById("flags").innerHTML = ("<img src=" + flags + ">");
+
+
 }
 getDataCty(writeCty);
 
 
 //GETs World Bank Population data by Country from API;
 function getDataPop (cb) {
-var xhttp = new XMLHttpRequest();
+const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));
@@ -104,7 +110,7 @@ getDataPop(writePop);
 
 //GETs World Bank GDP data by Country from API;
 function getDataGdp (cb) {
-var xhttp = new XMLHttpRequest();
+const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));

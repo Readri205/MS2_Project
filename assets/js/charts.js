@@ -1,4 +1,4 @@
-const countryCode = "TN"
+const countryCode = "GW"
 
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
 var baseUrlwbpop = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
@@ -37,7 +37,7 @@ const popChart = new Chart(ctyPop, {
     data: {
         labels: xlabels,
         datasets: [{
-            label: 'population in Millions',
+            label: 'Population in Millions',
             data: ydata,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
