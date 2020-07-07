@@ -1,4 +1,4 @@
-const ctyCode = "GW";
+const ctyCode = "SO";
 
 const flags = "https://www.countryflags.io/" + ctyCode + "/shiny/64.png";
 

@@ -1,4 +1,4 @@
-wbcty = "GW"
+wbcty = "SO"
 
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
 
