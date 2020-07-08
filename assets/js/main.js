@@ -1,27 +1,27 @@
-const ctyCode = "SO";
+//const countryCode = "SO";
 
-const flags = "https://www.countryflags.io/" + ctyCode + "/shiny/64.png";
+const flags = "https://www.countryflags.io/" + countryCode + "/shiny/64.png";
 
 //<-------------------API for Country Codes';------------------------>
-const baseUrlcountry = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
+const baseUrlcountrys = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 //<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
 
-const baseUrlwbcty = "https://api.worldbank.org/v2/country/" + ctyCode + "?format=json";
+const baseUrlwbcity = "https://api.worldbank.org/v2/country/" + countryCode + "?format=json";
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
-const baseUrlwbpop = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/SP.POP.TOTL?format=json";
+const baseUrlwbpopu = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-const baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + ctyCode + "/indicator/NY.GDP.MKTP.CD?format=json";
+const baseUrlwbgdps = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 
 
 //<-------------------gets Generic data for viewing in console for selection from chosen API in 'Open';------------------------>
-function getData (cb) {
+function getDatas (cb) {
 const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbgdp, true);
+xhttp.open("GET", baseUrlwbgdps, true);
 //     <---------------------setRequestHeader only required for the 'referential rapidAPI key 'baseUrlcountry'--->
 //xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 xhttp.send();
@@ -34,7 +34,7 @@ function printDataToConsole(data) {
 });
     //console.log(item);
 }
-getData(printDataToConsole);
+getDatas(printDataToConsole);
 
 //<---------End of API Console View gets Generic data for viewing in console for selection from chosen API in 'Open'----------------->
 
@@ -47,7 +47,7 @@ xhttp.onreadystatechange = function() {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlcountry, true);
+xhttp.open("GET", baseUrlcountrys, true);
 xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 xhttp.send();
 }
@@ -61,7 +61,7 @@ function writeCountry(data) {
 getDataCountry(writeCountry);
 
 //gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
-function getDataCty (cb) {
+function getDataCity (cb) {
 const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -69,67 +69,67 @@ xhttp.onreadystatechange = function() {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbcty, true);
+xhttp.open("GET", baseUrlwbcity, true);
 xhttp.send();
 }
 //Writes World Bank Country data (Country, Capital, Lat, Long) by Country from API;
-function writeCty(data) {
+function writeCity(data) {
     document.getElementById("cty").innerHTML = (data[1][0].name + " Capital City & Lat/Long Coords " + "<br>" + data[1][0].capitalCity + "<br>" + data[1][0].latitude + "<br>" + data[1][0].longitude);
 
     document.getElementById("flags").innerHTML = ("<img src=" + flags + ">");
 
 
 }
-getDataCty(writeCty);
+getDataCity(writeCity);
 
 
 //GETs World Bank Population data by Country from API;
-function getDataPop (cb) {
+function getDataPopu (cb) {
 const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbpop, true);
+xhttp.open("GET", baseUrlwbpopu, true);
 xhttp.send();
 }
 //Writes World Bank Population data by Country from API;
-const xlabels =[];
-const ydata =[];
-function writePop(data) {
+const alabels =[];
+const bdata =[];
+function writePopu(data) {
     const item = data[1];
     item.forEach (function (year) {
-    xlabels.push(year.date);
-    ydata.push(year.value);
+    alabels.push(year.date);
+    bdata.push(year.value);
     document.getElementById("pop").innerHTML += ("<br>" + year.date + " " + year.value + "<br>");
 });
-    console.log(xlabels, ydata);
+    console.log(alabels, bdata);
 }
-getDataPop(writePop);
+getDataPopu(writePopu);
 
 //GETs World Bank GDP data by Country from API;
-function getDataGdp (cb) {
+function getDataGdps (cb) {
 const xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
        cb(JSON.parse(this.responseText));
     }
 };
-xhttp.open("GET", baseUrlwbgdp, true);
+xhttp.open("GET", baseUrlwbgdps, true);
 xhttp.send();
 }
 
 //Writes World Bank GDP data by Country from API;
-const glabels =[];
-const hdata =[];
-function writeGdp(data) {
+const clabels =[];
+const ddata =[];
+function writeGdps(data) {
     const item = data[1];
     item.forEach (function (year) {
-    glabels.push(year.date);
-    hdata.push(year.value);
+    clabels.push(year.date);
+    ddata.push(year.value);
     document.getElementById("gdp").innerHTML += ("<br>" + year.date + " " + year.value + "<br>");
 });
-    console.log(glabels, hdata);
+    console.log(clabels, ddata);
 }
-getDataGdp(writeGdp);
+getDataGdps(writeGdps);

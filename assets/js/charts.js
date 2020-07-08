@@ -1,9 +1,9 @@
 
 
-const countryCode = "ML"
+//const countryCode = "ML"
 
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
-var baseUrlwbpop = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
+const baseUrlwbpop = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 
 //GETs World Bank Population data by Country from API;
 function getDataPop (cb) {
