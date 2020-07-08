@@ -91,7 +91,7 @@ body {
 /*---------------Country capital city from here-----------------------------*/
 
 .namnso {
-    background-image: url("../images/namnso.gif");
+    background-image: url("../images/namnso.png");
     
 }
 
@@ -112,10 +112,14 @@ body {
 }
 
 #africaMap {
+    position: relative;
+    z-index: 1;
     height: 460px;
 }
 
 #countryMap {
+    position: relative;
+    z-index: 1;
     height: 460px;
 }
 
@@ -156,9 +160,9 @@ body {
     color: #fff;
 }
 
-    .panel {
-        width: 600px;
-        height: 600px
-    }
+.chart-container {
+    position: relative;
+    
+}
 
     /*---------------Media Queries-----------------------------*/

@@ -278,3 +278,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V5.4 Render fix for charts in mobile safari using resize class in css (test)
 #### V5.5 Added IE Edge meta tag to headers
 #### V5.6 Removed V5.4 resize for mobile, placed graph canvas in div
+#### V5.7 ChartsJS into divs, namnso img to png, maps to z-index 1
