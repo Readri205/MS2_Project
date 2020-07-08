@@ -275,3 +275,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V5.1 Moved country code call to codecall js and made function names unique
 #### V5.2 Split chart js into popchart js and gdpchart js
 #### V5.3 Reordered gdpchart js and popchart js in country page
+#### V5.4 Render fix for charts in mobile safari using resize class in css (test)
