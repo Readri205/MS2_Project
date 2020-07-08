@@ -25,7 +25,7 @@ function writeCapital(data) {
 
     document.getElementById("flag").innerHTML = ("<img src=" + flag + ">");
 
-    document.getElementById("capital").innerHTML = (" Capital City: " + data[1][0].capitalCity);
+    document.getElementById("capital").innerHTML = (" Capital: " + "   " + data[1][0].capitalCity);
 
     document.getElementById("capital2").innerHTML = (data[1][0].capitalCity);
 

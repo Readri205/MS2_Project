@@ -273,3 +273,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V4.9 Added country names to search dropdown list
 #### V5.0 Amended const to one input on charts js to change country details output
 #### V5.1 Moved country code call to codecall js and made function names unique
+#### V5.2 Split chart js into popchart js and gdpchart js
