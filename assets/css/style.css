@@ -5,13 +5,13 @@ body {
     background-color: #FFFFF0;
 }
 
-.header_image {
+.bg {
   /* The header image used */
-  background-image: url("../images/AdobeStock_322612165.gif");
+  background-image: url("../images/Title.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  min-height: 500px;
+  min-height: 360px;
   position: relative;
 
 }
@@ -109,6 +109,12 @@ body {
 .card-box {
     color: #000;
     text-align: center;
+    
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+    padding-bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #africaMap {
@@ -157,7 +163,7 @@ body {
     font-weight: 500;
     font-size: 25px;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .chart-container {
