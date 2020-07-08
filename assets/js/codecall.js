@@ -1,1 +1,1 @@
-const countryCode = "GA"
+const countryCode = "SN"
