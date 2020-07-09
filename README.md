@@ -282,3 +282,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V5.8 Updated for header image on three html pages
 #### V5.9 Function added to move country code for onclick function
 #### V6.0 New getcountries js to extract country code for load and test
+#### V6.1 Load index and country page script links
