@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+		integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+		crossorigin="" />
+	<link href="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/filter.css" type="text/css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("user_hdnXX8G7GshN7scwXaHR9");
+		})();
+	</script>
+	<title>Africa!</title>
+</head>
+​
+<body>
+	<header>
+​
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 bg">
+					<!-- Navbar starts here -->
+					<nav class="navbar navbar-expand-sm topnav fixed-top navbar-dark">
+						<a class="navbar-brand" href="#"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#collapsibleNavbar">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="collapsibleNavbar">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" href="index.html">Home</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="country.html">Country Details</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="outputs.html">Outputs</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<!-- Navbar finishes here -->
+					<div class="header-text">
+						<h2 class="uppercase"></h2>
+						<h3></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- The Header finishes here -->
+	<!-- The Main section starts here -->
+	<section class="container-fluid">
+		<div class="row">
+			<!-- The First box starts here -->
+			<div class="col-lg-6">
+				<div class="code-box">
+					<h3 class="uppercase">Information</h3>
+					<p>General information to put the continent into context relative to the rest of the world and
+						information about the number of countries, size in terms of land mass, population, economy
+						relative
+						to the rest of the world.</p>
+				</div>
+			</div>
+			<!-- The First box finishes here -->
+			<!-- The Second box starts here -->
+			<div class="col-lg-6">
+				<div class="map-box">
+					<h3 class="uppercase">Africa Map</h3>
+					<div id="africaMap"></div>
+				</div>
+			</div>
+			<!-- The Second box finishes here -->
+		</div>
+		<div class="row">
+			<!-- The First box starts here -->
+			<div class="col-lg-4">
+				<div class="code-box">
+					<h3 class="uppercase">Country Information Table</h3>
+					<p>Whole of Africa table for Country Name, Country Code, Population for latest year, GDP for latest
+						year
+						goes in here.</p>
+				</div>
+			</div>
+			<!-- The First box finishes here -->
+			<!-- The Second box starts here -->
+			<div class="col-lg-4">
+				<div class="code-box">
+					<h3 class="uppercase">Total Population</h3>
+					<div class="chart-container"><canvas id="totPop"></canvas></div>
+				</div>
+			</div>
+			<!-- The Second box finishes here -->
+			<!-- The Third box starts here -->
+			<div class="col-lg-4">
+				<div class="code-box">
+					<h3 class="uppercase">Total GDP</h3>
+					<div class="chart-container"><canvas id="totGdp"></canvas></div>
+				</div>
+			</div>
+		</div>
+		<!-- The Third box finishes here -->
+		<div class="row">
+			<!-- The First box starts here -->
+			<div class="col-lg-6">
+				<div class="code-box">
+					<h2>Select a country from the dropdown menu for more details on any country!</h2>
+					<p>Click on the button to open the dropdown menu, and use the input field to search for a specific
+						dropdown
+						link.</p>
+					<select id="countries" name="countries" onchange="loadDetails();"></select>
+				</div>
+			</div>
+			<!-- The First box finishes here -->
+			<!-- The Second box starts here -->
+			<div class="col-lg-6">
+				<div class="code-box">
+					<h3 class="uppercase">Contact Details</h3>
+					<form class="form-box" onsubmit="return sendMail(this);" method="POST">
+						<input type="text" name="fname" id="fname" class="form-control" placeholder="First Name"
+							required>
+						<input type="text" name="lname" id="lname" class="form-control" placeholder="Last Name"
+							required>
+						<input type="email" name="emailaddress" id="emailaddress" class="form-control"
+							placeholder="Email Address" required>
+						<input type="text" name="contactno" id="contactno" class="form-control"
+							placeholder="+XX (0) Contact No." required>
+						<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control"
+							placeholder="Please provide questions or comments" required></textarea>
+						<div class="row text-center">
+							<div class="col">
+								<button type="submit" class="btn btn-secondary">Send Details!</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- The Second box finishes here -->
+	</section>
+	<footer>
+​
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+		integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+		crossorigin=""></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<script type="text/javascript" src="assets/js/totalcharts.js"></script>
+	<script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+	<script type="text/javascript" src="assets/js/getCountries.js"></script>
+	<script type="text/javascript" src="assets/js/africa.js"></script>
+	<script type="text/javascript" src="assets/js/filter.js"></script>
+	<script type="text/javascript" src="assets/js/codecall.js"></script>
+	<script type="text/javascript" src="assets/js/sendEmail.js"></script>
+</body>
+​
+</html>

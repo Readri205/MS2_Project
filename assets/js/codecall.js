@@ -7,5 +7,5 @@ function writeEritrea() {
     countryCode.push("ER");
 
 }
-    //writeEritrea();
+    writeEritrea();
     console.log(countryCode);

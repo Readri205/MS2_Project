@@ -281,3 +281,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V5.7 ChartsJS into divs, namnso img to png, maps to z-index 1
 #### V5.8 Updated for header image on three html pages
 #### V5.9 Function added to move country code for onclick function
+#### V6.0 New getcountries js to extract country code for load and test
