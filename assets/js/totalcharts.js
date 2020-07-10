@@ -1,12 +1,34 @@
+//------------------Total Population Graph---------------------------->
+const haxis = [];
+const vaxis = [];
+const verts = [];
+const herts = [];
+
+getCsvPop();
+async function getCsvPop() {
+
+const response = await fetch('assets/csv/POP.csv');
+
+const csv = await response.text();
+
+const verts = csv.substr(0, 554);
+const herts = csv.substr(555);
+
+const vaxis = verts.split(',').map(x => parseFloat(x, 10));
+const haxis = herts.split(',');
+
+console.log(vaxis, haxis);
+
+
 const totPop = document.getElementById('totPop').getContext('2d');
 
-const popChart = new Chart(totPop, {
+const popCharts = new Chart(totPop, {
     type: 'line',
     data: {
-        labels: ['2013', '2014', '2015', '2016', '2017', '2018', '2019'],
+        labels: haxis,
         datasets: [{
-            label: 'population in Millions',
-            data: [1118.18, 1147.51, 1177.46, 1208.00, 1239.11, 1270.74, 1302.82],
+            label: 'Population in Millions',
+            data: vaxis,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
             borderWidth: 1
@@ -22,16 +44,38 @@ const popChart = new Chart(totPop, {
         }
     }
 });
+}
+
+//--------------------GDP Total Graph--------------------------------------------->
+const haxs = [];
+const vaxs = [];
+const virts = [];
+const hirts = [];
+
+getCsvGdp();
+async function getCsvGdp() {
+
+const response = await fetch('assets/csv/GDP.csv');
+
+const csvgdp = await response.text();
+
+const virts = csvgdp.substr(0, 846);
+const hirts = csvgdp.substr(847);
+
+const vaxs = virts.split(',').map(x => parseFloat(x, 10));
+const haxs = hirts.split(',');
+
+console.log(vaxs, haxs);
 
 const totGdp = document.getElementById('totGdp').getContext('2d');
 
 const gdpChart = new Chart(totGdp, {
     type: 'line',
     data: {
-        labels: ['2013','2014', '2015', '2016', '2017', '2018', '2019'],
+        labels: haxs,
         datasets: [{
             label: 'GDP in US$ Billions',
-            data: [2459.40, 2543.27, 2335.43, 2190.48, 2216.61, 2335.68, 2424.53],
+            data: vaxs,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
             borderWidth: 1
@@ -47,3 +91,4 @@ const gdpChart = new Chart(totGdp, {
         }
     }
 });
+}

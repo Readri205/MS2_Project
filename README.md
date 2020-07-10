@@ -285,3 +285,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V6.1 Load index and country page script links
 #### V6.2 Update index and country html scripts
 #### V6.3 Additions to total graphs on home page
+#### V6.4 Added World Bank CSV total pop/gdp, fed data to graphs totalcharts js
