@@ -1,10 +1,13 @@
 
+
+
+
 const countryCode = ["NG"];
 
 function writeEritrea() {
 
     countryCode.pop();
-    countryCode.push("ER");
+    countryCode.push("GA");
 
 }
     writeEritrea();

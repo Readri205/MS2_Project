@@ -1,7 +1,7 @@
 let countryCode = ["NG"],
     countries = document.getElementById("countries"),
     baseUrlcountrys = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
-​
+
 switch (window.location.pathname) {
 ​
     case '/country.html':
@@ -35,11 +35,14 @@ function writeCountry(data) {
         let opt = document.createElement("option");
         opt.value = item.key;
         opt.text = item.value;
-​
+
         // Append to the select element
         countries.appendChild(opt);
+        
     });
+    
 }
+
 ​
 function loadDetails() {
     let key = countries.options[countries.selectedIndex].text,
@@ -54,4 +57,3 @@ function getCountryDetails() {
     countryCode.pop();
     countryCode.push(params.get('country'));
 }
-Collapse

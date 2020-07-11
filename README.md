@@ -287,3 +287,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V6.3 Additions to total graphs on home page
 #### V6.4 Added World Bank CSV total pop/gdp, fed data to graphs totalcharts js
 #### V6.5 Fix header image issue dropping down on index and country detail pages
+#### V6.6 Update contact form and first write on country menu selection
