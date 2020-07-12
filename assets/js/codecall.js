@@ -1,7 +1,4 @@
 
-
-
-
 const countryCode = ["NG"];
 
 function writeEritrea() {

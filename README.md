@@ -288,3 +288,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V6.4 Added World Bank CSV total pop/gdp, fed data to graphs totalcharts js
 #### V6.5 Fix header image issue dropping down on index and country detail pages
 #### V6.6 Update contact form and first write on country menu selection
+#### V6.7 Moved contact form box to contact page from index and country pages

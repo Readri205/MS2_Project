@@ -11,8 +11,6 @@
 		crossorigin="" />
 	<link href="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-	<script type="text/javascript">(function () {emailjs.init("user_hdnXX8G7GshN7scwXaHR9");})();</script>
 	<title>Africa!</title>
 </head>
 <body>
@@ -37,6 +35,9 @@
 								</li>
 								<li class="nav-item">
 									<a class="nav-link active" href="country.html">Country Details</a>
+								</li>
+                                <li class="nav-item">
+									<a class="nav-link" href="contact.html">Country Details</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="outputs.html">Outputs</a>
@@ -65,7 +66,6 @@
 				</div>
 			</div>
 		</div>
-​
 		<!-- The First box starts here -->
 		<div class="row">
 			<div class="col-lg-6">
@@ -108,30 +108,11 @@
 				<div class="code-box">
 					<h2>Search another country?</h2>
 					<p>Choose another country in the DropDown Filter</p>
-					<select id="countries" name="countries" onchange="loadDetails();"></select>
+					<select id="countries1" name="countries1" onchange="loadDetails1();"></select>
 				</div>
 			</div>
 			<!-- The First box finishes here -->
-			<!-- The Second box starts here -->
-			<div class="col-lg-6">
-				<div class="code-box">
-					<h3 class="uppercase">Contact Details</h3>
-					<div class="center-form">
-					<form onsubmit="return sendMail(this);" method="POST">
-						<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-						<input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email Address" required>
-						<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project Description" required></textarea>
-						<div class="row text-center">
-							<div class="col">
-								<button type="submit" class="btn btn-secondary">Send Project Request</button>
-							</div>
-						</div>
-					</form>
-				</div>
-				</div>
-			</div>
 		</div>
-		<!-- The Second box finishes here -->
 	</section>
 	<footer>
 ​
@@ -144,12 +125,12 @@
 		crossorigin=""></script>
 	<script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-	<!-----------<script type="text/javascript" src="assets/js/getCountries.js"></script>---------------------->
-    <script type="text/javascript" src="assets/js/menucode.js"></script>
+	<!------------------<script type="text/javascript" src="assets/js/getCountries.js"></script>----------------------->
+    <!---------------<script type="text/javascript" src="assets/js/menucode.js"></script>----------------------->
+    <script type="text/javascript" src="assets/js/codecall.js"></script>
 	<script type="text/javascript" src="assets/js/gdpchart.js"></script>
 	<script type="text/javascript" src="assets/js/popchart.js"></script>
 	<script type="text/javascript" src="assets/js/country.js"></script>
 	<script type="text/javascript" src="assets/js/flags.js"></script>
-    <script type="text/javascript" src="assets/js/sendEmail.js"></script>
 </body>
 </html>

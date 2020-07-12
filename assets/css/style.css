@@ -172,4 +172,12 @@ body {
     
 }
 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+
+}
+
     /*---------------Media Queries-----------------------------*/
