@@ -291,3 +291,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V6.7 Moved contact form box to contact page from index and country pages
 #### V6.8 Updated contact form entry boxes to include tel no. and second name
 #### V6.9 Updates to information text on home page
+#### V7.0 Updated total graphs for WB MEA and SSF data
