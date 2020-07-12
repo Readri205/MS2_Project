@@ -289,3 +289,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V6.5 Fix header image issue dropping down on index and country detail pages
 #### V6.6 Update contact form and first write on country menu selection
 #### V6.7 Moved contact form box to contact page from index and country pages
+#### V6.8 Updated contact form entry boxes to include tel no. and second name
