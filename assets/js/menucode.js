@@ -4,15 +4,7 @@ countries = document.getElementById("countries");
 //<-------------------API for Country Codes';------------------------>
 const baseUrlcountrys = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 
-switch (window.location.pathname) {
-​
-    case '/country.html':
-        getCountryDetails();
-        break;
-​
-    default:
-        break;
-}
+
 
 //gets Country Codes for Africa from API in 'open';
 function getDataCountry (cb) {
@@ -47,13 +39,6 @@ function writeCountry(data) {
 }
 getDataCountry(writeCountry);
 
-function loadDetails() {
-    let key = countries.options[countries.selectedIndex].text,
-        value = countries.value;
-​
-    // Force Redirection
-    window.location = `/country.html?country=${value}`;
-}
 
 
 function getCountryDetails() {

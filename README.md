@@ -296,3 +296,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V7.2 Further update to information text on home page
 #### V7.1 Update menucode js menu link for country selection
 #### V7.2 Modal box addded to contact form
+#### V7.3 Removed switch and loadfunction from menucode js
