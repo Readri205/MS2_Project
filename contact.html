@@ -67,7 +67,7 @@
 				<div class="code-box">
 					<h3 class="uppercase">Contact Details</h3>
 					<div class="center-form">
-					<form onsubmit="return sendMail(this);" method="POST">
+					<form id="myForm" onsubmit="return sendMail(this);" method="POST">
 						<input type="text" name="first_name" id="fname" class="form-control" placeholder="First Name" required>
                         <input type="text" name="last_name" id="lname" class="form-control" placeholder="Last Name" required>
 						<input type="email" name="email_address" id="email" class="form-control" placeholder="Email Address" required>
@@ -75,7 +75,7 @@
 						<textarea rows="5" name="text" id="comment" class="form-control" placeholder="Questions, comments or suggestions!" required></textarea>
 						<div class="row text-center">
 							<div class="col">
-								<button type="submit" class="btn btn-secondary center-block" data-toggle="modal" data-target="#myModal">Send Contact Details!</button>
+								<button type="submit" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Send Contact Details!</button>
 								<!-- Modal -->
 								<div class="modal fade" id="myModal" role="dialog">
 									<div class="modal-dialog">
@@ -89,7 +89,7 @@
 												<p>Thanks for your details, questions and comments.</p>
 											</div>
 											<div class="modal-footer">
-												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												<button id="myButton" type="button" class="btn btn-default" data-dismiss="modal" onclick="myReset()">Close</button>
 											</div>
 										</div>
 								
@@ -106,8 +106,7 @@
 		<!-- The Second box finishes here -->
 	</section>
 	<footer>
-​
-	</footer>
+    </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

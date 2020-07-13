@@ -299,3 +299,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V7.3 Removed switch and loadfunction from menucode js
 #### V7.4 Update getCountries js to load country selecton
 #### V7.5 Added source references for data and charts
+#### V7.6 Add reset function for contact form submission
