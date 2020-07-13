@@ -20,7 +20,7 @@ function getDataCountry(cb) {
     };
 
     xhttp.open("GET", baseUrlcountrys, true);
-    xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+    //xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
     xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
     xhttp.send();
 }

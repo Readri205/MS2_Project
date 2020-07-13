@@ -305,3 +305,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V7.9 Revise getCountries js code for country selection
 #### V8.0 Remove HTML space breaks in code (&#8203)
 #### V8.1 Amend to getCountry code for country search
+#### V8.2 Style changes on carousel
