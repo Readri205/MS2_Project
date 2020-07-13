@@ -118,9 +118,10 @@ body {
 }
 
 #africaMap {
+    background-size: cover;
     position: relative;
     z-index: 1;
-    height: 460px;
+    height: 500px;
 }
 
 #countryMap {
@@ -150,7 +151,7 @@ body {
     font-family: "Exo", sans-serif;
     font-size: 14px;
     width: 100%;
-    height: auto;
+    height: 500px;
     margin: 10px 0 0 0;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -162,6 +163,9 @@ body {
 
 .reference-text {
     font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 
