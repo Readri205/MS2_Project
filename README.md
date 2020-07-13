@@ -300,3 +300,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V7.4 Update getCountries js to load country selecton
 #### V7.5 Added source references for data and charts
 #### V7.6 Add reset function for contact form submission
+#### V7.7 Add carousel feature for sizing
