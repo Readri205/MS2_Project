@@ -32,7 +32,7 @@ function getDataCountry(cb) {
 //  Country Codes by Country from API;
 function writeCountry(data) {
     data.forEach(function (item) {
-        let opt = document.createElement("option");
+        let opt = document.createElement("options");
         opt.value = item.key;
         opt.text = item.value;
 
