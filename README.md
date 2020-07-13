@@ -298,3 +298,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V7.2 Modal box addded to contact form
 #### V7.3 Removed switch and loadfunction from menucode js
 #### V7.4 Update getCountries js to load country selecton
+#### V7.5 Added source references for data and charts

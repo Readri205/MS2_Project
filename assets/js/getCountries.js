@@ -38,6 +38,8 @@ function writeCountry(data) {
 
         // Append to the select element
         countries.appendChild(opt);
+
+        console.log(item.value, item.key);
         
     });
     
