@@ -303,3 +303,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V7.7 Add carousel feature for sizing
 #### V7.8 Add padding to reference for data sources
 #### V7.9 Revise getCountries js code for country selection
+#### V8.0 Remove HTML space breaks in code (&#8203)
