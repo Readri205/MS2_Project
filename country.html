@@ -66,13 +66,13 @@
                     <!-- The slideshow -->
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="assets/images/gift-can.png" class="d-block w-100" alt="Gift">
+							<img src="assets/images/efe-can.png" class="d-block w-100" alt="Gift">
 						</div>
 						<div class="carousel-item">
 							<img src="assets/images/trevor-can.png" class="d-block w-100" alt="Seun">
 						</div>
 						<div class="carousel-item">
-							<img src="assets/images/wegener-can.png" class="d-block w-100" alt="Sheyi">
+							<img src="assets/images/toa-can.png" class="d-block w-100" alt="Sheyi">
 						</div>
                         </div>
                         <!-- Left and right controls -->
@@ -88,24 +88,27 @@
 			<div class="col-lg-12">
 				<div class="code-box">
 					<div id="iscountry" class="uppercase country-header"></div>
-					<div id="flag"></div>
-					<div id="capital" class="country-header"></div>
+					<div id="flag" ></div>
 				</div>
 			</div>
 		</div>
 		<!-- The First box starts here -->
 		<div class="row">
 			<div class="col-lg-6">
-				<div class="code-box">
-					<h3 id="capital2" class="uppercase"></h3>
-					<div class="image-box namnso"></div>
+				<div class="info-box">
+					<h3 class="uppercase info-box-header">General Country Information</h3>
+                    <div id="capital"></div>
+					<div id="landsize"></div>
+                    <div id="popsize"></div>
+                    <div id="gdpsize"></div>
+                    <p>Note: <a href="https://en.wikipedia.org/wiki/Sudan" target="_blank">Sudan (1,886,068 Sq. Kms)</a> and <a href="https://en.wikipedia.org/wiki/South_Sudan" target="_blank">South Sudan (619,745 Sq. Kms)</a> Land Sizes have been derived from Wikipedia as these figures are not included in the World Bank land size API</p>
 				</div>
+                
 			</div>
 			<!-- The First box finishes here -->
 			<!-- The Second box starts here -->
 			<div class="col-lg-6">
 				<div class="map-box">
-					<h3 class="uppercase">Country Map</h3>
 					<div id="countryMap"></div>
 				</div>
 			</div>
@@ -139,12 +142,18 @@
 		<!-- The Second box finishes here -->
 		<div class="row">
 			<!-- The First box starts here -->
-			<div class="col-lg-6">
+            <div class="col-lg-4">
+				<div></div>
+			</div>
+			<div class="col-lg-4">
 				<div class="code-box">
 					<h2>Search another country?</h2>
 					<p>Choose another country in the DropDown Filter</p>
 					<select id="CountryList" name="CountryList"></select>
 				</div>
+			</div>
+            <div class="col-lg-4">
+				<div></div>
 			</div>
 			<!-- The First box finishes here -->
 		</div>
@@ -166,5 +175,6 @@
 	<script type="text/javascript" src="assets/js/popchart.js"></script>
 	<script type="text/javascript" src="assets/js/country.js"></script>
 	<script type="text/javascript" src="assets/js/flags.js"></script>
+    <script type="text/javascript" src="assets/js/countryStats.js"></script>
     </body>
     </html>
