@@ -307,3 +307,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V8.1 Amend to getCountry code for country search
 #### V8.2 Style changes on carousel
 #### V8.3 Add access control allow origin in request header getCountries js
+#### V8.4 Resize carousel images for header
