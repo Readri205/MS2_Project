@@ -309,3 +309,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V8.3 Add access control allow origin in request header getCountries js
 #### V8.4 Resize carousel images for header
 #### V8.5 Add countryStats js for country page API stats and search boxes centered
+#### V8.6 Rework Africa Pop and GDP totals, Update country summary box with totals

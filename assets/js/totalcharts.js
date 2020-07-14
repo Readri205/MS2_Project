@@ -11,8 +11,8 @@ const response = await fetch('assets/csv/POP.csv');
 
 const csv = await response.text();
 
-const verts = csv.substr(0, 369);
-const herts = csv.substr(370);
+const verts = csv.substr(0, 361);
+const herts = csv.substr(362);
 
 const vaxis = verts.split(',').map(x => parseFloat(x, 10));
 const haxis = herts.split(',');
@@ -59,8 +59,8 @@ const response = await fetch('assets/csv/GDP.csv');
 
 const csvgdp = await response.text();
 
-const virts = csvgdp.substr(0, 375);
-const hirts = csvgdp.substr(376);
+const virts = csvgdp.substr(0, 362);
+const hirts = csvgdp.substr(363);
 
 const vaxs = virts.split(',').map(x => parseFloat(x, 10));
 const haxs = hirts.split(',');

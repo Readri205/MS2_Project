@@ -87,8 +87,8 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="code-box">
-					<div id="iscountry" class="uppercase country-header"></div>
-					<div id="flag" ></div>
+					<div class="uppercase country-header"></div>
+					<div></div>
 				</div>
 			</div>
 		</div>
@@ -96,14 +96,17 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="info-box">
-					<h3 class="uppercase info-box-header">General Country Information</h3>
-                    <div id="capital"></div>
-					<div id="landsize"></div>
-                    <div id="popsize"></div>
-                    <div id="gdpsize"></div>
-                    <p>Note: <a href="https://en.wikipedia.org/wiki/Sudan" target="_blank">Sudan (1,886,068 Sq. Kms)</a> and <a href="https://en.wikipedia.org/wiki/South_Sudan" target="_blank">South Sudan (619,745 Sq. Kms)</a> Land Sizes have been derived from Wikipedia as these figures are not included in the World Bank land size API</p>
+					<h3 id="iscountry" class="uppercase info-box-header"></h3>
+                    <div id="flag" class="info-box-header" ></div>
+                    <h4 id="capital" class="info-box-header"></h4>
+                    <ul>
+					    <li id="landsize"></li>
+                        <li id="popsize"></li>
+                        <li id="gdpsize"></li>
+                    </ul>
+                    <p class="reference-text" >Note: <a href="https://en.wikipedia.org/wiki/Sudan" target="_blank">Sudan (1,886,068 Sq. Kms)</a> and <a href="https://en.wikipedia.org/wiki/South_Sudan" target="_blank">South Sudan (619,745 Sq. Kms)</a> Land Sizes are sourced from Wikipedia as these figures are not included in the World Bank Land Size API. The totals for each country are included in the Africa total of 29.51 Mn Sq. Kms.</p>
+                    <p class="reference-text">Source <a href="https://databank.worldbank.org/home.aspx" target="_blank">World Bank Database</a> under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> "CC BY-4.0" </a>Licence Type.</p>
 				</div>
-                
 			</div>
 			<!-- The First box finishes here -->
 			<!-- The Second box starts here -->
@@ -142,17 +145,17 @@
 		<!-- The Second box finishes here -->
 		<div class="row">
 			<!-- The First box starts here -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
 				<div></div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-6">
 				<div class="code-box">
 					<h2>Search another country?</h2>
 					<p>Choose another country in the DropDown Filter</p>
 					<select id="CountryList" name="CountryList"></select>
 				</div>
 			</div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
 				<div></div>
 			</div>
 			<!-- The First box finishes here -->
