@@ -22,12 +22,12 @@ xhttp.send();
 function writePopulation(data) {
     const item = data[1];
     const year = item[0].date;
-    const pop = item[0].value / 1000000;
-    const perc = pop / 13.02819408;
+    const pop = (item[0].value / 1000000).toFixed(2);
+    const perc = (pop / 13.02819408).toFixed(2);
     
-    document.getElementById("popsize").innerHTML += ("Country Population:   " + year + "    " + pop.toFixed(2) + " Mn" + " - " + perc.toFixed(2) + "% of total Africa Population (1.3Bn)");
+    document.getElementById("popsize").innerHTML += ("Country Population:   " + year + "    " + pop + " Mn" + " - " + perc + "% of total Africa Population (1.3Bn)");
     
-    console.log(year, pop.toFixed(2));
+    console.log(year, pop);
 }
 getDataPopulation(writePopulation);
 
@@ -48,12 +48,12 @@ xhttp.send();
 function writeCountryGdp(data) {
     const item = data[1];
     const year = item[0].date;
-    const gdp = item[0].value / 1000000000;
-    const perc = gdp / 24.24529223027
+    const gdp = (item[0].value / 1000000000).toFixed(2);
+    const perc = (gdp / 24.24529223027).toFixed(2);
 
-    document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp.toFixed(2) + " Bn - " + perc.toFixed(2) + "% of the total Africa GDP (US$ 2.42 Bn)");
+    document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp + " Bn - " + perc + "% of the total Africa GDP (US$ 2.42 Bn)");
 
-    console.log(year, gdp.toFixed(2));
+    console.log(year, gdp);
 }
 getDataCountryGdp(writeCountryGdp);
 
@@ -71,11 +71,11 @@ xhttp.send();
 //Writes World Bank Land Size data for Country from API;
 function writeLandSize(data) {
     const item = data[1];
-    const landsize = item[1].value;
-    const perc = landsize / 295097.44;
+    const landsize = item[1].value.toFixed(0);
+    const perc = (landsize / 295097.44).toFixed(2);
     
-    document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize.toFixed(0) + "   Sq. Kms" + " " + " - " + perc.toFixed(2) + "% of total Africa Land Size (29.51 Mn Sq. Kms)");
+    document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize + "   Sq. Kms" + " " + " - " + perc + "% of total Africa Land Size (29.51 Mn Sq. Kms)");
     
-    console.log(perc);
+    console.log(perc, landsize);
 }
 getDataLandSize(writeLandSize);

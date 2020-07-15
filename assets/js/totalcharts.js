@@ -8,7 +8,6 @@ getCsvPop();
 async function getCsvPop() {
 
 const response = await fetch('assets/csv/POP.csv');
-
 const csv = await response.text();
 
 const verts = csv.substr(0, 361);
@@ -18,7 +17,6 @@ const vaxis = verts.split(',').map(x => parseFloat(x, 10));
 const haxis = herts.split(',');
 
 console.log(vaxis, haxis);
-
 
 const totPop = document.getElementById('totPop').getContext('2d');
 
