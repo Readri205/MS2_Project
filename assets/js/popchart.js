@@ -26,7 +26,8 @@ function writePop(data) {
 });
     xlabels.reverse();
     ydata.reverse();
-    console.log(xlabels, ydata);
+   
+    //console.log(xlabels, ydata);
 
 //<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
 
@@ -37,10 +38,11 @@ const popChart = new Chart(ctyPop, {
     data: {
         labels: xlabels,
         datasets: [{
-            label: 'Population in Millions',
+            label: 'Population in Mns',
             data: ydata,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
+            fill: true,
             borderWidth: 1
         }]
     },
@@ -51,6 +53,9 @@ const popChart = new Chart(ctyPop, {
                     beginAtZero: false
                 }
             }]
+        },
+        layout: {
+            padding: 20
         }
     }
 });

@@ -50,9 +50,13 @@ const gdpChart = new Chart(ctyGdp, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: false
+                    beginAtZero: false,
+                    callback:function(value) {return "$" + value;}
                 }
             }]
+        },
+        layout: {
+            padding: 20
         }
     }
 });
