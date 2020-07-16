@@ -318,3 +318,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.2 Add top five GDP data to pie chart country page
 #### V9.3 Set min-height on info-box styling to always fit narrative
 #### V9.4 Resize header image, add footer content and style
+#### V9.5 Resize header image, amend foter content and style
