@@ -1,19 +1,5 @@
 
-const count = [];
-const poppie = [];
 
-getCsvPoppie();
-async function getCsvPoppie() {
-
-const response = await fetch('assets/csv/POPTOTES.csv');
-const csv = await response.text();
-
-const verts = csv.substr(0, 517);
-const herts = csv.substr(518, 455);
-const poppie = herts.split(',').map(x => parseFloat(x, 10));
-const count = verts.split(',');
-
-console.log(poppie, count);
 
 new Chart(document.getElementById("popPie"), {
     type: 'pie',
@@ -32,7 +18,6 @@ new Chart(document.getElementById("popPie"), {
       }
     }
 });
-}
 
 new Chart(document.getElementById("gdpPie"), {
     type: 'pie',

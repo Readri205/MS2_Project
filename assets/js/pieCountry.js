@@ -94,3 +94,47 @@ new Chart(document.getElementById("gdpPie"), {
 });
 }
 getDataGdp(writeGdp);
+
+const count = [];
+const poppie = [];
+const toptencount = []; 
+const toptenpop = [];
+const toptengdp = [];
+
+getCsvPoppie();
+async function getCsvPoppie() {
+
+const response = await fetch('assets/csv/POPTOTES.csv');
+const csv = await response.text();
+
+const verts = csv.substr(0, 517);
+const herts = csv.substr(518, 455);
+const poppie = herts.split(',').map(x => parseFloat(x, 10));
+const count = verts.split(',');
+const topfivecount = [count[33],count[16],count[50],count[10],count[40],"Rest of Africa"];
+const restpop = [1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40])];
+const topfivepop = [poppie[33],poppie[16],poppie[50],poppie[10],poppie[40],restpop];
+
+console.log(poppie, count, topfivecount, topfivepop, restpop);
+
+
+new Chart(document.getElementById("popTop"), {
+    type: 'pie',
+    data: {
+      labels: topfivecount,
+      datasets: [{
+        label: " Population in Mns",
+        backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f"],
+        data: topfivepop,
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: ['Top Five Country Populations in Africa']
+      }
+    }
+});
+}
+getDataPop(writePop);
+
