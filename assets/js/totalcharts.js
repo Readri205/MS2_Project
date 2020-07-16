@@ -19,12 +19,14 @@ console.log(haxis, vaxis);
 
 const totPop = document.getElementById('totPop').getContext('2d');
 
-const popCharts = new Chart(totPop, {
+//const popCharts = 
+
+new Chart(totPop, {
     type: 'line',
     data: {
         labels: haxis,
         datasets: [{
-            label: 'Africa Population in Mns',
+            label: 'Africa Population Mns 1970 to 2019',
             data: vaxis,
             fill: true,
             backgroundColor: "rgba(139,0,0, 0.4)",
@@ -69,12 +71,14 @@ console.log(haxs, vaxs);
 
 const totGdp = document.getElementById('totGdp').getContext('2d');
 
-const gdpChart = new Chart(totGdp, {
+//const gdpChart = 
+
+new Chart(totGdp, {
     type: 'line',
     data: {
         labels: haxs,
         datasets: [{
-            label: 'GDP US$ Bns',
+            label: 'Africa GDP US$ Bns 1970 to 2019',
             data: vaxs,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
@@ -87,7 +91,7 @@ const gdpChart = new Chart(totGdp, {
             yAxes: [{
                 ticks: {
                     beginAtZero: true,
-                    callback:function(value) {return "$" + value;}
+                    callback:function(value) {return "$" + value}
                 }
             }]
         },

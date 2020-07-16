@@ -313,3 +313,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V8.7 Amend function code in countryStats js
 #### V8.8 Add World Population and GDP data to home page graphs
 #### V8.9 Remove World Data from graphs due scale incompatible, add pop pie chart
+#### V9.0 Add population and gdp pie charts to country page

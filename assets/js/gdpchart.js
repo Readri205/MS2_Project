@@ -34,7 +34,8 @@ function writeGdp(data) {
 //<---------------Graphs World Bank Population data by Country from API (the proper way around...);---------->
 const ctyGdp = document.getElementById("gdpChart").getContext("2d");
 
-const gdpChart = new Chart(ctyGdp, {
+//const gdpChart = 
+new Chart(ctyGdp, {
     type: 'line',
     data: {
         labels: glabels,
@@ -51,7 +52,7 @@ const gdpChart = new Chart(ctyGdp, {
             yAxes: [{
                 ticks: {
                     beginAtZero: false,
-                    callback:function(value) {return "$" + value;}
+                    callback:function(value) {return "$" + value}
                 }
             }]
         },

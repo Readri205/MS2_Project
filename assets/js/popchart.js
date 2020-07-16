@@ -33,7 +33,8 @@ function writePop(data) {
 
 const ctyPop = document.getElementById("popChart").getContext("2d");
 
-const popChart = new Chart(ctyPop, {
+//const popChart = 
+new Chart(ctyPop, {
     type: 'line',
     data: {
         labels: xlabels,
