@@ -316,4 +316,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.0 Add population and gdp pie charts to country page
 #### V9.1 Add top five populaton data to pie chart country page
 #### V9.2 Add top five GDP data to pie chart country page
-#### Set min-height on info-box styling to always fit narrative
+#### V9.3 Set min-height on info-box styling to always fit narrative
+#### V9.4 Resize header image, add footer content and style
