@@ -136,10 +136,7 @@ new Chart(document.getElementById("popTop"), {
       title: {
         display: true,
         text: ['Top Five Country Populations in Africa']
-      },
-      layout: {
-            padding: 20
-        }
+      }
     }
 });
 }
@@ -181,10 +178,7 @@ new Chart(document.getElementById("gdpTop"), {
       title: {
         display: true,
         text: ['Top Five Country GDP in Africa']
-      },
-      layout: {
-            padding: 20
-        }
+      }
     }
 });
 

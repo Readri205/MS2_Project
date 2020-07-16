@@ -321,3 +321,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.5 Resize header image, amend foter content and style
 #### V9.6 Resize header image, resize information box home and country pages
 #### V9.7 Style changes to country page charts and header image change
+#### V9.8 Remove padding on top five country charts
