@@ -319,3 +319,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.3 Set min-height on info-box styling to always fit narrative
 #### V9.4 Resize header image, add footer content and style
 #### V9.5 Resize header image, amend foter content and style
+#### V9.6 Resize header image, resize information box home and country pages

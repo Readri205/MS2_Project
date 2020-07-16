@@ -12,11 +12,11 @@ body {
 
 .bg {
   /* The header image used */
-  background-image: url("../images/Title.png");
+  background-image: url("../images/Title1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  min-height: 500px;
+  min-height: 360px;
   position: relative;
   margin: 0;
 
