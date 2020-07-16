@@ -95,11 +95,9 @@ new Chart(document.getElementById("gdpPie"), {
 }
 getDataGdp(writeGdp);
 
+//<---------Writes World Bank POP data for Top Five Country from API (the proper way around...);----------->
 const count = [];
 const poppie = [];
-const toptencount = []; 
-const toptenpop = [];
-const toptengdp = [];
 
 getCsvPoppie();
 async function getCsvPoppie() {
@@ -111,11 +109,11 @@ const verts = csv.substr(0, 517);
 const herts = csv.substr(518, 455);
 const poppie = herts.split(',').map(x => parseFloat(x, 10));
 const count = verts.split(',');
-const topfivecount = [count[33],count[16],count[50],count[10],count[40],"Rest of Africa"];
+const topfivecount = [count[33],count[40],count[50],count[10],count[16],"Rest of Africa"];
 const restpop = [1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40])];
-const topfivepop = [poppie[33],poppie[16],poppie[50],poppie[10],poppie[40],restpop];
+const topfivepop = [poppie[33],poppie[40],poppie[50],poppie[10],poppie[16],restpop];
 
-console.log(poppie, count, topfivecount, topfivepop, restpop);
+console.log(poppie);
 
 
 new Chart(document.getElementById("popTop"), {
@@ -137,4 +135,48 @@ new Chart(document.getElementById("popTop"), {
 });
 }
 getDataPop(writePop);
+
+//<---------Writes World Bank GDP data for Top Five Country from API (the proper way around...);----------->
+const counts = [];
+const gdppie = [];
+const topfivecounts = [];
+const topfivegdp = [];
+
+getCsvGdppie();
+async function getCsvGdppie() {
+
+const response = await fetch('assets/csv/GDPTOTES.csv');
+const csv = await response.text();
+
+const verts = csv.substr(0, 518);
+const herts = csv.substr(519, 1124);
+const gdppie = herts.split(',').map(x => parseFloat(x, 10));
+const counts = verts.split(',');
+const topfivecounts = [counts[53],counts[52],counts[51],counts[50],counts[49],"Rest of Africa"];
+const restgdp = [2424529223027 - (gdppie[53] + gdppie[52] + gdppie[51] + gdppie[50] + gdppie[49])];
+const topfivegdp = [gdppie[53],gdppie[52],gdppie[51],gdppie[50],gdppie[49],restgdp];
+
+console.log(gdppie);
+
+new Chart(document.getElementById("gdpTop"), {
+    type: 'pie',
+    data: {
+      labels: topfivecounts,
+      datasets: [{
+        label: " GDP in Bns",
+        backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f"],
+        data: topfivegdp,
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: ['Top Five Country GDP in Africa']
+      }
+    }
+});
+
+}
+getDataGdp(writeGdp);
+
 
