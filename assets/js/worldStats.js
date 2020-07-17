@@ -46,8 +46,8 @@ function writePop(data) {
     const size = data[1][0].value / 1000000000;
     const popsize = size.toFixed(3);
    
-    console.log(popsize);
-    //document.getElementById("worldpopsize").innerHTML += ("Population: 1,303 Million / " + popsize + " Million (17%).");
+    //console.log(popsize);
+    document.getElementById("worldpopsize").innerHTML += ("Population: 1,303 Million / " + popsize + " Million (17%).");
 }
 getDataPop(writePop);
 
@@ -72,7 +72,7 @@ function writeGdp(data) {
     const size = data[1][0].value / 1000000000000;
     const gdpsize = size.toFixed(3);
    
-    console.log(gdpsize);
+    //console.log(gdpsize);
     document.getElementById("worldgdpsize").innerHTML += ("Gross Domestic Product (GDP): US$Bn 2,425 / US$Bn " + gdpsize + " (3%).");
 }
 getDataGdp(writeGdp);
