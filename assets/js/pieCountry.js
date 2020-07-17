@@ -1,5 +1,3 @@
-//const countryCode = "ML"
-
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
 const baseUrlwbpopcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 
@@ -22,7 +20,7 @@ function writePop(data) {
     const countpop = item.value / 1000000;
     const roapop = (1303 - countpop);  
    
-    console.log(item.country.value, item.date, item.value, countpop, roapop);
+   //console.log(item.country.value, item.date, item.value, countpop, roapop);
 
 
 //<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
@@ -75,7 +73,7 @@ function writeGdp(data) {
     const countgdp = item.value / 1000000000;
     const roagdp = (2425 - countgdp);  
    
-    console.log(item.country.value, item.date, item.value, countgdp, roagdp);
+    //console.log(item.country.value, item.date, item.value, countgdp, roagdp);
     
 
 new Chart(document.getElementById("gdpPie"), {
@@ -119,7 +117,7 @@ const topfivecount = [count[33],count[40],count[50],count[10],count[16],"Rest of
 const restpop = [1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40])];
 const topfivepop = [poppie[33],poppie[40],poppie[50],poppie[10],poppie[16],restpop];
 
-console.log(poppie);
+//console.log(poppie);
 
 
 new Chart(document.getElementById("popTop"), {
@@ -162,7 +160,7 @@ const topfivecounts = [counts[53],counts[52],counts[51],counts[50],counts[49],"R
 const restgdp = [2424529223027 - (gdppie[53] + gdppie[52] + gdppie[51] + gdppie[50] + gdppie[49])];
 const topfivegdp = [gdppie[53],gdppie[52],gdppie[51],gdppie[50],gdppie[49],restgdp];
 
-console.log(gdppie);
+//console.log(gdppie);
 
 new Chart(document.getElementById("gdpTop"), {
     type: 'pie',

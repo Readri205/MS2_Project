@@ -27,7 +27,7 @@ function writeCty(data) {
     lat = parseFloat(latit);
     lng = parseFloat(lngit);
 
-    console.log(latit, lngit, lat, lng);
+    //console.log(latit, lngit, lat, lng);
 
 const countrymap = L.map('countryMap').setView([lat, lng], 5);
 

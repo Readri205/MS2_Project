@@ -322,3 +322,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.6 Resize header image, resize information box home and country pages
 #### V9.7 Style changes to country page charts and header image change
 #### V9.8 Remove padding on top five country charts
+#### V9.9 Rationalise pop/gdp -> countryGraphs,home graphs -> totalcharts, stats -> countryStats
