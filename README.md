@@ -323,3 +323,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.7 Style changes to country page charts and header image change
 #### V9.8 Remove padding on top five country charts
 #### V9.9 Rationalise pop/gdp -> countryGraphs,home graphs -> totalcharts, stats -> countryStats
+#### V10.0 Add API for World Land POP GDP Stats -> worldStats

@@ -15,7 +15,7 @@ const herts = csv.substr(362, 611);
 const vaxis = verts.split(',').map(x => parseFloat(x, 10));
 const haxis = herts.split(',');
 
-console.log(haxis, vaxis);
+//console.log(haxis, vaxis);
 
 const totPop = document.getElementById('totPop').getContext('2d');
 
@@ -67,7 +67,7 @@ const hirts = csvgdp.substr(363, 612);
 const vaxs = virts.split(',').map(x => parseFloat(x, 10));
 const haxs = hirts.split(',');
 
-console.log(haxs, vaxs);
+//console.log(haxs, vaxs);
 
 const totGdp = document.getElementById('totGdp').getContext('2d');
 
