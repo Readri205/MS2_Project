@@ -1,4 +1,4 @@
-//<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
+//<-------------------World Bank API for Country land Size';------------------------>
 const baseUrlwblandcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/AG.LND.TOTL.K2?format=json";
 
 //GETs World Bank Population data by Country from API;
@@ -20,11 +20,11 @@ function writeLand(data) {
     const countland = item.value;
     const roaland = (29509744 - countland);
    
-   console.log(countland);
+   //console.log(countland);
    //console.log(item.country.value, item.date, item.value, countland, roaland);
 
 
-//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
+//<----------------Graphs World Bank Land Size by Country from API ;------------------>
 
 
 new Chart(document.getElementById("landPie"), {
@@ -142,10 +142,45 @@ new Chart(document.getElementById("gdpPie"), {
 });
 }
 getDataGdp(writeGdp);
-//<---------Writes World Bank Land Size data for Top Five Country from API;----------->
+//<---------Writes World Bank Land data for Top Five Country from API;----------->
+const coun = [];
+const lands = [];
 
+getCsvLand();
+async function getCsvLand() {
 
+const response = await fetch('assets/csv/Land.csv');
+const csv = await response.text();
 
+const verts = csv.substr(0, 525);
+const herts = csv.substr(526, 374);
+const lands = herts.split(',').map(x => parseFloat(x, 10));
+const coun = verts.split(',');
+const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],coun[48],coun[47],coun[46],coun[45],coun[44],"Rest of Africa"];
+//const restlands = [1302819408 - (lands[33] + lands[16] + lands[50] + lands[10] + lands[40])];
+const toplands = [lands[53],lands[52],lands[51],lands[50],lands[49],lands[48],lands[47],lands[46],lands[45],lands[44],lands[54]];
+
+console.log(lands, coun);
+
+new Chart(document.getElementById("landTop"), {
+    type: 'pie',
+    data: {
+      labels: topcount,
+      datasets: [{
+        label: " Land Sizes in Sq. Kms",
+        backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#E9967A","#FF8C00","#BDB76B","#2E8B57","#00CED1","#2f4f4f"],
+        data: toplands,
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: ['Top 10 Country Land Sizes in Africa']
+      }
+    }
+});
+}
+getDataLand(writeLand);
 
 
 
