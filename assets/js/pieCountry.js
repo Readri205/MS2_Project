@@ -1,4 +1,54 @@
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
+const baseUrlwblandcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/AG.LND.TOTL.K2?format=json";
+
+//GETs World Bank Population data by Country from API;
+function getDataLand (cb) {
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       cb(JSON.parse(this.responseText));
+    }
+};
+xhttp.open("GET", baseUrlwblandcount, true);
+xhttp.send();
+}
+//<--------------Writes World Bank Population data by Country from API (the proper way around...);-------------->
+
+
+function writeLand(data) {
+    const item = data[1][1];
+    const countland = item.value;
+    const roaland = (29509744 - countland);
+   
+   console.log(countland);
+   //console.log(item.country.value, item.date, item.value, countland, roaland);
+
+
+//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
+
+
+new Chart(document.getElementById("landPie"), {
+    type: 'pie',
+    data: {
+      labels: [item.country.value, "Rest of Africa"],
+      datasets: [{
+        label: " Land Size in Sq. Kms",
+        backgroundColor: ["#e8c3b9", "#c45850"],
+        data: [countland, roaland]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: ['Country Land Size relative to the Rest of Africa']
+      }
+    }
+});
+}
+getDataLand(writeLand);
+
+
+//<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
 const baseUrlwbpopcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 
 //GETs World Bank Population data by Country from API;
@@ -12,7 +62,7 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", baseUrlwbpopcount, true);
 xhttp.send();
 }
-//<--------------Writes World Bank Population data by Country from API (the proper way around...);-------------->
+//<--------------Writes World Bank Population data by Country from API;-------------->
 
 
 function writePop(data) {
