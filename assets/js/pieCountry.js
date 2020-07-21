@@ -40,10 +40,7 @@ new Chart(document.getElementById("popPie"), {
       title: {
         display: true,
         text: ['Country Population relative to the Rest of Africa', item.date]
-      },
-      layout: {
-            padding: 20
-        }
+      }
     }
 });
 }
@@ -66,7 +63,7 @@ xhttp.open("GET", baseUrlwbgdp, true);
 xhttp.send();
 }
 
-//<---------Writes World Bank GDP data by Country from API (the proper way around...);----------->
+//<---------Writes World Bank GDP data by Country from API;----------->
 
 function writeGdp(data) {
     const item = data[1][0];
@@ -90,16 +87,20 @@ new Chart(document.getElementById("gdpPie"), {
       title: {
         display: true,
         text: ['Country GDP relative to the Rest of Africa', item.date]
-      },
-      layout: {
-            padding: 20
-        }
+      }
     }
 });
 }
 getDataGdp(writeGdp);
+//<---------Writes World Bank Land Size data for Top Five Country from API;----------->
 
-//<---------Writes World Bank POP data for Top Five Country from API (the proper way around...);----------->
+
+
+
+
+
+
+//<---------Writes World Bank POP data for Top Five Country from API;----------->
 const count = [];
 const poppie = [];
 
@@ -133,18 +134,18 @@ new Chart(document.getElementById("popTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top Five Country Populations in Africa']
+        text: ['Top Five Country Populations in Africa 2019']
       }
     }
 });
 }
 getDataPop(writePop);
 
-//<---------Writes World Bank GDP data for Top Five Country from API (the proper way around...);----------->
+//<---------Writes World Bank GDP data for Top Five Country from API ;----------->
 const counts = [];
 const gdppie = [];
-const topfivecounts = [];
-const topfivegdp = [];
+//const topfivecounts = [];
+//const topfivegdp = [];
 
 getCsvGdppie();
 async function getCsvGdppie() {
@@ -175,7 +176,7 @@ new Chart(document.getElementById("gdpTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top Five Country GDP in Africa']
+        text: ['Top Five Country GDP in Africa 2019']
       }
     }
 });

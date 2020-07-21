@@ -1,4 +1,10 @@
 //<-------------------World Bank API for Land Size------------------------>
+//landsize = [];
+//popsize = [];
+//document.getElementById("worldlandsize").innerHTML += ("Land area (sq. km): 29.5 Million / " + landsize + " Million (23%).");
+//document.getElementById("worldpopsize").innerHTML += ("Population: 1,303 Million / " + popsize + " Million (17%).");
+
+
 const regionCode = "WLD"
 const baseUrlworldland = "https://api.worldbank.org/v2/country/" + regionCode + "/indicator/AG.LND.TOTL.K2?format=json";
 
@@ -21,7 +27,6 @@ function writeLand(data) {
     //Sudan and South Sudan Sq Km not included in World Bank figures Sudan 1886,068, South Sudan 619,745 Sq Kms - Wikipedia------->
    
     //console.log(landsize.toFixed(2));
-    document.getElementById("worldlandsize").innerHTML += ("Land area (sq. km): 29.5 Million / " + landsize + " Million (23%).");
 }
 getDataLand(writeLand);
 

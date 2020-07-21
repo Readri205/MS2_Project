@@ -325,3 +325,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.9 Rationalise pop/gdp -> countryGraphs,home graphs -> totalcharts, stats -> countryStats
 #### V10.0 Add API for World Land POP GDP Stats -> worldStats
 #### V10.1 Add API for Region Land stats -> regionStats
+#### V10.2 Add land size pie chart -> regionstats for home page
