@@ -35,12 +35,13 @@ const ctyPop = document.getElementById("popChart").getContext("2d");
 //const popChart = 
 Chart.defaults.global.defaultFontFamily = 'Exo';
 Chart.defaults.global.defaultFontColor = '#000000';
+Chart.defaults.global.defaultFontSize = 15;
 new Chart(ctyPop, {
     type: 'line',
     data: {
         labels: xlabels,
         datasets: [{
-            label: country + ' Population in Mns',
+            label: 'Population in Mns',
             data: ydata,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
@@ -58,7 +59,11 @@ new Chart(ctyPop, {
         },
         layout: {
             padding: 20
-        }
+        },
+        title: {
+        display: true,
+        text: country + ' Population'
+      }
     }
 });
 }
@@ -106,7 +111,7 @@ new Chart(ctyGdp, {
     data: {
         labels: glabels,
         datasets: [{
-            label: country + ' GDP in US$ Billions',
+            label: ' GDP in US$ Bns',
             data: hdata,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
@@ -124,7 +129,11 @@ new Chart(ctyGdp, {
         },
         layout: {
             padding: 20
-        }
+        },
+        title: {
+        display: true,
+        text: country + ' GDP'
+      }
     }
 });
 }

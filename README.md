@@ -332,3 +332,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V10.6 Amend footer and search box text, amend top 10 country pie chart computation
 #### V10.7 Fixed pie chart results to 2 decimal places
 #### V10.8 Update all graphs and pie charts to fontFamily "Exo"
+#### V10.9 Update all grpahs and pie charts to fontColor black fontsize 15

@@ -28,6 +28,7 @@ function writeLand(data) {
 
 Chart.defaults.global.defaultFontFamily = 'Exo';
 Chart.defaults.global.defaultFontColor = '#000000';
+Chart.defaults.global.defaultFontSize = 15;
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {

@@ -23,12 +23,13 @@ const totPop = document.getElementById('totPop').getContext('2d');
 
 Chart.defaults.global.defaultFontFamily = 'Exo';
 Chart.defaults.global.defaultFontColor = '#000000';
+Chart.defaults.global.defaultFontSize = 15;
 new Chart(totPop, {
     type: 'line',
     data: {
         labels: haxis,
         datasets: [{
-            label: 'Africa Population Mns 1970 to 2019',
+            label: '(Mns) 1970 to 2019',
             data: vaxis,
             fill: true,
             backgroundColor: "rgba(139,0,0, 0.4)",
@@ -46,7 +47,11 @@ new Chart(totPop, {
         },
         layout: {
             padding: 20
-        }
+        },
+        title: {
+        display: true,
+        text: 'Africa Population'
+      }
     }
 });
 }
@@ -80,7 +85,7 @@ new Chart(totGdp, {
     data: {
         labels: haxs,
         datasets: [{
-            label: 'Africa GDP US$ Bns 1970 to 2019',
+            label: 'US$ (Bns) 1970 to 2019',
             data: vaxs,
             backgroundColor: "rgba(139,0,0, 0.4)",
             borderColor: "rgba(139,0,0, 0.4)",
@@ -99,7 +104,11 @@ new Chart(totGdp, {
         },
         layout: {
             padding: 20
-        }
+        },
+        title: {
+        display: true,
+        text: 'Africa GDP'
+      }
     }
 });
 }
