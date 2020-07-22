@@ -328,3 +328,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V10.2 Add land size pie chart -> regionstats for home page
 #### V10.3 Add land size country pie -> country page
 #### V10.4 Add top 10 country land sizes pie chart -> country page
+#### V10.5 Amend footer text and copy to country and contact page, remove carousel indicator and controls

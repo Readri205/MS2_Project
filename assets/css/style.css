@@ -164,6 +164,18 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.search-box {
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #FFFFF0;
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .info-box-header {
     text-align: center;
 }
