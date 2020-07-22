@@ -26,7 +26,8 @@ function writeLand(data) {
 
 //<----------------Graphs World Bank Land Size by Country from API ;------------------>
 
-
+Chart.defaults.global.defaultFontFamily = 'Exo';
+Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {
@@ -40,7 +41,8 @@ new Chart(document.getElementById("landPie"), {
     options: {
       title: {
         display: true,
-        text: ['Country Land Size in (Mns) Sq. Kms relative to the Rest of Africa']
+        text: ['Country Land Size in (Mns) Sq. Kms relative to the Rest of Africa'],
+        fontFamily: "Exo"
       }
     }
 });

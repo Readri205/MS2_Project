@@ -198,7 +198,8 @@ function writelcnLand(data) {
     console.log(worldlandsize, totalandsize[0], perc);
     document.getElementById("worldland").innerHTML += ("Land size: " + totalandsize[0].toFixed(2) + " Sq. Kms " + " / " + worldlandsize + " Sq. Kms (" + perc + ") % ");
 
-
+Chart.defaults.global.defaultFontFamily = 'Exo';
+Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {
