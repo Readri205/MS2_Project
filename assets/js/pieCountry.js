@@ -157,10 +157,10 @@ const herts = csv.substr(526, 374);
 const lands = herts.split(',').map(x => parseFloat(x, 10));
 const coun = verts.split(',');
 const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],coun[48],coun[47],coun[46],coun[45],coun[44],"Rest of Africa"];
-//const restlands = [1302819408 - (lands[33] + lands[16] + lands[50] + lands[10] + lands[40])];
-const toplands = [lands[53],lands[52],lands[51],lands[50],lands[49],lands[48],lands[47],lands[46],lands[45],lands[44],lands[54]];
+const restlands = [lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49] + lands[48] + lands[47] + lands[46] + lands[45] + lands[44])];
+const toplands = [lands[53],lands[52],lands[51],lands[50],lands[49],lands[48],lands[47],lands[46],lands[45],lands[44],restlands];
 
-console.log(lands, coun);
+console.log(restlands);
 
 new Chart(document.getElementById("landTop"), {
     type: 'pie',
