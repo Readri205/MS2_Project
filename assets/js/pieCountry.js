@@ -17,8 +17,8 @@ xhttp.send();
 
 function writeLand(data) {
     const item = data[1][1];
-    const countland = item.value;
-    const roaland = (29509744 - countland);
+    const countland = item.value / 1000000;
+    const roaland = (29.509744 - countland);
    
    //console.log(countland);
    //console.log(item.country.value, item.date, item.value, countland, roaland);
@@ -32,15 +32,15 @@ new Chart(document.getElementById("landPie"), {
     data: {
       labels: [item.country.value, "Rest of Africa"],
       datasets: [{
-        label: " Land Size in Sq. Kms",
+        label: " Land Size in (Mns) Sq. Kms",
         backgroundColor: ["#e8c3b9", "#c45850"],
-        data: [countland, roaland]
+        data: [countland.toFixed(2), roaland.toFixed(2)]
       }]
     },
     options: {
       title: {
         display: true,
-        text: ['Country Land Size relative to the Rest of Africa']
+        text: ['Country Land Size in (Mns) Sq. Kms relative to the Rest of Africa']
       }
     }
 });
@@ -83,13 +83,13 @@ new Chart(document.getElementById("popPie"), {
       datasets: [{
         label: " Population in Mns",
         backgroundColor: ["#e8c3b9", "#c45850"],
-        data: [countpop, roapop]
+        data: [countpop.toFixed(2), roapop.toFixed(2)]
       }]
     },
     options: {
       title: {
         display: true,
-        text: ['Country Population relative to the Rest of Africa', item.date]
+        text: ['Country Population (Mns) relative to the Rest of Africa', item.date]
       }
     }
 });
@@ -130,13 +130,13 @@ new Chart(document.getElementById("gdpPie"), {
       datasets: [{
         label: " GDP in Bns",
         backgroundColor: ["#e8c3b9", "#c45850"],
-        data: [countgdp, roagdp]
+        data: [countgdp.toFixed(2), roagdp.toFixed(2)]
       }]
     },
     options: {
       title: {
         display: true,
-        text: ['Country GDP relative to the Rest of Africa', item.date]
+        text: ['Country GDP (Bns) relative to the Rest of Africa', item.date]
       }
     }
 });
@@ -157,8 +157,8 @@ const herts = csv.substr(526, 374);
 const lands = herts.split(',').map(x => parseFloat(x, 10));
 const coun = verts.split(',');
 const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],coun[48],coun[47],coun[46],coun[45],coun[44],"Rest of Africa"];
-const restlands = [lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49] + lands[48] + lands[47] + lands[46] + lands[45] + lands[44])];
-const toplands = [lands[53],lands[52],lands[51],lands[50],lands[49],lands[48],lands[47],lands[46],lands[45],lands[44],restlands];
+const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49] + lands[48] + lands[47] + lands[46] + lands[45] + lands[44]))/1000000).toFixed(2)];
+const toplands = [(lands[53]/1000000).toFixed(2),(lands[52]/1000000).toFixed(2),(lands[51]/1000000).toFixed(2),(lands[50]/1000000).toFixed(2),(lands[49]/1000000).toFixed(2),(lands[48]/1000000).toFixed(2),(lands[47]/1000000).toFixed(2),(lands[46]/1000000).toFixed(2),(lands[45]/1000000).toFixed(2),(lands[44]/1000000).toFixed(2),restlands];
 
 console.log(restlands);
 
@@ -175,7 +175,7 @@ new Chart(document.getElementById("landTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top 10 Country Land Sizes in Africa']
+        text: ['Top 10 Country Land Sizes (Mns) Sq. Kms in Africa']
       }
     }
 });
@@ -200,8 +200,8 @@ const herts = csv.substr(518, 455);
 const poppie = herts.split(',').map(x => parseFloat(x, 10));
 const count = verts.split(',');
 const topfivecount = [count[33],count[40],count[50],count[10],count[16],"Rest of Africa"];
-const restpop = [1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40])];
-const topfivepop = [poppie[33],poppie[40],poppie[50],poppie[10],poppie[16],restpop];
+const restpop = [((1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40]))/1000000).toFixed(2)];
+const topfivepop = [(poppie[33]/1000000).toFixed(2),(poppie[40]/1000000).toFixed(2),(poppie[50]/1000000).toFixed(2),(poppie[10]/1000000).toFixed(2),(poppie[16]/1000000).toFixed(2),restpop];
 
 //console.log(poppie);
 
@@ -219,7 +219,7 @@ new Chart(document.getElementById("popTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top Five Country Populations in Africa 2019']
+        text: ['Top Five Country Populations (Mns) in Africa 2019']
       }
     }
 });
@@ -243,8 +243,8 @@ const herts = csv.substr(519, 1124);
 const gdppie = herts.split(',').map(x => parseFloat(x, 10));
 const counts = verts.split(',');
 const topfivecounts = [counts[53],counts[52],counts[51],counts[50],counts[49],"Rest of Africa"];
-const restgdp = [2424529223027 - (gdppie[53] + gdppie[52] + gdppie[51] + gdppie[50] + gdppie[49])];
-const topfivegdp = [gdppie[53],gdppie[52],gdppie[51],gdppie[50],gdppie[49],restgdp];
+const restgdp = [((2424529223027 - (gdppie[53] + gdppie[52] + gdppie[51] + gdppie[50] + gdppie[49]))/1000000000).toFixed(2)];
+const topfivegdp = [(gdppie[53]/1000000000).toFixed(2),(gdppie[52]/1000000000).toFixed(2),(gdppie[51]/1000000000).toFixed(2),(gdppie[50]/1000000000).toFixed(2),(gdppie[49]/1000000000).toFixed(2),restgdp];
 
 //console.log(gdppie);
 
@@ -261,7 +261,7 @@ new Chart(document.getElementById("gdpTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top Five Country GDP in Africa 2019']
+        text: ['Top Five Country GDP (Bns) in Africa 2019']
       }
     }
 });

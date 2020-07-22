@@ -86,7 +86,7 @@ function writeCountryGdp(data) {
     const gdp = (item[0].value / 1000000000).toFixed(2);
     const perc = (gdp / 24.24529223027).toFixed(2);
 
-    document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp + " Bn - " + perc + "% of the total Africa GDP (US$ 2.42 Bn)");
+    document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp + " Bn - " + perc + "% of the total Africa GDP (US$ 2424.53 Bn)");
 
     //console.log(year, gdp);
 }

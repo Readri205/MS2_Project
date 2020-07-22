@@ -330,3 +330,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V10.4 Add top 10 country land sizes pie chart -> country page
 #### V10.5 Amend footer text and copy to country and contact page, remove carousel indicator and controls
 #### V10.6 Amend footer and search box text, amend top 10 country pie chart computation
+#### V10.7 Fixed pie chart results to 2 decimal places

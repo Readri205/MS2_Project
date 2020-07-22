@@ -204,15 +204,15 @@ new Chart(document.getElementById("landPie"), {
     data: {
       labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia & Pacific"],
       datasets: [{
-        label: "Land size in Sq. Kms",
+        label: "Land size in (Mns) Sq. Kms",
         backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f","#f0e68c"],
-        data: [totalandsize[0], totalandsize[6], totalandsize[5], totalandsize[4], totalandsize[1], totalandsize[2], totalandsize[3]]
+        data: [totalandsize[0].toFixed(2), totalandsize[6].toFixed(2), totalandsize[5].toFixed(2), totalandsize[4].toFixed(2), totalandsize[1].toFixed(2), totalandsize[2].toFixed(2), totalandsize[3].toFixed(2)]
       }]
     },
     options: {
       title: {
         display: true,
-        text: 'World Land Size in Sq. Kms'
+        text: 'World Land Size in (Mns) Sq. Kms'
       }
     }
 });
