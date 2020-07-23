@@ -350,3 +350,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V12.4 Amend to lowercase for location file name
 #### V12.5 Amend country tag to country.html?country=NG
 #### V12.6 Remove padding on country line graphs
+#### V12.7 Reduce image size for carousel

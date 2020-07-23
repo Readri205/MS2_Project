@@ -162,7 +162,7 @@ const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],coun[48],coun[47]
 const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49] + lands[48] + lands[47] + lands[46] + lands[45] + lands[44]))/1000000).toFixed(2)];
 const toplands = [(lands[53]/1000000).toFixed(2),(lands[52]/1000000).toFixed(2),(lands[51]/1000000).toFixed(2),(lands[50]/1000000).toFixed(2),(lands[49]/1000000).toFixed(2),(lands[48]/1000000).toFixed(2),(lands[47]/1000000).toFixed(2),(lands[46]/1000000).toFixed(2),(lands[45]/1000000).toFixed(2),(lands[44]/1000000).toFixed(2),restlands];
 
-console.log(restlands);
+//console.log(restlands);
 
 new Chart(document.getElementById("landTop"), {
     type: 'pie',
