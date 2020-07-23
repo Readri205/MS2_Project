@@ -7,7 +7,7 @@ const herts = [];
 getCsvPop();
 async function getCsvPop() {
 
-const response = await fetch('assets/csv/POP.csv');
+const response = await fetch('assets/csv/pop.csv');
 const csv = await response.text();
 
 const verts = csv.substr(0, 361);
@@ -64,7 +64,7 @@ const hirts = [];
 getCsvGdp();
 async function getCsvGdp() {
 
-const response = await fetch('assets/csv/GDP.csv');
+const response = await fetch('assets/csv/gdp.csv');
 
 const csvgdp = await response.text();
 
@@ -114,6 +114,25 @@ new Chart(totGdp, {
 
 Chart.defaults.global.defaultFontFamily = 'Exo';
 Chart.defaults.global.defaultFontColor = '#000000';
+
+new Chart(document.getElementById("landPie"), {
+    type: 'pie',
+    data: {
+      labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia & Pacific"],
+      datasets: [{
+        label: " Land Size (Mns) Sq. Kms",
+        backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f","#f0e68c"],
+        data: [29.510, 20.039, 4.772, 18.241, 5.462, 27.429, 24.397]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Land Size (Mns) Sq. Kms'
+      }
+    }
+});
+
 new Chart(document.getElementById("popPie"), {
     type: 'pie',
     data: {

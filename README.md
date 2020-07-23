@@ -334,3 +334,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V10.8 Update all graphs and pie charts to fontFamily "Exo"
 #### V10.9 Update all graphs and pie charts to fontColor black fontsize 15
 #### V11.0 Revert graph and pie charts to default fontsize for mobile screens
+#### V11.1 Rename csv files, redesign world region pie chart for land size

@@ -151,7 +151,7 @@ const lands = [];
 getCsvLand();
 async function getCsvLand() {
 
-const response = await fetch('assets/csv/Land.csv');
+const response = await fetch('assets/csv/land.csv');
 const csv = await response.text();
 
 const verts = csv.substr(0, 525);
@@ -194,7 +194,7 @@ const poppie = [];
 getCsvPoppie();
 async function getCsvPoppie() {
 
-const response = await fetch('assets/csv/POPTOTES.csv');
+const response = await fetch('assets/csv/poptotes.csv');
 const csv = await response.text();
 
 const verts = csv.substr(0, 517);
@@ -237,7 +237,7 @@ const gdppie = [];
 getCsvGdppie();
 async function getCsvGdppie() {
 
-const response = await fetch('assets/csv/GDPTOTES.csv');
+const response = await fetch('assets/csv/gdptotes.csv');
 const csv = await response.text();
 
 const verts = csv.substr(0, 518);
@@ -270,5 +270,3 @@ new Chart(document.getElementById("gdpTop"), {
 
 }
 getDataGdp(writeGdp);
-
-
