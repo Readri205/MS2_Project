@@ -28,7 +28,6 @@ function writeLand(data) {
 
 Chart.defaults.global.defaultFontFamily = 'Exo';
 Chart.defaults.global.defaultFontColor = '#000000';
-Chart.defaults.global.defaultFontSize = 15;
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {
@@ -42,7 +41,7 @@ new Chart(document.getElementById("landPie"), {
     options: {
       title: {
         display: true,
-        text: ['Country Land Size in (Mns) Sq. Kms relative to the Rest of Africa'],
+        text: ['Land Size (Mns) Sq. Kms v Rest of Africa'],
         fontFamily: "Exo"
       }
     }
@@ -92,7 +91,7 @@ new Chart(document.getElementById("popPie"), {
     options: {
       title: {
         display: true,
-        text: ['Country Population (Mns) relative to the Rest of Africa', item.date]
+        text: ['Population (Mns) v Rest of Africa', item.date]
       }
     }
 });
@@ -139,7 +138,7 @@ new Chart(document.getElementById("gdpPie"), {
     options: {
       title: {
         display: true,
-        text: ['Country GDP (Bns) relative to the Rest of Africa', item.date]
+        text: ['GDP (Bns) v Rest of Africa', item.date]
       }
     }
 });
@@ -178,7 +177,7 @@ new Chart(document.getElementById("landTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top 10 Country Land Sizes (Mns) Sq. Kms in Africa']
+        text: ['Top 10 Africa Land Sizes (Mns) Sq. Kms']
       }
     }
 });
@@ -222,7 +221,7 @@ new Chart(document.getElementById("popTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top Five Country Populations (Mns) in Africa 2019']
+        text: ['Top Five Africa Populations (Mns) 2019']
       }
     }
 });
@@ -264,7 +263,7 @@ new Chart(document.getElementById("gdpTop"), {
     options: {
       title: {
         display: true,
-        text: ['Top Five Country GDP (Bns) in Africa 2019']
+        text: ['Top Five Africa GDP (Bns) 2019']
       }
     }
 });

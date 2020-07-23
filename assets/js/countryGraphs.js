@@ -35,7 +35,6 @@ const ctyPop = document.getElementById("popChart").getContext("2d");
 //const popChart = 
 Chart.defaults.global.defaultFontFamily = 'Exo';
 Chart.defaults.global.defaultFontColor = '#000000';
-Chart.defaults.global.defaultFontSize = 15;
 new Chart(ctyPop, {
     type: 'line',
     data: {
