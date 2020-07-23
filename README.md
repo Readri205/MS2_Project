@@ -340,11 +340,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V11.4 Removed meta tag for CSP
 #### V11.5 Update mapbox scripts and links
 #### V11.6 Amend country redirection from menu for Github
-#### V11.7 Add line item in drop down for first country in getCountry.js
+#### V11.7 Add line item in drop down for first country in getCountries.js
 #### V11.8 Amend country code for country selection and page selection
-#### V11.9 Amend pop up window code for country selection in getCountry.js
-#### V12.0 Amend pop up code
-#### V12.1 Amend API request
-#### V12.2 Amend spelling mistake for Url
-#### V12.3 Amend push adDress URL
-#### V12.4 Amend to lowercase
+#### V11.9 Amend pop up window code for country selection in getCountries.js
+#### V12.0 Amend pop up code for /
+#### V12.1 Amend API request name in setRequestHeader getCountries.js
+#### V12.2 Amend spelling mistake for Url 
+#### V12.3 Amend push address URL
+#### V12.4 Amend to lowercase for location file name
+#### V12.5 Amend country tag to country.html?country=NG
