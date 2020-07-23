@@ -34,7 +34,7 @@ function writeCountry(data) {
 
 countries.addEventListener("change", function () {
     // Force Redirection
-    window.location = `/country.html?country=${countries.value}`;
+    window.location = `/MS2_Project/country.html?country=${countries.value}`;
 });
 
 function getCountryDetails() {

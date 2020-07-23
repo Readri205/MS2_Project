@@ -339,3 +339,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V11.3 Add meta tag for CSP
 #### V11.4 Removed meta tag for CSP
 #### V11.5 Update mapbox scripts and links
+#### V11.6 Amend country redirection from menu for Github
