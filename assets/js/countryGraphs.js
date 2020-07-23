@@ -56,9 +56,6 @@ new Chart(ctyPop, {
                 }
             }]
         },
-        layout: {
-            padding: 20
-        },
         title: {
         display: true,
         text: country + ' Population'
@@ -125,9 +122,6 @@ new Chart(ctyGdp, {
                     callback:function(value) {return "$" + value}
                 }
             }]
-        },
-        layout: {
-            padding: 20
         },
         title: {
         display: true,
