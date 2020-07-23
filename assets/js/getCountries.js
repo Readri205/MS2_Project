@@ -2,7 +2,7 @@ let countryCode = ["NG"],
     countries = document.getElementById("CountryList"),
     baseUrlcountrys = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 
-    if (window.location.pathname.toLowerCase() === 'MS2_Project/country.html') {
+    if (window.location.pathname.toLowerCase() === '/MS2_Project/country.html') {
     getCountryDetails();
 }
 
@@ -27,9 +27,9 @@ function getDataCountry(cb) {
 
 //  Country Codes by Country from API;
 function writeCountry(data) {
-        countries.innerHTML += `<option value=“”>Select Country</option>`;
+        countries.innerHTML += `<option value="">Select Country</option>`;
     data.forEach(function (item) {
-        countries.innerHTML += `<option value=“${item.key}“>${item.value}</option>`;
+        countries.innerHTML += `<option value="${item.key}">${item.value}</option>`;
     });
 }
 
