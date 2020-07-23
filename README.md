@@ -337,3 +337,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V11.1 Rename csv files, redesign world region pie chart for land size
 #### V11.2 Update world land size narrative on home page
 #### V11.3 Add meta tag for CSP
+#### V11.4 Removed meta tag for CSP
