@@ -351,3 +351,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V12.5 Amend country tag to country.html?country=NG
 #### V12.6 Remove padding on country line graphs
 #### V12.7 Reduce image size for carousel
+#### V12.8 Remove surplus images, update country page link in navbar
