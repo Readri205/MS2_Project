@@ -105,32 +105,20 @@ xhttp.send();
 }
 //Writes World Bank Land Size data for Country from API;
 function writeLandSize(data) {
-    
-    if (countryCode = SD) {
+
+    if (countryCode == "SD") {
         landsize = 1886068;
-    } else if (countryCode= SS) {
+    } else if (countryCode == "SS") {
         landsize = 619745;
     } else {
     item = data[1];
     landsize = item[1].value.toFixed(0);
     }
-    const perc = (landsize / 295097.44).toFixed(2);
+
+    perc = (landsize / 295097.44).toFixed(2);
 
     document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize + "   Sq. Kms" + " " + " - " + perc + "% of total Africa Land Size (29.51 Mn Sq. Kms)");
     
-    //console.log(perc, landsize);
+    console.log(countryCode, perc, landsize);
 }
 getDataLandSize(writeLandSize);
-
-//function myFunction() {
-  //const greeting;
-  //const time = new Date().getHours();
-  //if (time < 10) {
-    //greeting = "Good morning";
-  //} else if (time < 20) {
-    //greeting = "Good day";
-  //} else {
-    //greeting = "Good evening";
-  //}
-  //document.getElementById("demo").innerHTML = greeting;
-//}

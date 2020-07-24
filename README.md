@@ -356,3 +356,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.0 Add Landsize 'IF' function for Sudan and South Sudan
 #### V13.1 Amend country page for test 'IF' Sudan South Sudan landsize
 #### V13.2 Initialise getDataLandSize function on test page
+#### V13.3 Add IF statement for Sudan South Sudan country stats country page
