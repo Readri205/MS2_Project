@@ -355,3 +355,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V12.9 Remove padding on charts -> totalCharts.js, country page link on outputs
 #### V13.0 Add Landsize 'IF' function for Sudan and South Sudan
 #### V13.1 Amend country page for test 'IF' Sudan South Sudan landsize
+#### V13.2 Initialise getDataLandSize function on test page

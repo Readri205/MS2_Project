@@ -120,7 +120,7 @@ function writeLandSize(data) {
     
     //console.log(perc, landsize);
 }
-//getDataLandSize(writeLandSize);
+getDataLandSize(writeLandSize);
 
 //function myFunction() {
   //const greeting;
