@@ -354,3 +354,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V12.8 Remove surplus images, update country page link in navbar
 #### V12.9 Remove padding on charts -> totalCharts.js, country page link on outputs
 #### V13.0 Add Landsize 'IF' function for Sudan and South Sudan
+#### V13.1 Amend country page for test 'IF' Sudan South Sudan landsize
