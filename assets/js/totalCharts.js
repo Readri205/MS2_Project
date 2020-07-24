@@ -44,9 +44,6 @@ new Chart(totPop, {
                 }
             }]
         },
-        layout: {
-            padding: 20
-        },
         title: {
         display: true,
         text: 'Africa Population'
@@ -100,9 +97,6 @@ new Chart(totGdp, {
                     callback:function(value) {return "$" + value}
                 }
             }]
-        },
-        layout: {
-            padding: 20
         },
         title: {
         display: true,
