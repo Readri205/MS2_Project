@@ -29,15 +29,15 @@ The answers for any African country returned from a search query;
   * pie charts showing land size, population and GDP relative to the Rest of Africa; and
   * pie charts showing top ten countries by land size, top five by population size (2019) and top five by GDP size (2019)
 
-The website sources data from the [World Bank Database](https://databank.worldbank.org/home.aspx). The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The [Referential](https://rapidapi.com/referential/api/referential) API is used to source country codes to construct country information and [COUNTRYFLAGS](https://www.countryflags.io/) for country flag images. [Mapbox](https://www.mapbox.com/) is used as a base layer for the maps with [Leaflet](https://leafletjs.com/) and [Openstreetmap](https://www.openstreetmap.org) overlays. API and other data source details are provided in the 'xxx' section below.
+The website sources data from the [World Bank Database](https://databank.worldbank.org/home.aspx). The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/) is used to source country codes to construct country information and [COUNTRYFLAGS](https://www.countryflags.io/) for country flag images. [Mapbox](https://www.mapbox.com/) is used as the base layer for maps with [Leaflet](https://leafletjs.com/) and [Openstreetmap](https://www.openstreetmap.org) overlays. API and other data source details are provided in the 'xxx' section below.
 
 If the site is perceived as successful, it is anticipated that the site could be expanded to show;
   * similar information for the six remaining World Continents; and
-  * each continent and its countries could be expanded with more details
+  * each continent and its countries could be expanded with more details.
 
 The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users and partners. The website was designed using 'Mobile First' principles as it is expected that the site must be perceived to be quick and easy to use and read as a reference site for Africa and African country data on mobile devices.
 
-<h2 align="center"><img src=""></h2>
+<h2 align="center"><img src="assets/images/Title2.png"></h2>
 
 ## User Experience (UX)
 
@@ -395,3 +395,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.5 Update text in README file
 #### V13.6 Tidy HTMl code structure with FreeFormatter
 #### V13.7 Update text in README file
+#### V13.8 Update text and image in README file
