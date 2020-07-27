@@ -108,7 +108,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
-    - Mapbox jvascript library is used to create the maps on the 'Home' and 'Country' pages.
+    - Mapbox javascript library is used to create the maps on the 'Home' and 'Country' pages.
 1. [Leaflet:](https://unpkg.com/leaflet@1.6.0/dist/leaflet.js)
     - Leaflet provides a javascript library for Mapbox maps on the 'Home' and 'Country' pages.
 1. [OpenStreetMap:](https://www.openstreetmap.org)
@@ -413,3 +413,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.8 Update text and image in README file
 #### V13.9 Update text in README file
 #### V14.0 Update text in README file
+#### V14.1 Update text README, retract cloudfare CDN jquery script
