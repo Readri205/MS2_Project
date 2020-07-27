@@ -4,7 +4,38 @@
 
 [View the live project here.]( https://readri205.github.io/MS2_Project/)
 
-This is the website for the Africa Continent. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This website provides an overview of the Africa Continent in terms of land size, population and Gross Domestic Product (GDP). These measures have been provided in a World context. The website provides an ability to view similar data for each country in Africa by using a search function. The search function is provided at the bottom of the 'Home' page and also on the bottom of the 'Country'. The search function in both locations allows for a quick search for an African country from either page.
+
+The website is primarily 'informative', allowing users to view information about Africa in general and to view information on specific countries. The site is designed to show Africa in a world context initially and then to show each African country in an Africa context.
+
+The website concept is to answer high level questions about the African Continent;
+  * where is it?;
+  * what are the countries in it?;
+  * where are the countries on the Africa Continent?; and
+  * what size are each of the countries in terms of land size, population and Gross Domestic Product (GDP);
+  * what is the name of the Capital City and where is it located?; and
+  * what does the national flag look like?
+
+The answers for Africa as a whole are provided through the use of a number of different media outputs on the 'Home' page;
+  * text summary on Africa land size, population and GDP;
+  * a map showing the Africa continent with many of the key countries shown;
+  * line graphs for population and GDP growth from 1970 to 2019;
+  * pie charts showing land size, population and GDP for Africa relative to the Rest of the World.
+
+The answers for any African country returned from a search query;
+  * text summary on Country capital city, national flag, land size, opulation and GDP relative to the Rest of Africa;
+  * a map centred on the capital city location and showing the country in context of the Africa Continent;
+  * line graphs for population and GDP growth from 1970 to 2019;
+  * pie charts showing land size, population and GDP relative to the Rest of Africa; and
+  * pie charts showing top ten countries by land size, top five by population size (2019) and top five by GDP size (2019)
+
+The website sources data from the [World Bank Database](https://databank.worldbank.org/home.aspx). The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The [Referential](https://rapidapi.com/referential/api/referential) API is used to source country codes to construct country information and [COUNTRYFLAGS](https://www.countryflags.io/) for country flag images. [Mapbox](https://www.mapbox.com/) is used as a base layer for the maps with [Leaflet](https://leafletjs.com/) and [Openstreetmap](https://www.openstreetmap.org) overlays. API and other data source details are provided in the 'xxx' section below.
+
+If the site is perceived as successful, it is anticipated that the site could be expanded to show;
+  * similar information for the six remaining World Continents; and
+  * each continent and its countries could be expanded with more details
+
+The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users and partners. The website was designed using 'Mobile First' principles as it is expected that the site must be perceived to be quick and easy to use and read as a reference site for Africa and African country data on mobile devices.
 
 <h2 align="center"><img src=""></h2>
 
@@ -31,11 +62,11 @@ This is the website for the Africa Continent. It is designed to be responsible a
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, grpah and pie chart colours, images and the respective country flag.
+        -   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, graph and pie chart colours, images and the respective country flags.
     -   #### Typography
         -   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
         "Exo" is a clean font which is both attractive and appropriate.
-    -   #### Box Content
+    -   #### Box Content Structure
         -   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps and each of the line graphs and pie charts on the 'home' and country.html' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the main body and to provide a definitive outline for the piece of information.
     -   #### Imagery
         -   Imagery is important. The large, background image in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To avoid confusion and also to provide some context each image has a clear title description. The description is derived from the original image as provided by the contributor.
@@ -363,3 +394,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.4 Amend getCountriesvtest.js to getCountries.js page for countries page
 #### V13.5 Update text in README file
 #### V13.6 Tidy HTMl code structure with FreeFormatter
+#### V13.7 Update text in README file
