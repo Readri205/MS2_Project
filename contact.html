@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/filter.css" type="text/css" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/filter.css" type="text/css" />
     <script src="https://kit.fontawesome.com/5fa1d9dfaf.js" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_hdnXX8G7GshN7scwXaHR9");
-   })();
-</script>
-	<title>Africa!</title>
-</head>
-<body>
-	<header>
-		<div class="container-fluid">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init("user_hdnXX8G7GshN7scwXaHR9");
+      })();
+    </script>
+    <title>Africa!</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 bg">
             <!-- Navbar starts here -->
@@ -30,7 +30,7 @@
                 type="button"
                 data-toggle="collapse"
                 data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
@@ -57,87 +57,87 @@
           </div>
         </div>
       </div>
-	</header>
-	<!-- The Header finishes here -->
-	<!-- The Main section starts here -->
-	<section class="container-fluid">
-        <div class="row">
-			<div class="col-lg-12 carousel-box">
-				<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
-					<!-- Indicators -->
-                    <!------------------- step out indicators for test
-                    <ul class="carousel-indicators">
-						<li data-target="#slider" data-slide-to="0" class="active"></li>
-						<li data-target="#slider" data-slide-to="1"></li>
-						<li data-target="#slider" data-slide-to="2"></li>
-					</ul>
-                    ---------------------------------------------------------->
-                    <!-- The slideshow -->
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="assets/images/trevor.jpg" class="d-block w-100" alt="Trevor">
-						</div>
-						<div class="carousel-item">
-							<img src="assets/images/efe.jpg" class="d-block w-100" alt="Efe">
-						</div>
-						<div class="carousel-item">
-							<img src="assets/images/toa.jpg" class="d-block w-100" alt="Toa">
-						</div>
-                        </div>
-                        <!-- Left and right controls -->
-                        <!------------------- step out controls for test
-                        <a class="carousel-control-prev" href="#slider" data-slide="prev">
-						    <span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next" href="#slider" data-slide="next">
-						    <span class="carousel-control-next-icon"></span></a>
-                         ---------------------------------------------------------->    
-                    </div>
+    </header>
+    <!-- The Header finishes here -->
+    <!-- The Main section starts here -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 carousel-box">
+          <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- Indicators -->
+            <!------------------- step out indicators for test
+              <ul class="carousel-indicators">
+              <li data-target="#slider" data-slide-to="0" class="active"></li>
+              <li data-target="#slider" data-slide-to="1"></li>
+              <li data-target="#slider" data-slide-to="2"></li>
+              </ul>
+              ---------------------------------------------------------->
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/trevor.jpg" class="d-block w-100" alt="Trevor">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/efe.jpg" class="d-block w-100" alt="Efe">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/toa.jpg" class="d-block w-100" alt="Toa">
+              </div>
             </div>
+            <!-- Left and right controls -->
+            <!------------------- step out controls for test
+              <a class="carousel-control-prev" href="#slider" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span></a>
+              <a class="carousel-control-next" href="#slider" data-slide="next">
+              <span class="carousel-control-next-icon"></span></a>
+               ---------------------------------------------------------->    
+          </div>
         </div>
-		<div class="row">
-			<!-- The Second box starts here -->
-			<div class="col">
-				<div class="code-box">
-					<h3 class="uppercase info-box-header">Contact Details</h3>
-					<div class="center-form">
-					<form id="myForm" onsubmit="return sendMail(this);" method="POST">
-						<input type="text" name="first_name" id="fname" class="form-control" placeholder="First Name" required>
-                        <input type="text" name="last_name" id="lname" class="form-control" placeholder="Last Name" required>
-						<input type="email" name="email_address" id="email" class="form-control" placeholder="Email Address" required>
-                        <input type="text" name="contactno" id="contactno" class="form-control" placeholder="+XX (0) Contact No." required>
-						<textarea rows="5" name="text" id="comment" class="form-control" placeholder="Questions, comments or suggestions!" required></textarea>
-						<div class="row text-center">
-							<div class="col">
-								<button type="submit" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Send Contact Details!</button>
-								<!-- Modal -->
-								<div class="modal fade" id="myModal" role="dialog">
-									<div class="modal-dialog">
-										<!-- Modal content-->
-										<div class="modal-content">
-											<div class="modal-header">
-                                            <h4 class="modal-title">Details Submitted!</h4>
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
-											</div>
-											<div class="modal-body">
-												<p>Thanks for your details, questions and comments.</p>
-											</div>
-											<div class="modal-footer">
-												<button id="myButton" type="button" class="btn btn-default" data-dismiss="modal" onclick="myReset()">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</form>
-				    </div>
-				</div>
-			</div>
-		</div>
-        <!-- The Second box finishes here -->
-	</section>
-	<footer class="container-fluid">
-		<div class="row">
+      </div>
+      <div class="row">
+        <!-- The Second box starts here -->
+        <div class="col">
+          <div class="code-box">
+            <h3 class="uppercase info-box-header">Contact Details</h3>
+            <div class="center-form">
+              <form id="myForm" onsubmit="return sendMail(this);" method="POST">
+                <input type="text" name="first_name" id="fname" class="form-control" placeholder="First Name" required>
+                <input type="text" name="last_name" id="lname" class="form-control" placeholder="Last Name" required>
+                <input type="email" name="email_address" id="email" class="form-control" placeholder="Email Address" required>
+                <input type="text" name="contactno" id="contactno" class="form-control" placeholder="+XX (0) Contact No." required>
+                <textarea rows="5" name="text" id="comment" class="form-control" placeholder="Questions, comments or suggestions!" required></textarea>
+                <div class="row text-center">
+                  <div class="col">
+                    <button type="submit" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">Send Contact Details!</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                      <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title">Details Submitted!</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Thanks for your details, questions and comments.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button id="myButton" type="button" class="btn btn-default" data-dismiss="modal" onclick="myReset()">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- The Second box finishes here -->
+    </section>
+    <footer class="container-fluid">
+      <div class="row">
         <!-- First third sction is the About section -->
         <div class="col-md-4">
           <h5 class="footer-header">About</h5>
@@ -165,36 +165,36 @@
               <a href="https://www.facebook.com" target="_blank"
                 ><i class="fab fa-facebook" aria-hidden="true"></i
                 ><span class="sr-only">Facebook</span></a
-              >
+                >
             </li>
             <li>
               <a href="https://www.twitter.com" target="_blank"
                 ><i class="fab fa-twitter-square" aria-hidden="true"></i
                 ><span class="sr-only">Twitter</span></a
-              >
+                >
             </li>
             <li>
               <a href="https://www.youtube.com" target="_blank"
                 ><i class="fab fa-youtube" aria-hidden="true"></i
                 ><span class="sr-only">Youtube</span></a
-              >
+                >
             </li>
             <li>
               <a href="https://www.instagram.com" target="_blank"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
                 ><span class="sr-only">Instagram</span></a
-              >
+                >
             </li>
           </ul>
         </div>
         <!-- The Third thirds section finishes here -->
       </div>
     </footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!---------------<script type="text/javascript" src="assets/js/menucode.js"></script>-------------------------------->
-	<!----------------<script type="text/javascript" src="assets/js/codecall.js"></script>------------------------------->
+    <!----------------<script type="text/javascript" src="assets/js/codecall.js"></script>------------------------------->
     <script type="text/javascript" src="assets/js/sendEmail.js"></script>
-    </body>
+  </body>
 </html>

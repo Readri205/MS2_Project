@@ -362,3 +362,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.3 Add IF statement for Sudan South Sudan country stats country page
 #### V13.4 Amend getCountriesvtest.js to getCountries.js page for countries page
 #### V13.5 Update text in README file
+#### V13.6 Tidy HTMl code structure with FreeFormatter
