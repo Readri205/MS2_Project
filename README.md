@@ -62,14 +62,13 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, graph and pie chart colours, images and the respective country flags.
+        -   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, line graphs, pie charts, images and the country flags.
     -   #### Typography
-        -   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
-        "Exo" is a clean font which is both attractive and appropriate.
+        -   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the site correctly. "Exo" is a clean font which is both attractive and appropriate.
     -   #### Box Content Structure
-        -   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps and each of the line graphs and pie charts on the 'home' and country.html' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the main body and to provide a definitive outline for the piece of information.
+        -   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
     -   #### Imagery
-        -   Imagery is important. The large, background image in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To avoid confusion and also to provide some context each image has a clear title description. The description is derived from the original image as provided by the contributor.
+        -   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context each image has a clear title description which is derived from the original image and provided by the contributor.
 
 *   ### Wireframes
 
@@ -91,34 +90,50 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Bootstrap 4.5.0:](https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the contact details types and for social media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Exo' (main content in all pages) **and 'Roboto' (for footer) fonts into the style.css file which are used on all pages.**
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used for the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+    - jQuery came with Bootstrap to make the navbar responsive but was also used to support JavaScript and is loaded from the [Google CDN](https://www.w3schools.com/jquery/jquery_get_started.asp).
+1. [GitPod](https://www.gitpod.io/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
+    - Mapbox jvascript library is used to create the maps on the 'Home' and 'Country' pages.
+1. [Leaflet:](https://unpkg.com/leaflet@1.6.0/dist/leaflet.js)
+    - Leaflet provides a javascript library for Mapbox maps on the 'Home' and 'Country' pages.
+1. [OpenStreetMap:](https://www.openstreetmap.org)
+    - OpenStreetMap provides the detail for Mapbox maps on the 'Home' and 'Country' pages.
+1. [Chartsjs:](https://www.chartjs.org/)
+    - Chartjs is used to create the line charts and pie charts.
+1. [Emailjs:](https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js)
+    - Emailjs is used to send the email from the contact form on the 'Contact Us' page.    
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - Photoshop was used to resize images and edit photos for the website.
+1. [Adobe Stock:](https://stock.adobe.com/uk/)
+    - Adobe Stock was used as a library source for images.
+1. [Unsplash:](https://unsplash.com/)
+    - Unsplash was used as a library source for images.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes]() during the design process.
+1. [Am I Responsive:](http://ami.responsivedesign.is/#)
+    - Am I Responsive was used to test the page layouts during the build process.  [Results]()
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -397,3 +412,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.7 Update text in README file
 #### V13.8 Update text and image in README file
 #### V13.9 Update text in README file
+#### V14.0 Update text in README file
