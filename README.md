@@ -200,6 +200,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
+-   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 -   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
@@ -414,3 +415,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.9 Update text in README file
 #### V14.0 Update text in README file
 #### V14.1 Update text README, retract cloudfare CDN jquery script
+#### V14.2 Update Mapbox and Country.io cookies with 'SameSite=None' and 'Secure'
