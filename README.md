@@ -4,7 +4,7 @@
 
 [View the live project here.]( https://readri205.github.io/MS2_Project/)
 
-This is the website for the Africa Continent. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is the website for the Africa Continent. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
 <h2 align="center"><img src=""></h2>
 
@@ -14,28 +14,31 @@ This is the website for the Africa Continent. It is designed to be responsibe an
 
     -   #### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        1. I want to easily understand the main purpose of the site.
+        2. I want to be able to easily navigate throughout the site to find content.
+        3. I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. I want to find information about coding challenges.
+        2. I want to find the best way to get in contact with the organisation with any questions I may have.
+        3. I want to find community links.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. I want to check to see if there are any newly added challenges or hackathons.
+        2. I want to check to see if there are any new blog posts.
+        3. I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, grpah and pie chart colours, images and the respective country flag.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly.
+        "Exo" is a clean font which is both attractive and appropriate.
+    -   #### Box Content
+        -   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps and each of the line graphs and pie charts on the 'home' and country.html' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the main body and to provide a definitive outline for the piece of information.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The large, background image in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To avoid confusion and also to provide some context each image has a clear title description. The description is derived from the original image as provided by the contributor.
 
 *   ### Wireframes
 
@@ -71,7 +74,7 @@ This is the website for the Africa Continent. It is designed to be responsibe an
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
@@ -90,54 +93,54 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. I want to easily understand the main purpose of the site.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
         2. The main points are made immediately with the hero image
         3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
         2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    3. I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. I want to find the new programming challenges or hackathons.
 
         1. These are clearly shown in the banner message.
         2. They will be directed to a page with another hero image and call to action.
 
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+    2. I want to find the best way to get in contact with the organisation with any questions I may have.
 
         1. The navigation bar clearly highlights the "Contact Us" Page.
         2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
         3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        5. The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+    3. I want to find the Facebook Group link so that I can join and interact with others in the community.
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivised as they are told there is a weekly favourite product posted in the group.
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. I want to check to see if there are any newly added challenges or hackathons.
 
         1. The user would already be comfortable with the website layout and can easily click the banner message.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. I want to check to see if there are any new blog posts.
 
         1. The user would already be comfortable with the website layout and can easily click the blog link
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+    3. I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
         1. At the bottom of every page their is a footer which content is consistent throughout all pages.
         2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
         3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
@@ -187,13 +190,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/Readri205/MS2_Project
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/Readri205/MS2_Project
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -318,7 +321,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V9.2 Add top five GDP data to pie chart country page
 #### V9.3 Set min-height on info-box styling to always fit narrative
 #### V9.4 Resize header image, add footer content and style
-#### V9.5 Resize header image, amend foter content and style
+#### V9.5 Resize header image, amend footer content and style
 #### V9.6 Resize header image, resize information box home and country pages
 #### V9.7 Style changes to country page charts and header image change
 #### V9.8 Remove padding on top five country charts
@@ -345,7 +348,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V11.9 Amend pop up window code for country selection in getCountries.js
 #### V12.0 Amend pop up code for /
 #### V12.1 Amend API request name in setRequestHeader getCountries.js
-#### V12.2 Amend spelling mistake for Url 
+#### V12.2 Amend spelling mistake for Url
 #### V12.3 Amend push address URL
 #### V12.4 Amend to lowercase for location file name
 #### V12.5 Amend country tag to country.html?country=NG
@@ -358,3 +361,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V13.2 Initialise getDataLandSize function on test page
 #### V13.3 Add IF statement for Sudan South Sudan country stats country page
 #### V13.4 Amend getCountriesvtest.js to getCountries.js page for countries page
+#### V13.5 Update text in README file
