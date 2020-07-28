@@ -8,7 +8,7 @@ This website provides an overview of the Africa Continent in terms of land size,
 
 The website is primarily 'informative', allowing users to view information about Africa in general and to view information on specific countries. The site is designed to show Africa in a world context initially and then to show each African country in an Africa context.
 
-![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/ATOM Test.jpg "ATOM Test")
+![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/atomtest.jpg "ATOM Test")
 
 The website concept is to answer high level questions about the African Continent;
   * where is it?;
@@ -438,6 +438,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.2 Update Mapbox and Country.io cookies with 'SameSite=None' and 'Secure'
 #### V14.3 Update text README file
 #### V14.4 Update text README file
+#### V14.5 Update test image in README file
+#### V14.6 Repeat commit for README file save
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)
