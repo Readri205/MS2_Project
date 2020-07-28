@@ -1,6 +1,8 @@
 
 <!-------------------<img src="assets/images/AdobeStock_322612165.gif" style="margin: 0;">---->
-<h2 align="center"><img src="assets/images/Title2.png" style="margin: 0;"></h2>
+<!------------<h2 align="center"><img src="assets/images/Title2.png" style="margin: 0;"></h2>--------->
+
+![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")
 
 [View the live project here.](https://readri205.github.io/MS2_Project/)
 
@@ -8,7 +10,7 @@ This website provides an overview of the Africa Continent in terms of land size,
 
 The website is primarily 'informative', allowing users to view information about Africa in general and to view information on specific countries. The site is designed to show Africa in a world context initially and then to show each African country in an Africa context.
 
-![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/atomtest.jpg "ATOM Test")
+![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/atomtest.jpg "ATOM Test") This image is just a test!
 
 The website concept is to answer high level questions about the African Continent;
   * where is it?;
@@ -114,7 +116,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.5.0:](https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
+    * Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the contact details types and for social media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
@@ -440,6 +442,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.4 Update text README file
 #### V14.5 Update test image in README file
 #### V14.6 Repeat commit for README file save
+#### V14.7 Update header with resized image
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)
