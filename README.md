@@ -44,21 +44,40 @@ The site is designed to be responsive and accessible on a range of devices, maki
 -   ### User stories
 
     -   #### First Time Visitor Goals
-
-        1. I want to easily understand the main purpose of the site.
-        2. I want to be able to easily navigate throughout the site to find content.
-        3. I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        - The first time visitor will want to;
+          1. easily understand the main purpose of the site from the 'Home' page;
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. search the details for a specific country from the dropdown menu;<sup id="a1">[1](#f1)</sup>
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;<sup id="a2">[2](#f1)</sup>
+          1. navigate easily back to the 'Home' page;
+          1. read the information about Africa in a World Context;
+          1. search for another country and read the information about that country;<sup id="a3">[3](#f1)</sup>
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed'
 
     -   #### Returning Visitor Goals
-
-        1. I want to find information about coding challenges.
-        2. I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. I want to find community links.
+        - The returning visitor will want to;
+          1. find any new information supplied.
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. search the details for a specific country from the dropdown menu;<sup id="a4">[4](#f1)</sup>
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;<sup id="a5">[5](#f1)</sup>
+          1. navigate easily back to the 'Home' page;
+          1. read the information about Africa in a World Context;
+          1. search for another country and read the information about that country;<sup id="a6">[6](#f1)</sup>
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed'
 
     -   #### Frequent User Goals
-        1. I want to check to see if there are any newly added challenges or hackathons.
-        2. I want to check to see if there are any new blog posts.
-        3. I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        - The frequent visitor will want to;
+          1. check to see if there are any newly added features and information.
+          1. check to see if there are any new blog posts.
+          1. sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Design
     -   #### Colour Scheme
@@ -416,3 +435,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.0 Update text in README file
 #### V14.1 Update text README, retract cloudfare CDN jquery script
 #### V14.2 Update Mapbox and Country.io cookies with 'SameSite=None' and 'Secure'
+#### V14.3 Update text README file
+
+***
+<b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)
