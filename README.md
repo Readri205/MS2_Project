@@ -54,6 +54,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
           5. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           6. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           7. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+                      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap.jp2 "CHAD Map") This image is a test!
           8. navigate easily back to the 'Home' page;
           9. read the information about Africa in a World Context;
           10. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
@@ -456,6 +457,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.6 Repeat commit for README file save
 #### V14.7 Update header with resized image
 #### V14.8 Update and reformat text in README file
+#### V14.9 Update chadmap.jp2 for screenshot image in README
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
