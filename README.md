@@ -1,12 +1,14 @@
-<img src="assets/images/AdobeStock_322612165.gif" style="margin: 0;">
 
-<h1 align="center">Africa</h1>
+<!-------------------<img src="assets/images/AdobeStock_322612165.gif" style="margin: 0;">---->
+<h2 align="center"><img src="assets/images/Title2.png" style="margin: 0;"></h2>
 
-[View the live project here.]( https://readri205.github.io/MS2_Project/)
+[View the live project here.](https://readri205.github.io/MS2_Project/)
 
 This website provides an overview of the Africa Continent in terms of land size, population and Gross Domestic Product (GDP). These measures have been provided in a World context. The website provides an ability to view similar data for each country in Africa by using a search function. The search function is provided at the bottom of the 'Home' page and also on the bottom of the 'Country'. The search function in both locations allows for a quick search for an African country from either page.
 
 The website is primarily 'informative', allowing users to view information about Africa in general and to view information on specific countries. The site is designed to show Africa in a world context initially and then to show each African country in an Africa context.
+
+![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/ATOM Test.jpg "ATOM Test")
 
 The website concept is to answer high level questions about the African Continent;
   * where is it?;
@@ -37,29 +39,27 @@ If the site is perceived as successful, it is anticipated that the site could be
 
 The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users and partners. The website was designed using 'Mobile First' principles as the site must be perceived to be quick and easy to use and read as a reference site on a mobile device.
 
-<h2 align="center"><img src="assets/images/Title2.png"></h2>
-
 ## User Experience (UX)
 
 -   ### User stories
 
     -   #### First Time Visitor Goals
-        - The first time visitor will want to;
+        * The first time visitor will want to;
           1. easily understand the main purpose of the site from the 'Home' page;
-          1. be able to easily navigate throughout the site to find content;
-          1. view the carousel images just beneath the header;
-          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-          1. search the details for a specific country from the dropdown menu;<sup id="a1">[1](#f1)</sup>
-          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;<sup id="a2">[2](#f1)</sup>
-          1. navigate easily back to the 'Home' page;
-          1. read the information about Africa in a World Context;
-          1. search for another country and read the information about that country;<sup id="a3">[3](#f1)</sup>
-          1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed'
+          2. be able to easily navigate throughout the site to find content;
+          3. view the carousel images just beneath the header;
+          4. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          5. search the details for a specific country from the dropdown menu;<sup id="a1">[1](#f1)</sup>
+          6. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          7. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;<sup id="a2">[2](#f1)</sup>
+          8. navigate easily back to the 'Home' page;
+          9. read the information about Africa in a World Context;
+          10. search for another country and read the information about that country;<sup id="a3">[3](#f1)</sup>
+          11. contact us for more information or to provide comments about the site;
+          12. contact us to ask about data projects that they may be interested to have completed'
 
     -   #### Returning Visitor Goals
-        - The returning visitor will want to;
+        * The returning visitor will want to;
           1. find any new information supplied.
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images just beneath the header;
@@ -113,7 +113,8 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.5.0:](https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js
+1. [Bootstrap 4.5.0:](https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the contact details types and for social media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
@@ -436,6 +437,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.1 Update text README, retract cloudfare CDN jquery script
 #### V14.2 Update Mapbox and Country.io cookies with 'SameSite=None' and 'Secure'
 #### V14.3 Update text README file
+#### V14.4 Update text README file
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)
