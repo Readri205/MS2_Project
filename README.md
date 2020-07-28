@@ -39,79 +39,91 @@ If the site is perceived as successful, it is anticipated that the site could be
   * similar information for the six remaining World Continents; and
   * each continent and its countries could be expanded with more details.
 
-The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users and partners. The website was designed using 'Mobile First' principles as the site must be perceived to be quick and easy to use and read as a reference site on a mobile device.
+The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users. The website was designed using 'Mobile First' principles as the site must be perceived to be quick and easy to use and read as a reference site on a mobile device.
 
 ## User Experience (UX)
 
--   ### User stories
+*   ### User stories
 
-    -   #### First Time Visitor Goals
+    *   #### First Time Visitor Goals
         * The first time visitor will want to;
           1. easily understand the main purpose of the site from the 'Home' page;
           2. be able to easily navigate throughout the site to find content;
           3. view the carousel images just beneath the header;
           4. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-          5. search the details for a specific country from the dropdown menu;<sup id="a1">[1](#f1)</sup>
+          5. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           6. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          7. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;<sup id="a2">[2](#f1)</sup>
+          7. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           8. navigate easily back to the 'Home' page;
           9. read the information about Africa in a World Context;
-          10. search for another country and read the information about that country;<sup id="a3">[3](#f1)</sup>
+          10. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
           11. contact us for more information or to provide comments about the site;
           12. contact us to ask about data projects that they may be interested to have completed'
 
-    -   #### Returning Visitor Goals
+    *   #### Returning Visitor Goals
         * The returning visitor will want to;
           1. find any new information supplied.
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-          1. search the details for a specific country from the dropdown menu;<sup id="a4">[4](#f1)</sup>
+          1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;<sup id="a5">[5](#f1)</sup>
+          1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. navigate easily back to the 'Home' page;
           1. read the information about Africa in a World Context;
-          1. search for another country and read the information about that country;<sup id="a6">[6](#f1)</sup>
+          1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed'
 
-    -   #### Frequent User Goals
-        - The frequent visitor will want to;
+    *   #### Frequent User Goals
+        * The frequent visitor will want to;
           1. check to see if there are any newly added features and information.
           1. check to see if there are any new blog posts.
           1. sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+          1. find any new information supplied.
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. navigate easily back to the 'Home' page;
+          1. read the information about Africa in a World Context;
+          1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed'
 
--   ### Design
-    -   #### Colour Scheme
-        -   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, line graphs, pie charts, images and the country flags.
-    -   #### Typography
-        -   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the site correctly. "Exo" is a clean font which is both attractive and appropriate.
-    -   #### Box Content Structure
-        -   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
-    -   #### Imagery
-        -   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context each image has a clear title description which is derived from the original image and provided by the contributor.
+*   ### Design
+    *   #### Colour Scheme
+        *   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, line graphs, pie charts, images and the country flags.
+    *   #### Typography
+        *   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the site correctly. "Exo" is a clean font which is both attractive and appropriate.
+    *   #### Box Content Structure
+        *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
+    *   #### Imagery
+        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context each image has a clear title description derived from the original image provided by the contributor.
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    *   Home Page Wireframe - [View](https://github.com/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    *   Mobile Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    *   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
--   Responsive on all device sizes
+*   Responsive on all device sizes
 
--   Interactive elements
+*   Interactive elements
 
 ## Technologies Used
 
 ### Languages Used
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
--   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+*   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+*   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+*   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -154,12 +166,12 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+*   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+*   #### First Time Visitor Goals
 
     1. I want to easily understand the main purpose of the site.
 
@@ -178,7 +190,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         1. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
--   #### Returning Visitor Goals
+*   #### Returning Visitor Goals
 
     1. I want to find the new programming challenges or hackathons.
 
@@ -198,7 +210,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         1. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivised as they are told there is a weekly favourite product posted in the group.
 
--   #### Frequent User Goals
+*   #### Frequent User Goals
 
     1. I want to check to see if there are any newly added challenges or hackathons.
 
@@ -215,17 +227,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+*   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+*   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+*   A large amount of testing was done to ensure that all pages were linking correctly.
+*   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+*   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
+*   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+*   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
 ## Deployment
 
@@ -279,27 +291,27 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+*   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+*   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+*   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 ### Content
 
--   All content was written by the developer.
+*   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+*   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
--   All Images were created by the developer.
+*   All Images were created by the developer.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+*   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+*   Tutor support at Code Institute for their support.
 
 ### Version control
 
@@ -443,6 +455,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.5 Update test image in README file
 #### V14.6 Repeat commit for README file save
 #### V14.7 Update header with resized image
+#### V14.8 Update and reformat text in README file
 
 ***
-<b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)
+<b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
