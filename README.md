@@ -506,6 +506,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V15.3 Remove scripts, resize contact form, add text, reduce to top 5 land size pie
 #### V15.4 Amend header image size
 #### V15.5 Remove carousel caption on small screens
+#### V15.6 Amend for typo in carousel 'Trevor' div on home page
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
