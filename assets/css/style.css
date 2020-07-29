@@ -15,7 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  min-height: 250px;
+  min-height: 300px;
   position: relative;
   margin: 0;
 
@@ -311,11 +311,9 @@ footer {
 }
 
     /*-------------------------------Media Queries-----------------------------*/
-@media(min-width: 992px;) {
-/*-----.info-box {
-    height: auto;
+@media(min-width: 992px) {
+
+/*.carousel-caption {
+    display:none;
 }*/
-.bg {
-  max-height: 100px;
-}
 }
