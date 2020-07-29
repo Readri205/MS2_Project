@@ -171,7 +171,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the contact details types and for social media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Exo' (main content in all pages) **and 'Roboto' (for footer) fonts into the style.css file which are used on all pages.**
+    - Google fonts were used to import the 'Exo' (main content in all pages) and 'Roboto' (for footer) fonts into the style.css file which are used on all pages.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used for the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
@@ -499,6 +499,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V15.0 Update chadmap.jpg for screenshot image in README
 #### V15.1 Update text in README, upload chadmap screenshot
 #### V15.2 Update README, adjust info-box height, add carousel image text
+#### V15.3 Remove scripts, resize contact form, add text, reduce to top 5 land size pie
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
