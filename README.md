@@ -47,20 +47,19 @@ The site is designed to be responsive and accessible on a range of devices, maki
     *   #### First Time Visitor Goals
         * The first time visitor will want to;
           1. easily understand the main purpose of the site;
-          2. be able to easily navigate throughout the site to find content;
-          3. view the carousel images just beneath the header;
-          4. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-          5. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
-          6. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          7. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-
-              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/atomtest.jpg "CHAD Map") This image is a test!
-
-          8. navigate easily back to the 'Home' page;
-          9. read the information about Africa in a World Context;
-          10. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
-          11. contact us for more information or to provide comments about the site;
-          12. contact us to ask about data projects that they may be interested to have completed'
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap3.png "CHAD Map") This image is a test!
+          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+          1. navigate easily back to the 'Home' page;
+          1. read the information about Africa in a World Context;
+          1. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
     *   #### Returning Visitor Goals
         * The returning visitor will want to;
@@ -68,13 +67,16 @@ The site is designed to be responsive and accessible on a range of devices, maki
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images and any new images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A frequent visitor may want to go straight to the 'Country' search function;
           1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
+        * A frequent visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed'
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
     *   #### Frequent User Goals
         * The frequent visitor will want to;
@@ -82,13 +84,16 @@ The site is designed to be responsive and accessible on a range of devices, maki
           1. find any new information supplied;
           1. view the carousel images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A frequent visitor may want to go straight to the 'Country' search function;
           1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. navigate easily back to the 'Home' page;
           1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
+        * A frequent visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed'
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
 *   ### Design
     *   #### Colour Scheme
@@ -96,7 +101,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
     *   #### Typography
         *   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the site correctly. "Exo" is a clean font which is both attractive and appropriate.
     *   #### Box Content Structure
-        *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country' page. In addition box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
+        *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country Details' page. In addition the box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country Details' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
     *   #### Imagery
         *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context each image has a clear title description derived from the original image provided by the contributor.
 
@@ -111,8 +116,45 @@ The site is designed to be responsive and accessible on a range of devices, maki
 ## Features
 
 *   Responsive on all device sizes
+    * Mobile / Smaller screen size
+      * The site is designed primarily for use on a mobile. The 'Box Content' structure using Bootstrap Grid System has been utilised so that the information boxes (text, maps, line graphs, pie charts) will stack vertically on small screens for readability.
+      * The menu system uses the Bootstrap 'navbar' functionality for small screens using the 'toggle' capability for the 'drop down' menu list from a 'hamburger' icon. * The navbar is 'fixed' to the top of the screen at all times on page scroll down for easy access.
+      * The navbar is coloured 'black' to make it distinctive from the site pages.
+      * The 'hamburger' is coloured 'off-white' to make it visible yet not intrusive when view the site details.
+      * The 'drop down' site page options are coloured 'off-white' with the current page shown as 'white' and 'grey' background.
+      * The header image and the carousel images are suitably sized for smaller screens.
+    * Desktop / Laptop large screen size
+      * The 'Box Content' is effective on wide screens. The Bootstrap Grid System allows for the 'Box Content' to align horizontally in themes that are consistent on each of the 'Home' and 'Country Details' pages.
+      * The header menu system uses the Bootstrap 'navbar' functionality with the menu option pages listed to the left.
+      * The navbar is coloured 'black' to make it distinctive from the site pages.
+      * The menu item list is coloured 'off-white' to make it visible yet not intrusive when view the site details.
+      * The 'drop down' site page options are coloured 'off-white' with the current page shown as 'white' and 'grey' background.
+      * The header image and carousel images are designed to be larger and 'impactful' on the larger screen size.
+
 
 *   Interactive elements
+    * The key feature of the site is for interactive search for any of the 54 African Countries details returned on the 'Country Details' page.
+    * Note that if a user goes from the 'Home' page direct to the 'Country Details' page using the 'navbar' menu, the default Country on the 'Country Details' page is Nigeria.
+    * The 'Search' box is found on scroll down through the Africa details on the 'Home' page.
+    * The 'Search' box is also found on scroll down through the 'Country Details' page.
+    * In each case the user can open the drop down menu and pick a country of their choice. The search will return the details for that country on the 'Country Details' page.
+    * The details from the search are returned using a various API sources. The details returned are;
+      1. First header text box;
+          * 'Country Name' as a title;
+          * 'Country Flag' as a colour image;
+          * Name of the Capital City; and
+          * Three text lines with information describing that country relative to the rest of Africa;
+            * Land size;
+            * population; and
+            * GDP.
+      1. Second header box;
+          * returns a map of that country, centred on the capital city. Note that the default zoom level is 5. The user can zoom in to see more country detail, or out to see the country in a wider Africa context.
+      1. Third and fourth boxes;
+          * return the Population and GDP growth from 1970 to 2019.
+      1. Pie charts (box 5, 6 and 7);
+          * return land size, population (2019) and GDP (2019) relative to the rest of Africa.
+      1. Pie charts (box 8, 9 and 10)
+          * return visual detail about the largest 5 countries in terms of land size, Population (2019) and GDP (2019) in Africa.
 
 ## Technologies Used
 
@@ -124,7 +166,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.5.0:](https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js)
+1. [Bootstrap 4.5.0:](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
     * Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the contact details types and for social media icons in the footer to add the float transition while being hovered over.
@@ -140,13 +182,13 @@ The site is designed to be responsive and accessible on a range of devices, maki
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
     - Mapbox javascript library is used to create the maps on the 'Home' and 'Country' pages.
-1. [Leaflet:](https://unpkg.com/leaflet@1.6.0/dist/leaflet.js)
+1. [Leaflet:](https://leafletjs.com/)
     - Leaflet provides a javascript library for Mapbox maps on the 'Home' and 'Country' pages.
 1. [OpenStreetMap:](https://www.openstreetmap.org)
     - OpenStreetMap provides the detail for Mapbox maps on the 'Home' and 'Country' pages.
 1. [Chartsjs:](https://www.chartjs.org/)
     - Chartjs is used to create the line charts and pie charts.
-1. [Emailjs:](https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js)
+1. [Emailjs:](https://www.emailjs.com/)
     - Emailjs is used to send the email from the contact form on the 'Contact Us' page.    
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to resize images and edit photos for the website.
@@ -218,7 +260,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The user would already be comfortable with the website layout and can easily click the blog link
 
     1. I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
+        1. At the bottom of every page there is a footer which content is consistent throughout all pages.
         1. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
         1. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
@@ -455,6 +497,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.8 Update and reformat text in README file
 #### V14.9 Update chadmap.jp2 for screenshot image in README
 #### V15.0 Update chadmap.jpg for screenshot image in README
+#### V15.1 Update text in README, upload chadmap screenshot
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
