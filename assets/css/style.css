@@ -6,7 +6,6 @@ header {
 }
 
 body {
-    /*background-color: #360000;*/
     background-color: #FFFFF0;
 }
 
@@ -16,7 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  min-height: 360px;
+  min-height: 250px;
   position: relative;
   margin: 0;
 
@@ -314,9 +313,9 @@ footer {
     /*-------------------------------Media Queries-----------------------------*/
 @media(min-width: 992px;) {
 /*-----.info-box {
-    height: auto;*/
-}
+    height: auto;
+}*/
 .bg {
-  max-height: 200px;
+  max-height: 100px;
 }
 }

@@ -115,7 +115,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 ## Features
 
-*   Responsive on all device sizes
+*   ### Responsive on all device sizes
     * Mobile / Smaller screen size
       * The site is designed primarily for use on a mobile. The 'Box Content' structure using Bootstrap Grid System has been utilised so that the information boxes (text, maps, line graphs, pie charts) will stack vertically on small screens for readability.
       * The menu system uses the Bootstrap 'navbar' functionality for small screens using the 'toggle' capability for the 'drop down' menu list from a 'hamburger' icon. * The navbar is 'fixed' to the top of the screen at all times on page scroll down for easy access.
@@ -132,14 +132,14 @@ The site is designed to be responsive and accessible on a range of devices, maki
       * The header image and carousel images are designed to be larger and 'impactful' on the larger screen size.
 
 
-*   Interactive elements
+*   ### Interactive elements
     * The key feature of the site is for interactive search for any of the 54 African Countries details returned on the 'Country Details' page.
-    * Note that if a user goes from the 'Home' page direct to the 'Country Details' page using the 'navbar' menu, the default Country on the 'Country Details' page is Nigeria.
-    * The 'Search' box is found on scroll down through the Africa details on the 'Home' page.
-    * The 'Search' box is also found on scroll down through the 'Country Details' page.
-    * In each case the user can open the drop down menu and pick a country of their choice. The search will return the details for that country on the 'Country Details' page.
-    * The details from the search are returned using a various API sources. The details returned are;
-      1. First header text box;
+      * Note that if a user goes from the 'Home' page direct to the 'Country Details' page using the 'navbar' menu, the default Country on the 'Country Details' page is Nigeria.
+      * The 'Search' box is found on scroll down through the Africa details on the 'Home' page.
+      * The 'Search' box is also found on scroll down through the 'Country Details' page.
+      * In each case the user can open the drop down menu and pick a country of their choice. The search will return the details for that country on the 'Country Details' page.
+      * The details from the search are returned using a various API sources. The details returned are;
+        * First header text box;
           * 'Country Name' as a title;
           * 'Country Flag' as a colour image;
           * Name of the Capital City; and
@@ -147,14 +147,18 @@ The site is designed to be responsive and accessible on a range of devices, maki
             * Land size;
             * population; and
             * GDP.
-      1. Second header box;
+        * Second header box;
           * returns a map of that country, centred on the capital city. Note that the default zoom level is 5. The user can zoom in to see more country detail, or out to see the country in a wider Africa context.
-      1. Third and fourth boxes;
+        * Third and fourth boxes;
           * return the Population and GDP growth from 1970 to 2019.
-      1. Pie charts (box 5, 6 and 7);
+        * Pie charts (box 5, 6 and 7);
           * return land size, population (2019) and GDP (2019) relative to the rest of Africa.
-      1. Pie charts (box 8, 9 and 10)
+        * Pie charts (box 8, 9 and 10)
           * return visual detail about the largest 5 countries in terms of land size, Population (2019) and GDP (2019) in Africa.
+    * The user is able to contact us via the 'Contact Us' page.
+      * This page has an interactive contact form that the user can complete and submit their details through to us.
+      * There is an open text box so that the user can submit comments.
+      * When the user submits their details by clicking the 'Send Contact Details' button, a modal pops up to confirm that details have been sent.
 
 ## Technologies Used
 
@@ -500,6 +504,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V15.1 Update text in README, upload chadmap screenshot
 #### V15.2 Update README, adjust info-box height, add carousel image text
 #### V15.3 Remove scripts, resize contact form, add text, reduce to top 5 land size pie
+#### V15.4 Amend header image size
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
