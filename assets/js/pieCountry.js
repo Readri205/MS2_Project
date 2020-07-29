@@ -17,7 +17,17 @@ xhttp.send();
 
 function writeLand(data) {
     const item = data[1][1];
-    const countland = item.value / 1000000;
+
+    if (countryCode == "SD") {
+        countland = 1886068 / 1000000;
+        } else if (countryCode == "SS") {
+        countland = 619745 / 1000000;
+        } else {
+        item = data[1];
+        landsize = item[1].value.toFixed(0);
+        countland = item.value / 1000000;
+        }
+    
     const roaland = (29.509744 - countland);
    
    //console.log(countland);
@@ -156,9 +166,9 @@ const verts = csv.substr(0, 525);
 const herts = csv.substr(526, 374);
 const lands = herts.split(',').map(x => parseFloat(x, 10));
 const coun = verts.split(',');
-const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],coun[48],coun[47],coun[46],coun[45],coun[44],"Rest of Africa"];
-const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49] + lands[48] + lands[47] + lands[46] + lands[45] + lands[44]))/1000000).toFixed(2)];
-const toplands = [(lands[53]/1000000).toFixed(2),(lands[52]/1000000).toFixed(2),(lands[51]/1000000).toFixed(2),(lands[50]/1000000).toFixed(2),(lands[49]/1000000).toFixed(2),(lands[48]/1000000).toFixed(2),(lands[47]/1000000).toFixed(2),(lands[46]/1000000).toFixed(2),(lands[45]/1000000).toFixed(2),(lands[44]/1000000).toFixed(2),restlands];
+const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],"Rest of Africa"];
+const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49]))/1000000).toFixed(2)];
+const toplands = [(lands[53]/1000000).toFixed(2),(lands[52]/1000000).toFixed(2),(lands[51]/1000000).toFixed(2),(lands[50]/1000000).toFixed(2),(lands[49]/1000000).toFixed(2),restlands];
 
 //console.log(restlands);
 
@@ -168,14 +178,14 @@ new Chart(document.getElementById("landTop"), {
       labels: topcount,
       datasets: [{
         label: " Land Sizes in Sq. Kms",
-        backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#E9967A","#FF8C00","#BDB76B","#2E8B57","#00CED1","#2f4f4f"],
+        backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f"],
         data: toplands,
       }]
     },
     options: {
       title: {
         display: true,
-        text: ['Top 10 Africa Land Sizes (Mns) Sq. Kms']
+        text: ['Top 5 Africa Land Sizes (Mns) Sq. Kms']
       }
     }
 });
