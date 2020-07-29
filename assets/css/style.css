@@ -39,6 +39,12 @@ body {
 	padding: 10px 0;
 }
 
+.carousel-caption {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    color: #fffff0;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -126,18 +132,18 @@ body {
     background-size: cover;
     position: relative;
     z-index: 1;
-    height: 500px;
+    height: 615px;
 }
 
 #countryMap {
     position: relative;
     z-index: 1;
-    height: 500px;
+    height: 615px;
 }
 
 .map-box {
     width: 100%;
-    height: 500px;
+    height: 615px;
     text-align: center;
     margin: 10px 0 0 0;
     padding-bottom: 0;
@@ -158,7 +164,7 @@ body {
     font-size: 14px;
     background-color: #FFFFF0;
     width: 100%;
-    min-height: 500px;
+    min-height: 615px;
     margin: 10px 0 0 0;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

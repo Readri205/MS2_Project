@@ -21,8 +21,6 @@ const totPop = document.getElementById('totPop').getContext('2d');
 
 //const popCharts = 
 
-Chart.defaults.global.defaultFontFamily = 'Exo';
-Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(totPop, {
     type: 'line',
     data: {
@@ -105,9 +103,6 @@ new Chart(totGdp, {
     }
 });
 }
-
-Chart.defaults.global.defaultFontFamily = 'Exo';
-Chart.defaults.global.defaultFontColor = '#000000';
 
 new Chart(document.getElementById("landPie"), {
     type: 'pie',

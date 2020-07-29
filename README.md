@@ -32,7 +32,7 @@ The answers for any African country returned from a search query;
   * pie charts showing land size, population and GDP relative to the Rest of Africa; and
   * pie charts showing top ten countries by land size, top five by population size (2019) and top five by GDP size (2019)
 
-The website sources data from the [World Bank Database](https://databank.worldbank.org/home.aspx). The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/) is used to source country codes to construct country information and [COUNTRYFLAGS](https://www.countryflags.io/) for country flag images. [Mapbox](https://www.mapbox.com/) is used as the base layer for maps with [Leaflet](https://leafletjs.com/) and [OpenStreetMap](https://www.openstreetmap.org) overlays. API and other data source details are provided in the 'xxx' section below.
+The website sources data from the [World Bank Database](https://databank.worldbank.org/home.aspx). The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/) is used to source country codes to construct country information and [COUNTRYFLAGS](https://www.countryflags.io/) for country flag images. [Leaflet](https://leafletjs.com/) is used as a javascript library for [Mapbox](https://www.mapbox.com/) maps with [OpenStreetMap](https://www.openstreetmap.org) tile data. API and other data source details are provided in the 'xxx' section below.
 
 If the site is perceived as successful, it is anticipated that the site could be expanded to show;
   * similar information for the six remaining World Continents; and
@@ -53,7 +53,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
           1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap3.png "CHAD Map") This image is a test!
+              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap.png "CHAD Map") This image is a test!
           1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. read the information about Africa in a World Context;
@@ -67,14 +67,14 @@ The site is designed to be responsive and accessible on a range of devices, maki
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images and any new images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A frequent visitor may want to go straight to the 'Country' search function;
+        * A returning visitor may want to go straight to the 'Country' search function;
           1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
-        * A frequent visitor may want to go straight to the 'Contact Us' page;
+        * A returning visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
@@ -87,7 +87,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
         * A frequent visitor may want to go straight to the 'Country' search function;
           1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. navigate easily back to the 'Home' page;
           1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
@@ -498,6 +498,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V14.9 Update chadmap.jp2 for screenshot image in README
 #### V15.0 Update chadmap.jpg for screenshot image in README
 #### V15.1 Update text in README, upload chadmap screenshot
+#### V15.2 Update README, adjust info-box height, add carousel image text
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
