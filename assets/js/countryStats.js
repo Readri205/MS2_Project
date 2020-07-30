@@ -119,6 +119,6 @@ function writeLandSize(data) {
 
     document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize + "   Sq. Kms" + " " + " - " + perc + "% of total Africa Land Size (29.51 Mn Sq. Kms)");
     
-    console.log(countryCode, landsize, perc);
+    //console.log(countryCode, landsize, perc);
 }
 getDataLandSize(writeLandSize);

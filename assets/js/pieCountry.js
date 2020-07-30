@@ -16,22 +16,28 @@ xhttp.send();
 
 
 function writeLand(data) {
-    const item = data[1][1];
-
-    if (countryCode == "SD") {
-        countland = 1886068 / 1000000;
-        } else if (countryCode == "SS") {
-        countland = 619745 / 1000000;
-        } else {
-        item = data[1];
-        landsize = item[1].value.toFixed(0);
-        countland = item.value / 1000000;
-        }
     
-    const roaland = (29.509744 - countland);
+        if (countryCode == "SD") {
+            item = data[1][1];
+            countland = 1886068 / 1000000;
+        } else if (countryCode == "SS") {
+            item = data[1][1];
+            countland = 619745 / 1000000;
+        } else {
+            item = data[1][1];
+            //const item = data[1];
+            //const landsize = item.value.toFixed(0);
+            countland = item.value / 1000000;
+        }
+
+        //const item = data[1][1];
+        //const item = data[1];
+        //const landsize = item.value.toFixed(0);
+        //const countland = item.value / 1000000;
+    
+        const roaland = (29.509744 - countland);
    
-   //console.log(countland);
-   //console.log(item.country.value, item.date, item.value, countland, roaland);
+   console.log(countland);
 
 
 //<----------------Graphs World Bank Land Size by Country from API ;------------------>
