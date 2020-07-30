@@ -205,6 +205,16 @@ The site is designed to be responsive and accessible on a range of devices, maki
 1. [Am I Responsive:](http://ami.responsivedesign.is/#)
     - Am I Responsive was used to test the page layouts during the build process.  [Results]()
 
+## Site Construction
+
+### Home Page
+*   ### The Home Page consists of the following;
+      * Header section contains the
+*   ### Country Details Page
+      *
+*   ### Contacts Page
+      *
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -353,6 +363,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     *   Carousel image - [Aït Benhaddou, Morocco](https://unsplash.com/photos/pcbSQTQr2-I) By Toa Heftiba [© Unsplash.com](https://unsplash.com/);
     *   Carousel image - [Tema, Greater Accra region, Ghana](https://unsplash.com/photos/8hi9WGb4qMA) By Efe Kurnaz [© Unsplash.com](https://unsplash.com/);
     *   Carousel image - [Colonial houses and crosswalk, pedestrian crossing in Mindelo on the island of Sao Vicente in Cape Verde,a beautiful clouded sky.](https://stock.adobe.com/fr/contributor/208162006/clara?load_type=author&prev_url=detail) By clara [© stock.adobe.com](https://stock.adobe.com/uk/);
+    *   Carousel image - [Kirche in Malawi](https://stock.adobe.com/fr/contributor/208173857/christian-horras?load_type=author&prev_url=detail) By Christian Horras [© stock.adobe.com](https://stock.adobe.com/uk/);
 
 
 ### Acknowledgements
@@ -520,6 +531,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V16.2 Update home and country page text
 #### V16.3 Update media image credits in README
 #### V16.4 Add cape verde image to carousel and to media credits
+#### V16.5 Add kirche malawi image to carousel and to media credits
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
