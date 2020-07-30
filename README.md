@@ -511,6 +511,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V15.9 Add IF function for Sudan South Sudan land size pie chart on country details
 #### V16.0 Amend IF function to compute all countries from API
 #### V16.1 Amend text in README file
+#### V16.2 Update home and country page text
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
