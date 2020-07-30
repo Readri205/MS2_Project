@@ -207,13 +207,33 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 ## Site Construction
 
-### Home Page
-*   ### The Home Page consists of the following;
-      * Header section contains the
-*   ### Country Details Page
-      *
-*   ### Contacts Page
-      *
+* ### Consistent Page Components
+    * All pages of the site contain the same 'header', 'navbar', 'carousel' and 'footer';
+
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")------------>
+* ### Home Page
+    * Information Box - containing the details as to the intention of the site and a how it can be used. It also contains the basic information for Africa in a high level context
+
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox5025.jpg "INFO Box")---->
+    * Map -
+
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africamap5025.jpg "AFRICA Map")---->
+    * Line graphs - Population Growth and GDP Growth 1970 to 2019
+
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/pop5025.jpg "Population Chart")---->
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/gdp5025.jpg "GDP Chart")---->
+    * Pie Charts - Africa Land Size, Population (2019) and GDP (2019)
+
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africaland5025.jpg "Land Pie Chart")---->
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africapop5025.jpg "Population Pie Chart")---->
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africagdp5025.jpg "GDP Pie Chart")---->
+    * Search Box -
+
+      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap.jpg "CHAD Map")---->
+* ### Country Details Page
+    * blah
+* ### Contacts Page
+    * The Contacts Page consists of the following;
 
 ## Testing
 
@@ -235,7 +255,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
           1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap.png "CHAD Map") This image is a test!
           1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. read the information about Africa in a World Context;
@@ -532,6 +551,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V16.3 Update media image credits in README
 #### V16.4 Add cape verde image to carousel and to media credits
 #### V16.5 Add kirche malawi image to carousel and to media credits
+#### V16.6 Add screenshots for site construction in README
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
