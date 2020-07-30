@@ -29,7 +29,7 @@ function writeCty(data) {
 
     //console.log(latit, lngit, lat, lng);
 
-const countrymap = L.map('countryMap').setView([lat, lng], 5);
+const countrymap = L.map('countryMap').setView([lat, lng], 6);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: '© <a href="https://apps.mapbox.com/feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',

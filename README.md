@@ -148,7 +148,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
             * population; and
             * GDP.
         * Second header box;
-          * returns a map of that country, centred on the capital city. Note that the default zoom level is 5. The user can zoom in to see more country detail, or out to see the country in a wider Africa context.
+          * returns a map of that country, centred on the capital city. Note that the default zoom level is 6. The user can zoom in to see more country detail, or out to see the country in a wider Africa context.
         * Third and fourth boxes;
           * return the Population and GDP growth from 1970 to 2019.
         * Pie charts (box 5, 6 and 7);
@@ -347,7 +347,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-*   All Images were created by the developer.
+*   All images [© Unsplash.com](https://unsplash.com/) unless otherwise stated;
+    *   Header image - [Hand draw doodles of Africa word. Colorful illustration. Background with lots of objects.](https://stock.adobe.com/uk/contributor/206263469/leo-d?load_type=author&prev_url=detail) By leo_d [© stock.adobe.com](https://stock.adobe.com/uk/);
+    *   Carousel image - [Dallol, Ehiopia](https://unsplash.com/photos/UQJP4eEqRV0) By Trevor Cole [© Unsplash.com](https://unsplash.com/);
+    *   Carousel image - [Aït Benhaddou, Morocco](https://unsplash.com/photos/pcbSQTQr2-I) By Toa Heftiba [© Unsplash.com](https://unsplash.com/);
+    *   Carousel image - [Tema, Greater Accra region, Ghana](https://unsplash.com/photos/8hi9WGb4qMA) By Efe Kurnaz [© Unsplash.com](https://unsplash.com/);
+
 
 ### Acknowledgements
 
@@ -512,6 +517,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V16.0 Amend IF function to compute all countries from API
 #### V16.1 Amend text in README file
 #### V16.2 Update home and country page text
+#### V16.3 Update media image credits in README
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
