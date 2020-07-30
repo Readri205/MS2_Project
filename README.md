@@ -214,59 +214,58 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
-*   #### First Time Visitor Goals
+*   ### User stories
 
-    1. I want to easily understand the main purpose of the site.
+    *   #### First Time Visitor Goals
+        * The first time visitor will want to;
+          1. easily understand the main purpose of the site;
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap.png "CHAD Map") This image is a test!
+          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+          1. navigate easily back to the 'Home' page;
+          1. read the information about Africa in a World Context;
+          1. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        1. The main points are made immediately with the hero image
-        1. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+    *   #### Returning Visitor Goals
+        * The returning visitor will want to;
+          1. find any new information supplied.
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images and any new images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A returning visitor may want to go straight to the 'Country' search function;
+          1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          1. navigate easily back to the 'Home' page;
+          1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
+        * A returning visitor may want to go straight to the 'Contact Us' page;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
-    1. I want to be able to easily be able to navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        1. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        1. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-    1. I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        1. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        1. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-
-*   #### Returning Visitor Goals
-
-    1. I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        1. They will be directed to a page with another hero image and call to action.
-
-    1. I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        1. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        1. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        1. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        1. The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
-
-    1. I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        1. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        1. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivised as they are told there is a weekly favourite product posted in the group.
-
-*   #### Frequent User Goals
-
-    1. I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    1. I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    1. I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page there is a footer which content is consistent throughout all pages.
-        1. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        1. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+    *   #### Frequent User Goals
+        * The frequent visitor will want to;
+          1. check to see if there are any newly added features and information.
+          1. find any new information supplied;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A frequent visitor may want to go straight to the 'Country' search function;
+          1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. navigate easily back to the 'Home' page;
+          1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
+        * A frequent visitor may want to go straight to the 'Contact Us' page;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
 ### Further Testing
 
@@ -359,30 +358,30 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Version control
 
 #### V1.0 Initial Commit
-#### V1.1 Added africa header image, country html page and README template
+#### V1.1 Added Africa header image, country html page and README template
 #### V1.2 Added google fonts, Jquery, fontawesome scripts, added navbar and header container
 #### V1.3 Added two containers home page for Information box and Map box
 #### V1.4 Added second and third row boxes for table graphs, search and contacts boxes
-#### V1.5 Updated for background body color, text color and font weight
+#### V1.5 Updated for background body colour, text colour and font weight
 #### V1.6 Added country html page, container boxes for images, map, graphs, search and contact details
 #### V1.7 Added country name header styling on country html page
 #### V1.8 Added Leaflet and Mapbox link and JS scripts
 #### V1.9 Update with private restricted Mapbox access token
-#### V2.0 Amended africa map size with box size on index page
+#### V2.0 Amended Africa map size with box size on index page
 #### V2.1 Added map js for country map on country html
 #### V2.2 Added Leaflet and Mapbox link and JS to country html
 #### V2.3 Moved country map to new country js file
-#### V2.4 Set up individual js files for africa and country maps
+#### V2.4 Set up individual js files for Africa and country maps
 #### V2.5 Add js for country code output to outputs html
 #### V2.6 Added js query for World Bank API for capital city and lat long
 #### V2.7 Amended wb http queries to https to reduce CORS issue
-#### V2.8 Added GET for wb population data and write to output html
-#### V2.9 Added GET for wb gdp data and write to output html
+#### V2.8 Added GET for world bank population data and write to output html
+#### V2.9 Added GET for world bank gdp data and write to output html
 #### V3.0 Added chart js chart for population in output html
 #### V3.1 Switched mapbox access token for charts and updated for bootstrap scripts
 #### V3.2 Revised script order for navbar menu to work on small screen
 #### V3.3 Added second chart for country GDP on outputs html page
-#### V3.4 Added default mapbox access token to africa and country maps
+#### V3.4 Added default mapbox access token to Africa and country maps
 #### V3.5 Added contact boxes on html pages and linked emailjs function
 #### V3.6 Moved emailjs scripts to head of index and country pages
 #### V3.7 Added abuja image and updated css styles for image box
@@ -393,9 +392,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V4.2 Amended get and chart function on charts js page to load graphs on web load
 #### V4.3 Added country code input for urls on main js file
 #### V4.4 Removed 'toFixed' in mainjs file
-#### V4.5 Added wb capital city url to country map js
+#### V4.5 Added world bank capital city url to country map js
 #### V4.6 Amended map generate function to auto update from url lat long
-#### V4.7 Added wb api url to flag js to write country info to country html
+#### V4.7 Added world bank api url to flag js to write country info to country html
 #### V4.8 Added country code to js pages to update flag for country
 #### V4.9 Added country names to search dropdown list
 #### V5.0 Amended const to one input on charts js to change country details output
@@ -511,6 +510,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V15.8 Amend request header in getCountries for cross-origin to " * "
 #### V15.9 Add IF function for Sudan South Sudan land size pie chart on country details
 #### V16.0 Amend IF function to compute all countries from API
+#### V16.1 Amend text in README file
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
