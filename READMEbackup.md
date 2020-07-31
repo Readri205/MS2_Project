@@ -5,52 +5,11 @@
 
 [View the live project here.](https://readri205.github.io/MS2_Project/) :earth_africa:
 
-## Contents
+This website provides an overview of the Africa Continent in terms of land size, population and Gross Domestic Product (GDP). These measures have been provided in a World context. The website provides an ability to view similar data for each country in Africa by using a search function. The search function is provided at the bottom of the 'Home' page and also on the bottom of the 'Country'. The search function in both locations allows for a quick search for an African country from either page.
 
-- [Site Goals](#site-goals)
-- [User Experience (UX)](#user-experience--ux-)
-  * [User stories](#user-stories)
-    + [First Time Visitor Goals](#first-time-visitor-goals)
-    + [Returning Visitor Goals](#returning-visitor-goals)
-    + [Frequent User Goals](#frequent-user-goals)
-  * [Design](#design)
-    + [Colour Scheme](#colour-scheme)
-    + [Typography](#typography)
-    + [Box Content Structure](#box-content-structure)
-    + [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-- [Features](#features)
-  * [Responsive on all device sizes](#responsive-on-all-device-sizes)
-  * [Interactive elements](#interactive-elements)
-- [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-- [Site Construction](#site-construction)
-  * [Consistent Page Components](#consistent-page-components)
-  * [Home Page](#home-page)
-  * [Country Details Page](#country-details-page)
-  * [Contacts Page](#contacts-page)
-- [Testing](#testing)
-  * [Known Bugs](#known-bugs)
-- [Deployment](#deployment)
-  * [GitHub Pages](#github-pages)
-  * [Forking the GitHub Repository](#forking-the-github-repository)
-  * [Making a Local Clone](#making-a-local-clone)
-- [Credits](#credits)
-  * [Code](#code)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgements](#acknowledgements)
-- [Version Control](#version-control)
+The website is 'informative', allowing users to view information about Africa and to view information on specific countries. The site is designed to show Africa in a world context on the 'Home' and to show each African country in an Africa context on the 'Country' page.
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-## Site Goals
-
-This website provides an overview of the **Africa Continent** in terms of **Land Size, Population** and **Gross Domestic Product (GDP)**. These measures have been provided in a **World** context. The website provides an ability to view similar data for each country in Africa by using a search function. The search function is provided at the bottom of the 'Home' page and also on the bottom of the 'Country'. The search function in both locations allows for a quick search for an African country from either page.
-
-The website is **'informative'**, allowing users to view information about Africa and to view information on specific countries. The site is designed to show **Africa** in a world context on the **'Home'** and to show each African country in an Africa context on the **'Country Details'** page.
+![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/atomtest.jpg "ATOM Test") This image is just a test!
 
 The website concept is to answer high level questions about the African Continent;
   * where is it?;
@@ -60,7 +19,7 @@ The website concept is to answer high level questions about the African Continen
   * what is the name of the Capital City and where is it located?; and
   * what does the national flag look like?
 
-The answers for Africa as a whole are provided through a number of different media outputs on the **'Home'** page;
+The answers for Africa as a whole are provided through the use of a number of different media outputs on the 'Home' page;
   * text summary on Africa land size, population and GDP;
   * a map showing the Africa continent with many of the key countries shown;
   * line graphs for population and GDP growth from 1970 to 2019;
@@ -73,7 +32,7 @@ The answers for any African country returned from a search query;
   * pie charts showing land size, population and GDP relative to the Rest of Africa; and
   * pie charts showing top ten countries by land size, top five by population size (2019) and top five by GDP size (2019)
 
-The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[COUNTRYFLAGS](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data. API and other data source details are provided in the 'xxx' section below.
+The website sources data from the [World Bank Database](https://databank.worldbank.org/home.aspx). The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/) is used to source country codes to construct country information and [COUNTRYFLAGS](https://www.countryflags.io/) for country flag images. [Leaflet](https://leafletjs.com/) is used as a javascript library for [Mapbox](https://www.mapbox.com/) maps with [OpenStreetMap](https://www.openstreetmap.org) tile data. API and other data source details are provided in the 'xxx' section below.
 
 If the site is perceived as successful, it is anticipated that the site could be expanded to show;
   * similar information for the six remaining World Continents; and
@@ -94,6 +53,7 @@ The site is designed to be responsive and accessible on a range of devices, maki
           1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+              ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/chadmap.png "CHAD Map") This image is a test!
           1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. read the information about Africa in a World Context;
@@ -277,7 +237,71 @@ The site is designed to be responsive and accessible on a range of devices, maki
 
 ## Testing
 
-Testing information can be found in a separate [testing.md](https://readri205.github.io/MS2_Project/Testing.md) file.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+*   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+
+### Testing User Stories from User Experience (UX) Section
+
+*   ### User stories
+
+    *   #### First Time Visitor Goals
+        * The first time visitor will want to;
+          1. easily understand the main purpose of the site;
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+          1. navigate easily back to the 'Home' page;
+          1. read the information about Africa in a World Context;
+          1. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+
+    *   #### Returning Visitor Goals
+        * The returning visitor will want to;
+          1. find any new information supplied.
+          1. be able to easily navigate throughout the site to find content;
+          1. view the carousel images and any new images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A returning visitor may want to go straight to the 'Country' search function;
+          1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          1. navigate easily back to the 'Home' page;
+          1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
+        * A returning visitor may want to go straight to the 'Contact Us' page;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+
+    *   #### Frequent User Goals
+        * The frequent visitor will want to;
+          1. check to see if there are any newly added features and information.
+          1. find any new information supplied;
+          1. view the carousel images just beneath the header;
+          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A frequent visitor may want to go straight to the 'Country' search function;
+          1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
+          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. navigate easily back to the 'Home' page;
+          1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
+        * A frequent visitor may want to go straight to the 'Contact Us' page;
+          1. contact us for more information or to provide comments about the site;
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+
+### Further Testing
+
+*   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+*   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+*   A large amount of testing was done to ensure that all pages were linking correctly.
+*   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
@@ -367,7 +391,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 *   Tutor support at Code Institute for their support.
 
-## Version Control
+### Version control
 
 #### V1.0 Initial Commit
 #### V1.1 Added Africa header image, country html page and README template
@@ -529,7 +553,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 #### V16.5 Add kirche malawi image to carousel and to media credits
 #### V16.6 Add screenshots for site construction in README
 #### V16.7 Amend screenshot image sizes for site construction in README
-#### V16.8 Amend README text, add table of contents, create testing.md file
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
