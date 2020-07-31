@@ -162,7 +162,7 @@ body {
 }
 .info-box {
     font-family: "Exo", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #FFFFF0;
     width: 100%;
     min-height: 615px;
@@ -173,7 +173,7 @@ body {
 
 .search-box {
     font-family: "Exo", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     background-color: #FFFFF0;
     width: 100%;
@@ -316,3 +316,11 @@ footer {
     display:none;
 }*/
 }
+
+/*@media screen and (max-width: 1432px) {
+
+.info-box {
+    background-color: lightgreen;
+    font-size: 10px;
+}
+}*/

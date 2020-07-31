@@ -540,6 +540,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     * V16.7 Amend screenshot image sizes for site construction in README
     * V16.8 Amend README text, add table of contents, create testing.md file
     * V16.9 Amend text in README file
+    * V17.0 Resize pie chart boxed on 'Country Details' page
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
