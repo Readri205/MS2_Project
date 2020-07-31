@@ -1,8 +1,10 @@
 ![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")
 
-[View the live project here.](https://readri205.github.io/MS2_Project/) :earth_africa:
+[View the live **EARTH AFRICA**:earth_africa: project here.](https://readri205.github.io/MS2_Project/)
 
 View the Main README [here](https://readri205.github.io/MS2_Project/README.md)
+
+# **EARTH AFRICA :earth_africa: - Testing Information**
 
 ## Contents
 
@@ -32,7 +34,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
           1. easily understand the main purpose of the site;
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images just beneath the header;
-          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          1. scroll down through the information, read the content, view the map of **Africa**, then view the line graphs and the pie charts;
           1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
