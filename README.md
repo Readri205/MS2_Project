@@ -542,6 +542,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     * V16.9 Amend text in README file
     * V17.0 Resize pie chart boxed on 'Country Details' page
     * V17.1 Amend CSV text and header text on 'Home' page to resize charts
+    * V17.2 Delete Countrystatstest.js test file
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
