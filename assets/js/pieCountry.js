@@ -168,8 +168,8 @@ async function getCsvLand() {
 const response = await fetch('assets/csv/land.csv');
 const csv = await response.text();
 
-const verts = csv.substr(0, 525);
-const herts = csv.substr(526, 374);
+const verts = csv.substr(0, 505);
+const herts = csv.substr(506, 374);
 const lands = herts.split(',').map(x => parseFloat(x, 10));
 const coun = verts.split(',');
 const topcount = [coun[53],coun[52],coun[51],coun[50],coun[49],"Rest of Africa"];
@@ -211,8 +211,8 @@ async function getCsvPoppie() {
 const response = await fetch('assets/csv/poptotes.csv');
 const csv = await response.text();
 
-const verts = csv.substr(0, 517);
-const herts = csv.substr(518, 455);
+const verts = csv.substr(0, 503);
+const herts = csv.substr(504, 455);
 const poppie = herts.split(',').map(x => parseFloat(x, 10));
 const count = verts.split(',');
 const topfivecount = [count[33],count[40],count[50],count[10],count[16],"Rest of Africa"];
@@ -254,8 +254,8 @@ async function getCsvGdppie() {
 const response = await fetch('assets/csv/gdptotes.csv');
 const csv = await response.text();
 
-const verts = csv.substr(0, 518);
-const herts = csv.substr(519, 1124);
+const verts = csv.substr(0, 503);
+const herts = csv.substr(504, 1124);
 const gdppie = herts.split(',').map(x => parseFloat(x, 10));
 const counts = verts.split(',');
 const topfivecounts = [counts[53],counts[52],counts[51],counts[50],counts[49],"Rest of Africa"];

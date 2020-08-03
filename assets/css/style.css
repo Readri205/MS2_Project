@@ -131,7 +131,7 @@ body {
     background-size: cover;
     position: relative;
     z-index: 1;
-    height: 615px;
+    height: 550px;
 }
 
 #countryMap {
@@ -140,7 +140,16 @@ body {
     height: 615px;
 }
 
-.map-box {
+.africa-map-box {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding-bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.country-map-box {
     width: 100%;
     height: 615px;
     text-align: center;
@@ -158,6 +167,17 @@ body {
     height: auto;
     margin: 10px 0 0 0;
     padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.africa-info-box {
+    font-family: "Exo", sans-serif;
+    font-size: 12px;
+    background-color: #FFFFF0;
+    width: 100%;
+    min-height: 550px;
+    margin: 10px 0 0 0;
+    padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .info-box {
@@ -188,9 +208,13 @@ body {
 }
 
 .reference-text {
-    font-size: 10px;
+    font-size: 9px;
     text-align: center;
-    padding-top: 10px;
+   
+}
+
+.emoji-text {
+    font-size: 50px;
 }
 
 
@@ -214,7 +238,6 @@ body {
 
 .chart-container {
     position: relative;
-    
 }
 
 button[type="submit"] {
