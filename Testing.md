@@ -2,7 +2,7 @@
 
 [View the live **EARTH AFRICA**:earth_africa: project here.](https://readri205.github.io/MS2_Project/)
 
-View the Main README [here](https://readri205.github.io/MS2_Project/README.md)
+View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master/README.md)
 
 # **EARTH AFRICA :earth_africa: - Testing Information**
 
