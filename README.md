@@ -260,6 +260,7 @@
   1. [Referential API](https://rapidapi.com/referential/api/referential)
       * The Referential API (sourced via [RapidAPI](https://rapidapi.com/)) was used to provide the country code to source all the country data in the search function. It provides the full list of countries in the drop down menu and on country selection, the country codes drive the other API's to return the required information. The Referential API is loaded with the 'Continent' denominator for the African Countries 'AF' (shown at the end of the link below). The API returns a full list of countries each with their respective two digit country codes (example: Nigeria='NG'). Please note that the API requires an Application Key so the link will not return a result. Please see the screenshot image of two countries' data, Nigeria (Key=NG) and Rwanda (Key=RW) as an example return (Note the API returns all 54 countries).
         * [Country Code List](https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF), **https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF**
+
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/referentialcountrycode33.jpg "Country Codes from Referential API")
   1. [World Bank Database](https://databank.worldbank.org/home.aspx)
       * The World Bank Database was used as the primary source for the data in the site. The relevant World bank API's are requested for data once a user selects a country in the search function which drives the relevant country code. Once the country code is determined, a number of different API's are used to determine Capital City, Land Size, Population and GDP for the World sectors, Africa and the 54 African Countries listed. The World Bank uses a standard link to reach the core of its data (https://api.worldbank.org/v2/country/XX/indicator/XX.XXX.XXX.XX). By way of example, the list below links directly to the API 'raw' data return for 'Nigeria', with country code 'NG' in the API link. The links below are also shown in full for documentation purposes;
@@ -285,7 +286,7 @@
       * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox10025.jpg "INFO Box")
     * Map
-      * The Africa Map is constructed using the **africa.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) maps with [OpenStreetMap](https://www.openstreetmap.org) tile data Map providers . The Latitude and Longitude is centred on XXXX, to ensure that the Africa Map is centred in the Map Box.
+      * The Africa Map is constructed using the **africaMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Latitude and Longitude is centred on XXXX, to ensure that the Africa Map is centred in the Map Box.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africamap10025.jpg "AFRICA Map")
     * Line Graphs and Pie Charts
       * The graphs and charts use the [Chartsjs](https://www.chartjs.org/) javascript library.
@@ -297,25 +298,38 @@
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africaland10025.jpg "Land Pie Chart")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africapop10025.jpg "Population Pie Chart")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africagdp10025.jpg "GDP Pie Chart")
-    * Search Box -
-
+    * Country Search Function
+      * the Search Function is a drop down menu that references the **getCountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getCountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described below in the 'Country Details' Page section) that in turn generate the required returns for the Country selected.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchmenu10050.jpg "Search Function")
-* ### Country Details Page
-    * blah
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriainfo10050.jpg "Country Information")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriamap10050.jpg "Country Map")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapopline10050.jpg "Country Population Line Graph")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdpline10050.jpg "Country GDP Line Graph")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigerialandpie10050.jpg "Country Land Size Pie Chart")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriatop5landpie10050.jpg "Top 5 Land Size")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapoppie10050.jpg "Country Pie Chart")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriatoppoppie10050.jpg "Top 5 Population Pie Chart")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdppie10050.jpg "Country GDP Pie Chart")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriatopgdppie10050.jpg "Top 5 GDP Pie Chart")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
+* ### Country Details Page (Nigeria has been used by way of example)
+    * Country Information
+      * Contains the basic information for the **Country** selected.
+      * The Country Name, National Flag and Capital City is returned in the **countryStats.js** file  from the relevant API's.
+      * The data included in the information box for the **Country** figures and percentages is computed in the **countryStats.js** file for each of Land Size, Population and GDP on returns from the relevant API's. The respective sizes for **Africa** are computed separately from the **World Bank Database** Excel file download located [here](XX).
+      * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriainfo10050.jpg "Country Information")
+    * Country Map
+      * The Country Map is centred on the Capital City Latitude and Longitude. The map is generated by reference to the **countryMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriamap10050.jpg "Country Map")
+    * Country Line Graphs
+      * The Country Line Graphs are returned in the **countryGraphs.js** file  from the relevant API's.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapopline10050.jpg "Country Population Line Graph")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdpline10050.jpg "Country GDP Line Graph")
+    * Country and Top 5 Pie Charts
+    * The Country and Top 5 Pie charts are returned in the **pieCountry.js** file  from the relevant API's.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigerialandpie10050.jpg "Country Land Size Pie Chart")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/top5landpie10050.jpg "Top 5 Land Size")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapoppie10050.jpg "Country Pie Chart")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/totpoppie10050.jpg "Top 5 Population Pie Chart")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdppie10050.jpg "Country GDP Pie Chart")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/topgdppie10050.jpg "Top 5 GDP Pie Chart")
+    * Country Search Function
+      * the Search Function is a drop down menu that references the **getCountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getCountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section) that in turn generate the required returns for the Country selected.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
 * ### Contacts Page
-    * The Contacts Page consists of the following;
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
+    * The Contacts Page contains the 'Contact Form' for a user to supply contact information and to provide comments, questions or to provide a request for some work.
+    * The 'Contact Form' will generate an email by referencing the **sendEmail.js** file when a user submits their information.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/contact10050.jpg "Contact Form")
 
 ## Testing
 
@@ -584,6 +598,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     * V17.6 Update README text and search menu screenshot
     * V17.7 Update README for site construction text
     * V17.8 Update README for site construction 'Country Details' screenshots
+    * V17.9 Update README for site construction 'Country Details' text
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
