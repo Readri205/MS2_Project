@@ -299,11 +299,23 @@
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africagdp10025.jpg "GDP Pie Chart")
     * Search Box -
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchmenu10050.jpg "Search Box")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchmenu10050.jpg "Search Function")
 * ### Country Details Page
     * blah
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriainfo10050.jpg "Country Information")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriamap10050.jpg "Country Map")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapopline10050.jpg "Country Population Line Graph")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdpline10050.jpg "Country GDP Line Graph")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigerialandpie10050.jpg "Country Land Size Pie Chart")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriatop5landpie10050.jpg "Top 5 Land Size")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapoppie10050.jpg "Country Pie Chart")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriatoppoppie10050.jpg "Top 5 Population Pie Chart")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdppie10050.jpg "Country GDP Pie Chart")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriatopgdppie10050.jpg "Top 5 GDP Pie Chart")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
 * ### Contacts Page
     * The Contacts Page consists of the following;
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
 
 ## Testing
 
@@ -571,6 +583,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     * V17.5 Update README, image for API and Contents
     * V17.6 Update README text and search menu screenshot
     * V17.7 Update README for site construction text
+    * V17.8 Update README for site construction 'Country Details' screenshots
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
