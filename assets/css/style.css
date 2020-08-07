@@ -1,53 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 header {
-    margin: 0;
+	margin: 0;
 }
-
 body {
-    background-color: #FFFFF0;
+	background-color: #FFFFF0;
 }
-
 .bg {
-  /* The header image used */
-  background-image: url("../images/Title3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  min-height: 300px;
-  position: relative;
-  margin: 0;
-
+	/* The header image used */
+	background-image: url("../images/Title3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 300px;
+	position: relative;
+	margin: 0;
 }
-
 .header-text {
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    text-align: left;
-    color: #fff;
+	font-family: "Exo", sans-serif;
+	font-weight: 600;
+	text-align: left;
+	color: #fff;
 }
-
 .header-text h2 {
 	font-size: 40px;
 	padding-top: 140px;
 }
-
 .header-text h3 {
 	font-size: 30px;
 	padding: 10px 0;
 }
-
 .carousel-caption {
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    color: #fffff0;
+	font-family: "Exo", sans-serif;
+	font-weight: 500;
+	color: #fffff0;
 }
-
 .uppercase {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
-
 /*-------------------------------------------Navbar-------------------------------------------------*/
 
 /*------Fixes navbar at top of page when scrolling and positions it alwats on top-------------------*/
@@ -59,287 +49,240 @@ body {
 /* https://getbootstrap.com/docs/4.5/layout/overview/#z-index */
 
 .fixed-top {
-  position: fixed;
-  padding: 0;
-  z-index: 2;
-  width: auto;
+	position: fixed;
+	padding: 0;
+	z-index: 2;
+	width: auto;
 }
-
 /* https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+
 /*. Source for code: https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_navbar_collapse */
 
 /*---------------Topnav class was used for formating navbar fonts, active and hover-----------------------------*/
 
 .topnav {
-  overflow: hidden;
-  background-color: #000;
-
+	overflow: hidden;
+	background-color: #000;
 }
-
 /* Navbar text format */
-.topnav a  {
-  font-family: "Exo";
-  font-weight: 500;
-  font-size: 18px;
-  float: left;
-  padding: 15px;
-  color: #fff;
-  
-}
 
+.topnav a {
+	font-family: "Exo";
+	font-weight: 500;
+	font-size: 18px;
+	float: left;
+	padding: 15px;
+	color: #fff;
+}
 .topnav a.active {
-    background-color: rgba(60, 60, 60, 0.7);
+	background-color: rgba(60, 60, 60, 0.7);
 }
-
 .topnav a:hover {
-  background-color: #000;
-  color: #fff;
+	background-color: #000;
+	color: #fff;
 }
-
 /*---------------Nav formating navbar fonts, active and hover ends here-----------------------------*/
 
 /*---------------Country capital city from here-----------------------------*/
 
 .namnso {
-    background-image: url("../images/namnso.png");
-    
+	background-image: url("../images/namnso.png");
 }
-
 .image-box {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    height: 460px;
-    margin: 10px 0 0 0;
-    padding-bottom: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 460px;
+	margin: 10px 0 0 0;
+	padding-bottom: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*---------------Country capital city image to here-----------------------------*/
+
 .card-box {
-    color: #000;
-    text-align: center;
-
-    width: 100%;
-    height: auto;
-    margin: 10px 0 0 0;
-    padding-bottom: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #000;
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin: 10px 0 0 0;
+	padding-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 #africaMap {
-    background-size: cover;
-    position: relative;
-    z-index: 1;
-    height: 615px;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	height: 615px;
 }
-
 #countryMap {
-    position: relative;
-    z-index: 1;
-    height: 615px;
+	position: relative;
+	z-index: 1;
+	height: 615px;
 }
-
 .africa-map-box {
-    width: 100%;
-    height: 615px;
-    text-align: center;
-    margin: 10px 0 0 0;
-    padding-bottom: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+	height: 615px;
+	text-align: center;
+	margin: 10px 0 0 0;
+	padding-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .country-map-box {
-    width: 100%;
-    height: 615px;
-    text-align: center;
-    margin: 10px 0 0 0;
-    padding-bottom: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+	height: 615px;
+	text-align: center;
+	margin: 10px 0 0 0;
+	padding-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .code-box {
-    font-family: "Exo", sans-serif;
-    font-size: 14px;
-    text-align: center;
-    background-color: #FFFFF0;
-    width: 100%;
-    height: auto;
-    margin: 10px 0 0 0;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "Exo", sans-serif;
+	font-size: 14px;
+	text-align: center;
+	background-color: #FFFFF0;
+	width: 100%;
+	height: auto;
+	margin: 10px 0 0 0;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .africa-info-box {
-    font-family: "Exo", sans-serif;
-    font-size: 12px;
-    background-color: #FFFFF0;
-    width: 100%;
-    min-height: 615px;
-    margin: 10px 0 0 0;
-    padding: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "Exo", sans-serif;
+	font-size: 12px;
+	background-color: #FFFFF0;
+	width: 100%;
+	min-height: 615px;
+	margin: 10px 0 0 0;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .info-box {
-    font-family: "Exo", sans-serif;
-    font-size: 12px;
-    background-color: #FFFFF0;
-    width: 100%;
-    min-height: 615px;
-    margin: 10px 0 0 0;
-    padding: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "Exo", sans-serif;
+	font-size: 12px;
+	background-color: #FFFFF0;
+	width: 100%;
+	min-height: 615px;
+	margin: 10px 0 0 0;
+	padding: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .search-box {
-    font-family: "Exo", sans-serif;
-    font-size: 12px;
-    text-align: center;
-    background-color: #FFFFF0;
-    width: 100%;
-    height: auto;
-    margin: 10px 0 0 0;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "Exo", sans-serif;
+	font-size: 12px;
+	text-align: center;
+	background-color: #FFFFF0;
+	width: 100%;
+	height: auto;
+	margin: 10px 0 0 0;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .info-box-header {
-    text-align: center;
+	text-align: center;
 }
-
 .reference-text {
-    font-size: 9px;
-    text-align: center;
-   
+	font-size: 9px;
+	text-align: center;
 }
-
 .emoji-text {
-    font-size: 50px;
+	font-size: 50px;
 }
-
-
 /*---------------Style and formating country page fonts here-----------------------------*/
 
 .country-top {
-    margin-top: 55px;
-    padding: 0;
-    width: auto;
-    background-color: #737373;
-    border: 3px solid #000;
+	margin-top: 55px;
+	padding: 0;
+	width: auto;
+	background-color: #737373;
+	border: 3px solid #000;
 }
-
 .country-header {
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 25px;
-    text-align: center;
-    color: #000;
+	font-family: "Exo", sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;
+	color: #000;
 }
-
 .chart-container {
-    position: relative;
+	position: relative;
 }
-
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
-
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #fafafa;
+	background-color: #e84610;
 }
-
 /*-----------------------carousel-------------------------------*/
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
 
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
 .carousel-box {
-    padding: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*-----------------------footer-------------------------------*/
 
 footer {
-    background-color: #000;
-    min-height: 300px;
-    margin-top: 20px;
+	background-color: #000;
+	min-height: 300px;
+	margin-top: 20px;
 }
-
 .footer-header {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    padding-top: 10px;
-    color: #fff;
-
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	padding-top: 10px;
+	color: #fff;
 }
-
 .footer-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    color: #fff;
-
+	font-family: "Roboto", sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: #fff;
 }
-
 .footer-text i {
-    padding-left: 5px;
-
+	padding-left: 5px;
 }
-
 .itinery-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-
+	font-size: 18px;
+	color: #fafafa;
+	text-align: center;
+	padding-left: 5px;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
-
 .itinery-pdf i:hover {
-    color:#b22222;
-
+	color: #b22222;
 }
-
 .social-networks {
-    text-align: center;
-
+	text-align: center;
 }
-
 .social-networks li {
-    display: inline;
-
+	display: inline;
 }
-
 .social-networks i {
-    font-size: 110%;
-    padding: 0 10px;
-    color: #fff;
-    
+	font-size: 110%;
+	padding: 0 10px;
+	color: #fff;
 }
-
 .footer-text i:hover {
-    color:#b22222;
-
+	color: #b22222;
 }
-
 .social-networks i:hover {
-    color:#b22222;
-
+	color: #b22222;
 }
+/*-------------------------------Media Queries-----------------------------*/
 
-    /*-------------------------------Media Queries-----------------------------*/
 @media(min-width: 992px) {
-
-/*.carousel-caption {
+	/*.carousel-caption {
     display:none;
 }*/
 }
-
 /*@media screen and (max-width: 1432px) {
 
 .info-box {
