@@ -260,8 +260,7 @@
   1. [Referential API](https://rapidapi.com/referential/api/referential)
       * The Referential API (sourced via [RapidAPI](https://rapidapi.com/)) was used to provide the country code to source all the country data in the search function. It provides the full list of countries in the drop down menu and on country selection, the country codes drive the other API's to return the required information. The Referential API is loaded with the 'Continent' denominator for the African Countries 'AF' (shown at the end of the link below). The API returns a full list of countries each with their respective two digit country codes (example: Nigeria='NG'). Please note that the API requires an Application Key so the link will not return a result. Please see the screenshot image of two countries' data, Nigeria (Key=NG) and Rwanda (Key=RW) as an example return (Note the API returns all 54 countries).
         * [Country Code List](https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF), **https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF**
-
-    ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/referentialcountrycode33.jpg "Country Codes from Referential API")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/referentialcountrycode33.jpg "Country Codes from Referential API")
   1. [World Bank Database](https://databank.worldbank.org/home.aspx)
       * The World Bank Database was used as the primary source for the data in the site. The relevant World bank API's are requested for data once a user selects a country in the search function which drives the relevant country code. Once the country code is determined, a number of different API's are used to determine Capital City, Land Size, Population and GDP for the World sectors, Africa and the 54 African Countries listed. The World Bank uses a standard link to reach the core of its data (https://api.worldbank.org/v2/country/XX/indicator/XX.XXX.XXX.XX). By way of example, the list below links directly to the API 'raw' data return for 'Nigeria', with country code 'NG' in the API link. The links below are also shown in full for documentation purposes;
         * [Capital City, Latitude and Longitude](https://api.worldbank.org/v2/country/NG), **https://api.worldbank.org/v2/country/NG**
@@ -286,12 +285,12 @@
       * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox10025.jpg "INFO Box")
     * Map
-      * The Africa Map is constructed using the **africaMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Latitude and Longitude is centred on XXXX, to ensure that the Africa Map is centred in the Map Box.
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africamap10025.jpg "AFRICA Map")
+      * The Africa Map is constructed using the **africaMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Map is centred on Ouesso, Republic of Congo (1.6155N, 16.0464E) in the Map Box.
+        ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africamap10025.jpg "AFRICA Map")
     * Line Graphs and Pie Charts
       * The graphs and charts use the [Chartsjs](https://www.chartjs.org/) javascript library.
       * The Line Graphs and Pie Charts are all computed in the **totalCharts.js** file.
-        * The Line Graphs reference pop.csv() and gdp.csv() respectively to create the historical data between 1970 and 2019.
+        * The Line Graphs reference [pop.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/pop.csv) and [gdp.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/gdp.csv) respectively to create the historical data between 1970 and 2019.
         * The Pie Charts are directly loaded with the data in the **totalCharts.js** file.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/pop10025.jpg "Population Chart")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/gdp10025.jpg "GDP Chart")
@@ -307,6 +306,21 @@
       * The Country Name, National Flag and Capital City is returned in the **countryStats.js** file  from the relevant API's.
       * The data included in the information box for the **Country** figures and percentages is computed in the **countryStats.js** file for each of Land Size, Population and GDP on returns from the relevant API's. The respective sizes for **Africa** are computed separately from the **World Bank Database** Excel file download located [here](XX).
       * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
+      * The following code at **line 107** in the **countryStats.js** file is used to account for Sudan and South Sudan Land Size data after the API from the search function is called;
+      ```
+      function writeLandSize(data) {
+    if (countryCode == "SD") {
+        landsize = 1886068;
+    } else if (countryCode == "SS") {
+        landsize = 619745;
+    } else {
+    item = data[1];
+    landsize = item[1].value.toFixed(0);
+    }
+    perc = (landsize / 295097.44).toFixed(2);
+    document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize + "   Sq. Kms" + " " + " - " + perc + "% of total Africa Land Size (29.51 Mn Sq. Kms)");
+    }
+    ```
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriainfo10050.jpg "Country Information")
     * Country Map
       * The Country Map is centred on the Capital City Latitude and Longitude. The map is generated by reference to the **countryMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers.
@@ -316,7 +330,23 @@
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapopline10050.jpg "Country Population Line Graph")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdpline10050.jpg "Country GDP Line Graph")
     * Country and Top 5 Pie Charts
-    * The Country and Top 5 Pie charts are returned in the **pieCountry.js** file  from the relevant API's.
+      * The Country and Top 5 Pie charts are returned in the **pieCountry.js** file  from the relevant API's.
+      * The following code at **line 18** in the **pieCountry.js** file is used to account for Sudan and South Sudan Land Size data (in the Land Size Pie Chart) after the API from the search function is called;
+    ```
+    function writeLand(data) {
+        if (countryCode == "SD") {
+            item = data[1][1];
+            countland = 1886068 / 1000000;
+        } else if (countryCode == "SS") {
+            item = data[1][1];
+            countland = 619745 / 1000000;
+        } else {
+            item = data[1][1];
+            countland = item.value / 1000000;
+        }
+        const roaland = (29.509744 - countland);
+      }
+  ```
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigerialandpie10050.jpg "Country Land Size Pie Chart")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/top5landpie10050.jpg "Top 5 Land Size")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapoppie10050.jpg "Country Pie Chart")
@@ -324,7 +354,7 @@
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdppie10050.jpg "Country GDP Pie Chart")
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/topgdppie10050.jpg "Top 5 GDP Pie Chart")
     * Country Search Function
-      * the Search Function is a drop down menu that references the **getCountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getCountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section) that in turn generate the required returns for the Country selected.
+      * the Search Function is a drop down menu that references the **getCountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getCountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section) that in turn generates the required information return for the Country selected.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
 * ### Contacts Page
     * The Contacts Page contains the 'Contact Form' for a user to supply contact information and to provide comments, questions or to provide a request for some work.
@@ -338,57 +368,46 @@ Testing information can be found in a separate [Testing.md](https://github.com/R
 ### Known Bugs
 
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
-*   *On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.*
-    -   *A white gap can be seen to the right of the footer and navigation bar as a result.*
-*   *On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.*
+*  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
+*  On some screen sizes between x and y, the pie charts on the 'Home' page can become squeezed and will not render the pie chart. Testing on various devices *(list them out)* did not evidence this issue however, there may be some devices with these screen sizes that could have this result.
 
 ## Deployment
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following process;
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-1. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-1. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-1. Under "Source", click the dropdown called "None" and select "Master Branch".
-1. The page will automatically refresh.
-1. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+1. The project was written in [GitPod](https://www.gitpod.io/) and pushed to GitHub Pages ready for deployment by taking the following steps;
+1. Logged in to GitHub and located the [GitHub Repository](https://github.com/Readri205/MS2_Project);
+1. At the top of the Repository, the "Settings" Button was selected on the menu;
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/deployment10050.jpg "See Settings").
+1. Scrolled down the Settings page until the "GitHub Pages" Section was located;
+1. Under "Source", the dropdown showing "None" was selected and then "Master Branch" was chosen;
+1. The selection was then saved and the page automatically refreshed; and
+1. The published site is found by scrolling back down the page to the "GitHub Pages" section to find the live site - [**EARTH AFRICA** :earth_africa:](https://readri205.github.io/MS2_Project/).
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/deployedGitHubpages10050.jpg "Github Pages Deployed Site")
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and  changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-1. You should now have a copy of the original repository in your GitHub account.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Readri205/MS2_Project);
+1. At the top of the Repository above the "Settings" Button on the menu, locate the "Fork" Button.
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/forking10050.jpg "Fork Button"); and
+1. Click to create a copy of the original repository in your own GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-1. Under the repository name, click "Clone or download".
-1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-1. Open Git Bash
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Readri205/MS2_Project)
+1. Under the repository name, click "Code".
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/clone10050.jpg "HTTPS Clone")
+1. To clone the repository using HTTPS, click the top right hand link click "Use HTTPS";
+1. Copy the link under "Clone with HTTPS";
+1. Open your Code Editor and access the appropriate process to paste the clone link;
 1. Change the current working directory to the location where you want the cloned directory to be made.
-1. Type `git clone`, and then paste the URL you copied in Step 3.
+1. Paste the URL you copied above.
 
-```
-$ git clone https://github.com/Readri205/MS2_Project
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/Readri205/MS2_Project
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Note that different Code Editors will have different processes for making the clone once the HTTPS link copy is made in step 4 above.
 
 ## Credits
 
@@ -599,6 +618,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
     * V17.7 Update README for site construction text
     * V17.8 Update README for site construction 'Country Details' screenshots
     * V17.9 Update README for site construction 'Country Details' text
+    * V18.0 Update README for GitHub Pages Deployment
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
