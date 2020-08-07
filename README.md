@@ -385,7 +385,7 @@ The project was deployed to GitHub Pages using the following process;
 1. Under "Source", the dropdown showing "None" was selected and then "Master Branch" was chosen;
 1. The selection was then saved and the page automatically refreshed; and
 1. The published site is found by scrolling back down the page to the "GitHub Pages" section to find the live site - [**EARTH AFRICA** :earth_africa:](https://readri205.github.io/MS2_Project/).
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/deployedGitHubpages10050.jpg "Github Pages Deployed Site")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/deployedgithubpages10050.jpg "Github Pages Deployed Site")
 
 ### Forking the GitHub Repository
 
@@ -400,9 +400,9 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Readri205/MS2_Project)
 1. Under the repository name, click "Code".
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/clone10050.jpg "HTTPS Clone")
 1. To clone the repository using HTTPS, click the top right hand link click "Use HTTPS";
 1. Copy the link under "Clone with HTTPS";
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/clone10050.jpg "HTTPS Clone")
 1. Open your Code Editor and access the appropriate process to paste the clone link;
 1. Change the current working directory to the location where you want the cloned directory to be made.
 1. Paste the URL you copied above.
@@ -412,8 +412,6 @@ Note that different Code Editors will have different processes for making the cl
 ## Credits
 
 ### Code
-
-*   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 *   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
@@ -619,6 +617,7 @@ Note that different Code Editors will have different processes for making the cl
     * V17.8 Update README for site construction 'Country Details' screenshots
     * V17.9 Update README for site construction 'Country Details' text
     * V18.0 Update README for GitHub Pages Deployment
+    * V18.1 Update README for GitHub Pages Deployment amends
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
