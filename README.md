@@ -48,9 +48,6 @@
     + [Media](#media)
     + [Acknowledgements](#acknowledgements)
   * [Version Control](#version-control)
-- [Paste Your Document In Here](#paste-your-document-in-here)
-  * [And a table of contents](#and-a-table-of-contents)
-  * [On the right](#on-the-right)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -160,11 +157,7 @@
 
 *   ### Wireframes
 
-    *   Home Page Wireframe - [View](https://github.com/)
-
-    *   Mobile Wireframe - [View](https://github.com/)
-
-    *   Contact Us Page Wireframe - [View](https://github.com/)
+    *   Wireframe - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/Africa.pdf)
 
 ## Features
 
@@ -428,6 +421,8 @@ Note that different Code Editors will have different processes for making the cl
 
 ### Code
 
+*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for providing help, guidance, inspiration and input on the challenging components for the Country Search Function.
+
 *   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 *   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
@@ -451,13 +446,17 @@ Note that different Code Editors will have different processes for making the cl
 
 ### Acknowledgements
 
-*   My Mentor for continuous helpful feedback.
+*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for continuous helpful feedback.
 
 *   Tutor support at Code Institute for their support.
 
+*   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/)
+
+*   Friends and family providing review and feedback on the site content and navigation.
+
 ## Version Control
 
-*   All through the development phase of the project, commits have been made from the GitPod Repository to GitHub.
+*   All through the development phase of the project, commits have been made from the GitPod Repository to GitHub. The version control list below mirrors the GitHub Commit list. It is designed to provide a direct track on commits in the README file for easy access as to code status in GitPod. Note that feedback from MS1 Project was received on July 8th, 2020 which stated that commits should be in the imperative. Any commits after this date (approx. V6.4) that are not in the imperative is in error.
 
     * V1.0 Initial Commit
     * V1.1 Added Africa header image, country html page and README template
@@ -637,6 +636,7 @@ Note that different Code Editors will have different processes for making the cl
     * V18.3 Update README Code Block javascript format
     * V18.4 Update README contents and code blocks
     * V18.5 Clean HTML and CSS files
+    * V18.6 Add and amend README and Testing.md text
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)

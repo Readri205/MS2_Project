@@ -22,8 +22,11 @@ View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
+Autoprefixer was used to parse CSS and add vendor prefixes to browser compatibility.
+
 *   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 *   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+*   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - was used to parse CSS and add vendor prefixes
 
 ### Testing User Stories from User Experience (UX) Section
 
