@@ -161,7 +161,7 @@
 
 ## Features
 
-*   ### Responsive on all device sizes
+*   ### Responsive for Device Size
     * Mobile / Smaller screen size
       * The site is designed primarily for use on a mobile. The 'Box Content' structure using Bootstrap Grid System has been utilised so that the information boxes (text, maps, line graphs, pie charts) will stack vertically on small screens for readability.
       * The menu system uses the Bootstrap 'navbar' functionality for small screens using the 'toggle' capability for the 'drop down' menu list from a 'hamburger' icon.
@@ -178,7 +178,7 @@
       * The 'drop down' site page options are coloured 'off-white' with the current page shown as 'white' and 'grey' background.
       * The header image and carousel images are designed to be larger and 'impactful' on the larger screen size.
 
-*   ### Interactive elements
+*   ### Interactive Elements
     * The key feature of the site is the interactive search for any of the 54 African Countries details returned on the 'Country Details' page.
       * Note that if a user goes from the 'Home' page direct to the 'Country Details' page using the 'navbar' menu, the default Country on the 'Country Details' page is Nigeria.
       * The 'Search' box is found on scroll down through the 'Home' page.
@@ -238,6 +238,8 @@
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [Atom](https://atom.io/)
+    - Atom was used as a Text Editor for README.md and Testing.md
 1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
     - Mapbox javascript library is used to create the maps on the 'Home' and 'Country' pages.
 1. [Leaflet:](https://leafletjs.com/)
@@ -637,6 +639,7 @@ Note that different Code Editors will have different processes for making the cl
     * V18.4 Update README contents and code blocks
     * V18.5 Clean HTML and CSS files
     * V18.6 Add and amend README and Testing.md text
+    * V18.7 Remove form modal, add jquery form submission confirmation dialogue box
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
