@@ -648,7 +648,8 @@ Note that different Code Editors will have different processes for making the cl
     * V18.8 Add Africa Map favicon to pages, update new contact page for form
     * V18.9 Amend README for GitHub Deployment, Update 'Country Details' page for favicon header
     * V19.0 Move pie chart legend right, pie charts to 2 rows on home, 2 decimals to country line
-    * V19.1 Remove getCountriesvtest GitPod test pages Home and Countries Detail pages
+    * V19.1 Commit to remove getCountriesvtest GitPod test pages Home and Countries Detail pages
+    * V19.2 Amend fonts, backgrounds in boxes for MSEdge testing
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
