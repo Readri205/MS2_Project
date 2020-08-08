@@ -29,7 +29,8 @@ function writeLand(data) {
         const roaland = (29.509744 - countland);
    
 //<----------------Graphs World Bank Land Size by Country from API ;------------------>
-
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {
@@ -82,7 +83,6 @@ function writePop(data) {
 
 //<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
 
-
 new Chart(document.getElementById("popPie"), {
     type: 'pie',
     data: {
@@ -132,7 +132,6 @@ function writeGdp(data) {
    
     //console.log(item.country.value, item.date, item.value, countgdp, roagdp);
     
-
 new Chart(document.getElementById("gdpPie"), {
     type: 'pie',
     data: {
@@ -174,7 +173,6 @@ const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] 
 const toplands = [(lands[53]/1000000).toFixed(2),(lands[52]/1000000).toFixed(2),(lands[51]/1000000).toFixed(2),(lands[50]/1000000).toFixed(2),(lands[49]/1000000).toFixed(2),restlands];
 
 //console.log(restlands);
-
 new Chart(document.getElementById("landTop"), {
     type: 'pie',
     data: {

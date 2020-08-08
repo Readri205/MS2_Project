@@ -652,6 +652,7 @@ Note that different Code Editors will have different processes for making the cl
     * V19.2 Amend fonts, backgrounds in boxes for MSEdge testing
     * V19.3 Revert box backgrounds after test
     * V19.4 Remove outputs page, old js files
+    * V19.5 Amend all graph fonts globally to Roboto and 'black'
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)

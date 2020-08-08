@@ -20,7 +20,8 @@ const haxis = herts.split(',');
 const totPop = document.getElementById('totPop').getContext('2d');
 
 //const popCharts = 
-
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(totPop, {
     type: 'line',
     data: {
@@ -74,7 +75,6 @@ const haxs = hirts.split(',');
 const totGdp = document.getElementById('totGdp').getContext('2d');
 
 //const gdpChart = 
-
 new Chart(totGdp, {
     type: 'line',
     data: {
@@ -105,7 +105,8 @@ new Chart(totGdp, {
     }
 });
 }
-
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {

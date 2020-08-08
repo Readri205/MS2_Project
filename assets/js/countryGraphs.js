@@ -33,7 +33,7 @@ function writePop(data) {
 const ctyPop = document.getElementById("popChart").getContext("2d");
 
 //const popChart = 
-Chart.defaults.global.defaultFontFamily = 'Exo';
+Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(ctyPop, {
     type: 'line',
@@ -103,6 +103,8 @@ function writeGdp(data) {
 const ctyGdp = document.getElementById("gdpChart").getContext("2d");
 
 //const gdpChart = 
+Chart.defaults.global.defaultFontFamily = 'Roboto';
+Chart.defaults.global.defaultFontColor = '#000000';
 new Chart(ctyGdp, {
     type: 'line',
     data: {
