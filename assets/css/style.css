@@ -151,8 +151,8 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
 	text-align: center;
-    background-color:#ffe6ea;
-	/*background-color: #FFFFF0;*/
+    /*background-color:#ffe6ea;*/
+	background-color: #FFFFF0;
 	width: 100%;
 	height: auto;
 	margin: 10px 0 0 0;
@@ -189,8 +189,8 @@ body {
     font-weight: 400;
 	font-size: 14px;
 	text-align: center;
-    background-color: slategray;
-	/*---background-color: #FFFFF0;---*/
+    /*background-color: slategray;*/
+	background-color: #FFFFF0;
 	width: 100%;
 	height: auto;
 	margin: 10px 0 0 0;
