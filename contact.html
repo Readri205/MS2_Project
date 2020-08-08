@@ -8,6 +8,7 @@
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/filter.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 	<script src="https://kit.fontawesome.com/5fa1d9dfaf.js">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js" type="text/javascript">
@@ -121,29 +122,12 @@
 					<h3 class="uppercase info-box-header">Contact Details</h3>
 					<p>Please contact us to let us know your comments on the site. We are keen to know more about what you like and what you don't like. We can also provide you with regular updates as to any changes and additions to the site. The intention is to add more details and graphs for each of the countries, and to expand the site as a series covering all 7 of the World's Continents.</p>
 					<div class="center-form">
-						<form id="myForm" method="post" name="myForm" onsubmit="return sendMail(this);">
+						<form action="" id="myForm" method="post" name="myForm" onsubmit="return sendMail(this);">
 							<input class="form-control" id="fname" name="first_name" placeholder="First Name" required="" type="text"> <input class="form-control" id="lname" name="last_name" placeholder="Last Name" required="" type="text"> <input class="form-control" id="email" name="email_address" placeholder="Email Address" required="" type="email"> <input class="form-control" id="contactno" name="contactno" placeholder="+XX (0) Contact No." required="" type="text"> 
 							<textarea class="form-control" id="comment" name="text" placeholder="Questions, comments or suggestions!" required="" rows="5"></textarea>
 							<div class="row text-center">
 								<div class="col">
-									<button class="btn btn-secondary" data-target="#myModal" data-toggle="modal" type="submit">Send Contact Details!</button>
-                                    <!-- Modal -->
-									<div class="modal fade" id="myModal" role="dialog">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<h4 class="modal-title">Details Submitted!</h4><button class="close" data-dismiss="modal" type="button">&times;</button>
-												</div>
-												<div class="modal-body">
-													<p>Thanks for your details, questions and comments.</p>
-												</div>
-												<div class="modal-footer">
-													<button class="btn btn-default" data-dismiss="modal" id="myButton" onclick="myReset()" type="button">Close</button>
-												</div>
-											</div>
-										</div>
-									</div>
+									<button class="btn btn-secondary" type="submit">Send Contact Details!</button>
 								</div>
 							</div>
 						</form>

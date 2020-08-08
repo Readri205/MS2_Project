@@ -640,6 +640,7 @@ Note that different Code Editors will have different processes for making the cl
     * V18.5 Clean HTML and CSS files
     * V18.6 Add and amend README and Testing.md text
     * V18.7 Remove form modal, add jquery form submission confirmation dialogue box
+    * V18.8 Add Africa Map favicon to pages, update new contact page for form
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
