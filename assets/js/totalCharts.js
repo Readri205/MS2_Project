@@ -39,6 +39,7 @@ new Chart(totPop, {
             yAxes: [{
                 ticks: {
                     beginAtZero: true,
+                    maxTicksLimit: 7,
                 }
             }]
         },
@@ -91,6 +92,7 @@ new Chart(totGdp, {
         scales: {
             yAxes: [{
                 ticks: {
+                    maxTicksLimit: 6,
                     beginAtZero: true,
                     callback:function(value) {return "$" + value}
                 }
@@ -118,6 +120,9 @@ new Chart(document.getElementById("landPie"), {
       title: {
         display: true,
         text: 'Land Size (Mns) Sq. Kms'
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -136,6 +141,9 @@ new Chart(document.getElementById("popPie"), {
       title: {
         display: true,
         text: 'World Population (Bns) in 2019'
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -154,6 +162,9 @@ new Chart(document.getElementById("gdpPie"), {
       title: {
         display: true,
         text: 'World GDP (Bns) in 2019'
+      },
+      legend: {
+          position: "right"
       }
     }
 });

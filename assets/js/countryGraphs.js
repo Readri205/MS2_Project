@@ -21,12 +21,12 @@ function writePop(data) {
     const item = data[1];
     item.forEach (function (year) {
     xlabels.push(year.date);
-    ydata.push(year.value / 1000000);
+    ydata.push((year.value / 1000000).toFixed(2));
 });
     xlabels.reverse();
     ydata.reverse();
    
-    //console.log(country);
+    //console.log(ydata.toFixed(2));
 
 //<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
 
@@ -52,6 +52,7 @@ new Chart(ctyPop, {
         scales: {
             yAxes: [{
                 ticks: {
+                    maxTicksLimit: 6,
                     beginAtZero: false
                 }
             }]
@@ -91,8 +92,8 @@ function writeGdp(data) {
     const item = data[1];
     item.forEach (function(year) {
     glabels.push(year.date);
-    hdata.push(year.value / 1000000000);
-});
+    hdata.push((year.value / 1000000000).toFixed(2));
+})
     glabels.reverse();
     hdata.reverse();
 
@@ -118,6 +119,7 @@ new Chart(ctyGdp, {
         scales: {
             yAxes: [{
                 ticks: {
+                    maxTicksLimit: 6,
                     beginAtZero: false,
                     callback:function(value) {return "$" + value}
                 }

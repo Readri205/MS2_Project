@@ -45,6 +45,9 @@ new Chart(document.getElementById("landPie"), {
         display: true,
         text: ['Land Size (Mns) Sq. Kms v Rest of Africa'],
         fontFamily: "Exo"
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -94,6 +97,9 @@ new Chart(document.getElementById("popPie"), {
       title: {
         display: true,
         text: ['Population (Mns) v Rest of Africa', item.date]
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -141,6 +147,9 @@ new Chart(document.getElementById("gdpPie"), {
       title: {
         display: true,
         text: ['GDP (Bns) v Rest of Africa', item.date]
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -180,6 +189,9 @@ new Chart(document.getElementById("landTop"), {
       title: {
         display: true,
         text: ['Top 5 Africa Land Sizes (Mns) Sq. Kms']
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -224,6 +236,9 @@ new Chart(document.getElementById("popTop"), {
       title: {
         display: true,
         text: ['Top Five Africa Populations (Mns) 2019']
+      },
+      legend: {
+          position: "right"
       }
     }
 });
@@ -266,6 +281,9 @@ new Chart(document.getElementById("gdpTop"), {
       title: {
         display: true,
         text: ['Top Five Africa GDP (Bns) 2019']
+      },
+      legend: {
+          position: "right"
       }
     }
 });
