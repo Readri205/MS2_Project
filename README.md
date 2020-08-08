@@ -414,10 +414,15 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 1. Copy the link under "Clone with HTTPS";
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/clone10050.jpg "HTTPS Clone")
 1. Open your Code Editor and access the appropriate process to paste the clone link;
-1. Change the current working directory to the location where you want the cloned directory to be made.
-1. Paste the URL you copied above.
+1. Change the current working directory to the location where you want to keep the cloned directory;
+1. Paste the URL you copied in step 4 above.
 
 Note that different Code Editors will have different processes for making the clone once the HTTPS link copy is made in step 4 above.
+
+1. If using GitHub Desktop, the clone can de saved directly into GitHub Desktop from the "Code" dropdown menu.
+
+1. A zip file clone can be downloaded from the same "Code" drop down above;
+1. Select 'Download ZIP' and the complete zip file will be saved to you local computer.
 
 ## Credits
 
@@ -641,6 +646,7 @@ Note that different Code Editors will have different processes for making the cl
     * V18.6 Add and amend README and Testing.md text
     * V18.7 Remove form modal, add jquery form submission confirmation dialogue box
     * V18.8 Add Africa Map favicon to pages, update new contact page for form
+    * V18.9 Amend README for GitHub Deployment, Update 'Country Details' page for favicon header
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
