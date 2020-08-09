@@ -111,7 +111,7 @@ Chart.defaults.global.defaultFontSize = 8;
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {
-      labels: ["Africa", "Latin Am/Carib", "South Asia", "North America", "Middle East", "Eur/Cent. Asia", "East Asia"],
+      labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
       datasets: [{
         label: " Land Size (Mns) Sq. Kms",
         backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f","#f0e68c"],
@@ -132,7 +132,7 @@ new Chart(document.getElementById("landPie"), {
 new Chart(document.getElementById("popPie"), {
     type: 'pie',
     data: {
-      labels: ["Africa", "Latin Am/Carib", "South Asia", "North America", "Middle East", "Eur/Cent. Asia", "East Asia"],
+      labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
       datasets: [{
         label: " Population in Bns",
         backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f","#f0e68c"],
@@ -153,7 +153,7 @@ new Chart(document.getElementById("popPie"), {
 new Chart(document.getElementById("gdpPie"), {
     type: 'pie',
     data: {
-      labels: ["Africa", "Latin Am/Carib", "South Asia", "North America", "Middle East", "Eur/Cent. Asia", "East Asia"],
+      labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
       datasets: [{
         label: " GDP in Bns",
         backgroundColor: ["#c45850", "#8e5ea2","#3cba9f","#e8c3b9","#3e95cd","#2f4f4f","#f0e68c"],
