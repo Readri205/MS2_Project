@@ -656,6 +656,7 @@ Note that different Code Editors will have different processes for making the cl
     * V19.6 Amend info boxes text, pie chart legends to fit small screens
     * V19.7 Resize code box and pie charts to fit iPhone 5 6/7/8 screen sizes
     * V19.8 Upload test and supporting documents and screen images
+    * V19.9 Upload favicons
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
