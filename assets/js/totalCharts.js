@@ -107,7 +107,7 @@ new Chart(totGdp, {
 }
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
-/*Chart.defaults.global.defaultFontSize = 12;*/
+Chart.defaults.global.defaultFontSize = 8;
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {

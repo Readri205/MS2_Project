@@ -31,7 +31,7 @@ function writeLand(data) {
 //<----------------Graphs World Bank Land Size by Country from API ;------------------>
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
-/*Chart.defaults.global.defaultFontSize = 10;*/
+Chart.defaults.global.defaultFontSize = 10;
 new Chart(document.getElementById("landPie"), {
     type: 'pie',
     data: {
