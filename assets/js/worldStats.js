@@ -23,11 +23,11 @@ xhttp.send();
 
 function writeLand(data) {
     const size = (data[1][1].value / 1000000) + 1.886068 + 0.619745;
-    const landsize = size.toFixed(2);
+    const landsize = size.toFixed(1);
     //Sudan and South Sudan Sq Km not included in World Bank figures Sudan 1886,068, South Sudan 619,745 Sq Kms - Wikipedia------->
    
-    console.log(size.toFixed(2));
-    document.getElementById("worldlandsize").innerHTML += ("Landsize: 29.510 Million Sq. Kms / " + landsize + " Million Sq. Kms (23%).");
+    console.log(size.toFixed(1));
+    document.getElementById("worldlandsize").innerHTML += ("Landsize: 29.5 Mn Sq. Kms - 23% of World Land Size" + " (" + landsize + " Mn Sq. Kms)");
 }
 getDataLand(writeLand);
 
@@ -50,10 +50,10 @@ xhttp.send();
 
 function writePop(data) {
     const size = data[1][0].value / 1000000000;
-    const popsize = size.toFixed(3);
+    const popsize = size.toFixed(1);
    
     //console.log(popsize);
-    document.getElementById("worldpopsize").innerHTML += ("Population: 1,303 Million / " + popsize + " Million (17%).");
+    document.getElementById("worldpopsize").innerHTML += ("Population: 1.3 Bn - 17% of World Population" + " (" + popsize + " Bn)");
 }
 getDataPop(writePop);
 
@@ -76,10 +76,10 @@ xhttp.send();
 
 function writeGdp(data) {
     const size = data[1][0].value / 1000000000000;
-    const gdpsize = size.toFixed(3);
+    const gdpsize = size.toFixed(1);
    
     //console.log(gdpsize);
-    document.getElementById("worldgdpsize").innerHTML += ("Gross Domestic Product (GDP): US$Bn 2,425 / US$Bn " + gdpsize + " (3%).");
+    document.getElementById("worldgdpsize").innerHTML += ("GDP: US$Tn 2.4 - 3% of World GDP (US$Tn " + gdpsize + ")");
 }
 getDataGdp(writeGdp);
 
