@@ -678,6 +678,7 @@ Note that different Code Editors will have different processes for making the cl
     * V20.5 Add and amend text in README.md and Testing.md files
     * V20.6 Upload country listing by region in Testing.md
     * V20.7 Upload country data files to support site data in Testing.md
+    * V20.8 Amend text in Testing.md for country upload descriptions
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)

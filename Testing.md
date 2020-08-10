@@ -105,15 +105,17 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
   ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
 
-* To confirm the Africa country data, the following files are uploaded providing the times series from 1970 to 20019 for Population and GDP by Country and Land Size;
+* To **confirm** the Africa country data, the following files are uploaded providing the **Land Size** by Country, **Population** by Country **times series from 1970 to 20019** and **GDP** by Country **time series from 1970 to 2019**. Note that the images below only show 2019 data in the time series. Please view the excel files for the full time series.
 
     * [Land size by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/Landareasqkm.xlsx)
+
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbycountry10050.jpg "Land Size by Country")
-    * [Population by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/Popular IndicatorsGDPPOPTOTES.xlsx)
+    * [Population by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/PopularIndicatorsGDPPOPTOTES.xlsx)
+
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/popbycountry10050.jpg "Population by Country")
     * [GDP by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/PopularIndicatorsGDPPOPTOTES.xlsx)
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdpbycountry10050.jpg "GDP by Country")
 
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdpbycountry10050.jpg "GDP by Country")
 
 *   Lists of countries in all of the World Bank Database Sectors. Note that the list for 'Africa' and 'Middle East' are adjusted to account for the 6 countries (Algeria, Egypt, Morrocco, Libya, Djibouti and Tunisia) from the World Bank Database 'Sub-Saharan Africa' and 'Middle East & North Africa' economic sectors.
     * **Africa**
