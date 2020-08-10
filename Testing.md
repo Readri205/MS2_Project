@@ -8,13 +8,16 @@ View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Contents
 
-- [Testing](#testing)
-  * [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience--ux--section)
-  * [User stories](#user-stories)
-    + [First Time Visitor Goals](#first-time-visitor-goals)
-    + [Returning Visitor Goals](#returning-visitor-goals)
-    + [Frequent User Goals](#frequent-user-goals)
-  * [Further Testing](#further-testing)
+* [Testing](#testing)
+  + [Automated Testing](#automated-testing)
+  + [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience--ux--section)
+  + [User stories](#user-stories)
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [Frequent User Goals](#frequent-user-goals)
+  + [Numerical Validation Testing](#numerical-validation-testing)
+  + [Contact Form Testing](#contact-form-testing)
+  + [Further Testing](#further-testing)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -87,14 +90,15 @@ The following automated tools were used to test the website during development o
 
 ### Numerical Validation Testing
 
-The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to Land Size, Population and GDP. In some cases, adjustments have had to be made to figures to reflect the more appropriate figures for the Africa continent analysis;
-*   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [LandByRegion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landByRegion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to Land Size, Population and GDP. In some cases, adjustments have had to be made to figures to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
+*   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [LandByRegion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/LandByRegion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
 *   The land size for Africa from the World Bank is adjusted to move the 6 countries in the Middle East and North Africa sector are also **confirmed** using the same excel file (image below).
 
-  ![alt text](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landbyregion10050.jpg "Land By Region")
-*   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/gdppopworldadj.xlsx) excel file (Image below).
+  ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land By Region")
 
-  ![alt text](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
+*   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/GDPPOPWorldAdj.xlsx) excel file (Image below).
+
+  ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
 
 ### Contact Form Testing
 

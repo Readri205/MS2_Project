@@ -9,8 +9,6 @@
 
 ## Contents
 
-- [**EARTH AFRICA :earth_africa:**](#--earth-africa--earth-africa---)
-  * [Contents](#contents)
   * [Site Goals](#site-goals)
   * [User Experience (UX)](#user-experience--ux-)
     + [User stories](#user-stories)
@@ -24,8 +22,8 @@
       - [Imagery](#imagery)
     + [Wireframes](#wireframes)
   * [Features](#features)
-    + [Responsive on all device sizes](#responsive-on-all-device-sizes)
-    + [Interactive elements](#interactive-elements)
+    + [Responsive for Device Size](#responsive-for-device-size)
+    + [Interactive Elements](#interactive-elements)
     + [Future Features](#future-features)
   * [Technologies Used](#technologies-used)
     + [Languages Used](#languages-used)
@@ -37,7 +35,7 @@
     + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
     + [Contacts Page](#contacts-page)
   * [Testing](#testing)
-    + [Known Bugs](#known-bugs)
+    + [Known Bugs and Issues](#known-bugs-and-issues)
   * [Deployment](#deployment)
     + [GitHub Pages](#github-pages)
     + [Forking the GitHub Repository](#forking-the-github-repository)
@@ -50,6 +48,7 @@
   * [Version Control](#version-control)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## Site Goals
@@ -374,12 +373,14 @@
 
 Testing information can be found in a separate [Testing.md](https://github.com/Readri205/MS2_Project/blob/master/Testing.md) file.
 
-### Known Bugs
+### Known Bugs and Issues
 
 *   In the Search Function the drop down menu generatedfrom the [Referential API](https://rapidapi.com/referential/api/referential) does not return the list of Countries in a complete alphabetical order. Future updates to the site will look to remedy this issue.
+*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [Testing.md](https://github.com/Readri205/MS2_Project/blob/master/Testing.md) file under #Numerical Validation Testing.
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 *  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
-*  On some screen sizes between x and y, the pie charts on the 'Home' page can become squeezed and will not render the pie chart. Testing on various devices *(list them out)* did not evidence this issue however, there may be some devices with these screen sizes that could have this result.
+*  To accomodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size has been set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is too small for larger screens on desktop and lap top. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
+*  On some screen sizes less than 360px in portrait mode, the pie charts on the 'Home' page can become squeezed and will not render the pie chart appropriately. Testing on devices such as *Galaxy Fold* (Chrome dev Tools) evidenced this issue. Future site updates will look at other charting options to allow more flexible media query solutions for various screen sizes.
 
 ## Deployment
 
@@ -660,8 +661,9 @@ Note that different Code Editors will have different processes for making the cl
     * V20.0 Amend for charts style for iPhone 6 screen size from testing
     * V20.1 Amend global default pie chart font 8 totalCharts 10 pieCharts for 320px screen size
     * V20.2 Amend pie chart labels to full description for 320px screen size
-    * V20.1 Upload landbyregion.png test file for testing.md
-    * V20.1 Add text to Testing.md and screenshots for land size, population, gdp
+    * V20.3 Upload landbyregion.png test file for testing.md
+    * V20.4 Add text to Testing.md and screenshots for land size, population, gdp
+    * V20.5 Add and amend text in README.md and Testing.md files
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
