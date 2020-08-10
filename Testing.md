@@ -144,9 +144,15 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
 *   The 'Contact Form' was tested for input on all fields, submission confirmation back to the user and that an email was received via Emailjs based on the users details being submitted;
 
+    * Input validation
+
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/contactpageinputcheck10050.jpg "Contact Form Input Required")
 
+    * Submission Confirmation to User  
+
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/submissionconfirmation10050.jpg "Submission Confirmation")
+
+    * Email Receipt Confirmation
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/emailreceipt10050.jpg "Email Receipt")
 
