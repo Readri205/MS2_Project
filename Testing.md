@@ -140,8 +140,15 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/southasia10050.jpg "South Asia")
 
-
 ### Contact Form Testing
+
+*   The 'Contact Form' was tested for input on all fields, submission confirmation back to the user and that an email was received via Emailjs based on the users details being submitted;
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/contactpageinputcheck10050.jpg "Contact Form Input Required")
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/submissionconfirmation10050.jpg "Submission Confirmation")
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/emailreceipt10050.jpg "Email Receipt")
 
 ### Further Testing
 
@@ -155,7 +162,7 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * iPhone 5SE 375px Portrait Mode Home Page Charts
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone5320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone5se320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
 
     * iPhone4 320px Portrait Mode Home Page Charts
 
@@ -163,20 +170,18 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * iPhone4 320px Portrait Mode Country Details Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")* Galaxy Fold 280px Portrait Mode Home Page Charts
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")
 
     * Galaxy Fold 280px Portrait Mode Home Page Charts
+
         ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfold280px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
 
     * Galaxy Fold 653px Landscape Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
-
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 653px Landscape Home Page Charts")
 
 
 *   The website was viewed on a variety of devices such as MAC Desktop, MAC Laptop, iPhone SE iPhone6, iPhone7, iPhoneX, Galaxy.
-
-
 
 *   A large amount of testing was done to ensure that all pages were linking correctly.
 
