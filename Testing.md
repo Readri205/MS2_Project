@@ -20,13 +20,16 @@ View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+### Automated Testing
 
-Autoprefixer was used to parse CSS and add vendor prefixes to browser compatibility.
+The following automated tools were used to test the website during development of the website;
 
-*   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
-*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
-*   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - was used to parse CSS and add vendor prefixes
+*   [Chrome Developer Tools]() used extensively during development to test outputs and to identify issues arising during the development phase. This tool has proved very successful in terms of determining the appropriate results
+
+*   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate HTML.
+*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate CSS.
+*   [JSHint]() - [Results]() used to validate javascript.
+*   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -82,9 +85,23 @@ Autoprefixer was used to parse CSS and add vendor prefixes to browser compatibil
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
+### Numerical Validation Testing
+
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to Land Size, Population and GDP. In some cases, adjustments have had to be made to figures to reflect the more appropriate figures for the Africa continent analysis;
+
+  ![alt text](https://github.com/Readri205/MS2_Project/assets/documents/excel_files/landbyregion.png "Land By Region")
+*   
+
+### Contact Form Testing
+
 ### Further Testing
 
-*   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-*   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+*   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+
+*   The website was tested using Google Chrome Developer Tools Responsive Design feature for screen sizes.
+
+*   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 5, iPhone6, iPhone7, iPhone 8, iPhoneX, Galaxy.
+
 *   A large amount of testing was done to ensure that all pages were linking correctly.
+
 *   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
