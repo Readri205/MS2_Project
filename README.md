@@ -703,6 +703,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.0 Add testing for screen sizes in dev tools in Testing.md
     * V21.1 Add contact form tests and further screen size tests and images
     * V21.2 Amend text in Testing.md for contact form tests
+    * V21.3 Amend styles and remove unrequired images
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)

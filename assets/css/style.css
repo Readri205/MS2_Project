@@ -127,11 +127,11 @@ body {
 #countryMap {
 	position: relative;
 	z-index: 1;
-	height: 615px;
+	min-height: 615px;
 }
 .africa-map-box {
 	width: 100%;
-	height: 615px;
+	min-height: 615px;
 	text-align: center;
 	margin: 10px 0 0 0;
 	padding-bottom: 0;
@@ -194,8 +194,8 @@ body {
 	background-color: #FFFFF0;
 	width: 100%;
 	height: auto;
-	margin: 10px 0 0 0;
-	padding: 40px;
+	margin: 20px 0 0 0;
+	padding: 60px;
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -203,7 +203,7 @@ body {
 	text-align: center;
 }
 .reference-text {
-    padding-top: 30px;
+    padding-top: 10px;
     font-weight: 400;
 	font-size: 9px;
 	text-align: center;
