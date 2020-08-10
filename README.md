@@ -661,6 +661,7 @@ Note that different Code Editors will have different processes for making the cl
     * V20.1 Amend global default pie chart font 8 totalCharts 10 pieCharts for 320px screen size
     * V20.2 Amend pie chart labels to full description for 320px screen size
     * V20.1 Upload landbyregion.png test file for testing.md
+    * V20.1 Add text to Testing.md and screenshots for land size, population, gdp
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
