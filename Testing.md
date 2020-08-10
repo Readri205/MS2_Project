@@ -105,28 +105,38 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
   ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
 
-*   Lists of countries in all of the World Bank Database Sectors are here;
+* To confirm the Africa country data, the following files are uploaded providing the times series from 1970 to 20019 for Population and GDP by Country and Land Size;
+
+    * [Land size by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/Landareasqkm.xlsx)
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbycountry10050.jpg "Land Size by Country")
+    * [Population by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/Popular IndicatorsGDPPOPTOTES.xlsx)
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/popbycountry10050.jpg "Population by Country")
+    * [GDP by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/PopularIndicatorsGDPPOPTOTES.xlsx)
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdpbycountry10050.jpg "GDP by Country")
+
+
+*   Lists of countries in all of the World Bank Database Sectors. Note that the list for 'Africa' and 'Middle East' are adjusted to account for the 6 countries (Algeria, Egypt, Morrocco, Libya, Djibouti and Tunisia) from the World Bank Database 'Sub-Saharan Africa' and 'Middle East & North Africa' economic sectors.
     * **Africa**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/africa10050.jpg "Africa")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/africa1050.jpg "Africa")
     * **Middle East**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/middleeast10050.jpg "Middle East")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/middleeast10050.jpg "Middle East")
     * **Latin America & Caribbean**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/latinamericacaribbean10050.jpg "Latin America & Caribbean")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/latinamericacaribbean10050.jpg "Latin America & Caribbean")
     * **North America**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/northamerica10050.jpg "North America")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/northamerica10050.jpg "North America")
     * **East Asia & Pacific**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/eastasiapacific10050.jpg "East Asia & Pacific")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/eastasiapacific10050.jpg "East Asia & Pacific")
     * **Europe and Central Asia**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/europecentralasia10050.jpg "Europe & Central Asia")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/europecentralasia10050.jpg "Europe & Central Asia")
     * **South Asia**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/southasia10050.jpg "South Asia")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/southasia10050.jpg "South Asia")
 
 
 ### Contact Form Testing
