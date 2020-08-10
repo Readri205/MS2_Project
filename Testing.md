@@ -95,15 +95,15 @@ The following automated tools were used to test the website during development o
 
 ### Numerical Validation Testing
 
-The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to Land Size, Population and GDP. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
 *   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [LandByRegion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/LandByRegion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
 *   The land size for Africa from the World Bank is adjusted to move the 6 countries in the Middle East and North Africa sector are also **confirmed** using the same excel file (image below).
 
-  ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land Size By Region")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land Size By Region")
 
 *   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/GDPPOPWorldAdj.xlsx) excel file (Image below).
 
-  ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
 
 * To **confirm** the Africa country data, the following files are uploaded providing the **Land Size** by Country, **Population** by Country **times series from 1970 to 2019** and **GDP** by Country **time series from 1970 to 2019**. Note that the images below only show 2019 data in the time series. Please view the excel files for the full time series.
 
@@ -147,9 +147,36 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
 *   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
-*   The website was tested using Google Chrome Developer Tools Responsive Design feature for screen sizes.
+*   The website was tested using Google Chrome Developer Tools Responsive Design feature for small screen sizes. Screen sizes down to 320px will render the Pie Charts appropriately in Portrait Mode. Screen size of 280px in portrait mode (Galaxy Fold) will not render the Home Page Pie Charts and must be viewed in landscape mode.
 
-*   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 5, iPhone6, iPhone7, iPhone 8, iPhoneX, Galaxy.
+    * iPhone 6 375px Portrait Mode Home Page Charts
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone6375px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+
+    * iPhone 5SE 375px Portrait Mode Home Page Charts
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone5320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+
+    * iPhone4 320px Portrait Mode Home Page Charts
+
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone4320px10050.jpg "iPhone 4 320px Portrait Home Page Charts")
+
+    * iPhone4 320px Portrait Mode Country Details Charts
+
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")* Galaxy Fold 280px Portrait Mode Home Page Charts
+
+    * Galaxy Fold 280px Portrait Mode Home Page Charts
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfold280px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
+
+    * Galaxy Fold 653px Landscape Mode Home Page Charts
+
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
+
+
+
+*   The website was viewed on a variety of devices such as MAC Desktop, MAC Laptop, iPhone SE iPhone6, iPhone7, iPhoneX, Galaxy.
+
+
 
 *   A large amount of testing was done to ensure that all pages were linking correctly.
 
