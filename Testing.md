@@ -27,8 +27,13 @@ View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master
 
 The following automated tools were used to test the website during development of the website;
 
-*   [Chrome Developer Tools]() used extensively during development to test outputs and to identify issues arising during the development phase. This tool has proved very successful in terms of determining the appropriate results
-
+*   [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used extensively during development to test outputs and to identify issues arising during the development phase. This tool was used determine results for;
+    * API fetch returns;
+    * Javascript function results;
+    * CORS issues and resolutions;
+    * Element styling;
+    * Site upload speeds for API's and image loading;
+    * Device type screen size testing.
 *   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate HTML.
 *   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate CSS.
 *   [JSHint]() - [Results]() used to validate javascript.
@@ -90,15 +95,39 @@ The following automated tools were used to test the website during development o
 
 ### Numerical Validation Testing
 
-The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to Land Size, Population and GDP. In some cases, adjustments have had to be made to figures to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to Land Size, Population and GDP. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
 *   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [LandByRegion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/LandByRegion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
 *   The land size for Africa from the World Bank is adjusted to move the 6 countries in the Middle East and North Africa sector are also **confirmed** using the same excel file (image below).
 
-  ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land By Region")
+  ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land Size By Region")
 
 *   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/GDPPOPWorldAdj.xlsx) excel file (Image below).
 
   ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
+
+*   Lists of countries in all of the World Bank Database Sectors are here;
+    * **Africa**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/africa10050.jpg "Africa")
+    * **Middle East**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/middleeast10050.jpg "Middle East")
+    * **Latin America & Caribbean**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/latinamericacaribbean10050.jpg "Latin America & Caribbean")
+    * **North America**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/northamerica10050.jpg "North America")
+    * **East Asia & Pacific**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/eastasiapacific10050.jpg "East Asia & Pacific")
+    * **Europe and Central Asia**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/europecentralasia10050.jpg "Europe & Central Asia")
+    * **South Asia**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/southasia10050.jpg "South Asia")
+
 
 ### Contact Form Testing
 

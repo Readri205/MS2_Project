@@ -379,8 +379,8 @@ Testing information can be found in a separate [Testing.md](https://github.com/R
 *   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [Testing.md](https://github.com/Readri205/MS2_Project/blob/master/Testing.md) file under #Numerical Validation Testing.
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 *  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
-*  To accomodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size has been set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is too small for larger screens on desktop and lap top. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
-*  On some screen sizes less than 360px in portrait mode, the pie charts on the 'Home' page can become squeezed and will not render the pie chart appropriately. Testing on devices such as *Galaxy Fold* (Chrome dev Tools) evidenced this issue. Future site updates will look at other charting options to allow more flexible media query solutions for various screen sizes.
+*  To accommodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size for the [Chartsjs:](https://www.chartjs.org/) charts is set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is (in my opinion) too small for larger screens on desktops and laptops. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
+*  On some screen sizes less than 360px in portrait mode, the pie charts on the 'Home' page can become squeezed and will not render the pie chart appropriately. Testing on devices such as *Galaxy Fold* (Chrome Developer Tools) evidenced this issue. Future site updates will look at other charting options to allow more flexible media query solutions for various screen sizes.
 
 ## Deployment
 
@@ -429,9 +429,19 @@ Note that different Code Editors will have different processes for making the cl
 
 ### Code
 
-*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for providing help, guidance, inspiration and input on the challenging components for the Country Search Function.
+*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for providing help, guidance, inspiration and input on the challenging components particularly for the 'Country Search' Function.
+
+*   [Code Institute course](https://codeinstitute.net/5-day-coding-challenge/?utm_term=%2Bcode%20%2Binstitute%20%2Bcourses&utm_campaign=a%2526c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-443742237303&hsa_ad=407017470923&hsa_acc=8983321581&hsa_grp=62188641040&hsa_mt=b&hsa_cam=1578649861&hsa_kw=%2Bcode%20%2Binstitute%20%2Bcourses&hsa_ver=3&hsa_src=g&gclid=CjwKCAjw4MP5BRBtEiwASfwAL3-Oi3uDo1sBfn2KpQVAlLb07T2ndP-Q2mCFxdGgpvoBMoPIAtbg9xoCyZgQAvD_BwE&gclsrc=aw.ds) (the Star Wars example) for the API fetch function that is used extensively across all the API calls in this website.
+
+*   [Code Institute course](https://codeinstitute.net/5-day-coding-challenge/?utm_term=%2Bcode%20%2Binstitute%20%2Bcourses&utm_campaign=a%2526c_BR_IRL_Code_Institute&utm_source=adwords&utm_medium=ppc&hsa_net=adwords&hsa_tgt=kwd-443742237303&hsa_ad=407017470923&hsa_acc=8983321581&hsa_grp=62188641040&hsa_mt=b&hsa_cam=1578649861&hsa_kw=%2Bcode%20%2Binstitute%20%2Bcourses&hsa_ver=3&hsa_src=g&gclid=CjwKCAjw4MP5BRBtEiwASfwAL3-Oi3uDo1sBfn2KpQVAlLb07T2ndP-Q2mCFxdGgpvoBMoPIAtbg9xoCyZgQAvD_BwE&gclsrc=aw.ds) (the [Emailjs](https://www.emailjs.com/) example) for the 'Contact Form' email return function used in this website.
 
 *   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+*   [W3C Schools](https://www.w3schools.com/) has been invaluable for many aspects of the code;
+    * The Navbar;
+    * The Carousel; and
+    * Contact Form Jquery submission confirmation.
+
 
 *   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
@@ -454,17 +464,19 @@ Note that different Code Editors will have different processes for making the cl
 
 ### Acknowledgements
 
-*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for continuous helpful feedback.
+*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for continuous helpful feedback. Ade has been an amazing, in helping and supporting me with this site. It has proven much harder and much more work for me to develop than I ever thought (severe case of 'what you don't know when you start').
 
-*   Tutor support at Code Institute for their support.
+*   Tutor support at Code Institute for their support. When I have requested help, it has come quickly and efficiently when needed.
 
-*   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/)
+*   Student assessment at Code Institute. I have looked to accommodate comments back on MS1 to reduce any re-occurring issues in MS2.
 
-*   Friends and family providing review and feedback on the site content and navigation.
+*   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/). Dante Healy, in particular, who has provided consistent feedback during development.
+
+*   Friends and family providing review and feedback on the site content, navigation, screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
 
 ## Version Control
 
-*   All through the development phase of the project, commits have been made from the GitPod Repository to GitHub. The version control list below mirrors the GitHub Commit list. It is designed to provide a direct track on commits in the README file for easy access as to code status in GitPod. Note that feedback from MS1 Project was received on July 8th, 2020 which stated that commits should be in the imperative. Any commits after this date (approx. V6.4) that are not in the imperative is in error.
+*   All through the development phase of the project, commits have been made from the GitPod Repository to GitHub. The version control list below mirrors the GitHub Commit list. It is designed to provide a direct track on commits in the README file for easy access as to code status in GitPod. Note that feedback from MS1 Project was received on July 8th, 2020 which stated that commits should be in the imperative tense. Any commits after this date (approx. V6.4) that are not in the imperative is in error.
 
     * V1.0 Initial Commit
     * V1.1 Added Africa header image, country html page and README template
@@ -664,6 +676,7 @@ Note that different Code Editors will have different processes for making the cl
     * V20.3 Upload landbyregion.png test file for testing.md
     * V20.4 Add text to Testing.md and screenshots for land size, population, gdp
     * V20.5 Add and amend text in README.md and Testing.md files
+    * V20.6 Upload country listing by region in Testing.md
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
