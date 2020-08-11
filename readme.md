@@ -158,7 +158,7 @@
 
 *   ### Wireframes
 
-    *   Wireframe - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/Africa.pdf)
+    *   Wireframe - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
 
 ## Features
 
@@ -293,21 +293,21 @@
 * ### Home Page
     * Information Box
       * Contains the details as to the intention of the site and a how it can be used. It also contains the basic information for Africa in a high level context.
-      * The data included in the information box for the **World** figures is computed using the **worldStats.js** file for each of Land Size, Population and GDP. The respective sizes for **Africa** are computed separately from the World Bank Database Excel file download located [here](XX).
+      * The data included in the information box for the **World** figures is computed using the **worldstats.js** file for each of Land Size, Population and GDP. The respective sizes for **Africa** are computed separately from the World Bank Database Excel file download located [here](XX).
       * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox10025.jpg "INFO Box")
     * Map
-      * The Africa Map is constructed using the **africaMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Map is centred on Ouesso, Republic of Congo (1.6155N, 16.0464E) in the Map Box.
+      * The Africa Map is constructed using the **africamap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Map is centred on Ouesso, Republic of Congo (1.6155N, 16.0464E) in the Map Box.
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africamap10025.jpg "AFRICA Map")
     * Line Graphs and Pie Charts
       * The graphs and charts use the [Chartsjs](https://www.chartjs.org/) javascript library.
-      * The Line Graphs and Pie Charts are all computed in the **totalCharts.js** file.
+      * The Line Graphs and Pie Charts are all computed in the **totalcharts.js** file.
         * The Line Graphs reference [pop.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/pop.csv) and [gdp.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/gdp.csv) respectively to create the historical data between 1970 and 2019.
 
           ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/pop10025.jpg "Population Chart")
 
           ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/gdp10025.jpg "GDP Chart")
-        * The Pie Charts are directly loaded with the data in the **totalCharts.js** file.
+        * The Pie Charts are directly loaded with the data in the **totalcharts.js** file.
 
           ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africaland10025.jpg "Land Pie Chart")
 
@@ -315,16 +315,16 @@
 
           ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africagdp10025.jpg "GDP Pie Chart")
     * Country Search Function
-      * the Search Function is a drop down menu that references the **getCountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getCountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described below in the 'Country Details' Page section) that in turn generate the required returns for the Country selected.
+      * the Search Function is a drop down menu that references the **getcountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getcountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described below in the 'Country Details' Page section) that in turn generate the required returns for the Country selected.
 
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchmenu10050.jpg "Search Function")
 * ### Country Details Page (Nigeria has been used by way of example)
     * Country Information
       * Contains the basic information for the **Country** selected.
-      * The Country Name, National Flag and Capital City is returned in the **countryStats.js** file  from the relevant API's.
-      * The data included in the information box for the **Country** figures and percentages is computed in the **countryStats.js** file for each of Land Size, Population and GDP on returns from the relevant API's. The respective sizes for **Africa** are computed separately from the **World Bank Database** Excel file download located [here](XX).
+      * The Country Name, National Flag and Capital City is returned in the **countrystats.js** file  from the relevant API's.
+      * The data included in the information box for the **Country** figures and percentages is computed in the **countrystats.js** file for each of Land Size, Population and GDP on returns from the relevant API's. The respective sizes for **Africa** are computed separately from the **World Bank Database** Excel file download located [here](XX).
       * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
-      * The following code at **line 107** in the **countryStats.js** file is used to account for Sudan and South Sudan Land Size data after the API from the search function is called;
+      * The following code at **line 107** in the **countrystats.js** file is used to account for Sudan and South Sudan Land Size data after the API from the search function is called;
 
       ```JavaScript
         function writeLandSize(data) {
@@ -342,17 +342,17 @@
         ```
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriainfo10050.jpg "Country Information")
     * Country Map
-      * The Country Map is centred on the Capital City Latitude and Longitude. The map is generated by reference to the **countryMap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers.
+      * The Country Map is centred on the Capital City Latitude and Longitude. The map is generated by reference to the **countrymap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers.
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriamap10050.jpg "Country Map")
     * Country Line Graphs
-      * The Country Line Graphs are returned in the **countryGraphs.js** file  from the relevant API's.
+      * The Country Line Graphs are returned in the **countrygraphs.js** file  from the relevant API's.
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriapopline10050.jpg "Country Population Line Graph")
 
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdpline10050.jpg "Country GDP Line Graph")
 
     * Country and Top 5 Pie Charts
-      * The Country and Top 5 Pie charts are returned in the **pieCountry.js** file  from the relevant API's.
-      * The following code at **line 18** in the **pieCountry.js** file is used to account for Sudan and South Sudan Land Size data (in the Land Size Pie Chart) after the API from the search function is called;
+      * The Country and Top 5 Pie charts are returned in the **piecountry.js** file  from the relevant API's.
+      * The following code at **line 18** in the **piecountry.js** file is used to account for Sudan and South Sudan Land Size data (in the Land Size Pie Chart) after the API from the search function is called;
       ```javascript
         function writeLand(data) {
           if (countryCode == "SD") {
@@ -384,22 +384,22 @@
 
     * Country Search Function
 
-      * the Search Function is a drop down menu that references the **getCountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getCountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section) that in turn generates the required information return for the Country selected.
+      * the Search Function is a drop down menu that references the **getcountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getcountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section) that in turn generates the required information return for the Country selected.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
 * ### Contacts Page
 
     * The Contacts Page contains the 'Contact Form' for a user to supply contact information and to provide comments, questions or to provide a request for some work.
-    * The 'Contact Form' will generate an email by referencing the **sendEmail.js** file when a user submits their information.
+    * The 'Contact Form' will generate an email by referencing the **sendemail.js** file when a user submits their information.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/contact10050.jpg "Contact Form")
 
 ## Testing
 
-Testing information can be found in a separate [Testing.md](https://github.com/Readri205/MS2_Project/blob/master/Testing.md) file.
+Testing information can be found in a separate [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file.
 
 ### Known Bugs and Issues
 
 *   In the Search Function the drop down menu generatedfrom the [Referential API](https://rapidapi.com/referential/api/referential) does not return the list of Countries in a complete alphabetical order. Future updates to the site will look to remedy this issue.
-*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [Testing.md](https://github.com/Readri205/MS2_Project/blob/master/Testing.md) file under #Numerical Validation Testing.
+*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under #Numerical Validation Testing.
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 *  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
 *  To accommodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size for the [Chartsjs:](https://www.chartjs.org/) charts is set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is (in my opinion) too small for larger screens on desktops and laptops. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
@@ -709,6 +709,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.3 Amend styles and remove unrequired images
     * V21.4 Upload GitHub header image amiresponsive
     * V21.5 Add specific styles for 'Contact Form'
+    * V21.6 Amend all uppercase file and directory names to lowercase
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)

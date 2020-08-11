@@ -1,8 +1,8 @@
-![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")
+![alt text](https://readri205.github.io/MS2_Project/assets/images/title3.jpg "Africa Logo")
 
 [View the live **EARTH AFRICA**:earth_africa: project here.](https://readri205.github.io/MS2_Project/)
 
-View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master/README.md)
+View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master/readme.md)
 
 # **EARTH AFRICA :earth_africa: - Testing Information**
 
@@ -95,25 +95,25 @@ The following automated tools were used to test the website during development o
 
 ### Numerical Validation Testing
 
-The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
-*   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [LandByRegion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/LandByRegion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/readme.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
+*   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [landbyregion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landbyregion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
 *   The land size for Africa from the World Bank is adjusted to move the 6 countries in the Middle East and North Africa sector are also **confirmed** using the same excel file (image below).
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land Size By Region")
 
-*   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/GDPPOPWorldAdj.xlsx) excel file (Image below).
+*   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/gdppopworldadj.xlsx) excel file (Image below).
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
 
 * To **confirm** the Africa country data, the following files are uploaded providing the **Land Size** by Country, **Population** by Country **times series from 1970 to 2019** and **GDP** by Country **time series from 1970 to 2019**. Note that the images below only show 2019 data in the time series. Please view the excel files for the full time series.
 
-    * [Land size by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/Landareasqkm.xlsx)
+    * [Land size by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landareasqkm.xlsx)
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbycountry10050.jpg "Land Size by Country")
-    * [Population by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/PopularIndicatorsGDPPOPTOTES.xlsx)
+    * [Population by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/popularindicators.xlsx)
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/popbycountry10050.jpg "Population by Country")
-    * [GDP by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/PopularIndicatorsGDPPOPTOTES.xlsx)
+    * [GDP by Country](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/popularindicators.xlsx)
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdpbycountry10050.jpg "GDP by Country")
 
