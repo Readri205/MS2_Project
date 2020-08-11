@@ -199,6 +199,19 @@ body {
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.contact-box {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	text-align: center;
+    /*background-color:#ffe6ea;*/
+	background-color: #FFFFF0;
+	width: 100%;
+	height: auto;
+    padding:35px 35px 10px 35px;
+	margin: 20px 0 0 0;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .info-box-header {
 	text-align: center;
 }
@@ -251,7 +264,7 @@ button[type="submit"] {
 
 footer {
 	background-color: #000;
-	min-height: 300px;
+	min-height: 150px;
 	margin-top: 20px;
 }
 .footer-header {

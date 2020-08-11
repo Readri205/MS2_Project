@@ -8,10 +8,10 @@
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/filter.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
 	<script src="https://kit.fontawesome.com/5fa1d9dfaf.js">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js" type="text/javascript">
@@ -118,16 +118,19 @@
 				<div></div>
 			</div><!-- The Second box starts here -->
 			<div class="col-lg-8">
-				<div class="code-box">
+				<div class="contact-box">
 					<h3 class="uppercase info-box-header">Contact Details</h3>
 					<p>Please contact us to let us know your comments on the site. We are keen to know more about what you like and what you don't like. We can also provide you with regular updates as to any changes and additions to the site. The intention is to add more details and graphs for each of the countries, and to expand the site as a series covering all 7 of the World's Continents.</p>
 					<div class="center-form">
 						<form action="" id="myForm" method="post" name="myForm" onsubmit="return sendMail(this);">
-							<input class="form-control" id="fname" name="first_name" placeholder="First Name" required="" type="text"> <input class="form-control" id="lname" name="last_name" placeholder="Last Name" required="" type="text"> <input class="form-control" id="email" name="email_address" placeholder="Email Address" required="" type="email"> <input class="form-control" id="contactno" name="contactno" placeholder="+XX (0) Contact No." required="" type="text"> 
-							<textarea class="form-control" id="comment" name="text" placeholder="Questions, comments or suggestions!" required="" rows="5"></textarea>
+							<br><input class="form-control" id="fname" name="first_name" placeholder="First Name" required="" type="text">
+                            <br><input class="form-control" id="lname" name="last_name" placeholder="Last Name" required="" type="text">
+                            <br><input class="form-control" id="email" name="email_address" placeholder="Email Address" required="" type="email">
+                            <br><input class="form-control" id="contactno" name="contactno" placeholder="+XX (0) Contact No." required="" type="text"> 
+							<br><textarea class="form-control" id="comment" name="text" placeholder="Questions, comments or suggestions!" required="" rows="5"></textarea>
 							<div class="row text-center">
 								<div class="col">
-									<button class="btn btn-secondary" type="submit">Send Contact Details!</button>
+									<br><button class="btn btn-secondary" type="submit">Send Contact Details!</button>
 								</div>
 							</div>
 						</form>
