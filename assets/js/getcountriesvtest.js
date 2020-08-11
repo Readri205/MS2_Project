@@ -25,16 +25,26 @@ function getDataCountry(cb) {
     xhttp.setRequestHeader("Access-Control-Allow-Origin", baseUrlcountrys);
     xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
     xhttp.send();
+    
 }
 
 //  Country Codes by Country from API;
 function writeCountry(data) {
+
+    data.sort(function(a, b){
+    var x = a.value.toLowerCase();
+    var y = b.value.toLowerCase();
+    if (x < y) {return -1;}
+    if (x > y) {return 1;}
+    return 0;
+  });
+
         countries.innerHTML += `<option value="">Select Country</option>`;
     data.forEach(function (item) {
         countries.innerHTML += `<option value="${item.key}">${item.value}</option>`;
     });
+    console.log(data);
 }
-
 countries.addEventListener("change", function () {
     // Force Redirection
     window.location = `/country.html?country=${countries.value}`;

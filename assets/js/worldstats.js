@@ -26,7 +26,7 @@ function writeLand(data) {
     const landsize = size.toFixed(1);
     //Sudan and South Sudan Sq Km not included in World Bank figures Sudan 1886,068, South Sudan 619,745 Sq Kms - Wikipedia------->
    
-    console.log(size.toFixed(1));
+    //console.log(size.toFixed(1));
     document.getElementById("worldlandsize").innerHTML += ("Landsize: 29.5 Mn Sq. Kms - 23% of World Land Size" + " (" + landsize + " Mn Sq. Kms)");
 }
 getDataLand(writeLand);
@@ -52,7 +52,7 @@ function writePop(data) {
     const size = data[1][0].value / 1000000000;
     const popsize = size.toFixed(1);
    
-    //console.log(popsize);
+    console.log(size);
     document.getElementById("worldpopsize").innerHTML += ("Population: 1.3 Bn - 17% of World Population" + " (" + popsize + " Bn)");
 }
 getDataPop(writePop);

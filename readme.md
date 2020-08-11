@@ -710,6 +710,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.5 Add specific styles for 'Contact Form'
     * V21.6 Amend all uppercase file and directory names to lowercase
     * V21.7 Text updates to readme.md and testing.md
+    * V21.8 Add function to getcountries.js to alpha sort drop down list
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
