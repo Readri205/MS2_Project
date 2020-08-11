@@ -1,7 +1,9 @@
 <!-------------------<img src="assets/images/AdobeStock_322612165.gif" style="margin: 0;">---->
 <!------------<h2 align="center"><img src="assets/images/Title2.png" style="margin: 0;"></h2>--------->
 
-![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")
+![alt text](https://readri205.github.io/MS2_Project/assets/images/amiresponsive.png "Africa")
+
+<!--------![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")-------->
 
 [View the live **EARTH AFRICA** :earth_africa: project here.](https://readri205.github.io/MS2_Project/)
 
@@ -148,7 +150,7 @@
     *   #### Colour Scheme
         *   The main colour is 'Ivory' (#FFFFF0), designed to provide a light neutral background to highlight dark text, line graphs, pie charts, images and the country flags.
     *   #### Typography
-        *   The "Exo" font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the site correctly. "Exo" is a clean font which is both attractive and appropriate.
+        *   The "Roboto" font is the main font used throughout the whole website with Sans Serif as the fallback font in case the font isn't imported into the site correctly. "Roboto" is a clean font which is both attractive and appropriate.
     *   #### Box Content Structure
         *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country Details' page. In addition the box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country Details' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
     *   #### Imagery
@@ -209,7 +211,7 @@
     * Expand the site to include other Continents
     * Expand the site to include more details on the countries
     * Update the API references for data such that the site 'maintains' itself when the World Bank Database updates the API data. Currently, some data is supplied via manual and CSV input which will require a manual process to update when the data is refreshed.
-    * Amend to Drop Down Search function to return the Country list in alphabetical order
+    * Amend the Drop Down Search function to return the Country list in alphabetical order.
     * Amend the 'Home' page pie charts to ensure appropriate rendering on screen sizes between x and y size.
 
 
@@ -238,7 +240,7 @@
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Atom](https://atom.io/)
-    - Atom was used as a Text Editor for README.md and Testing.md
+    - Atom was used as a Markdown Text Editor for README.md and Testing.md
 1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
     - Mapbox javascript library is used to create the maps on the 'Home' and 'Country' pages.
 1. [Leaflet:](https://leafletjs.com/)
@@ -255,6 +257,7 @@
     - Adobe Stock was used as a library source for images.
 1. [Unsplash:](https://unsplash.com/)
     - Unsplash was used as a library source for images.
+1. [Favicon.io:]() was used to generate the earth_africa favicon on webpage titles.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes]() during the design process.
 1. [Am I Responsive:](http://ami.responsivedesign.is/#)
@@ -704,6 +707,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.1 Add contact form tests and further screen size tests and images
     * V21.2 Amend text in Testing.md for contact form tests
     * V21.3 Amend styles and remove unrequired images
+    * V21.4 Upload GitHub header image amiresponsive
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)

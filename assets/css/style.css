@@ -15,7 +15,7 @@ body {
 }
 .bg {
 	/* The header image used */
-	background-image: url("../images/Title3.jpg");
+	background-image: url("../images/title3.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
