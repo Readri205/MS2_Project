@@ -21,8 +21,6 @@ View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Testing
-
 ### Automated Testing
 
 The following automated tools were used to test the website during development of the website;
@@ -39,12 +37,10 @@ The following automated tools were used to test the website during development o
 *   [JSHint]() - [Results]() used to validate javascript.
 *   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
 
-### Testing User Stories from User Experience (UX) Section
+## User stories
 
-*   ### User stories
-
-    *   #### First Time Visitor Goals
-        * The first time visitor will want to;
+*  ### First Time Visitor Goals
+      * The first time visitor will want to;
           1. easily understand the main purpose of the site;
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images just beneath the header;
@@ -59,8 +55,8 @@ The following automated tools were used to test the website during development o
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
-    *   #### Returning Visitor Goals
-        * The returning visitor will want to;
+*   ### Returning Visitor Goals
+      * The returning visitor will want to;
           1. find any new information supplied.
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images and any new images just beneath the header;
@@ -76,7 +72,7 @@ The following automated tools were used to test the website during development o
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
-    *   #### Frequent User Goals
+*    ### Frequent User Goals
         * The frequent visitor will want to;
           1. check to see if there are any newly added features and information.
           1. find any new information supplied;
@@ -95,13 +91,13 @@ The following automated tools were used to test the website during development o
 
 ### Numerical Validation Testing
 
-The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/readme.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [readme.md](https://github.com/Readri205/MS2_Project/blob/master/readme.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
 *   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [landbyregion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landbyregion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
 *   The land size for Africa from the World Bank is adjusted to move the 6 countries in the Middle East and North Africa sector are also **confirmed** using the same excel file (image below).
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/landbyregion10050.jpg "Land Size By Region")
 
-*   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [GDPPOPWorldAdj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/gdppopworldadj.xlsx) excel file (Image below).
+*   The Population and GDP sectors for the World Regions and Africa are also **confirmed** in the [gdppopworldadj.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/gdppopworldadj.xlsx) excel file (Image below).
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/gdppopworldadj10050.jpg "Population and GDP Adjustments")
 
@@ -146,15 +142,15 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * Input validation
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/contactpageinputcheck10050.jpg "Contact Form Input Required")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactpageinputcheck10050.jpg "Contact Form Input Required")
 
     * Submission Confirmation to User  
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/submissionconfirmation10050.jpg "Submission Confirmation")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/submissionconfirmation10050.jpg "Submission Confirmation")
 
     * Email Receipt Confirmation
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/emailreceipt10050.jpg "Email Receipt")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/emailreceipt10050.jpg "Email Receipt")
 
 ### Further Testing
 
@@ -164,27 +160,27 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * iPhone 6 375px Portrait Mode Home Page Charts
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone6375px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone6375px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
 
     * iPhone 5SE 375px Portrait Mode Home Page Charts
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone5se320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone5se320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
 
     * iPhone4 320px Portrait Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone4320px10050.jpg "iPhone 4 320px Portrait Home Page Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone4320px10050.jpg "iPhone 4 320px Portrait Home Page Charts")
 
     * iPhone4 320px Portrait Mode Country Details Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")
 
     * Galaxy Fold 280px Portrait Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfold280px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/galaxyfold280px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
 
     * Galaxy Fold 653px Landscape Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/test_screenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 653px Landscape Home Page Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 653px Landscape Home Page Charts")
 
 
 *   The website was viewed on a variety of devices such as MAC Desktop, MAC Laptop, iPhone SE iPhone6, iPhone7, iPhoneX, Galaxy.

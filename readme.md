@@ -1,11 +1,10 @@
-<!-------------------<img src="assets/images/AdobeStock_322612165.gif" style="margin: 0;">---->
-<!------------<h2 align="center"><img src="assets/images/Title2.png" style="margin: 0;"></h2>--------->
-
 ![alt text](https://readri205.github.io/MS2_Project/assets/images/amiresponsive.png "Africa")
 
-<!--------![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")-------->
+<!--------![alt text](https://readri205.github.io/MS2_Project/assets/images/title3.jpg "Africa Logo")-------->
 
 [View the live **EARTH AFRICA** :earth_africa: project here.](https://readri205.github.io/MS2_Project/)
+
+![alt text](https://readri205.github.io/MS2_Project/assets/images/title3.jpg "Africa Logo")
 
 # **EARTH AFRICA :earth_africa:**
 
@@ -710,6 +709,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.4 Upload GitHub header image amiresponsive
     * V21.5 Add specific styles for 'Contact Form'
     * V21.6 Amend all uppercase file and directory names to lowercase
+    * V21.7 Text updates to readme.md and testing.md
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
