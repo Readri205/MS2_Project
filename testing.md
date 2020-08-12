@@ -2,7 +2,7 @@
 
 [View the live **EARTH AFRICA**:earth_africa: project here.](https://readri205.github.io/MS2_Project/)
 
-View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master/readme.md)
+View the Main README [here](https://github.com/Readri205/MS2_Project/blob/master/README.md)
 
 # **EARTH AFRICA :earth_africa: - Testing Information**
 
@@ -91,7 +91,7 @@ The following automated tools were used to test the website during development o
 
 ### Numerical Validation Testing
 
-The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [readme.md](https://github.com/Readri205/MS2_Project/blob/master/readme.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
+The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
 *   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [landbyregion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landbyregion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
 *   The land size for Africa from the World Bank is adjusted to move the 6 countries in the Middle East and North Africa sector are also **confirmed** using the same excel file (image below).
 

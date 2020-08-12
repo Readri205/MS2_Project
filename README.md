@@ -103,11 +103,11 @@
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
           1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. read the information about Africa in a World Context;
-          1. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
+          1. search for another country and read the information about that country;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
@@ -118,12 +118,12 @@
           1. view the carousel images and any new images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * A returning visitor may want to go straight to the 'Country' search function;
-          1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
+          1. search the details for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
-          1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
+          1. search for another country and read the information about that country;
         * A returning visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
@@ -135,12 +135,12 @@
           1. view the carousel images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * A frequent visitor may want to go straight to the 'Country' search function;
-          1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
+          1. search the details for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
-          1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. navigate easily back to the 'Home' page;
-          1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
+          1. search for another country and read the information about that country;
         * A frequent visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
@@ -711,6 +711,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.6 Amend all uppercase file and directory names to lowercase
     * V21.7 Text updates to readme.md and testing.md
     * V21.8 Add function to getcountries.js to alpha sort drop down list
+    * V21.9 Revert README.md file name to uppercase after Tutor confirmation
 
 ***
-<b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)2[↩](#a2)3[↩](#a3)4[↩](#a4)5[↩](#a5)6[↩](#a6)7[↩](#a7)8[↩](#a8)9[↩](#a9)
+<b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
