@@ -760,6 +760,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V22.1 Update README with wireframe and country search text
     * V22.2 Update README.md for site table
     * V22.3 Update README.md and testing.md contents
+    * C22.4 Remove filter.css link in index and contact pages
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
