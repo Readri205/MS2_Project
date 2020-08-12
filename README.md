@@ -55,7 +55,6 @@
 * This website provides an overview of the **Africa Continent** in terms of **Land Size, Population** and **Gross Domestic Product (GDP)**. These measures have been provided in a **World** context. The website provides an ability to view similar data for each country in Africa by using a search function. The search function is provided at the bottom of the **'Home'** page and also on the bottom of the **'Country Details'** page. The search function in both locations allows for a quick search for an African country from either page.
 
 * The website is **'informative'**, allowing users to view information about **Africa** and to view information on specific countries. The site is designed to show **Africa** in a world context on the **'Home'** page and to show each country in an Africa context on the **'Country Details'** page.
-
 * The website concept is to answer high level questions about the **African** Continent;
   * where is it?;
   * what are the countries in it?;
@@ -63,15 +62,11 @@
   * what size are each of the countries in terms of Land Size, Population and Gross Domestic Product (GDP);
   * what is the name of the Capital City and where is it located?; and
   * what does the National Flag look like?
-
-
 * The answers for **Africa as a whole** are provided through a number of different media outputs on the **'Home'** page;
   * **text summary** on Africa land size, population and GDP;
   * **a map** showing the Africa continent with many of the key countries shown;
   * **line graphs** for population and GDP growth from 1970 to 2019;
   * **pie charts** showing Land Size, Population and GDP for Africa relative to the Rest of the World.
-
-
 * The answers for any **African Country** returned from a search query;
   * **text summary** on Country capital city, national flag, land size, population and GDP relative to the Rest of Africa;
   * **a map** centred on the capital city location and showing the country in context of the Africa Continent;
@@ -85,7 +80,6 @@
 * If the site is perceived as successful, it is anticipated that the site could be expanded to show;
   * similar information for the six remaining World Continents; and
   * each continent and its countries could be expanded with more details.
-
 
 * The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users. The website was designed using **'Mobile First'** principles as the site must be perceived to be quick and easy to use and read as a reference site on a mobile device.
 
@@ -154,7 +148,7 @@
         *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context on larger screens each image has a clear title description sourced from the original image provided by the contributor. On small screens the image titles are removed, due to space and readability constraints.
 
 *   ### Wireframes
-    *   The wireframe design consisted of two pages; **'Home'** and **'Country Search'**.
+    *   #### Original Wireframe Design (July 2, 2020).
         *   The **'Home'** page includes an **'Information box'**, **'Population and GDP line graphs'**. On scroll down the page would reveal an **'Africa Map'** and an **'Information Table'** listing all 54 countries with their respective **'Population and GDP'** sizes. The **'Information Table'** is intended to be 'clickable' to search for more details on any Country. **'Country Search'** and **'Contact Us'** boxes are also included.
         *   The **'Country Search'** page includes a **Country Name** header title with an image of the **National Flag**, an image of the **Capital City**, an **'Information Table'** of historical **Population and GDP data**, **Country Map** and **Line Graphs** of the same data. **'Country Search'** and **'Contact Us'** boxes are also included.
         * Sources for data were considered as follows;
@@ -164,16 +158,15 @@
           1. National Flag images - [CountryFlags](https://www.countryflags.io/)
           1. Line and Pie Chart Capability - [Chartsjs](https://www.chartjs.org/)
           1. Automated Email Response - [Emailjs](https://www.emailjs.com/)
-        *   The **Original Design Wireframe** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
-      * **Actual Site Design**;
-          * Fundamentally, the developed site uses many of the concepts from the original Wireframe design. Variations from the original design are as follows;
+        *   The **Original Wireframe Design** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
+    *  #### Actual Site Design.
+      * The developed site uses many of the concepts from the original Wireframe design. Variations are as follows;
             1. The main header image was switch to the 'Africa' headed image which conveys a strong but not overwhelming 'Africa' theme;
-            1. The 'Contact Form' was moved to its own page to declutter the two main pages. It is accessible from every page either through the main menu or from the footer;
-            1. The Capital City images were switch to a more dynamic and generic carousel theme across all the pages and placed just beneath the main header image. The images are strong and unique and if a desktop is left on the site the images remain eye catching due their **vivid colours** and also due to the **carousel movement**;
-            1. The 'Information Tables' were switched to more graphically appealing Pie Charts that are easy to read;
+            1. The **'Contact Form'** was moved to its own page to **declutter** the two main pages. It is accessible from every page either through the main menu or from the footer;
+            1. The **Capital City** images were switch to a more dynamic and generic **carousel theme** across all the pages and placed just beneath the main header image. The images are strong and unique and if a desktop is left on the site the images are eye catching due to **vivid colours** and **carousel movement**;
+            1. The **'Information Tables'** were switched to more graphically appealing **Pie Charts** that are easy to read;
             1. The 'Search Function' remains at the bottom of both the 'Home' and 'Country Details' pages.
-      * **Actual Sources Utilised**;
-          * All the above sources were utilised in the site development except for [Google Maps](https://console.cloud.google.com/google/maps-apis/) where the following were used primarily to provide a learning experience for the developer;
+      * All the above sources were utilised in the site development except for [Google Maps](https://console.cloud.google.com/google/maps-apis/) where the following were used primarily to provide a learning experience for the developer;
             1. Javascript Library - [Leaflet](https://leafletjs.com/)
             1. Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
             1. Data - [OpenStreetMap](https://www.openstreetmap.org)
@@ -286,13 +279,16 @@
 * The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[CountryFlags](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data, but use the API data to return a Country map for a specific country in the search function.
 
   1. [Referential API](https://rapidapi.com/referential/api/referential)
-      * The Referential API (sourced via [RapidAPI](https://rapidapi.com/)) was used to provide the country code to source all the country data in the search function. It provides the full list of countries in the drop down menu and on country selection, the country codes drive the other API's to return the required information. The Referential API is loaded with the 'Continent' denominator for the African Countries 'AF' (shown at the end of the link below). The API returns a full list of countries each with their respective two digit country codes (example: Nigeria='NG'). Please note that the API requires an Application Key so the link will not return a result. Please see the screenshot image of two countries' data, Nigeria (Key=NG) and Rwanda (Key=RW) as an example return (Note the API returns all 54 countries).
+      * The Referential API (sourced via [RapidAPI](https://rapidapi.com/)) was used to provide the country code to source all the country data in the search function. It provides the full list of countries in the drop down menu and on country selection, the country codes drive the other API's to return the required information. The Referential API is loaded with the 'Continent' denominator for the African Countries 'AF' (shown at the end of the link below). The API returns a full list of countries each with their respective two digit country codes (example: Nigeria='NG'). Please note that the API requires an Application Key so the link will not return a result. Please see the screenshot image of two countries' data, Nigeria (Key=NG) and Rwanda (Key=RW) as an example return (Note the API returns all 54 countries). The full API string is also shown below for documentation purposes.
         * [Country Code List](https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF), **https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF**
 
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/referentialcountrycode33.jpg "Country Codes from Referential API")
   1. [World Bank Database](https://databank.worldbank.org/home.aspx)
 
-      * The World Bank Database was used as the primary source for the data in the site. The relevant World bank API's are requested for data once a user selects a country in the search function which drives the relevant country code. Once the country code is determined, a number of different API's are used to determine Capital City, Land Size, Population and GDP for the World sectors, Africa and the 54 African Countries listed. The World Bank uses a standard link to reach the core of its data (https://api.worldbank.org/v2/country/XX/indicator/XX.XXX.XXX.XX). By way of example, the list below links directly to the API 'raw' data return for 'Nigeria', with country code 'NG' in the API link. The links below are also shown in full for documentation purposes;
+      * The World Bank Database was used as the primary source for the data in the site. The relevant World bank API's are requested for data once a user selects a country in the search function which drives the relevant country code. Once the country code is determined, a number of different API's are used to determine Capital City, Land Size, Population and GDP for the World sectors, Africa and the 54 African Countries listed. The World Bank uses a standard link to reach the core of its data (https://api.worldbank.org/v2/country/YY/indicator/XX.XXX.XXX.XX), where;
+          * 'YY' = 'Country Code' eg 'NG'; and
+          * 'XX.XXX.XXX.XX' = 'relevant data string for land, population or GDP data' - see below.   
+      * By way of example, the list below links directly to the API 'raw' data return for 'Nigeria', with country code 'NG' in the API link. The links below are also shown in full for documentation purposes;
         * [Capital City, Latitude and Longitude](https://api.worldbank.org/v2/country/NG), **https://api.worldbank.org/v2/country/NG**
         * [Land Size](https://api.worldbank.org/v2/country/NG/indicator/AG.LND.TOTL.K2), **https://api.worldbank.org/v2/country/NG/indicator/AG.LND.TOTL.K2**
         * [Population](https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL), **https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL**
@@ -306,8 +302,6 @@
 
 * ### Consistent Page Components
     * All pages of the site contain the same 'header', 'navbar', 'carousel' and 'footer';
-
-      <!----![alt text](https://readri205.github.io/MS2_Project/assets/images/Title3.jpg "Africa Logo")--------------->
 * ### Home Page
     * Information Box
       * Contains the details as to the intention of the site and a how it can be used. It also contains the basic information for Africa in a high level context.
@@ -316,6 +310,7 @@
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox10025.jpg "INFO Box")
     * Map
       * The Africa Map is constructed using the **africamap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Map is centred on Ouesso, Republic of Congo (1.6155N, 16.0464E) in the Map Box.
+
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africamap10025.jpg "AFRICA Map")
     * Line Graphs and Pie Charts
       * The graphs and charts use the [Chartsjs](https://www.chartjs.org/) javascript library.
@@ -402,8 +397,18 @@
 
     * Country Search Function
 
-      * the Search Function is a drop down menu that references the **getcountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getcountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section) that in turn generates the required information return for the Country selected.
+      * The Search Function is a drop down menu that references the **getcountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getcountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section above) that in turn generates the required information return for the Country selected.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
+      * Note that the [Referential API](https://rapidapi.com/referential/api/referential) does not return the list of countries in full alphabetical order (mostly, but not exclusively). To place the country list into alphabetical order, the following code is utilised after the data is called (many thanks to [W3C Schools](https://www.w3schools.com/js/js_array_sort.asp));
+      ```javascript
+      data.sort(function(a, b){
+        const x = a.value.toLowerCase();
+        const y = b.value.toLowerCase();
+        if (x < y) {return -1;}
+        if (x > y) {return 1;}
+        return 0;
+      });
+      ```
 * ### Contacts Page
 
     * The Contacts Page contains the 'Contact Form' for a user to supply contact information and to provide comments, questions or to provide a request for some work.
@@ -732,6 +737,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.8 Add function to getcountries.js to alpha sort drop down list
     * V21.9 Revert README.md file name to uppercase after Tutor confirmation
     * V22.0 Update README.md for wireframe details
+    * V22.1 Update README with wireframe and country search text
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)

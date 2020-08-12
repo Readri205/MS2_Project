@@ -29,13 +29,13 @@ function getDataCountry(cb) {
 //  Country Codes by Country from API;
 function writeCountry(data) {
 
-        data.sort(function(a, b){
-    var x = a.value.toLowerCase();
-    var y = b.value.toLowerCase();
+    data.sort(function(a, b){
+    const x = a.value.toLowerCase();
+    const y = b.value.toLowerCase();
     if (x < y) {return -1;}
     if (x > y) {return 1;}
     return 0;
-  });
+    });
 
         countries.innerHTML += `<option value="">Select Country</option>`;
     data.forEach(function (item) {
