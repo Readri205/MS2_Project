@@ -8,45 +8,49 @@
 
 ## Contents
 
-  * [Site Goals](#site-goals)
-  * [User Experience (UX)](#user-experience--ux-)
-    + [User stories](#user-stories)
-      - [First Time Visitor Goals](#first-time-visitor-goals)
-      - [Returning Visitor Goals](#returning-visitor-goals)
-      - [Frequent User Goals](#frequent-user-goals)
-    + [Design](#design)
-      - [Colour Scheme](#colour-scheme)
-      - [Typography](#typography)
-      - [Box Content Structure](#box-content-structure)
-      - [Imagery](#imagery)
-    + [Wireframes](#wireframes)
-  * [Features](#features)
-    + [Responsive for Device Size](#responsive-for-device-size)
-    + [Interactive Elements](#interactive-elements)
-    + [Future Features](#future-features)
-  * [Technologies Used](#technologies-used)
-    + [Languages Used](#languages-used)
-    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-    + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
-  * [Site Construction](#site-construction)
-    + [Consistent Page Components](#consistent-page-components)
-    + [Home Page](#home-page)
-    + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
-    + [Contacts Page](#contacts-page)
-  * [Testing](#testing)
-    + [Known Bugs and Issues](#known-bugs-and-issues)
-  * [Deployment](#deployment)
-    + [GitHub Pages](#github-pages)
-    + [Forking the GitHub Repository](#forking-the-github-repository)
-    + [Making a Local Clone](#making-a-local-clone)
-  * [Credits](#credits)
-    + [Code](#code)
-    + [Content](#content)
-    + [Media](#media)
-    + [Acknowledgements](#acknowledgements)
-  * [Version Control](#version-control)
+* [Site Goals](#site-goals)
+* [User Experience (UX)](#user-experience--ux-)
+  + [User stories](#user-stories)
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [Frequent User Goals](#frequent-user-goals)
+  + [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Box Content Structure](#box-content-structure)
+    - [Imagery](#imagery)
+  + [Wireframes](#wireframes)
+    - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
+    - [Actual Site Design.](#actual-site-design)
+* [Features](#features)
+  + [Responsive for Device Size](#responsive-for-device-size)
+  + [Interactive Elements](#interactive-elements)
+  + [Future Features](#future-features)
+* [Technologies Used](#technologies-used)
+  + [Languages Used](#languages-used)
+  + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+  + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
+* [Site Construction](#site-construction)
+  + [Consistent Page Components](#consistent-page-components)
+  + [Home Page](#home-page)
+  + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
+  + [Contacts Page](#contacts-page)
+  + [Construction  Table](#construction--table)
+* [Testing](#testing)
+  + [Known Bugs and Issues](#known-bugs-and-issues)
+* [Deployment](#deployment)
+  + [GitHub Pages](#github-pages)
+  + [Forking the GitHub Repository](#forking-the-github-repository)
+  + [Making a Local Clone](#making-a-local-clone)
+* [Credits](#credits)
+  + [Code](#code)
+  + [Content](#content)
+  + [Media](#media)
+  + [Acknowledgements](#acknowledgements)
+* [Version Control](#version-control)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -754,7 +758,8 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V21.9 Revert README.md file name to uppercase after Tutor confirmation
     * V22.0 Update README.md for wireframe details
     * V22.1 Update README with wireframe and country search text
-    * V22.1 Update README.md for site table, delete old files
+    * V22.2 Update README.md for site table
+    * V22.3 Update README.md and testing.md contents
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)

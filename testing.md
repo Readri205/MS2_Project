@@ -10,20 +10,18 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Contents
 
-* [Testing](#testing)
-  + [Automated Testing](#automated-testing)
-  + [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience--ux--section)
-  + [User stories](#user-stories)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
-    - [Frequent User Goals](#frequent-user-goals)
-  + [Numerical Validation Testing](#numerical-validation-testing)
-  + [Contact Form Testing](#contact-form-testing)
-  + [Further Testing](#further-testing)
+* [Automated Testing](#automated-testing)
+  * [User stories](#user-stories)
+    + [First Time Visitor Goals](#first-time-visitor-goals)
+    + [Returning Visitor Goals](#returning-visitor-goals)
+    + [Frequent User Goals](#frequent-user-goals)
+  * [Numerical Validation Testing](#numerical-validation-testing)
+  * [Contact Form Testing](#contact-form-testing)
+  * [Further Testing](#further-testing)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-### Automated Testing
+## Automated Testing
 
 The following automated tools were used to test the website during development of the website;
 
@@ -42,7 +40,7 @@ The following automated tools were used to test the website during development o
 ## User stories
 
 *  ### First Time Visitor Goals
-      * The first time visitor will want to;
+      * #### The first time visitor will want to;
           1. easily understand the main purpose of the site;
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images just beneath the header;
@@ -56,9 +54,8 @@ The following automated tools were used to test the website during development o
           1. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
-
 *   ### Returning Visitor Goals
-      * The returning visitor will want to;
+      * #### The returning visitor will want to;
           1. find any new information supplied.
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images and any new images just beneath the header;
@@ -72,10 +69,9 @@ The following automated tools were used to test the website during development o
           1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
         * A returning visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
-
+          1. contact us to ask about data projects that they may be interested to have completed as an item of work
 *    ### Frequent User Goals
-        * The frequent visitor will want to;
+      * #### The frequent visitor will want to;
           1. check to see if there are any newly added features and information.
           1. find any new information supplied;
           1. view the carousel images just beneath the header;
@@ -91,7 +87,7 @@ The following automated tools were used to test the website during development o
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 
-### Numerical Validation Testing
+## Numerical Validation Testing
 
 The website makes use of [World Bank Database](https://databank.worldbank.org/home.aspx) API's as described in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). In particular, those API's relevant to **Land Size, Population and GDP**. Adjustments have been made to reflect the more appropriate figures for the Africa continent analysis. The totals for each 'Series Code' (Land Size = AG.LND.TOTL.K2, GDP = NY.GDP.MKTP.CD, Population = SP.POP.TOTL) have been downloaded into excel files and relevant adjustments made.
 *   The land sizes for Sudan and South Sudan are not included in the World Bank Database and so are adjusted and **confirmed** in the [landbyregion.xlsx](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/landbyregion.xlsx) excel sheet (image below). Note that [Sudan](https://en.wikipedia.org/wiki/Sudan) (1,886,068 sq. kms) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) (619,745 sq. kms) Land Sizes are sourced from [Wikipedia](https://www.wikipedia.org/)
@@ -138,7 +134,7 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/excelfiles/southasia10050.jpg "South Asia")
 
-### Contact Form Testing
+## Contact Form Testing
 
 *   The 'Contact Form' was tested for input on all fields, submission confirmation back to the user and that an email was received via Emailjs based on the users details being submitted;
 
@@ -154,7 +150,7 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
       ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/emailreceipt10050.jpg "Email Receipt")
 
-### Further Testing
+## Further Testing
 
 *   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 
