@@ -160,16 +160,16 @@
           1. Automated Email Response - [Emailjs](https://www.emailjs.com/)
         *   The **Original Wireframe Design** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
     *  #### Actual Site Design.
-      * The developed site uses many of the concepts from the original Wireframe design. Variations are as follows;
-            1. The main header image was switch to the 'Africa' headed image which conveys a strong but not overwhelming 'Africa' theme;
-            1. The **'Contact Form'** was moved to its own page to **declutter** the two main pages. It is accessible from every page either through the main menu or from the footer;
-            1. The **Capital City** images were switch to a more dynamic and generic **carousel theme** across all the pages and placed just beneath the main header image. The images are strong and unique and if a desktop is left on the site the images are eye catching due to **vivid colours** and **carousel movement**;
-            1. The **'Information Tables'** were switched to more graphically appealing **Pie Charts** that are easy to read;
-            1. The 'Search Function' remains at the bottom of both the 'Home' and 'Country Details' pages.
-      * All the above sources were utilised in the site development except for [Google Maps](https://console.cloud.google.com/google/maps-apis/) where the following were used primarily to provide a learning experience for the developer;
-            1. Javascript Library - [Leaflet](https://leafletjs.com/)
-            1. Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
-            1. Data - [OpenStreetMap](https://www.openstreetmap.org)
+        * The developed site uses many of the concepts from the original Wireframe design. Variations are as follows;
+          1. The main header image was switch to the 'Africa' headed image which conveys a strong but not overwhelming 'Africa' theme;
+          1. The **'Contact Form'** was moved to its own page to **declutter** the two main pages. It is accessible from every page either through the main menu or from the footer;
+          1. The **Capital City** images were switch to a more dynamic and generic **carousel theme** across all the pages and placed just beneath the main header image. The images are strong and unique and if a desktop is left on the site the images are eye catching due to **vivid colours** and **carousel movement**;
+          1. The **'Information Tables'** were switched to more graphically appealing **Pie Charts** that are easy to read;
+          1. The 'Search Function' remains at the bottom of both the 'Home' and 'Country Details' pages.
+        * All the above sources were utilised in the site development except for [Google Maps](https://console.cloud.google.com/google/maps-apis/) where the following were used primarily to provide a learning experience for the developer;
+          1. Javascript Library - [Leaflet](https://leafletjs.com/)
+          1. Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
+          1. Data - [OpenStreetMap](https://www.openstreetmap.org)
 
 ## Features
 
@@ -402,12 +402,12 @@
       * Note that the [Referential API](https://rapidapi.com/referential/api/referential) does not return the list of countries in full alphabetical order (mostly, but not exclusively). To place the country list into alphabetical order, the following code is utilised after the data is called (many thanks to [W3C Schools](https://www.w3schools.com/js/js_array_sort.asp));
       ```javascript
       data.sort(function(a, b){
-        const x = a.value.toLowerCase();
-        const y = b.value.toLowerCase();
-        if (x < y) {return -1;}
-        if (x > y) {return 1;}
-        return 0;
-      });
+          const x = a.value.toLowerCase();
+          const y = b.value.toLowerCase();
+          if (x < y) {return -1;}
+          if (x > y) {return 1;}
+          return 0;
+        });
       ```
 * ### Contacts Page
 
@@ -415,18 +415,36 @@
     * The 'Contact Form' will generate an email by referencing the **sendemail.js** file when a user submits their information.
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/contact10050.jpg "Contact Form")
 
+* ### Construction  Table
+
+    * The following table provides a summary of how the Site Pages and Sections are compiled;
+
+        Site Page | Page Section | Javascript File | csv files / Manual Input | API Reference |
+        ----------|--------------|-----------------|-----------|---------|
+        Home | Information Box | worldstats.js | N/A | [World Bank Database - World Stats](https://api.worldbank.org/v2/country/wld/indicator/AG.LND.TOTL.K2?format=json) |
+        Home | Africa Map | africamap.js | N/A | [Mapbox](https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}) (Requires Access Token)|
+        Home | Line Graphs | totalcharts.js | [pop.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/pop.csv), [gdp.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/gdp.csv) | N/A |
+        Home | Pie Charts | totalcharts.js | Manual Inputs | N/A |
+        Home | Search Function | getcountries.js | N/A | [Referential via RapidAPI - Africa Country List](https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF) (Requires Access Token) |
+        Country Details | Information Box | countrystats.js | N/A | [CountryFlags National Flags](https://www.countryflags.io/ng/shiny/64.png), [World Bank Database - Capital City](https://api.worldbank.org/v2/country/ng?format=json), [World Bank Database - Land Size](https://api.worldbank.org/v2/country/ng/indicator/AG.LND.TOTL.K2?format=json),[World Bank Database -  Population](https://api.worldbank.org/v2/country/ng/indicator/SP.POP.TOTL?format=json), [World Bank Database - GDP](https://api.worldbank.org/v2/country/nd/indicator/AG.LND.TOTL.K2?format=json) |
+        Country Details | Country Map | countrymap.js | N/A | [Mapbox](https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}) (Requires Access Token)|
+        Country Details | Country Line Graphs | countrygraphs.js | N/A | [World Bank Database - Country Population](https://api.worldbank.org/v2/country/ng/indicator/SP.POP.TOTL?format=json), [World Bank Database - Country GDP](https://api.worldbank.org/v2/country/ng/indicator/NY.GDP.MKTP.CD?format=json)
+        Country Details | Country Pie Charts | piecountry.js |  N/A | [World Bank Database - Country Land Size](https://api.worldbank.org/v2/country/ng/indicator/AG.LND.TOTL.K2?format=json), [World Bank Database - Country Population](https://api.worldbank.org/v2/country/ng/indicator/SP.POP.TOTL?format=json), [World Bank Database - Country GDP](https://api.worldbank.org/v2/country/ng/indicator/NY.GDP.MKTP.CD?format=json) |
+        Country Details | Top 5 Pie Charts | piecountry.js | [land.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/land.csv),[poptotes.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/poptotes.csv), [gdptotes.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/gdptotes.csv) | N/A |
+        Country Details | Search Function | getcountries.js | N/A | [Referential via RapidAPI - Africa Country List](https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF) (Requires Access Token) |
+        Contact | Contact Form | sendemailjs.js | N/A | [Emailjs](https://www.emailjs.com/) (Website)
+
 ## Testing
 
 Testing information can be found in a separate [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file.
 
 ### Known Bugs and Issues
 
-*   In the Search Function the drop down menu generatedfrom the [Referential API](https://rapidapi.com/referential/api/referential) does not return the list of Countries in a complete alphabetical order. Future updates to the site will look to remedy this issue.
 *   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under #Numerical Validation Testing.
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 *  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
 *  To accommodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size for the [Chartsjs:](https://www.chartjs.org/) charts is set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is (in my opinion) too small for larger screens on desktops and laptops. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
-*  On some screen sizes less than 360px in portrait mode, the pie charts on the 'Home' page can become squeezed and will not render the pie chart appropriately. Testing on devices such as *Galaxy Fold* (Chrome Developer Tools) evidenced this issue. Future site updates will look at other charting options to allow more flexible media query solutions for various screen sizes.
+*  On some screen sizes at 280px in portrait mode, the pie charts on the 'Home' page can become squeezed and will not render appropriately. Testing on devices such as *Galaxy Fold* (Chrome Developer Tools) evidenced this issue. Future site updates will look at other charting options to allow more flexible media query solutions for various screen sizes.
 
 ## Deployment
 
@@ -455,7 +473,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/Readri205/MS2_Project)
+1. Log in to **GitHub** and locate the [GitHub Repository](https://github.com/Readri205/MS2_Project)
 1. Under the repository name, click "Code".
 1. To clone the repository using HTTPS, click the top right hand link click "Use HTTPS";
 1. Copy the link under "Clone with HTTPS";
@@ -466,10 +484,10 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 
 Note that different Code Editors will have different processes for making the clone once the HTTPS link copy is made in step 4 above.
 
-1. If using GitHub Desktop, the clone can de saved directly into GitHub Desktop from the "Code" dropdown menu.
+1. If using **GitHub Desktop**, the clone can de saved directly into GitHub Desktop from the "Code" dropdown menu by choosing **'Open with GitHub Desktop'**.
 
-1. A zip file clone can be downloaded from the same "Code" drop down above;
-1. Select 'Download ZIP' and the complete zip file will be saved to you local computer.
+A **Zip File** clone can be downloaded from the same "Code" drop down above;
+1. Select **'Download ZIP'** and the complete zip file will be saved to you local computer.
 
 ## Credits
 
@@ -483,13 +501,11 @@ Note that different Code Editors will have different processes for making the cl
 
 *   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
-*   [W3C Schools](https://www.w3schools.com/) has been invaluable for many aspects of the code;
+*   [W3C Schools](https://www.w3schools.com/) referenced for the following code;
     * The Navbar;
-    * The Carousel; and
-    * Contact Form Jquery submission confirmation.
-
-
-*   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+    * The Carousel;
+    * Contact Form jQuery submission confirmation; and
+    * Country list menu drop down alphabetical sort.
 
 ### Content
 
@@ -738,6 +754,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.9 Revert README.md file name to uppercase after Tutor confirmation
     * V22.0 Update README.md for wireframe details
     * V22.1 Update README with wireframe and country search text
+    * V22.1 Update README.md for site table, delete old files
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
