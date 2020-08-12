@@ -1,8 +1,6 @@
-![alt text](https://readri205.github.io/MS2_Project/assets/images/amiresponsive.png "Africa")
+![alt text](https://readri205.github.io/MS2_Project/assets/images/amiresponsivecamels.png "Africa")
 
-<!--------![alt text](https://readri205.github.io/MS2_Project/assets/images/title3.jpg "Africa Logo")-------->
-
-[View the live **EARTH AFRICA** :earth_africa: project here.](https://readri205.github.io/MS2_Project/)
+[View the live **EARTH AFRICA**  :earth_africa:  project here.](https://readri205.github.io/MS2_Project/)
 
 ![alt text](https://readri205.github.io/MS2_Project/assets/images/title3.jpg "Africa Logo")
 
@@ -153,11 +151,32 @@
     *   #### Box Content Structure
         *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country Details' page. In addition the box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country Details' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
     *   #### Imagery
-        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context each image has a clear title description derived from the original image provided by the contributor.
+        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context on larger screens each image has a clear title description sourced from the original image provided by the contributor. On small screens the image titles are removed, due to space and readability constraints.
 
 *   ### Wireframes
-
-    *   Wireframe - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
+    *   The wireframe design consisted of two pages; **'Home'** and **'Country Search'**.
+        *   The **'Home'** page includes an **'Information box'**, **'Population and GDP line graphs'**. On scroll down the page would reveal an **'Africa Map'** and an **'Information Table'** listing all 54 countries with their respective **'Population and GDP'** sizes. The **'Information Table'** is intended to be 'clickable' to search for more details on any Country. **'Country Search'** and **'Contact Us'** boxes are also included.
+        *   The **'Country Search'** page includes a **Country Name** header title with an image of the **National Flag**, an image of the **Capital City**, an **'Information Table'** of historical **Population and GDP data**, **Country Map** and **Line Graphs** of the same data. **'Country Search'** and **'Contact Us'** boxes are also included.
+        * Sources for data were considered as follows;
+          1. Maps - [Google Maps](https://console.cloud.google.com/google/maps-apis/)
+          1. Africa country codes - [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/)
+          1. Capital City, Population and GDP data - [World Bank Database](https://databank.worldbank.org/home.aspx)
+          1. National Flag images - [CountryFlags](https://www.countryflags.io/)
+          1. Line and Pie Chart Capability - [Chartsjs](https://www.chartjs.org/)
+          1. Automated Email Response - [Emailjs](https://www.emailjs.com/)
+        *   The **Original Design Wireframe** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
+      * **Actual Site Design**;
+          * Fundamentally, the developed site uses many of the concepts from the original Wireframe design. Variations from the original design are as follows;
+            1. The main header image was switch to the 'Africa' headed image which conveys a strong but not overwhelming 'Africa' theme;
+            1. The 'Contact Form' was moved to its own page to declutter the two main pages. It is accessible from every page either through the main menu or from the footer;
+            1. The Capital City images were switch to a more dynamic and generic carousel theme across all the pages and placed just beneath the main header image. The images are strong and unique and if a desktop is left on the site the images remain eye catching due their **vivid colours** and also due to the **carousel movement**;
+            1. The 'Information Tables' were switched to more graphically appealing Pie Charts that are easy to read;
+            1. The 'Search Function' remains at the bottom of both the 'Home' and 'Country Details' pages.
+      * **Actual Sources Utilised**;
+          * All the above sources were utilised in the site development except for [Google Maps](https://console.cloud.google.com/google/maps-apis/) where the following were used primarily to provide a learning experience for the developer;
+            1. Javascript Library - [Leaflet](https://leafletjs.com/)
+            1. Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
+            1. Data - [OpenStreetMap](https://www.openstreetmap.org)
 
 ## Features
 
@@ -238,7 +257,7 @@
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Atom](https://atom.io/)
+1. [Atom:](https://atom.io/)
     - Atom was used as a Markdown Text Editor for README.md and Testing.md
 1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
     - Mapbox javascript library is used to create the maps on the 'Home' and 'Country' pages.
@@ -712,6 +731,7 @@ Note that different Code Editors will have different processes for making the cl
     * V21.7 Text updates to readme.md and testing.md
     * V21.8 Add function to getcountries.js to alpha sort drop down list
     * V21.9 Revert README.md file name to uppercase after Tutor confirmation
+    * V22.0 Update README.md for wireframe details
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
