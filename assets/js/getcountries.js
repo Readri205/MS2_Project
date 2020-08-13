@@ -42,7 +42,6 @@ countries.addEventListener("change", function() {
 	// Force Redirection
 	window.location = `/MS2_Project/country.html?country=${countries.value}`;
 });
-
 function getCountryDetails() {
 	const params = new URLSearchParams(window.location.search)
 	countryCode.pop();
