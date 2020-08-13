@@ -762,6 +762,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V22.3 Update README.md and testing.md contents
     * V22.4 Remove filter.css link in index and contact pages
     * V22.5 Code formating html, css, js first pass
+    * V22.6 Remove getcountriesvtest to getcountries
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
