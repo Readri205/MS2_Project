@@ -88,6 +88,8 @@ The following automated tools were used to test the website during development o
 
 *   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
 
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/autoprefixercssheader.png "Autoprefixer Header for Vendor Prefixes")
+
 ## User stories
 
 *  ### First Time Visitor Goals

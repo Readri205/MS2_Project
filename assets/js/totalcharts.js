@@ -81,7 +81,7 @@ async function getCsvGdp() {
 						maxTicksLimit: 6,
 						beginAtZero: true,
 						callback: function(value) {
-							return "$" + value
+							return "$" + value;
 						}
 					}
 				}]
