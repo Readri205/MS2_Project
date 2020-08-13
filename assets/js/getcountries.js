@@ -43,7 +43,7 @@ countries.addEventListener("change", function() {
 	window.location = `/MS2_Project/country.html?country=${countries.value}`;
 });
 function getCountryDetails() {
-	const params = new URLSearchParams(window.location.search)
+	const params = new URLSearchParams(window.location.search);
 	countryCode.pop();
 	countryCode.push(params.get('country'));
 }

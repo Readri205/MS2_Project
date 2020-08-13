@@ -84,7 +84,7 @@ function writeGdp(data) {
 	item.forEach(function(year) {
 		glabels.push(year.date);
 		hdata.push((year.value / 1000000000).toFixed(2));
-	})
+	});
 	glabels.reverse();
 	hdata.reverse();
 	//console.log(country);
@@ -112,7 +112,7 @@ function writeGdp(data) {
 						maxTicksLimit: 6,
 						beginAtZero: false,
 						callback: function(value) {
-							return "$" + value
+							return "$" + value;
 						}
 					}
 				}]

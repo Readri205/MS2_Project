@@ -45,7 +45,7 @@ countries.addEventListener("change", function() {
 });
 
 function getCountryDetails() {
-	const params = new URLSearchParams(window.location.search)
+	const params = new URLSearchParams(window.location.search);
 	countryCode.pop();
 	countryCode.push(params.get('country'));
 }

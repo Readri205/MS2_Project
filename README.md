@@ -52,8 +52,6 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
-
-
 ## Site Goals
 
 * This website provides an overview of the **Africa Continent** in terms of **Land Size, Population** and **Gross Domestic Product (GDP)**. These measures have been provided in a **World** context. The website provides an ability to view similar data for each country in Africa by using a search function. The search function is provided at the bottom of the **'Home'** page and also on the bottom of the **'Country Details'** page. The search function in both locations allows for a quick search for an African country from either page.
@@ -79,7 +77,7 @@
   * **pie charts** showing top five countries by Land Size, Population Size (2019) and GDP Size (2019)
 
 
-* The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of Application Programming Interfaces (API's) to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[COUNTRYFLAGS](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data. API and other data source details are provided in the **[Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)** section below.
+* The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of Application Programming Interfaces (API's) to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[COUNTRYFLAGS](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data. API and other data source details are provided in the **'Application Programming Interfaces (API's) Used'** section below.
 
 * If the site is perceived as successful, it is anticipated that the site could be expanded to show;
   * similar information for the six remaining World Continents; and
@@ -536,7 +534,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
 
 *   Student assessment at Code Institute. I have looked to accommodate comments back on MS1 to reduce any re-occurring issues in MS2.
 
-*   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/). Dante Healy, in particular, who has provided consistent feedback during development.
+*   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/).
 
 *   Friends and family providing review and feedback on the site content, navigation, screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
 
@@ -766,6 +764,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V22.7 Test on w3c html, css validation checks
     * V22.8 Update testing file with w3C validation
     * V22.9 Add text updates to README.md and testing.md
+    * V23.0 upload JSHint test screenshots
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
