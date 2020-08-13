@@ -276,7 +276,7 @@
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes]() during the design process.
 1. [Am I Responsive:](http://ami.responsivedesign.is/#)
-    - Am I Responsive was used to test the page layouts during the build process.  [Results]()
+    - Am I Responsive was used to test the page layouts during the build process.  [Results](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/testscreenshots/amiresponsive.png)
 
 ### Application Programming Interfaces (API's) Used
 
@@ -290,8 +290,8 @@
   1. [World Bank Database](https://databank.worldbank.org/home.aspx)
 
       * The World Bank Database was used as the primary source for the data in the site. The relevant World bank API's are requested for data once a user selects a country in the search function which drives the relevant country code. Once the country code is determined, a number of different API's are used to determine Capital City, Land Size, Population and GDP for the World sectors, Africa and the 54 African Countries listed. The World Bank uses a standard link to reach the core of its data (https://api.worldbank.org/v2/country/YY/indicator/XX.XXX.XXX.XX), where;
-          * 'YY' = 'Country Code' eg 'NG'; and
-          * 'XX.XXX.XXX.XX' = 'relevant data string for land, population or GDP data' - see below.   
+          * **'YY'** = 'Country Code' eg 'NG'; and
+          * **'XX.XXX.XXX.XX'** = 'relevant data string for land, population or GDP data' - see below.   
       * By way of example, the list below links directly to the API 'raw' data return for 'Nigeria', with country code 'NG' in the API link. The links below are also shown in full for documentation purposes;
         * [Capital City, Latitude and Longitude](https://api.worldbank.org/v2/country/NG), **https://api.worldbank.org/v2/country/NG**
         * [Land Size](https://api.worldbank.org/v2/country/NG/indicator/AG.LND.TOTL.K2), **https://api.worldbank.org/v2/country/NG/indicator/AG.LND.TOTL.K2**
@@ -391,7 +391,7 @@
 
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/nigeriagdppie10050.jpg "Country GDP Pie Chart")
 
-      * The Top 5 Pie charts are computed in the pieCountry.js file. Each chart for Land Size, Population and GDP references CSV files; [land.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/land.csv), [poptotes.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/poptotes.csv) and [gdptotes.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/gdptotes.csv) respectively.
+      * The Top 5 Pie charts are computed in the **piecountry.js** file. Each chart for Land Size, Population and GDP references CSV files; [land.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/land.csv), [poptotes.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/poptotes.csv) and [gdptotes.csv](https://github.com/Readri205/MS2_Project/blob/master/assets/csv/gdptotes.csv) respectively.
 
         ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/top5landpie10050.jpg "Top 5 Land Size")
 
@@ -764,7 +764,8 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V22.5 Code formating html, css, js first pass
     * V22.6 Remove getcountriesvtest to getcountries
     * V22.7 Test on w3c html, css validation checks
-    * V22.8 Update testing file with w3C validation checks
+    * V22.8 Update testing file with w3C validation
+    * V22.9 Add text updates to README.md and testing.md
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)

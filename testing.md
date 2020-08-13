@@ -32,16 +32,26 @@ The following automated tools were used to test the website during development o
     * Element styling;
     * Site upload speeds for API's and image loading;
     * Device type screen size testing.
-*   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate HTML.
+
+*   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate HTML.
+    * **Home Page**
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/indexhtmlw3cvalidation.png "HTML Home Page W3C Validator Check")
+
+    * **Country Details Page**
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/countryw3chtmlcheck.png "HTML Country Details Page W3C Validator Check")
 
     Note: The validator returns two warnings per below, but it is understood from tutor support that this return is acceptable for the validation check. An alternative is to turn the 'h3' and 'h4' headers into 'divs' and fully style the headers using CSS, however this was deemed 'unnecessary'.
+
     Please see below the HTML code and the corresponding output referred to in the check;
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headercodecountry.png "HTML Country Page Code")
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headeroutput.png "HTML Country Page output")
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headercodecountry.png "HTML Country Page Code")
+
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headeroutput.png "HTML Country Page output")
+
+    * **Contact Page**
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactw3chtmlcheck.png "HTML Contact Page W3C Validator Check")
-*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate CSS.
+*   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate CSS.
+
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/cssw3cvalidatorcheck.png "CSS W3C Validator Check")
 *   [JSHint]() - [Results]() used to validate javascript.
 *   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
