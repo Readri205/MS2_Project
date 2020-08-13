@@ -33,7 +33,16 @@ The following automated tools were used to test the website during development o
     * Site upload speeds for API's and image loading;
     * Device type screen size testing.
 *   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate HTML.
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/indexhtmlw3cvalidation.png "HTML Home Page W3C Validator Check")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/countryw3chtmlcheck.png "HTML Country Details Page W3C Validator Check")
+
+    Note: The validator returns two warnings per below, but it is understood from tutor support that this return is acceptable for the validation check. An alternative is to turn the 'h3' and 'h4' headers into 'divs' and fully style the headers using CSS, however this was deemed 'unnecessary'.
+    Please see below the HTML code and the corresponding output referred to in the check;
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headercodecountry.png "HTML Country Page Code")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headeroutput.png "HTML Country Page output")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactw3chtmlcheck.png "HTML Contact Page W3C Validator Check")
 *   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]() - used to validate CSS.
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/cssw3cvalidatorcheck.png "CSS W3C Validator Check")
 *   [JSHint]() - [Results]() used to validate javascript.
 *   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
 
@@ -47,11 +56,11 @@ The following automated tools were used to test the website during development o
           1. scroll down through the information, read the content, view the map of **Africa**, then view the line graphs and the pie charts;
           1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country<sup id="a2">[2](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
           1. read the information about Africa in a World Context;
-          1. search for another country<sup id="a3">[3](#f1)</sup> and read the information about that country;
+          1. search for another country and read the information about that country;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 *   ### Returning Visitor Goals
@@ -60,14 +69,14 @@ The following automated tools were used to test the website during development o
           1. be able to easily navigate throughout the site to find content;
           1. view the carousel images and any new images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A returning visitor may want to go straight to the 'Country' search function;
-          1. search the details for a specific country<sup id="a4">[4](#f1)</sup> from the dropdown menu;
+      * A returning visitor may want to go straight to the 'Country' search function;
+          1. search the details for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country<sup id="a5">[5](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           1. navigate easily back to the 'Home' page;
-          1. search for another country<sup id="a6">[6](#f1)</sup> and read the information about that country;
-        * A returning visitor may want to go straight to the 'Contact Us' page;
+          1. search for another country and read the information about that country;
+      * A returning visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work
 *    ### Frequent User Goals
@@ -76,14 +85,14 @@ The following automated tools were used to test the website during development o
           1. find any new information supplied;
           1. view the carousel images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A frequent visitor may want to go straight to the 'Country' search function;
-          1. search the details for a specific country<sup id="a7">[7](#f1)</sup> from the dropdown menu;
+      * A frequent visitor may want to go straight to the 'Country' search function;
+          1. search the details for a specific country from the dropdown menu;
           1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
-          1. search for another country<sup id="a8">[8](#f1)</sup> and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           1. navigate easily back to the 'Home' page;
-          1. search for another country<sup id="a9">[9](#f1)</sup> and read the information about that country;
-        * A frequent visitor may want to go straight to the 'Contact Us' page;
+          1. search for another country and read the information about that country;
+      * A frequent visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
 

@@ -79,7 +79,7 @@
   * **pie charts** showing top five countries by Land Size, Population Size (2019) and GDP Size (2019)
 
 
-* The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of Application Programming Interfaces (API's) to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[COUNTRYFLAGS](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data. API and other data source details are provided in the 'xxx' section below.
+* The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of Application Programming Interfaces (API's) to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[COUNTRYFLAGS](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data. API and other data source details are provided in the **[Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)** section below.
 
 * If the site is perceived as successful, it is anticipated that the site could be expanded to show;
   * similar information for the six remaining World Continents; and
@@ -227,7 +227,7 @@
     * Expand the site to include more details on the countries
     * Update the API references for data such that the site 'maintains' itself when the World Bank Database updates the API data. Currently, some data is supplied via manual and CSV input which will require a manual process to update when the data is refreshed.
     * Amend the Drop Down Search function to return the Country list in alphabetical order.
-    * Amend the 'Home' page pie charts to ensure appropriate rendering on screen sizes between x and y size.
+    * Amend the 'Home' page pie charts to ensure appropriate rendering on screen sizes at 280px size.
 
 
 ## Technologies Used
@@ -764,6 +764,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V22.5 Code formating html, css, js first pass
     * V22.6 Remove getcountriesvtest to getcountries
     * V22.7 Test on w3c html, css validation checks
+    * V22.8 Update testing file with w3C validation checks
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
