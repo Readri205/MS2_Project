@@ -72,14 +72,17 @@ The following automated tools were used to test the website during development o
     * **piecountry.js**
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintpiecountry.png "piecountry.js")
-    * **sendemailjs.js**
+    * **piecountry.js Part 2**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintsendemail.png "sendemail.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintpiecountrypart2.png "piecountry.js Part 2")
+    * **sendemail.js**
+
+    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintsendemailjs.png "sendemail.js")
     * **totalcharts.js**
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshinttotalcharts.png "totalcharts.js")
     * **worldstats.js**
-    
+
     ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintworldstats.png "worldstats.js")
 
 

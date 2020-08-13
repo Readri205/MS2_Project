@@ -766,6 +766,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V22.9 Add text updates to README.md and testing.md
     * V23.0 Upload JSHint test screenshots
     * V23.1 Upload for getcountriesvtest.js to getcountries.js
+    * V23.2 Updates to testing.md for JSHint amends
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)

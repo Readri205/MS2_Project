@@ -6,7 +6,7 @@ if (window.location.pathname.toLowerCase() === '/country.html') {
 	getCountryDetails();
 }
 // Load the country details into the select control
-getDataCountry(writeCountry)
+getDataCountry(writeCountry);
 // gets Country Codes for Africa from API in 'open';
 function getDataCountry(cb) {
 	const xhttp = new XMLHttpRequest();
