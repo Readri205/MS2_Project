@@ -125,7 +125,7 @@ body {
 #countryMap {
 	position: relative;
 	z-index: 1;
-	min-height: 535px;
+	min-height: 615px;
 }
 .africa-map-box {
 	width: 100%;
@@ -137,7 +137,7 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .map-margin {
-    padding: 40px;
+    padding: 0px;
 }
 .country-map-box {
 	width: 100%;
@@ -311,4 +311,12 @@ footer {
 	.reference-text {
 		padding-top: 10px;
 	}
+}
+@media screen and (max-width: 932px) {
+.map-margin {
+    padding: 30px 25px 15px 25px;
+}
+#countryMap {
+	min-height: 535px;
+}
 }
