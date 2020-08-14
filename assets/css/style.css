@@ -119,7 +119,7 @@ body {
     /*background-size: 80vh, 80vw;*/
 	position: relative;
 	z-index: 1;
-	height: 535px;
+	height: 615px;
     /*margin: 25px;*/
 }
 #countryMap {
@@ -129,7 +129,7 @@ body {
 }
 .africa-map-box {
 	width: 100%;
-	min-height: 535px;
+	min-height: 615px;
 	/*text-align: center;*/
 	margin: 10px 0 0 0;
 	padding-bottom: 0;
@@ -317,6 +317,12 @@ footer {
     padding: 30px 25px 15px 25px;
 }
 #countryMap {
+	min-height: 535px;
+}
+#africaMap {
+	height: 535px;
+}
+.africa-map-box {
 	min-height: 535px;
 }
 }

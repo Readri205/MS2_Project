@@ -779,6 +779,7 @@ The website was uploaded to the Peer Code Review Slack Channel designed to recei
     * V23.5 Add margin around maps for mobile scroll per Peer Code Review feedback
     * V23.6 Amend var to const and const for 'new' chart in JS files
     * V23.7 Amend map margin in media queries for mobile screen size only
+    * V23.8 Amend map margin in media queries for africa map on mobile
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
