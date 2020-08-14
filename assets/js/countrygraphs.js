@@ -2,7 +2,7 @@
 const baseUrlwbpop = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 //GETs World Bank Population data by Country from API;
 function getDataPop(cb) {
-	var xhttp = new XMLHttpRequest();
+	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
@@ -30,7 +30,7 @@ function writePop(data) {
 	//const popChart = 
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-	new Chart(ctyPop, {
+	const chartCtypop = new Chart(ctyPop, {
 		type: 'line',
 		data: {
 			labels: xlabels,
@@ -62,10 +62,10 @@ function writePop(data) {
 getDataPop(writePop);
 //<--------End of Graphs World Bank Population data by Country from API (the proper way around...);------->
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-var baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
+const baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 //<-------------------GETs World Bank GDP data by Country from API;------------------------>
 function getDataGdp(cb) {
-	var xhttp = new XMLHttpRequest();
+	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
@@ -93,7 +93,7 @@ function writeGdp(data) {
 	//const gdpChart = 
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-	new Chart(ctyGdp, {
+	const chartCtygdp = new Chart(ctyGdp, {
 		type: 'line',
 		data: {
 			labels: glabels,

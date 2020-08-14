@@ -143,8 +143,8 @@ The following automated tools were used to test the website during development o
 
 ## Peer Code Review (Slack Channel)
 The website was uploaded to the Peer Code Review Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
-* @Dante **Dante Healy** for continuous feedback on the site usability and design;
-* @Eamonn **Eamonn Smythe** for feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices; and
+* @Dante **Dante Healy** for continuous feedback on the site usability and design, and for testing the EmailJS service with success;
+* @Eamonn **Eamonn Smythe** for feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and for testing the EmailJS service with success; and
 * @Jimlynx **Jim Morel** for his review and positive feedback on the site.
 
 

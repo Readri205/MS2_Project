@@ -2,7 +2,7 @@
 const baseUrlwblandcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/AG.LND.TOTL.K2?format=json";
 //GETs World Bank Population data by Country from API;
 function getDataLand(cb) {
-	var xhttp = new XMLHttpRequest();
+	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
@@ -28,7 +28,7 @@ function writeLand(data) {
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	Chart.defaults.global.defaultFontSize = 10;
-	new Chart(document.getElementById("landPie"), {
+	const chartLand = new Chart(document.getElementById("landPie"), {
 		type: 'pie',
 		data: {
 			labels: [item.country.value, "Rest of Africa"],
@@ -55,7 +55,7 @@ getDataLand(writeLand);
 const baseUrlwbpopcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/SP.POP.TOTL?format=json";
 //GETs World Bank Population data by Country from API;
 function getDataPop(cb) {
-	var xhttp = new XMLHttpRequest();
+	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
@@ -71,7 +71,7 @@ function writePop(data) {
 	const roapop = (1303 - countpop);
 	//console.log(item.country.value, item.date, item.value, countpop, roapop);
 	//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
-	new Chart(document.getElementById("popPie"), {
+	const chartPop = new Chart(document.getElementById("popPie"), {
 		type: 'pie',
 		data: {
 			labels: [item.country.value, "Rest of Africa"],
@@ -94,16 +94,16 @@ function writePop(data) {
 }
 getDataPop(writePop);
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
-var baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
+const baseUrlwbgdpcount = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 //<-------------------GETs World Bank GDP data by Country from API;------------------------>
 function getDataGdp(cb) {
-	var xhttp = new XMLHttpRequest();
+	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
 	};
-	xhttp.open("GET", baseUrlwbgdp, true);
+	xhttp.open("GET", baseUrlwbgdpcount, true);
 	xhttp.send();
 }
 //<---------Writes World Bank GDP data by Country from API;----------->
@@ -112,7 +112,7 @@ function writeGdp(data) {
 	const countgdp = item.value / 1000000000;
 	const roagdp = (2425 - countgdp);
 	//console.log(item.country.value, item.date, item.value, countgdp, roagdp);
-	new Chart(document.getElementById("gdpPie"), {
+	const chartGdp = new Chart(document.getElementById("gdpPie"), {
 		type: 'pie',
 		data: {
 			labels: [item.country.value, "Rest of Africa"],
@@ -149,7 +149,7 @@ async function getCsvLand() {
 	const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49])) / 1000000).toFixed(2)];
 	const toplands = [(lands[53] / 1000000).toFixed(2), (lands[52] / 1000000).toFixed(2), (lands[51] / 1000000).toFixed(2), (lands[50] / 1000000).toFixed(2), (lands[49] / 1000000).toFixed(2), restlands];
 	//console.log(restlands);
-	new Chart(document.getElementById("landTop"), {
+	const chartLandtop = new Chart(document.getElementById("landTop"), {
 		type: 'pie',
 		data: {
 			labels: topcount,
@@ -186,7 +186,7 @@ async function getCsvPoppie() {
 	const restpop = [((1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40])) / 1000000).toFixed(2)];
 	const topfivepop = [(poppie[33] / 1000000).toFixed(2), (poppie[40] / 1000000).toFixed(2), (poppie[50] / 1000000).toFixed(2), (poppie[10] / 1000000).toFixed(2), (poppie[16] / 1000000).toFixed(2), restpop];
 	//console.log(poppie);
-	new Chart(document.getElementById("popTop"), {
+	const chartPoptop = new Chart(document.getElementById("popTop"), {
 		type: 'pie',
 		data: {
 			labels: topfivecount,
@@ -225,7 +225,7 @@ async function getCsvGdppie() {
 	const restgdp = [((2424529223027 - (gdppie[53] + gdppie[52] + gdppie[51] + gdppie[50] + gdppie[49])) / 1000000000).toFixed(2)];
 	const topfivegdp = [(gdppie[53] / 1000000000).toFixed(2), (gdppie[52] / 1000000000).toFixed(2), (gdppie[51] / 1000000000).toFixed(2), (gdppie[50] / 1000000000).toFixed(2), (gdppie[49] / 1000000000).toFixed(2), restgdp];
 	//console.log(gdppie);
-	new Chart(document.getElementById("gdpTop"), {
+	const chartGdptop = new Chart(document.getElementById("gdpTop"), {
 		type: 'pie',
 		data: {
 			labels: topfivecounts,

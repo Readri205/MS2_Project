@@ -16,7 +16,7 @@ async function getCsvPop() {
 	//const popCharts = 
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-	new Chart(totPop, {
+	const popCharts = new Chart(totPop, {
 		type: 'line',
 		data: {
 			labels: haxis,
@@ -61,7 +61,7 @@ async function getCsvGdp() {
 	//console.log(haxs, vaxs);
 	const totGdp = document.getElementById('totGdp').getContext('2d');
 	//const gdpChart = 
-	new Chart(totGdp, {
+	const gdpChart = new Chart(totGdp, {
 		type: 'line',
 		data: {
 			labels: haxs,
@@ -96,7 +96,7 @@ async function getCsvGdp() {
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
 Chart.defaults.global.defaultFontSize = 8;
-new Chart(document.getElementById("landPie"), {
+const chartLand = new Chart(document.getElementById("landPie"), {
 	type: 'pie',
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
@@ -116,7 +116,7 @@ new Chart(document.getElementById("landPie"), {
 		}
 	}
 });
-new Chart(document.getElementById("popPie"), {
+const chartPoppie = new Chart(document.getElementById("popPie"), {
 	type: 'pie',
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
@@ -136,7 +136,7 @@ new Chart(document.getElementById("popPie"), {
 		}
 	}
 });
-new Chart(document.getElementById("gdpPie"), {
+const chartGdppie = new Chart(document.getElementById("gdpPie"), {
 	type: 'pie',
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],

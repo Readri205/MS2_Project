@@ -1,4 +1,4 @@
-let countryCode = ["NG"],
+const countryCode = ["NG"],
 	countries = document.getElementById("CountryList"),
 	baseUrlcountrys = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
 //alert(window.location.pathname.toLoweCase());

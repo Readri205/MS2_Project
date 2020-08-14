@@ -538,8 +538,8 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
 
 *   Peer Code Review (Slack Channel)
 The website was uploaded to the Peer Code Review Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
-  * @Dante **Dante Healy** for continuous positive feedback on the site usability and design;
-  * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices; and
+  * @Dante **Dante Healy** for continuous positive feedback on the site usability and design and the EmailJS service;
+  * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and the EmailJS service; and
   * @Jimlynx **Jim Morel** for his review and positive feedback on the site.
 
 
@@ -777,6 +777,7 @@ The website was uploaded to the Peer Code Review Slack Channel designed to recei
     * V23.3 Amend JSHint test and add autoprefixer css header
     * V23.4 Amend w3c validator image to https to resolve console error
     * V23.5 Add margin around maps for mobile scroll per Peer Code Review feedback
+    * V23.6 Amend var to const and const for 'new' chart in JS files
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
