@@ -42,7 +42,7 @@ function getDataPop(cb) {
 function writePop(data) {
 	const size = data[1][0].value / 1000000000;
 	const popsize = size.toFixed(1);
-	console.log(size);
+	//console.log(size);
 	document.getElementById("worldpopsize").innerHTML += ("Population: 1.3 Bn - 17% of World Population" + " (" + popsize + " Bn)");
 }
 getDataPop(writePop);

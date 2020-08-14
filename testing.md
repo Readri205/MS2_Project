@@ -10,11 +10,12 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Contents
 
-* [Automated Testing](#automated-testing)
+  * [Automated Testing](#automated-testing)
   * [User stories](#user-stories)
     + [First Time Visitor Goals](#first-time-visitor-goals)
     + [Returning Visitor Goals](#returning-visitor-goals)
     + [Frequent User Goals](#frequent-user-goals)
+  * [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
   * [Numerical Validation Testing](#numerical-validation-testing)
   * [Contact Form Testing](#contact-form-testing)
   * [Further Testing](#further-testing)
@@ -139,6 +140,13 @@ The following automated tools were used to test the website during development o
       * A frequent visitor may want to go straight to the 'Contact Us' page;
           1. contact us for more information or to provide comments about the site;
           1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+
+## Peer Code Review (Slack Channel)
+The website was uploaded to the Peer Code Review Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
+* @Dante **Dante Healy** for continuous feedback on the site usability and design;
+* @Eamonn **Eamonn Smythe** for feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices; and
+* @Jimlynx **Jim Morel** for his review and positive feedback on the site.
+
 
 ## Numerical Validation Testing
 

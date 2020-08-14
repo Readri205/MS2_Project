@@ -91,10 +91,6 @@ body {
 /*---------------Nav formating navbar fonts, active and hover ends here-----------------------------*/
 
 /*---------------Country capital city from here-----------------------------*/
-
-.namnso {
-	background-image: url("../images/namnso.png");
-}
 .image-box {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -119,29 +115,34 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #africaMap {
-	background-size: cover;
+	/*background-size: cover;*/
+    /*background-size: 80vh, 80vw;*/
 	position: relative;
 	z-index: 1;
-	height: 615px;
+	height: 535px;
+    /*margin: 25px;*/
 }
 #countryMap {
 	position: relative;
 	z-index: 1;
-	min-height: 615px;
+	min-height: 535px;
 }
 .africa-map-box {
 	width: 100%;
-	min-height: 615px;
-	text-align: center;
+	min-height: 535px;
+	/*text-align: center;*/
 	margin: 10px 0 0 0;
 	padding-bottom: 0;
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.map-margin {
+    padding: 40px;
+}
 .country-map-box {
 	width: 100%;
 	height: 615px;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 10px 0 0 0;
 	padding-bottom: 0;
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

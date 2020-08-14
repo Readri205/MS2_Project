@@ -8,46 +8,46 @@
 
 ## Contents
 
-* [Site Goals](#site-goals)
-* [User Experience (UX)](#user-experience--ux-)
-  + [User stories](#user-stories)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
-    - [Frequent User Goals](#frequent-user-goals)
-  + [Design](#design)
-    - [Colour Scheme](#colour-scheme)
-    - [Typography](#typography)
-    - [Box Content Structure](#box-content-structure)
-    - [Imagery](#imagery)
-  + [Wireframes](#wireframes)
-    - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
-    - [Actual Site Design.](#actual-site-design)
-* [Features](#features)
-  + [Responsive for Device Size](#responsive-for-device-size)
-  + [Interactive Elements](#interactive-elements)
-  + [Future Features](#future-features)
-* [Technologies Used](#technologies-used)
-  + [Languages Used](#languages-used)
-  + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-  + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
-* [Site Construction](#site-construction)
-  + [Consistent Page Components](#consistent-page-components)
-  + [Home Page](#home-page)
-  + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
-  + [Contacts Page](#contacts-page)
-  + [Construction  Table](#construction--table)
-* [Testing](#testing)
-  + [Known Bugs and Issues](#known-bugs-and-issues)
-* [Deployment](#deployment)
-  + [GitHub Pages](#github-pages)
-  + [Forking the GitHub Repository](#forking-the-github-repository)
-  + [Making a Local Clone](#making-a-local-clone)
-* [Credits](#credits)
-  + [Code](#code)
-  + [Content](#content)
-  + [Media](#media)
-  + [Acknowledgements](#acknowledgements)
-* [Version Control](#version-control)
+  * [Site Goals](#site-goals)
+  * [User Experience (UX)](#user-experience--ux-)
+    + [User stories](#user-stories)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent User Goals](#frequent-user-goals)
+    + [Design](#design)
+      - [Colour Scheme](#colour-scheme)
+      - [Typography](#typography)
+      - [Box Content Structure](#box-content-structure)
+      - [Imagery](#imagery)
+    + [Wireframes](#wireframes)
+      - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
+      - [Actual Site Design.](#actual-site-design)
+  * [Features](#features)
+    + [Responsive for Device Size](#responsive-for-device-size)
+    + [Interactive Elements](#interactive-elements)
+    + [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
+    + [Languages Used](#languages-used)
+    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+    + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
+  * [Site Construction](#site-construction)
+    + [Consistent Page Components](#consistent-page-components)
+    + [Home Page](#home-page)
+    + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
+    + [Contacts Page](#contacts-page)
+    + [Construction  Table](#construction--table)
+  * [Testing](#testing)
+    + [Known Bugs and Issues](#known-bugs-and-issues)
+  * [Deployment](#deployment)
+    + [GitHub Pages](#github-pages)
+    + [Forking the GitHub Repository](#forking-the-github-repository)
+    + [Making a Local Clone](#making-a-local-clone)
+  * [Credits](#credits)
+    + [Code](#code)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgements](#acknowledgements)
+  * [Version Control](#version-control)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -536,6 +536,13 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
 
 *   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/).
 
+*   Peer Code Review (Slack Channel)
+The website was uploaded to the Peer Code Review Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
+  * @Dante **Dante Healy** for continuous positive feedback on the site usability and design;
+  * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices; and
+  * @Jimlynx **Jim Morel** for his review and positive feedback on the site.
+
+
 *   Friends and family providing review and feedback on the site content, navigation, screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
 
 ## Version Control
@@ -769,6 +776,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
     * V23.2 Updates to testing.md for JSHint amends
     * V23.3 Amend JSHint test and add autoprefixer css header
     * V23.4 Amend w3c validator image to https to resolve console error
+    * V23.5 Add margin around maps for mobile scroll per Peer Code Review feedback
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
