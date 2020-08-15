@@ -28,8 +28,8 @@
     + [Future Features](#future-features)
   * [Technologies Used](#technologies-used)
     + [Languages Used](#languages-used)
-    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-    + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
+    + [Frameworks, Libraries and Programs Used](#frameworks--libraries---programs-used)
+    + [Application Programming Interfaces APIs Used](#application-programming-interfaces--api-s--used)
   * [Site Construction](#site-construction)
     + [Consistent Page Components](#consistent-page-components)
     + [Home Page](#home-page)
@@ -124,7 +124,6 @@
 
     *   #### Frequent User Goals
         * The frequent visitor will want to;
-          1. check to see if there are any newly added features and information.
           1. find any new information supplied;
           1. view the carousel images just beneath the header;
           1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
@@ -221,11 +220,11 @@
       * When the user submits their details by clicking the 'Send Contact Details' button, a modal pops up to confirm that details have been sent.
 
 *   ### Future Features
-    * Expand the site to include other Continents
-    * Expand the site to include more details on the countries
-    * Update the API references for data such that the site 'maintains' itself when the World Bank Database updates the API data. Currently, some data is supplied via manual and CSV input which will require a manual process to update when the data is refreshed.
-    * Amend the Drop Down Search function to return the Country list in alphabetical order.
+    * A 'quick search' will be placed at the top of both the 'Home' page and the 'Country Details' to facilitate regular users that wish to immediately see the details for any particular country as soon as they come onto the site.
+    * Expand the site to include more details on the countries.
+    * Update the API references for data such that the site 'maintains' itself when the World Bank Database updates the API data. Currently, some data is supplied via 'Manual Input' and 'CSV File' input which will require a manual process to update when the data is refreshed.
     * Amend the 'Home' page pie charts to ensure appropriate rendering on screen sizes at 280px size.
+    * Social media icons link to respective social media website home pages. Social media links will in future feature link directly to RMC Ltd social media connections.
 
 
 ## Technologies Used
@@ -422,7 +421,7 @@
 
     * The following table provides a summary of how the Site Pages and Sections are compiled;
 
-        Site Page | Page Section | Javascript File | csv files / Manual Input | API Reference |
+        Site Page | Page Section | Javascript File | CSV Files / Manual Input | API Reference |
         ----------|--------------|-----------------|-----------|---------|
         Home | Information Box | worldstats.js | N/A | [World Bank Database - World Stats](https://api.worldbank.org/v2/country/wld/indicator/AG.LND.TOTL.K2?format=json) |
         Home | Africa Map | africamap.js | N/A | [Mapbox](https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}) (Requires Access Token)|
@@ -443,7 +442,7 @@ Testing information can be found in a separate [testing.md](https://github.com/R
 
 ### Known Bugs and Issues
 
-*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under #Numerical Validation Testing.
+*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under [Numerical Validation Testing](#numerical-validation-testing).
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 *  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
 *  To accommodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size for the [Chartsjs:](https://www.chartjs.org/) charts is set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is (in my opinion) too small for larger screens on desktops and laptops. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
@@ -538,10 +537,10 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
 *   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/).
 
 *   Peer Code Review (Slack Channel)
-The website was uploaded to the Peer Code Review Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
-  * @Dante **Dante Healy** for continuous positive feedback on the site usability and design and the EmailJS service;
-  * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and the EmailJS service; and
-  * @Jimlynx **Jim Morel** for his review and positive feedback on the site.
+The website was uploaded to the 'Peer Code Review' Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
+  * @Dante **Dante Healy** for continuous positive feedback on the site usability and design and for testing the EmailJS service;
+  * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and for testing the EmailJS service; and
+  * @Jimlynx **Jim Morel** for his review and extrmely positive feedback on the site.
 
 
 *   Friends and family providing review and feedback on the site content, navigation, screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
@@ -783,6 +782,7 @@ The website was uploaded to the Peer Code Review Slack Channel designed to recei
     * V23.8 Amend map margin in media queries for africa map on mobile
     * V23.9 Update user stories in testing.md
     * V24.0 Remove getcountriesvtest for getcountries
+    * V24.1 Update testing.md and README.md
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
