@@ -91,52 +91,52 @@
 
     *   #### First Time Visitor Goals
         * The first time visitor will want to;
-          1. easily understand the main purpose of the site;
-          1. be able to easily navigate throughout the site to find content;
-          1. view the carousel images just beneath the header;
-          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-          1. search the details<sup id="a1">[1](#f1)</sup> for a specific country from the dropdown menu;
-          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
-          1. navigate easily back to the 'Home' page;
-          1. read the information about Africa in a World Context;
-          1. search for another country and read the information about that country;
-          1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+          * easily understand the main purpose of the site;
+          * be able to easily navigate throughout the site to find content;
+          * view the carousel images just beneath the header;
+          * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+          * search the details for a specific country from the dropdown menu;
+          * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          * see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+          * navigate easily back to the 'Home' page;
+          * read the information about Africa in a World Context;
+          * search for another country and read the information about that country;
+          * contact us for more information or to provide comments about the site;
+          * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
     *   #### Returning Visitor Goals
         * The returning visitor will want to;
-          1. find any new information supplied.
-          1. be able to easily navigate throughout the site to find content;
-          1. view the carousel images and any new images just beneath the header;
-          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A returning visitor may want to go straight to the 'Country' search function;
-          1. search the details for a specific country from the dropdown menu;
-          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
-          1. navigate easily back to the 'Home' page;
-          1. search for another country and read the information about that country;
+          * find any new information supplied.
+          * be able to easily navigate throughout the site to find content;
+          * view the carousel images and any new images just beneath the header;
+          * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A returning visitor may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
+          * search the details for a specific country from the dropdown menu;
+          * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          * navigate easily back to the 'Home' page;
+          * search for another country and read the information about that country;
         * A returning visitor may want to go straight to the 'Contact Us' page;
-          1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+          * contact us for more information or to provide comments about the site;
+          * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
     *   #### Frequent User Goals
         * The frequent visitor will want to;
-          1. find any new information supplied;
-          1. view the carousel images just beneath the header;
-          1. scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A frequent visitor may want to go straight to the 'Country' search function;
-          1. search the details for a specific country from the dropdown menu;
-          1. read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
-          1. search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          1. navigate easily back to the 'Home' page;
-          1. search for another country and read the information about that country;
+          * find any new information supplied;
+          * view the carousel images just beneath the header;
+          * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+        * A frequent visitor may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
+          * search the details for a specific country from the dropdown menu;
+          * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          * navigate easily back to the 'Home' page;
+          * search for another country and read the information about that country;
         * A frequent visitor may want to go straight to the 'Contact Us' page;
-          1. contact us for more information or to provide comments about the site;
-          1. contact us to ask about data projects that they may be interested to have completed as an item of work.
+          * contact us for more information or to provide comments about the site;
+          * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
 *   ### Design
     *   #### Colour Scheme
@@ -162,12 +162,12 @@
         *   The **Original Wireframe Design** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
     *  #### Actual Site Design.
         * The developed site uses many of the concepts from the original Wireframe design. Variations are as follows;
-          1. The main header image was switch to the 'Africa' headed image which conveys a strong but not overwhelming 'Africa' theme;
+          1. The main header image was switch to the 'Africa' header image which conveys a strong but not overwhelming 'Africa' theme;
           1. The **'Contact Form'** was moved to its own page to **declutter** the two main pages. It is accessible from every page either through the main menu or from the footer;
-          1. The **Capital City** images were switch to a more dynamic and generic **carousel theme** across all the pages and placed just beneath the main header image. The images are strong and unique and if a desktop is left on the site the images are eye catching due to **vivid colours** and **carousel movement**;
+          1. The **Capital City** images were switch to dynamic  **carousel theme** images on all the pages and placed just beneath the main header image. The images are unique and vibrant. If a desktop is left on the site, the images are eye catching due to **vivid colours** and the **carousel movement**;
           1. The **'Information Tables'** were switched to more graphically appealing **Pie Charts** that are easy to read;
-          1. The 'Search Function' remains at the bottom of both the 'Home' and 'Country Details' pages.
-        * All the above sources were utilised in the site development except for [Google Maps](https://console.cloud.google.com/google/maps-apis/) where the following were used primarily to provide a learning experience for the developer;
+          1. The **'Search Function'** remains at the bottom of both the 'Home' and 'Country Details' pages.
+        * The above listed sources were utilised, except for [Google Maps](https://console.cloud.google.com/google/maps-apis/). The following were used primarily to provide a learning experience for the developer;
           1. Javascript Library - [Leaflet](https://leafletjs.com/)
           1. Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
           1. Data - [OpenStreetMap](https://www.openstreetmap.org)
@@ -420,6 +420,7 @@
 
     * The Contacts Page contains the 'Contact Form' for a user to supply contact information and to provide comments, questions or to provide a request for some work.
     * The 'Contact Form' will generate an email by referencing the **sendemail.js** file when a user submits their information.
+
       ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/contact10025.jpg "Contact Form")
 
 * ### Construction  Table
@@ -447,7 +448,7 @@ Testing information can be found in a separate [testing.md](https://github.com/R
 
 ### Known Bugs and Issues
 
-*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under [Numerical Validation Testing](#numerical-validation-testing).
+*   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under the **Numerical Validation Testing** section.
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
 *  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
 *  To accommodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size for the [Chartsjs:](https://www.chartjs.org/) charts is set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is (in my opinion) too small for larger screens on desktops and laptops. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
@@ -491,10 +492,10 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 
 Note that different Code Editors will have different processes for making the clone once the HTTPS link copy is made in step 4 above.
 
-1. If using **GitHub Desktop**, the clone can de saved directly into GitHub Desktop from the "Code" dropdown menu by choosing **'Open with GitHub Desktop'**.
+  * If using **GitHub Desktop**, the clone can de saved directly into GitHub Desktop from the "Code" dropdown menu by choosing **'Open with GitHub Desktop'**.
 
 A **Zip File** clone can be downloaded from the same "Code" drop down above;
-1. Select **'Download ZIP'** and the complete zip file will be saved to you local computer.
+  * Select **'Download ZIP'** and the complete zip file will be saved to you local computer.
 
 ## Credits
 
@@ -533,22 +534,16 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
 
 ### Acknowledgements
 
-*   My Mentor (Adegbenga Adeye (email:adegbenga.adeye@outlook.com, slack:gbenga_mentor)) for continuous helpful feedback. Ade has been an amazing, in helping and supporting me with this site. It has proven much harder and much more work for me to develop than I ever thought (severe case of 'what you don't know when you start').
-
-*   Tutor support at Code Institute for their support. When I have requested help, it has come quickly and efficiently when needed.
-
-*   Student assessment at Code Institute. I have looked to accommodate comments back on MS1 to reduce any re-occurring issues in MS2.
-
-*   Other students (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/).
-
-*   Peer Code Review (Slack Channel)
+*   My Mentor **Adegbenga Adeye**, (email: adegbenga.adeye@outlook.com, slack:gbenga_mentor) for continuous helpful feedback. Ade has been an amazing in helping and supporting me with this site. It has proven much harder and much more work for me to develop than I ever thought (severe case of 'what you don't know when you start').
+*   **Tutor support** at Code Institute for their support. When I have requested help, it has come quickly and efficiently when needed.
+*   **Student assessment** at Code Institute. I have looked to accommodate comments back on MS1 to reduce any re-occurring issues in MS2.
+*   **Other students** (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/).
+*   **Peer Code Review** (Slack Channel)
 The website was uploaded to the 'Peer Code Review' Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
-  * @Dante **Dante Healy** for continuous positive feedback on the site usability and design and for testing the EmailJS service;
-  * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and for testing the EmailJS service; and
-  * @Jimlynx **Jim Morel** for his review and extrmely positive feedback on the site.
-
-
-*   Friends and family providing review and feedback on the site content, navigation, screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
+    * @Dante **Dante Healy** for continuous positive feedback on the site usability and design and for testing the EmailJS service;
+    * @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and for testing the EmailJS service; and
+    * @Jimlynx **Jim Morel** for his review and extremely positive feedback on the site.
+*   **Friends and family** providing review and feedback on the site content, navigation and screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
 
 ## Version Control
 
@@ -789,6 +784,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.0 Remove getcountriesvtest for getcountries
     * V24.1 Update testing.md and README.md
     * V24.2 Update testing.md and README.md images
+    * V24.3 Update testing.md and README.md text
 
 ***
-<b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
+<b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)
