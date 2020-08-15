@@ -143,7 +143,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
           * On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
           * The form is validated for data entry (does not validate real emails at this stage).
           * On submission a clear modal message pops up to confirm to the user that their details have been sent.
-          
+
 ## Automated Testing
 
 The following automated tools were used to test the website during development of the website;
@@ -275,7 +275,7 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * Input validation
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactpageinputcheck10050.jpg "Contact Form Input Required")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactpageinputcheck10025.jpg "Contact Form Input Required")
 
     * Submission Confirmation to User  
 

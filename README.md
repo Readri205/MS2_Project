@@ -262,14 +262,19 @@
 1. [Chartsjs:](https://www.chartjs.org/)
     - Chartjs is used to create the line charts and pie charts.
 1. [Emailjs:](https://www.emailjs.com/)
-    - Emailjs is used to send the email from the contact form on the 'Contact Us' page.    
+    - Emailjs is used to send the email from the contact form on the 'Contact Us' page.
+1. [Favicon.io:](https://favicon.io/)
+    - Favicon.io was used for Favicon :earth_africa: web page title images.
+1. [Quackit:](https://www.quackit.com/character_sets/emoji/)
+    - Quackit was used for the search function emojis.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to resize images and edit photos for the website.
+1. [dirtyMarkup:](https://www.10bestdesign.com/dirtymarkup/)
+    - dirtyMarkup was used to format HTML, CSS and JS files
 1. [Adobe Stock:](https://stock.adobe.com/uk/)
     - Adobe Stock was used as a library source for images.
 1. [Unsplash:](https://unsplash.com/)
     - Unsplash was used as a library source for images.
-1. [Favicon.io:]() was used to generate the earth_africa favicon on webpage titles.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes]() during the design process.
 1. [Am I Responsive:](http://ami.responsivedesign.is/#)
@@ -309,7 +314,7 @@
       * Contains the details as to the intention of the site and a how it can be used. It also contains the basic information for Africa in a high level context.
       * The data included in the information box for the **World** figures is computed using the **worldstats.js** file for each of Land Size, Population and GDP. The respective sizes for **Africa** are computed separately from the World Bank Database Excel file download located [here](XX).
       * Note that as the World Bank Database does not show any Land Size data for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan), the values have been sourced from Wikipideia, and adjusted for Africa and the World Land Size Totals.
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox10025.jpg "INFO Box")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/informationbox10050.jpg "INFO Box")
     * Map
       * The Africa Map is constructed using the **africamap.js** file which uses the [Leaflet](https://leafletjs.com/) library, based on [Mapbox](https://www.mapbox.com/) Map imagery and[OpenStreetMap](https://www.openstreetmap.org) data providers. The Map is centred on Ouesso, Republic of Congo (1.6155N, 16.0464E) in the Map Box.
 
@@ -415,7 +420,7 @@
 
     * The Contacts Page contains the 'Contact Form' for a user to supply contact information and to provide comments, questions or to provide a request for some work.
     * The 'Contact Form' will generate an email by referencing the **sendemail.js** file when a user submits their information.
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/contact10050.jpg "Contact Form")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/contact10025.jpg "Contact Form")
 
 * ### Construction  Table
 
@@ -783,6 +788,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V23.9 Update user stories in testing.md
     * V24.0 Remove getcountriesvtest for getcountries
     * V24.1 Update testing.md and README.md
+    * V24.2 Update testing.md and README.md images
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
