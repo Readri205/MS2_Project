@@ -111,14 +111,14 @@
           * be able to easily navigate throughout the site to find content;
           * view the carousel images and any new images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A returning visitor may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
+        * **A returning visitor** may want to go straight to the 'Country' search function**<sup id="a1">[1](#f1)</sup>**;
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           * navigate easily back to the 'Home' page;
           * search for another country and read the information about that country;
-        * A returning visitor may want to go straight to the 'Contact Us' page;
+        * **A returning visitor** may want to go straight to the 'Contact Us' page;
           * contact us for more information or to provide comments about the site;
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
@@ -127,14 +127,14 @@
           * find any new information supplied;
           * view the carousel images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * A frequent visitor may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
+        * **A frequent visitor** may want to go straight to the 'Country' search function**<sup id="a2">[2](#f2)</sup>**;
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * navigate easily back to the 'Home' page;
           * search for another country and read the information about that country;
-        * A frequent visitor may want to go straight to the 'Contact Us' page;
+        * **A frequent visitor** may want to go straight to the 'Contact Us' page;
           * contact us for more information or to provide comments about the site;
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
@@ -785,6 +785,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.1 Update testing.md and README.md
     * V24.2 Update testing.md and README.md images
     * V24.3 Update testing.md and README.md text
+    * V24.4 Update testing.md and README.md text
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

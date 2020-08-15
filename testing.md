@@ -75,9 +75,9 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
             * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
             * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
             * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * A returning visitor may want to go straight to the 'Country' search function;
+      * **A returning visitor** may want to go straight to the 'Country' search function**<sup id="a1">[1](#f1)</sup>**;
         * search the details for a specific country from the dropdown menu;
-            * The search box is the last item<sup id="a1">[1](#f1)</sup> on the page reached after viewing the Pie Charts.
+            * The search box is the last item on the page reached after viewing the Pie Charts.
             * The search box is also referenced in the Information Box at the top of the page.
         * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
             * The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
@@ -95,7 +95,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
         * search for another country and read the information about that country;
             * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
             * The search takes the user back to the top of the page and the user can again scroll down through the information.
-      * A returning visitor may want to go straight to the 'Contact Us' page;
+      * **A returning visitor** may want to go straight to the 'Contact Us' page;
         * contact us for more information or to provide comments about the site;
             * The user is able to navigate to the 'Contact' page from the main menu.
             * If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
@@ -115,9 +115,9 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
             * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
             * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
             * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * A frequent visitor may want to go straight to the 'Country' search function;
+      * **A frequent visitor** may want to go straight to the 'Country' search function**<sup id="a2">[2](#f2)</sup>**;
         * search the details for a specific country from the dropdown menu;
-          * The search box is the last item<sup id="a1">[1](#f1)</sup> on the page reached after viewing the Pie Charts.
+          * The search box is the last item on the page reached after viewing the Pie Charts.
           * The search box is also referenced in the Information Box at the top of the page.
         * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
@@ -135,7 +135,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
         * search for another country and read the information about that country;
           * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
           * The search takes the user back to the top of the page and the user can again scroll down through the information.
-      * A frequent visitor may want to go straight to the 'Contact Us' page;
+      * **A frequent visitor** may want to go straight to the 'Contact Us' page;
         * contact us for more information or to provide comments about the site;
           * The user is able to navigate to the 'Contact' page from the main menu.
           * If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
