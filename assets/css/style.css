@@ -305,14 +305,14 @@ footer {
 /*-------------------------------Media Queries-----------------------------*/
 
 @media screen and (max-width: 376px) {
-	.code-box {
-		padding-right: 0;
-	}
-	.reference-text {
-		padding-top: 10px;
-	}
+.code-box {
+	padding-right: 0;
 }
-@media screen and (max-width: 932px) {
+.reference-text {
+	padding-top: 10px;
+}
+}
+@media screen and (max-width: 998px) {
 .map-margin {
     padding: 30px 25px 15px 25px;
 }

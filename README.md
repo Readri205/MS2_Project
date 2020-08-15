@@ -279,6 +279,7 @@
 ### Application Programming Interfaces (API's) Used
 
 * The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[CountryFlags](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data, but use the API data to return a Country map for a specific country in the search function.
+* jQuery AJAX is used to load the API calls asynchronously.
 
   1. [Referential API](https://rapidapi.com/referential/api/referential)
       * The Referential API (sourced via [RapidAPI](https://rapidapi.com/)) was used to provide the country code to source all the country data in the search function. It provides the full list of countries in the drop down menu and on country selection, the country codes drive the other API's to return the required information. The Referential API is loaded with the 'Continent' denominator for the African Countries 'AF' (shown at the end of the link below). The API returns a full list of countries each with their respective two digit country codes (example: Nigeria='NG'). Please note that the API requires an Application Key so the link will not return a result. Please see the screenshot image of two countries' data, Nigeria (Key=NG) and Rwanda (Key=RW) as an example return (Note the API returns all 54 countries). The full API string is also shown below for documentation purposes.
@@ -780,6 +781,7 @@ The website was uploaded to the Peer Code Review Slack Channel designed to recei
     * V23.6 Amend var to const and const for 'new' chart in JS files
     * V23.7 Amend map margin in media queries for mobile screen size only
     * V23.8 Amend map margin in media queries for africa map on mobile
+    * v23.9 Update user stories in testing.md
 
 ***
 <b id="f1">1</b> Country searches drop down menu has some out of alphabetical listed order countries. The list order is defined by the Referential API. 1[↩](#a1)
