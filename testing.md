@@ -10,17 +10,22 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Contents
 
-  * [Automated Testing](#automated-testing)
   * [User stories](#user-stories)
     + [First Time Visitor Goals](#first-time-visitor-goals)
+      - [The first time visitor will want to;](#the-first-time-visitor-will-want-to-)
     + [Returning Visitor Goals](#returning-visitor-goals)
+      - [The returning visitor will want to;](#the-returning-visitor-will-want-to-)
     + [Frequent User Goals](#frequent-user-goals)
+      - [The frequent visitor will want to;](#the-frequent-visitor-will-want-to-)
+    + [Functional User Tests by Browser](#functional-user-tests-by-browser)
+  * [Automated Testing](#automated-testing)
   * [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
   * [Numerical Validation Testing](#numerical-validation-testing)
   * [Contact Form Testing](#contact-form-testing)
   * [Further Testing](#further-testing)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## User stories
 *  ### First Time Visitor Goals
@@ -75,7 +80,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
             * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
             * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
             * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * **A returning visitor** may want to go straight to the 'Country' search function**<sup id="a1">[1](#f1)</sup>**;
+      * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">**[1]**(#f1)</sup>;
         * search the details for a specific country from the dropdown menu;
             * The search box is the last item on the page reached after viewing the Pie Charts.
             * The search box is also referenced in the Information Box at the top of the page.
@@ -115,7 +120,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
             * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
             * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
             * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * **A frequent visitor** may want to go straight to the 'Country' search function**<sup id="a2">[2](#f2)</sup>**;
+      * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">**[2]**(#f2)</sup>;
         * search the details for a specific country from the dropdown menu;
           * The search box is the last item on the page reached after viewing the Pie Charts.
           * The search box is also referenced in the Information Box at the top of the page.
@@ -143,6 +148,16 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
           * On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
           * The form is validated for data entry (does not validate real emails at this stage).
           * On submission a clear modal message pops up to confirm to the user that their details have been sent.
+
+*    ### Functional User Tests by Browser
+      * All the functional user tests have been made per the attached [Test Schedule](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/testschedule.xlsx). All functional tests have been on different Browsers including Chrome, MS Edge, Firefox, Internet Explorer. Note that there are functional **'fails'** returned from **Internet Explorer** for any search functionality. The results are shown below;
+        * MacBook Pro 16" Screen;
+
+          ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/testschedulemacbook10050.jpg "Functional Test Schedule - MacBook Pro 16 Screen")
+
+        * iPhone X 375px screen;
+
+          ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/testscheduleiphonex10050.jpg "Functional Test Schedule - Mobile Screen")
 
 ## Automated Testing
 
@@ -323,4 +338,4 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 *   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ***
-<b id="f1">1</b> Future Features in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1)
+<b id="f1">1</b> Future Features in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1)
