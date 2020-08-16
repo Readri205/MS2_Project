@@ -112,7 +112,7 @@
           * be able to easily navigate throughout the site to find content;
           * view the carousel images and any new images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">**[1]**(#f1)</sup>;
+        * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
@@ -128,7 +128,7 @@
           * find any new information supplied;
           * view the carousel images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-        * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">**[2]**(#f2)</sup>;
+        * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
@@ -211,9 +211,9 @@
           * returns a map of that country, centred on the capital city. Note that the default zoom level is 6. The user can zoom in to see more country detail, or out to see the country in a wider Africa context.
         * Third and fourth boxes;
           * return the Population and GDP growth from 1970 to 2019.
-        * Pie charts (box 5, 6 and 7);
+        * Country Pie charts;
           * return land size, population (2019) and GDP (2019) relative to the rest of Africa.
-        * Pie charts (box 8, 9 and 10)
+        * Top 5 Pie charts;
           * return visual detail about the largest 5 countries in terms of land size, Population (2019) and GDP (2019) in Africa.
     * The user is able to contact us via the 'Contact Us' page.
       * This page has an interactive contact form that the user can complete and submit their details through to us.
@@ -330,11 +330,11 @@
           ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/gdp10025.jpg "GDP Chart")
         * The Pie Charts are directly loaded with the data in the **totalcharts.js** file.
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africaland10025.jpg "Land Pie Chart")
+          ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africaland10050.jpg "Land Pie Chart")
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africapop10025.jpg "Population Pie Chart")
+          ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africapop10050.jpg "Population Pie Chart")
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africagdp10025.jpg "GDP Pie Chart")
+          ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/africagdp10050.jpg "GDP Pie Chart")
     * Country Search Function
       * the Search Function is a drop down menu that references the **getcountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getcountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described below in the 'Country Details' Page section) that in turn generate the required returns for the Country selected.
 
@@ -406,7 +406,7 @@
     * Country Search Function
 
       * The Search Function is a drop down menu that references the **getcountries.js** file. The country selection made by the user will return the required information about the Country selected on the 'Country Details' page. The **getcountries.js** file will return the required two digit **countryCode** that is fed into all the relevant API's (described above in the 'Country Details' Page section above) that in turn generates the required information return for the Country selected.
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchcountry10050.jpg " Country Search Function")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/searchmenu10050.jpg " Country Search Function")
       * Note that the [Referential API](https://rapidapi.com/referential/api/referential) does not return the list of countries in full alphabetical order (mostly, but not exclusively). To place the country list into alphabetical order, the following code is utilised after the data is called (many thanks to [W3C Schools](https://www.w3schools.com/js/js_array_sort.asp));
       ```javascript
       data.sort(function(a, b){
@@ -786,6 +786,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.3 Update testing.md and README.md text
     * V24.4 Update testing.md and README.md text
     * V24.5 Add Functional Browser TestSchedule
+    * V24.6 Update Pie Chart images in README.md
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

@@ -80,7 +80,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
             * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
             * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
             * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">**[1]**(#f1)</sup>;
+      * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
         * search the details for a specific country from the dropdown menu;
             * The search box is the last item on the page reached after viewing the Pie Charts.
             * The search box is also referenced in the Information Box at the top of the page.
@@ -120,7 +120,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
             * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
             * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
             * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">**[2]**(#f2)</sup>;
+      * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
         * search the details for a specific country from the dropdown menu;
           * The search box is the last item on the page reached after viewing the Pie Charts.
           * The search box is also referenced in the Information Box at the top of the page.
@@ -150,7 +150,8 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
           * On submission a clear modal message pops up to confirm to the user that their details have been sent.
 
 *    ### Functional User Tests by Browser
-      * All the functional user tests have been made per the attached [Test Schedule](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/testschedule.xlsx). All functional tests have been on different Browsers including Chrome, MS Edge, Firefox, Internet Explorer. Note that there are functional **'fails'** returned from **Internet Explorer** for any search functionality. The results are shown below;
+      * All the functional user tests have been made per the attached [Test Schedule](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/testschedule.xlsx). All functional tests have been on different Browsers including Chrome, MS Edge, Firefox, Internet Explorer.
+      * Note that there are functional **'fails'** returned from **Internet Explorer** for any search functionality. Internet Explorer was **NOT** tested on mobile. However, **MS Edge** was tested **successfully** on large screen and mobile. The results are shown below;
         * MacBook Pro 16" Screen;
 
           ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/testschedulemacbook10050.jpg "Functional Test Schedule - MacBook Pro 16 Screen")
@@ -163,7 +164,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 The following automated tools were used to test the website during development of the website;
 
-*   [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used extensively during development to test outputs and to identify issues arising during the development phase. This tool was used determine results for;
+*   [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used extensively **during development** to test outputs and to identify issues arising during the development phase. This tool was used determine results for;
     * jQuery AJAX API returns;
     * Javascript function results;
     * CORS issues and resolutions;
