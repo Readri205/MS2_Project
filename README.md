@@ -147,7 +147,7 @@
     *   #### Box Content Structure
         *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country Details' page. In addition the box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country Details' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
     *   #### Imagery
-        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context on larger screens each image has a clear title description sourced from the original image provided by the contributor. On small screens the image titles are removed, due to space and readability constraints.
+        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context on larger screens each image has a clear title description sourced from the original image provided by the contributor. Note that on some screen sizes the titles can be difficult to read where they blend into the image. As the titles are not fundamental to the website information it has been considered 'acceptable'. Any third party user testing has raised this as an issue. On small screens the image titles are removed, due to space and readability constraints.
 
 *   ### Wireframes
     *   #### Original Wireframe Design (July 2, 2020).
@@ -787,6 +787,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.4 Update testing.md and README.md text
     * V24.5 Add Functional Browser TestSchedule
     * V24.6 Update Pie Chart images in README.md
+    * V24.7 Add text updates README.md testing.md
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

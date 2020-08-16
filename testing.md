@@ -12,11 +12,8 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
   * [User stories](#user-stories)
     + [First Time Visitor Goals](#first-time-visitor-goals)
-      - [The first time visitor will want to;](#the-first-time-visitor-will-want-to-)
     + [Returning Visitor Goals](#returning-visitor-goals)
-      - [The returning visitor will want to;](#the-returning-visitor-will-want-to-)
     + [Frequent User Goals](#frequent-user-goals)
-      - [The frequent visitor will want to;](#the-frequent-visitor-will-want-to-)
     + [Functional User Tests by Browser](#functional-user-tests-by-browser)
   * [Automated Testing](#automated-testing)
   * [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
@@ -303,8 +300,6 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
 ## Further Testing
 
-*   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-
 *   The website was tested using Google Chrome Developer Tools Responsive Design feature for small screen sizes. Screen sizes down to 320px will render the Pie Charts appropriately in Portrait Mode. Screen size of 280px in portrait mode (Galaxy Fold) will not render the Home Page Pie Charts and must be viewed in landscape mode.
 
     * iPhone 6 375px Portrait Mode Home Page Charts
@@ -331,12 +326,6 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
         ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 653px Landscape Home Page Charts")
 
-
-*   The website was viewed on a variety of devices such as MAC Desktop, MAC Laptop, iPhone SE iPhone6, iPhone7, iPhoneX, Galaxy.
-
-*   A large amount of testing was done to ensure that all pages were linking correctly.
-
-*   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ***
 <b id="f1">1</b> Future Features in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1)
