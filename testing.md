@@ -192,7 +192,7 @@ The following automated tools were used to test the website during development o
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/cssw3cvalidatorcheck.png "CSS W3C Validator Check")
 *   [JSHint](https://jshint.com/) - used to validate javascript;
     * Each of the javascript files has been validated using JSHint. The use of 'const' has returned a large number of warnings from the test. It has been used extensively for this website, and is perceived to be modern practice' per discussion with Code Institute 'Tutor Support'.
-    * A number of warnings have returned for 'undefined variables'.
+
     * **africamap.js**
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintafricamap.png "africamap.js")
