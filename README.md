@@ -365,6 +365,10 @@
 
 * ### Consistent Page Components
     * All pages of the site contain the same 'header', 'navbar', 'carousel' and 'footer';
+      * **Header** consists of a title image with hand drawn doodles and a scripted 'Africa'.
+      * **Navbar** is a menu top bar that is fixed to the top of the screen even on scroll down. It has a black background with light coloured lettering. There is a light backdrop highlighting the page that the user is on. The menu allows for easy access to any of the three pages at all time. If a user selects the 'Country Details' page, Nigeria is the default country selected. On mobile devices, the menu becomes a 'hamburger' and muct be 'touched' in order to select any of the three pages,
+      * **Carousel** Just beneath the main 'title' header image is a carousel of five images. These images are large and designed to create visual impact, especially as they scroll through from one to the other. The images are the same for all three pages. The images have been selected to represent 'Africa' but not necessarily in a traditional sense. Images of 'animals' and portraits of 'people' have been explicitly avoided.
+      * **Footer** The footer is displayed on all three pages and is consistent. There are three sections **'About'** - describes 'us' as an organisation, **'Data Analysis and Presentation Requirements?'** - describes what we do, and **'Contact'** - describes how to contact **'us'** to discuss what we can do for **'you'**.
 * ### Home Page
     * Information Box
       * Contains the details as to the intention of the site and a how it can be used. It also contains the basic information for Africa in a high level context.
@@ -845,6 +849,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.8 Amend total gdp pie, move scripts to bottom of page
     * V24.9 Add User Story Images
     * V25.0 Add further User Story Images
+    * V25.1 Add README.md text updates and images
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)
