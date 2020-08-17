@@ -161,7 +161,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 The following automated tools were used to test the website during development of the website;
 
-*   [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used extensively **during development** to test outputs and to identify issues arising during the development phase. This tool was used determine results for;
+*   [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used extensively **during development** to test outputs and to identify issues arising during the development phase. This tool was used to determine results for;
     * jQuery AJAX API returns;
     * Javascript function results;
     * CORS issues and resolutions;

@@ -451,7 +451,6 @@ Testing information can be found in a separate [testing.md](https://github.com/R
 
 *   Users may wish to know the full list of countries in each of the World Bank Database sectors listed in the pie charts on the 'Home' page. Future updates to the site will provide an appendix list for each of the sectors. The lists are provided in the [testing.md](https://github.com/Readri205/MS2_Project/blob/master/testing.md) file under the **Numerical Validation Testing** section.
 *   Mapbox and Country.io API requests can return CORS issues. The cookies submitted by these API sites have been updated with 'SameSite' = "None" and "Secure" per the [Google Chrome documentation](https://web.dev/samesite-cookies-explained/) by updating the Cookies in the Web Developer Tools in 'Application/Storage/Cookies'.
-*  On deployment of the website and attempting to view the site using the Chrome browser, the [Referential API](https://rapidapi.com/referential/api/referential) sometimes returns a 'CORS' issue and will not return the drop down menu in the Search Function.
 *  To accommodate the pie chart rendering for iPhone 6 screen sizes (375px in portrait mode), the global default font size for the [Chartsjs:](https://www.chartjs.org/) charts is set at 8px for the 'Home' page and 10px for the 'Country Details' page. This font size is (in my opinion) too small for larger screens on desktops and laptops. Future site updates will look at other charting options to allow more flexible solutions to accommodate a larger variety of screen sizes.
 *  On some screen sizes at 280px in portrait mode, the pie charts on the 'Home' page can become squeezed and will not render appropriately. Testing on devices such as *Galaxy Fold* (Chrome Developer Tools) evidenced this issue. Future site updates will look at other charting options to allow more flexible media query solutions for various screen sizes.
 
@@ -788,6 +787,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.5 Add Functional Browser TestSchedule
     * V24.6 Update Pie Chart images in README.md
     * V24.7 Add text updates README.md testing.md
+    * V24.8 Amend total gdp pie, move scripts to bottom of page
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

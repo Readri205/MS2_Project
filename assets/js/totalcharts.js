@@ -103,7 +103,7 @@ const chartLand = new Chart(document.getElementById("landPie"), {
 		datasets: [{
 			label: " Land Size (Mns) Sq. Kms",
 			backgroundColor: ["#c45850", "#8e5ea2", "#3cba9f", "#e8c3b9", "#3e95cd", "#2f4f4f", "#f0e68c"],
-			data: [29.510, 20.039, 4.772, 18.241, 5.462, 27.429, 24.397]
+			data: [29.51, 20.04, 4.77, 18.24, 5.46, 27.43, 24.40]
 		}]
 	},
 	options: {
@@ -123,7 +123,7 @@ const chartPoppie = new Chart(document.getElementById("popPie"), {
 		datasets: [{
 			label: " Population in Bns",
 			backgroundColor: ["#c45850", "#8e5ea2", "#3cba9f", "#e8c3b9", "#3e95cd", "#2f4f4f", "#f0e68c"],
-			data: [1.306, 0.646, 1.836, 0.366, 0.257, 0.921, 2.340]
+			data: [1.31, 0.65, 1.84, 0.37, 0.26, 0.92, 2.34]
 		}]
 	},
 	options: {
@@ -141,15 +141,15 @@ const chartGdppie = new Chart(document.getElementById("gdpPie"), {
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
 		datasets: [{
-			label: " GDP in Bns",
+			label: " GDP in US$Tns",
 			backgroundColor: ["#c45850", "#8e5ea2", "#3cba9f", "#e8c3b9", "#3e95cd", "#2f4f4f", "#f0e68c"],
-			data: [24.41, 57.19, 35.98, 23.171, 3.015, 22.749, 26.980]
+			data: [2.44, 5.72, 3.60, 23.17, 3.012, 22.75, 26.98]
 		}]
 	},
 	options: {
 		title: {
 			display: true,
-			text: 'World GDP (Bns) in 2019'
+			text: 'World GDP (US$Tns) in 2019'
 		},
 		legend: {
 			position: "right"
