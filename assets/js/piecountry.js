@@ -24,7 +24,7 @@ function writeLand(data) {
 		countland = item.value / 1000000;
 	}
 	const roaland = (29.509744 - countland);
-//<----------------Graphs World Bank Land Size by Country from API ;------------------>
+	//<----------------Graphs World Bank Land Size by Country from API ;------------------>
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	Chart.defaults.global.defaultFontSize = 10;
@@ -69,7 +69,7 @@ function writePop(data) {
 	const item = data[1][0];
 	const countpop = item.value / 1000000;
 	const roapop = (1303 - countpop);
-//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
+	//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
 	const chartPop = new Chart(document.getElementById("popPie"), {
 		type: 'pie',
 		data: {
@@ -146,7 +146,7 @@ async function getCsvLand() {
 	const topcount = [coun[53], coun[52], coun[51], coun[50], coun[49], "Rest of Africa"];
 	const restlands = [((lands[54] - (lands[53] + lands[52] + lands[51] + lands[50] + lands[49])) / 1000000).toFixed(2)];
 	const toplands = [(lands[53] / 1000000).toFixed(2), (lands[52] / 1000000).toFixed(2), (lands[51] / 1000000).toFixed(2), (lands[50] / 1000000).toFixed(2), (lands[49] / 1000000).toFixed(2), restlands];
-//<---------Graphs World Bank land data by Country from CSV;----------->  
+	//<---------Graphs World Bank land data by Country from CSV;----------->  
 	const chartLandtop = new Chart(document.getElementById("landTop"), {
 		type: 'pie',
 		data: {
@@ -183,7 +183,7 @@ async function getCsvPoppie() {
 	const topfivecount = [count[33], count[40], count[50], count[10], count[16], "Rest of Africa"];
 	const restpop = [((1302819408 - (poppie[33] + poppie[16] + poppie[50] + poppie[10] + poppie[40])) / 1000000).toFixed(2)];
 	const topfivepop = [(poppie[33] / 1000000).toFixed(2), (poppie[40] / 1000000).toFixed(2), (poppie[50] / 1000000).toFixed(2), (poppie[10] / 1000000).toFixed(2), (poppie[16] / 1000000).toFixed(2), restpop];
-//<---------Graphs World Bank POP data for Top Five Country from CSV;----------->
+	//<---------Graphs World Bank POP data for Top Five Country from CSV;----------->
 	const chartPoptop = new Chart(document.getElementById("popTop"), {
 		type: 'pie',
 		data: {
@@ -209,7 +209,6 @@ getDataPop(writePop);
 //<---------Writes World Bank GDP data for Top Five Country from CSV ;----------->
 const counts = [];
 const gdppie = [];
-
 getCsvGdppie();
 async function getCsvGdppie() {
 	const response = await fetch('assets/csv/gdptotes.csv');
@@ -221,7 +220,7 @@ async function getCsvGdppie() {
 	const topfivecounts = [counts[53], counts[52], counts[51], counts[50], counts[49], "Rest of Africa"];
 	const restgdp = [((2424529223027 - (gdppie[53] + gdppie[52] + gdppie[51] + gdppie[50] + gdppie[49])) / 1000000000).toFixed(2)];
 	const topfivegdp = [(gdppie[53] / 1000000000).toFixed(2), (gdppie[52] / 1000000000).toFixed(2), (gdppie[51] / 1000000000).toFixed(2), (gdppie[50] / 1000000000).toFixed(2), (gdppie[49] / 1000000000).toFixed(2), restgdp];
-//<---------Graphs World Bank GDP data for Top Five Country from CSV;----------->
+	//<---------Graphs World Bank GDP data for Top Five Country from CSV;----------->
 	const chartGdptop = new Chart(document.getElementById("gdpTop"), {
 		type: 'pie',
 		data: {

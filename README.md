@@ -8,46 +8,47 @@
 
 ## Contents
 
-* [Site Goals](#site-goals)
-* [User Experience (UX)](#user-experience--ux-)
-  + [User stories](#user-stories)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
-    - [Frequent User Goals](#frequent-user-goals)
-  + [Design](#design)
-    - [Colour Scheme](#colour-scheme)
-    - [Typography](#typography)
-    - [Box Content Structure](#box-content-structure)
-    - [Imagery](#imagery)
-  + [Wireframes](#wireframes)
-    - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
-    - [Actual Site Design.](#actual-site-design)
-* [Features](#features)
-  + [Responsive for Device Size](#responsive-for-device-size)
-  + [Interactive Elements](#interactive-elements)
-  + [Future Features](#future-features)
-* [Technologies Used](#technologies-used)
-  + [Languages Used](#languages-used)
-  + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-  + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
-* [Site Construction](#site-construction)
-  + [Consistent Page Components](#consistent-page-components)
-  + [Home Page](#home-page)
-  + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
-  + [Contacts Page](#contacts-page)
-  + [Construction  Table](#construction--table)
-* [Testing](#testing)
-  + [Known Bugs and Issues](#known-bugs-and-issues)
-* [Deployment](#deployment)
-  + [GitHub Pages](#github-pages)
-  + [Forking the GitHub Repository](#forking-the-github-repository)
-  + [Making a Local Clone](#making-a-local-clone)
-* [Credits](#credits)
-  + [Code](#code)
-  + [Content](#content)
-  + [Media](#media)
-  + [Acknowledgements](#acknowledgements)
-* [Version Control](#version-control)
+  * [Site Goals](#site-goals)
+  * [User Experience (UX)](#user-experience--ux-)
+    + [User stories](#user-stories)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent User Goals](#frequent-user-goals)
+      - [Mobile Menu](#mobile-menu)
+    + [Design](#design)
+      - [Colour Scheme](#colour-scheme)
+      - [Typography](#typography)
+      - [Box Content Structure](#box-content-structure)
+      - [Imagery](#imagery)
+    + [Wireframes](#wireframes)
+      - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
+      - [Actual Site Design.](#actual-site-design)
+  * [Features](#features)
+    + [Responsive for Device Size](#responsive-for-device-size)
+    + [Interactive Elements](#interactive-elements)
+    + [Future Features](#future-features)
+  * [Technologies Used](#technologies-used)
+    + [Languages Used](#languages-used)
+    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+    + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
+  * [Site Construction](#site-construction)
+    + [Consistent Page Components](#consistent-page-components)
+    + [Home Page](#home-page)
+    + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
+    + [Contacts Page](#contacts-page)
+    + [Construction  Table](#construction--table)
+  * [Testing](#testing)
+    + [Known Bugs and Issues](#known-bugs-and-issues)
+  * [Deployment](#deployment)
+    + [GitHub Pages](#github-pages)
+    + [Forking the GitHub Repository](#forking-the-github-repository)
+    + [Making a Local Clone](#making-a-local-clone)
+  * [Credits](#credits)
+    + [Code](#code)
+    + [Content](#content)
+    + [Media](#media)
+    + [Acknowledgements](#acknowledgements)
+  * [Version Control](#version-control)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -106,9 +107,9 @@
 
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll210025.jpg "Scroll Down on Home Page")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/scrolldown210025.jpg "Scroll Down on Home Page")
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll310025.jpg "Scroll Down on Home Page")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/scrolldown310025.jpg "Scroll Down on Home Page")
 
           * search the details for a specific country from the dropdown menu;
 
@@ -177,10 +178,11 @@
           * view the carousel images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
+          * Scroll down the Home page to reach the 'Search Function';
 
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search310025.jpg "Search Bottom of Home Page")
 
-          * search the details for a specific country from the dropdown menu;
+          * search the details for a specific country from the dropdown menu (the site is easy and intuitive to use for a frequent visitor);
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
           * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
@@ -860,6 +862,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V25.1 Add README.md text updates and images
     * V25.2 Update JSHint images
     * V25.3 Update code annotation
+    * V25.4 Format code with dirtyMarkup, update contents
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

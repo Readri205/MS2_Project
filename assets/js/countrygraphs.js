@@ -24,7 +24,7 @@ function writePop(data) {
 	});
 	xlabels.reverse();
 	ydata.reverse();
-//<----------------Graphs World Bank Population data by Country from API (1970 to current);------------------>
+	//<----------------Graphs World Bank Population data by Country from API (1970 to current);------------------>
 	const ctyPop = document.getElementById("popChart").getContext("2d");
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
@@ -85,7 +85,7 @@ function writeGdp(data) {
 	});
 	glabels.reverse();
 	hdata.reverse();
-//<---------------Graphs World Bank Population data by Country from API (1970 to currrent);---------->
+	//<---------------Graphs World Bank Population data by Country from API (1970 to currrent);---------->
 	const ctyGdp = document.getElementById("gdpChart").getContext("2d");
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';

@@ -10,16 +10,16 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Contents
 
-  * [User stories](#user-stories)
-    + [First Time Visitor Goals](#first-time-visitor-goals)
-    + [Returning Visitor Goals](#returning-visitor-goals)
-    + [Frequent User Goals](#frequent-user-goals)
-    + [Functional User Tests by Browser](#functional-user-tests-by-browser)
-  * [Automated Testing](#automated-testing)
-  * [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
-  * [Numerical Validation Testing](#numerical-validation-testing)
-  * [Contact Form Testing](#contact-form-testing)
-  * [Further Testing](#further-testing)
+* [User stories](#user-stories)
+  + [First Time Visitor Goals](#first-time-visitor-goals)
+  + [Returning Visitor Goals](#returning-visitor-goals)
+  + [Frequent User Goals](#frequent-user-goals)
+  + [Functional User Tests by Browser](#functional-user-tests-by-browser)
+* [Automated Testing](#automated-testing)
+* [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
+* [Numerical Validation Testing](#numerical-validation-testing)
+* [Contact Form Testing](#contact-form-testing)
+* [Further Testing](#further-testing)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 

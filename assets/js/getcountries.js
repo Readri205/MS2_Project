@@ -40,9 +40,10 @@ function writeCountry(data) {
 	});
 }
 countries.addEventListener("change", function() {
-//<------------Force redirection to return new country search------------------------>
+	//<------------Force redirection to return new country search------------------------>
 	window.location = `/MS2_Project/country.html?country=${countries.value}`;
 });
+
 function getCountryDetails() {
 	const params = new URLSearchParams(window.location.search);
 	countryCode.pop();

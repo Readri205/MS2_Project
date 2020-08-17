@@ -15,6 +15,7 @@ function getDataCty(cb) {
 //Writes World Bank Country data Map (Country, Capital, Lat, Long) by Country from API;
 const latit = [];
 const lngit = [];
+
 function writeCty(data) {
 	latit.push(data[1][0].latitude);
 	lngit.push(data[1][0].longitude);

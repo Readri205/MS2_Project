@@ -11,9 +11,8 @@ async function getCsvPop() {
 	const herts = csv.substr(362, 611);
 	const vaxis = verts.split(',').map(x => parseFloat(x, 10));
 	const haxis = herts.split(',');
-	
 	const totPop = document.getElementById('totPop').getContext('2d');
-//<-------------Graphs Population from CSV--------------->	
+	//<-------------Graphs Population from CSV--------------->	
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	const popCharts = new Chart(totPop, {
@@ -58,9 +57,8 @@ async function getCsvGdp() {
 	const hirts = csvgdp.substr(363, 612);
 	const vaxs = virts.split(',').map(x => parseFloat(x, 10));
 	const haxs = hirts.split(',');
-	
 	const totGdp = document.getElementById('totGdp').getContext('2d');
-//--------------------Graph GDP Total from CSV--------------------------------------------->
+	//--------------------Graph GDP Total from CSV--------------------------------------------->
 	const gdpChart = new Chart(totGdp, {
 		type: 'line',
 		data: {

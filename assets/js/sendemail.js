@@ -13,6 +13,7 @@ function sendMail(contactForm) {
 	}, );
 	return false; // To block from loading a new page
 }
+
 function myReset() {
 	document.getElementById("myForm").reset();
 }
