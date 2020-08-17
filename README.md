@@ -97,13 +97,18 @@
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/scrolldown10025.jpg "Scroll Down")
 
           * be able to easily navigate throughout the site to find content;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll10025.jpg "Scroll Down on Home Page")
+
           * view the carousel images just beneath the header;
 
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/landingpage10025.jpg "Landing Page")
 
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll10025.jpg "Scroll Down on Home Page")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll210025.jpg "Scroll Down on Home Page")
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll310025.jpg "Scroll Down on Home Page")
 
           * search the details for a specific country from the dropdown menu;
 
@@ -854,6 +859,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V25.0 Add further User Story Images
     * V25.1 Add README.md text updates and images
     * V25.2 Update JSHint images
+    * V25.3 Update code annotation
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

@@ -11,7 +11,7 @@ function getDataPop(cb) {
 	xhttp.open("GET", baseUrlwbpop, true);
 	xhttp.send();
 }
-//<--------------Writes World Bank Population data by Country from API (the proper way around...);-------------->
+//<--------------Writes World Bank Population data by Country from API (1970 to current);-------------->
 const xlabels = [];
 const ydata = [];
 
@@ -24,10 +24,8 @@ function writePop(data) {
 	});
 	xlabels.reverse();
 	ydata.reverse();
-	//console.log(ydata.toFixed(2));
-	//<----------------Graphs World Bank Population data by Country from API (the proper way around...);------------------>
+//<----------------Graphs World Bank Population data by Country from API (1970 to current);------------------>
 	const ctyPop = document.getElementById("popChart").getContext("2d");
-	//const popChart = 
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	const chartCtypop = new Chart(ctyPop, {
@@ -60,7 +58,7 @@ function writePop(data) {
 	});
 }
 getDataPop(writePop);
-//<--------End of Graphs World Bank Population data by Country from API (the proper way around...);------->
+//<--------End of Graphs World Bank Population data by Country from API (1970 to current);------->
 //<-------------------World Bank API for Country GDP 1970 to Current Year';------------------------>
 const baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + countryCode + "/indicator/NY.GDP.MKTP.CD?format=json";
 //<-------------------GETs World Bank GDP data by Country from API;------------------------>
@@ -74,7 +72,7 @@ function getDataGdp(cb) {
 	xhttp.open("GET", baseUrlwbgdp, true);
 	xhttp.send();
 }
-//<---------Writes World Bank GDP data by Country from API (the proper way around...);----------->
+//<---------Writes World Bank GDP data by Country from API (1970 to current);----------->
 const glabels = [];
 const hdata = [];
 
@@ -87,10 +85,8 @@ function writeGdp(data) {
 	});
 	glabels.reverse();
 	hdata.reverse();
-	//console.log(country);
-	//<---------------Graphs World Bank Population data by Country from API (the proper way around...);---------->
+//<---------------Graphs World Bank Population data by Country from API (1970 to currrent);---------->
 	const ctyGdp = document.getElementById("gdpChart").getContext("2d");
-	//const gdpChart = 
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	const chartCtygdp = new Chart(ctyGdp, {
@@ -125,4 +121,4 @@ function writeGdp(data) {
 	});
 }
 getDataGdp(writeGdp);
-//<---------------End of Graphs World Bank GDP data by Country from API (the proper way around...);---------------->
+//<---------------End of Graphs World Bank GDP data by Country from API (1970 to current);---------------->

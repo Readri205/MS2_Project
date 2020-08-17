@@ -1,4 +1,4 @@
-//------------------Total Population Graph---------------------------->
+//------------------Total Population Graph from CSV---------------------------->
 const haxis = [];
 const vaxis = [];
 const verts = [];
@@ -11,9 +11,9 @@ async function getCsvPop() {
 	const herts = csv.substr(362, 611);
 	const vaxis = verts.split(',').map(x => parseFloat(x, 10));
 	const haxis = herts.split(',');
-	//console.log(haxis, vaxis);
+	
 	const totPop = document.getElementById('totPop').getContext('2d');
-	//const popCharts = 
+//<-------------Graphs Population from CSV--------------->	
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	const popCharts = new Chart(totPop, {
@@ -58,9 +58,9 @@ async function getCsvGdp() {
 	const hirts = csvgdp.substr(363, 612);
 	const vaxs = virts.split(',').map(x => parseFloat(x, 10));
 	const haxs = hirts.split(',');
-	//console.log(haxs, vaxs);
+	
 	const totGdp = document.getElementById('totGdp').getContext('2d');
-	//const gdpChart = 
+//--------------------Graph GDP Total from CSV--------------------------------------------->
 	const gdpChart = new Chart(totGdp, {
 		type: 'line',
 		data: {
@@ -93,6 +93,7 @@ async function getCsvGdp() {
 		}
 	});
 }
+//--------------------Manualy Graph land sizes for World Bank regions--------------------------->
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
 Chart.defaults.global.defaultFontSize = 8;
@@ -116,6 +117,7 @@ const chartLand = new Chart(document.getElementById("landPie"), {
 		}
 	}
 });
+//--------------------Manualy Graph population sizes for World Bank regions--------------------------->
 const chartPoppie = new Chart(document.getElementById("popPie"), {
 	type: 'pie',
 	data: {
@@ -136,6 +138,7 @@ const chartPoppie = new Chart(document.getElementById("popPie"), {
 		}
 	}
 });
+//--------------------Manualy Graph GDP sizes for World Bank regions--------------------------->
 const chartGdppie = new Chart(document.getElementById("gdpPie"), {
 	type: 'pie',
 	data: {

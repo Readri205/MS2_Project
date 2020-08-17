@@ -1,13 +1,14 @@
+//<--------Gets countryCode and creates Search Menu for Country Search-------->
 const countryCode = ["NG"],
 	countries = document.getElementById("CountryList"),
 	baseUrlcountrys = "https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF";
-//alert(window.location.pathname.toLoweCase());
+//<--------alert(window.location.pathname.toLoweCase());------------>
 if (window.location.pathname.toLowerCase() === '/ms2_project/country.html') {
 	getCountryDetails();
 }
-// Load the country details into the select control
+//<--------Load the country details into the select control----------->
 getDataCountry(writeCountry);
-// gets Country Codes for Africa from API in 'open';
+//<--------gets Country Codes for Africa from API in 'open';---------->
 function getDataCountry(cb) {
 	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
@@ -20,7 +21,7 @@ function getDataCountry(cb) {
 	xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 	xhttp.send();
 }
-//  Country Codes by Country from API;
+//<--------- Country Codes by Country from API & sorted alphabetically;------------->
 function writeCountry(data) {
 	data.sort(function(a, b) {
 		const x = a.value.toLowerCase();
@@ -39,7 +40,7 @@ function writeCountry(data) {
 	});
 }
 countries.addEventListener("change", function() {
-	// Force Redirection
+//<------------Force redirection to return new country search------------------------>
 	window.location = `/MS2_Project/country.html?country=${countries.value}`;
 });
 function getCountryDetails() {

@@ -19,7 +19,6 @@ function writeCapital(data) {
 	document.getElementById("iscountry").innerHTML = (data[1][0].name);
 	document.getElementById("flag").innerHTML = ("<img src=" + flag + ">");
 	document.getElementById("capital").innerHTML = (" Capital: " + "   " + data[1][0].capitalCity);
-	//console.log(data);
 }
 getDataCapital(writeCapital);
 //<-------------------World Bank API for Country Population 1970 to Current Year';------------------------>
@@ -39,7 +38,7 @@ function getDataLandSize(cb) {
 	xhttp.open("GET", baseUrlwblandsize, true);
 	xhttp.send();
 }
-//Writes World Bank Land Size data for Country from API;
+//<----Writes World Bank Land Size data for Country from API;---->
 function writeLandSize(data) {
 	if (countryCode == "SD") {
 		landsize = 1886068;
@@ -71,7 +70,6 @@ function writePopulation(data) {
 	const pop = (item[0].value / 1000000).toFixed(2);
 	const perc = (pop / 13.02819408).toFixed(2);
 	document.getElementById("popsize").innerHTML += ("Country Population:   " + year + "    " + pop + " Mn" + " - " + perc + "% of total Africa Population (1.3Bn)");
-	//console.log(year, pop);
 }
 getDataPopulation(writePopulation);
 //GETs World Bank GDP data for Country from API;
