@@ -28,7 +28,7 @@ function writePop(data) {
 	const ctyPop = document.getElementById("popChart").getContext("2d");
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-	const chartCtypop = new Chart(ctyPop, {
+	new Chart(ctyPop, {
 		type: 'line',
 		data: {
 			labels: xlabels,
@@ -89,7 +89,7 @@ function writeGdp(data) {
 	const ctyGdp = document.getElementById("gdpChart").getContext("2d");
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-	const chartCtygdp = new Chart(ctyGdp, {
+	new Chart(ctyGdp, {
 		type: 'line',
 		data: {
 			labels: glabels,

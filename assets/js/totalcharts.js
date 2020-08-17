@@ -15,7 +15,7 @@ async function getCsvPop() {
 	//<-------------Graphs Population from CSV--------------->	
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-	const popCharts = new Chart(totPop, {
+    new Chart(totPop, {
 		type: 'line',
 		data: {
 			labels: haxis,
@@ -59,7 +59,7 @@ async function getCsvGdp() {
 	const haxs = hirts.split(',');
 	const totGdp = document.getElementById('totGdp').getContext('2d');
 	//--------------------Graph GDP Total from CSV--------------------------------------------->
-	const gdpChart = new Chart(totGdp, {
+	new Chart(totGdp, {
 		type: 'line',
 		data: {
 			labels: haxs,
@@ -95,7 +95,7 @@ async function getCsvGdp() {
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
 Chart.defaults.global.defaultFontSize = 8;
-const chartLand = new Chart(document.getElementById("landPie"), {
+new Chart(document.getElementById("landPie"), {
 	type: 'pie',
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
@@ -137,7 +137,7 @@ const chartPoppie = new Chart(document.getElementById("popPie"), {
 	}
 });
 //--------------------Manualy Graph GDP sizes for World Bank regions--------------------------->
-const chartGdppie = new Chart(document.getElementById("gdpPie"), {
+new Chart(document.getElementById("gdpPie"), {
 	type: 'pie',
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],

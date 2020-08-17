@@ -25,6 +25,7 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 
 ## User stories
+The user stories are annotated below to describe actual functionality. Screenshot images of the site have been provided in the main [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). A [Functional User Tests by Browser](#functional-user-tests-by-browser) testing schedule has been prepared and is shown below. User functionality has been tested across four key web browsers; Chrome, Safari, MSEdge and Internet Explorer. Internet Explorer has returned 'test fails' but it is expected that any Internet Explorer users will upgrade to MS Edge or migrate to other mainstream browsers.
 *  ### First Time Visitor Goals
       * #### The first time visitor will want to;
         * easily understand the main purpose of the site;
@@ -190,6 +191,8 @@ The following automated tools were used to test the website during development o
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/cssw3cvalidatorcheck.png "CSS W3C Validator Check")
 *   [JSHint](https://jshint.com/) - used to validate javascript;
+    * Each of the javascript files has been validated using JSHint. The use of 'const' has returned a large number of warnings from the test. It has been used extensively for this website, and is perceived to be modern practice' per discussion with Code Institute 'Tutor Support'.
+    * A number of warnings have returned for 'undefined variables'.
     * **africamap.js**
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintafricamap.png "africamap.js")
@@ -222,7 +225,7 @@ The following automated tools were used to test the website during development o
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintworldstats.png "worldstats.js")
 
 
-*   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
+*   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes. This is not a test as such but allows for cross browser CSS capability. The header below has been placed at the top of the [style.css](https://github.com/Readri205/MS2_Project/blob/master/assets/css/style.css) file.
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/autoprefixercssheader.png "Autoprefixer Header for Vendor Prefixes")
 

@@ -58,7 +58,6 @@ function getDataGdp(cb) {
 function writeGdp(data) {
 	const size = data[1][0].value / 1000000000000;
 	const gdpsize = size.toFixed(1);
-	//console.log(gdpsize);
 	document.getElementById("worldgdpsize").innerHTML += ("GDP: US$Tn 2.4 - 3% of World GDP (US$Tn " + gdpsize + ")");
 }
 getDataGdp(writeGdp);
