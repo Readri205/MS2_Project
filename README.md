@@ -134,12 +134,15 @@
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/menu10025.jpg "Menu Always Accessible")
 
           * read the information about Africa in a World Context;
+            * Per images above.
           * search for another country and read the information about that country;
+            * Per images above.
           * contact us for more information or to provide comments about the site;
 
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/contactpage10025.jpg "Contact Page")
 
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
+            * Per images above
 
     *   #### Returning Visitor Goals
         * The returning visitor will want to;
@@ -850,6 +853,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.9 Add User Story Images
     * V25.0 Add further User Story Images
     * V25.1 Add README.md text updates and images
+    * V25.2 Update JSHint images
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

@@ -151,11 +151,11 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
       * Note that there are functional **'fails'** returned from **Internet Explorer** for any search functionality. Internet Explorer was **NOT** tested on mobile. However, **MS Edge** was tested **successfully** on large screen and mobile. The results are shown below;
         * MacBook Pro 16" Screen;
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/testschedulemacbook10050.jpg "Functional Test Schedule - MacBook Pro 16 Screen")
+          ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/testschedulemacbook10050.jpg "Functional Test Schedule - MacBook Pro 16 Screen")
 
         * iPhone X 375px screen;
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/testscheduleiphonex10050.jpg "Functional Test Schedule - Mobile Screen")
+          ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/testscheduleiphonex10050.jpg "Functional Test Schedule - Mobile Screen")
 
 ## Automated Testing
 
@@ -171,60 +171,60 @@ The following automated tools were used to test the website during development o
 
 *   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate HTML;
     * **Home Page**
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/indexhtmlw3cvalidation.png "HTML Home Page W3C Validator Check")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/indexhtmlw3cvalidation.png "HTML Home Page W3C Validator Check")
 
     * **Country Details Page**
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/countryw3chtmlcheck.png "HTML Country Details Page W3C Validator Check")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/countryw3chtmlcheck.png "HTML Country Details Page W3C Validator Check")
 
     **Note:** The validator returns two warnings per above, but it is understood from tutor support that this return is acceptable for the validation check. An alternative is to turn the 'h3' and 'h4' headers into 'divs' and fully style the headers using CSS, however this was deemed 'unnecessary'.
 
     Please see below the HTML code and the corresponding output referred to in the check;
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headercodecountry.png "HTML Country Page Code")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/headercodecountry.png "HTML Country Page Code")
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/headeroutput.png "HTML Country Page output")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/headeroutput.png "HTML Country Page output")
 
     * **Contact Page**
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactw3chtmlcheck.png "HTML Contact Page W3C Validator Check")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/contactw3chtmlcheck.png "HTML Contact Page W3C Validator Check")
 *   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - used to validate CSS;
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/cssw3cvalidatorcheck.png "CSS W3C Validator Check")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/cssw3cvalidatorcheck.png "CSS W3C Validator Check")
 *   [JSHint](https://jshint.com/) - used to validate javascript;
     * **africamap.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintafricamap.png "africamap.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintafricamap.png "africamap.js")
     * **countrygraphs.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintcountrygraphs.png "countrygraphs.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintcountrygraphs.png "countrygraphs.js")
     * **countrymap.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintcountrymap.png "countrymap.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintcountrymap.png "countrymap.js")
     * **countrystats.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintcountrystats.png "countrystats.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintcountrystats.png "countrystats.js")
     * **getcountries.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintgetcountries.png "getcountries.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintgetcountries.png "getcountries.js")
     * **piecountry.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintpiecountry.png "piecountry.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintpiecountry.png "piecountry.js")
     * **piecountry.js Part 2**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintpiecountrypart2.png "piecountry.js Part 2")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintpiecountrypart2.png "piecountry.js Part 2")
     * **sendemail.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintsendemailjs.png "sendemail.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintsendemailjs.png "sendemail.js")
     * **totalcharts.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshinttotalcharts.png "totalcharts.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshinttotalcharts.png "totalcharts.js")
     * **worldstats.js**
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/jshintworldstats.png "worldstats.js")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/jshintworldstats.png "worldstats.js")
 
 
 *   [Autoprefixer CSS Online](https://autoprefixer.github.io/) - used to parse CSS and add vendor prefixes.
 
-    ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/autoprefixercssheader.png "Autoprefixer Header for Vendor Prefixes")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/autoprefixercssheader.png "Autoprefixer Header for Vendor Prefixes")
 
 
 
@@ -288,15 +288,15 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * Input validation
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/contactpageinputcheck10025.jpg "Contact Form Input Required")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/contactpageinputcheck10025.jpg "Contact Form Input Required")
 
     * Submission Confirmation to User  
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/submissionconfirmation10050.jpg "Submission Confirmation")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/submissionconfirmation10050.jpg "Submission Confirmation")
 
     * Email Receipt Confirmation
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/emailreceipt10050.jpg "Email Receipt")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/emailreceipt10050.jpg "Email Receipt")
 
 ## Further Testing
 
@@ -304,27 +304,27 @@ The website makes use of [World Bank Database](https://databank.worldbank.org/ho
 
     * iPhone 6 375px Portrait Mode Home Page Charts
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone6375px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/iphone6375px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
 
     * iPhone 5SE 375px Portrait Mode Home Page Charts
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone5se320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
+      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/iphone5se320px10050.jpg "iPhone 6 375px Portrait Home Page Charts")
 
     * iPhone4 320px Portrait Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone4320px10050.jpg "iPhone 4 320px Portrait Home Page Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/iphone4320px10050.jpg "iPhone 4 320px Portrait Home Page Charts")
 
     * iPhone4 320px Portrait Mode Country Details Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/iphone4320pxcountry10050.jpg "iPhone 4 320px Portrait Country Details Charts")
 
     * Galaxy Fold 280px Portrait Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/galaxyfold280px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/galaxyfold280px10050.jpg "Galaxy Fold 280px Portrait Home Page Charts")
 
     * Galaxy Fold 653px Landscape Mode Home Page Charts
 
-        ![alt text](https://readri205.github.io/MS2_Project/assets/documents/testscreenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 653px Landscape Home Page Charts")
+        ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/galaxyfoldlandscape653px10050.jpg "Galaxy Fold 653px Landscape Home Page Charts")
 
 
 ***
