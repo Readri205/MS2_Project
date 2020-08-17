@@ -864,6 +864,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V25.3 Update code annotation
     * V25.4 Format code with dirtyMarkup, update contents
     * V25.5 Amend graph chartjs code
+    * V25.6 Amends to chartjs variables
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

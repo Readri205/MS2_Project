@@ -236,4 +236,4 @@ async function getCsvGdppie() {
 		}
 	});
 }
-getDataGdp(writeGdp);
+//getDataGdp(writeGdp);

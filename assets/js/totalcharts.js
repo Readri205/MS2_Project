@@ -1,8 +1,8 @@
 //------------------Total Population Graph from CSV---------------------------->
-const haxis = [];
-const vaxis = [];
-const verts = [];
-const herts = [];
+//const haxis = [];
+//const vaxis = [];
+//const verts = [];
+//const herts = [];
 getCsvPop();
 async function getCsvPop() {
 	const response = await fetch('assets/csv/pop.csv');
@@ -45,10 +45,10 @@ async function getCsvPop() {
 	});
 }
 //--------------------GDP Total Graph--------------------------------------------->
-const haxs = [];
-const vaxs = [];
-const virts = [];
-const hirts = [];
+//const haxs = [];
+//const vaxs = [];
+//const virts = [];
+//const hirts = [];
 getCsvGdp();
 async function getCsvGdp() {
 	const response = await fetch('assets/csv/gdp.csv');
@@ -116,7 +116,7 @@ new Chart(document.getElementById("landPie"), {
 	}
 });
 //--------------------Manualy Graph population sizes for World Bank regions--------------------------->
-const chartPoppie = new Chart(document.getElementById("popPie"), {
+new Chart(document.getElementById("popPie"), {
 	type: 'pie',
 	data: {
 		labels: ["Africa", "Latin America & Caribbean", "South Asia", "North America", "Middle East", "Europe & Central Asia", "East Asia"],
