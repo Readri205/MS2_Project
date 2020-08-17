@@ -236,4 +236,3 @@ async function getCsvGdppie() {
 		}
 	});
 }
-//getDataGdp(writeGdp);
