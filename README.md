@@ -94,13 +94,16 @@
         * The first time visitor will want to;
           * easily understand the main purpose of the site;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/landingpage10025.jpg "Landing Page")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/scrolldown10025.jpg "Scroll Down")
 
           * be able to easily navigate throughout the site to find content;
           * view the carousel images just beneath the header;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/landingpage10025.jpg "Landing Page")
+
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/scrolldown10025.jpg "Scroll Down")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/africascroll10025.jpg "Scroll Down on Home Page")
 
           * search the details for a specific country from the dropdown menu;
 
@@ -146,7 +149,7 @@
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search10025.jpg "Search Bottom of Home Paget")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search210025.jpg "Search Bottom of Home Paget")
 
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
@@ -167,7 +170,7 @@
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search10025.jpg "Search Bottom of Home Page")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search310025.jpg "Search Bottom of Home Page")
 
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
@@ -183,8 +186,11 @@
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
     *   #### Mobile Menu
+          * On mobile devices the menu is shown as a 'hamburger' drop down;
 
-            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/mobilemenu10025.jpg "Mobile Menu")
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/mobilehamburgerdropdown10025.jpg "Mobile Menu")
+
+          * On mobile devices the search function operates in the same manner as for larger screens;  
 
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/mobilesearch10025.jpg "Mobile Search")
 
@@ -838,6 +844,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.7 Add text updates README.md testing.md
     * V24.8 Amend total gdp pie, move scripts to bottom of page
     * V24.9 Add User Story Images
+    * V25.0 Add further User Story Images
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)
