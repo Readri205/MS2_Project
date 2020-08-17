@@ -81,9 +81,11 @@
 
 * The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of Application Programming Interfaces (API's) to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[COUNTRYFLAGS](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data. API and other data source details are provided in the **'Application Programming Interfaces (API's) Used'** section below.
 
-* If the site is perceived as successful, it is anticipated that the site could be expanded to show;
-  * similar information for the six remaining World Continents; and
-  * each continent and its countries could be expanded with more details.
+* If the site is perceived as successful, it is anticipated that the site could be expanded to show as;
+  * there is a significant amount of data in the World Bank Database that can be utilised to expand the site. A number of data streams could be utilised to provide deeper insight at both the Africa level and the Country level;
+  * other API sources could also be utilised to expand the information set;
+  * similar information could be provided for the other remaining World regions; and
+  * each continent and its countries could be expanded with more detail.
 
 * The site is designed to be responsive and accessible on a range of devices, making it easy to navigate for interested users. The website was designed using **'Mobile First'** principles as the site must be perceived to be quick and easy to use and read as a reference site on a mobile device.
 
@@ -868,6 +870,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V25.7 Update JSHint images
     * V25.8 Update testing.md text
     * V25.9 Amends in JS files and upload Opera functional test
+    * V26.0 Add testschedule with Opera tests
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)

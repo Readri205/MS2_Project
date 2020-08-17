@@ -23,9 +23,8 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
 ## User stories
-The user stories are annotated below to describe actual functionality. Screenshot images of the site have been provided in the main [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). A [Functional User Tests by Browser](#functional-user-tests-by-browser) testing schedule has been prepared and is shown below. User functionality has been tested across four key web browsers; Chrome, Safari, MSEdge and Internet Explorer. Internet Explorer has returned 'test fails' but it is expected that any Internet Explorer users will upgrade to MS Edge or migrate to other mainstream browsers.
+The user stories are annotated below to describe actual functionality. Screenshot images of the site have been provided in the main [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md). A [Functional User Tests by Browser](#functional-user-tests-by-browser) testing schedule has been prepared and is shown below. User functionality has been tested across four key web browsers; Chrome, Safari, MSEdge, Opera and Internet Explorer. Internet Explorer has returned 'test fails' but it is expected that any Internet Explorer users will upgrade to MS Edge or migrate to other mainstream browsers.
 *  ### First Time Visitor Goals
       * #### The first time visitor will want to;
         * easily understand the main purpose of the site;
