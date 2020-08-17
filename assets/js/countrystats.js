@@ -7,7 +7,6 @@ function getDataCapital(cb) {
 	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			//document.getElementById("data").innerHTML = xhttp.responseText;
 			cb(JSON.parse(this.responseText));
 		}
 	};
@@ -90,6 +89,5 @@ function writeCountryGdp(data) {
 	const gdp = (item[0].value / 1000000000).toFixed(1);
 	const perc = (gdp / 24.24529223027).toFixed(2);
 	document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp + " Bn - " + perc + "% of the total Africa GDP (US$ 2,424 Bn)");
-	//console.log(year, gdp);
 }
 getDataCountryGdp(writeCountryGdp);

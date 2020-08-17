@@ -1,8 +1,4 @@
 //------------------Total Population Graph from CSV---------------------------->
-//const haxis = [];
-//const vaxis = [];
-//const verts = [];
-//const herts = [];
 getCsvPop();
 async function getCsvPop() {
 	const response = await fetch('assets/csv/pop.csv');
@@ -45,10 +41,6 @@ async function getCsvPop() {
 	});
 }
 //--------------------GDP Total Graph--------------------------------------------->
-//const haxs = [];
-//const vaxs = [];
-//const virts = [];
-//const hirts = [];
 getCsvGdp();
 async function getCsvGdp() {
 	const response = await fetch('assets/csv/gdp.csv');
