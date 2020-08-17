@@ -93,17 +93,49 @@
     *   #### First Time Visitor Goals
         * The first time visitor will want to;
           * easily understand the main purpose of the site;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/landingpage10025.jpg "Landing Page")
+
           * be able to easily navigate throughout the site to find content;
           * view the carousel images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/scrolldown10025.jpg "Scroll Down")
+
           * search the details for a specific country from the dropdown menu;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search10025.jpg "Search Menu")
+
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/searchreturncapeverde10025.jpg "Search Return Cape Verde")
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/searchreturncapeverde210025.jpg "Cape Verde Scroll Down")
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/searchreturncapeverde310025.jpg "Cape Verde Scroll Down")
+
           * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/newsearchreturnburundi10025.jpg "Next Country Search")
+
           * see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/linegraphdatapoint10025.jpg "Line Graph Data Point")
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/piegraphdatapoint10025.jpg "Pie Graph Data Point")
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/piegraphlabelclick10025.jpg "Pie Graph Label Click")
+
           * navigate easily back to the 'Home' page;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/menu10025.jpg "Menu Always Accessible")
+
           * read the information about Africa in a World Context;
           * search for another country and read the information about that country;
           * contact us for more information or to provide comments about the site;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/contactpage10025.jpg "Contact Page")
+
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
     *   #### Returning Visitor Goals
@@ -113,6 +145,9 @@
           * view the carousel images and any new images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search10025.jpg "Search Bottom of Home Paget")
+
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
@@ -123,12 +158,17 @@
           * contact us for more information or to provide comments about the site;
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
 
+          ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/landingpage10025.jpg "Contact in Menu Bar")
+
     *   #### Frequent User Goals
         * The frequent visitor will want to;
           * find any new information supplied;
           * view the carousel images just beneath the header;
           * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
         * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/search10025.jpg "Search Bottom of Home Page")
+
           * search the details for a specific country from the dropdown menu;
           * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
           * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
@@ -136,8 +176,17 @@
           * navigate easily back to the 'Home' page;
           * search for another country and read the information about that country;
         * **A frequent visitor** may want to go straight to the 'Contact Us' page;
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/landingpage10025.jpg "Contact in Menu Bar")
+
           * contact us for more information or to provide comments about the site;
           * contact us to ask about data projects that they may be interested to have completed as an item of work.
+
+    *   #### Mobile Menu
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/mobilemenu10025.jpg "Mobile Menu")
+
+            ![alt text](https://readri205.github.io/MS2_Project/assets/images/userstories/mobilesearch10025.jpg "Mobile Search")
 
 *   ### Design
     *   #### Colour Scheme
@@ -147,7 +196,7 @@
     *   #### Box Content Structure
         *   The box content structure is used to highlight specific messages and themes through the site. This identifies the text high level summaries on the 'Home' and the 'Country Details' page. In addition the box structure is used to highlight the maps, the line graphs and pie charts on the 'Home' and 'Country Details' pages. The 'Contact Us' page uses the same box structure to present the 'contact form'. Each of the boxes has a shadow effect to lift them from the background and to provide a definitive outline for the contained information.
     *   #### Imagery
-        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context on larger screens each image has a clear title description sourced from the original image provided by the contributor. Note that on some screen sizes the titles can be difficult to read where they blend into the image. As the titles are not fundamental to the website information it has been considered 'acceptable'. Any third party user testing has raised this as an issue. On small screens the image titles are removed, due to space and readability constraints.
+        *   The header contains an Africa theme with a simple title. The large images in the carousel are designed to be striking and catch the user's attention and to provide some unique image themes from the African continent. To provide some context on larger screens each image has a clear title description sourced from the original image provided by the contributor. Note that on some screen sizes the titles can be difficult to read where they blend into the image. As the titles are not fundamental to the website information it has been considered 'acceptable'. On small screens the image titles are removed, due to space and readability constraints.
 
 *   ### Wireframes
     *   #### Original Wireframe Design (July 2, 2020).
@@ -788,6 +837,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V24.6 Update Pie Chart images in README.md
     * V24.7 Add text updates README.md testing.md
     * V24.8 Amend total gdp pie, move scripts to bottom of page
+    * V24.9 Add User Story Images
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)
