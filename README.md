@@ -239,15 +239,15 @@
 - #### Original Wireframe Design (July 2, 2020)
 
   - The **'Home'** page includes an **'Information box'**, **'Population and GDP line graphs'**. On scroll down the page would reveal an **'Africa Map'** and an **'Information Table'** listing all 54 countries with their respective **'Population and GDP'** sizes. The **'Information Table'** is intended to be 'clickable' to search for more details on any Country. **'Country Search'** and **'Contact Us'** boxes are also included.
-    - The **'Country Search'** page includes a **Country Name** header title with an image of the **National Flag**, an image of the **Capital City**, an **'Information Table'** of historical **Population and GDP data**, **Country Map** and **Line Graphs** of the same data. **'Country Search'** and **'Contact Us'** boxes are also included.
-    - Sources for data were considered as follows;
-      - Maps - [Google Maps](https://console.cloud.google.com/google/maps-apis/)
-      - Africa country codes - [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/)
-      - Capital City, Population and GDP data - [World Bank Database](https://databank.worldbank.org/home.aspx)
-      - National Flag images - [CountryFlags](https://www.countryflags.io/)
-      - Line and Pie Chart Capability - [Chartsjs](https://www.chartjs.org/)
-      - Automated Email Response - [Emailjs](https://www.emailjs.com/)
-    - The **Original Wireframe Design** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
+  - The **'Country Search'** page includes a **Country Name** header title with an image of the **National Flag**, an image of the **Capital City**, an **'Information Table'** of historical **Population and GDP data**, **Country Map** and **Line Graphs** of the same data. **'Country Search'** and **'Contact Us'** boxes are also included.
+  - Sources for data were considered as follows;
+    - Maps - [Google Maps](https://console.cloud.google.com/google/maps-apis/)
+    - Africa country codes - [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/)
+    - Capital City, Population and GDP data - [World Bank Database](https://databank.worldbank.org/home.aspx)
+    - National Flag images - [CountryFlags](https://www.countryflags.io/)
+    - Line and Pie Chart Capability - [Chartsjs](https://www.chartjs.org/)
+    - Automated Email Response - [Emailjs](https://www.emailjs.com/)
+  - The **Original Wireframe Design** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
 
 - #### Actual Site Design
 
@@ -936,8 +936,8 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
   - V26.9 Update format in HTML files
   - V27.0 Remove outputs.html test file
   - V27.1 Update README.md testing.md format
-  - V27.2 Further Update README.md testing.md format
-
+  - V27.2 Further update README.md testing.md format
+  _ V27.3 Further update to README.md testing.md format
 
 ---
 
