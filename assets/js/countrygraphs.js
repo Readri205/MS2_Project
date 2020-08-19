@@ -10,6 +10,9 @@ function getDataPop(cb) {
 	};
 	xhttp.open("GET", baseUrlwbpop, true);
 	xhttp.send();
+	xhttp.onerror = function() {
+		alert("Oops, the WB Country Population API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+	  };
 }
 //Writes World Bank Population data by Country from API (1970 to current)
 const xlabels = [];
@@ -71,6 +74,9 @@ function getDataGdp(cb) {
 	};
 	xhttp.open("GET", baseUrlwbgdp, true);
 	xhttp.send();
+	xhttp.onerror = function() {
+		alert("Oops, the WB Country GDP API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+	  };
 }
 //Writes World Bank GDP data by Country from API (1970 to current)
 const glabels = [];

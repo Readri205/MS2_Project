@@ -21,7 +21,7 @@ function getDataCountry(cb) {
 	xhttp.setRequestHeader("x-rapidapi-key", "3862ea89d4msh2f04423d9b95ad8p18b07bjsn4fdaaa32a1f6");
 	xhttp.send();
 	xhttp.onerror = function() {
-		alert("Oops, the API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+		alert("Oops, the Referential API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
 	  };
 }
 //Country Codes by Country from API & sorted alphabetically

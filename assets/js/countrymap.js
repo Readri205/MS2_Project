@@ -10,6 +10,9 @@ function getDataCty(cb) {
 	};
 	xhttp.open("GET", baseUrlwbcty, true);
 	xhttp.send();
+	xhttp.onerror = function() {
+		alert("Oops, the World Bank Country API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+	  };
 }
 //Writes World Bank Country data Map (Country, Capital, Lat, Long) by Country from API
 const latit = [];

@@ -10,6 +10,9 @@ function getDataLand(cb) {
 	};
 	xhttp.open("GET", baseUrlwblandcount, true);
 	xhttp.send();
+	xhttp.onerror = function() {
+		alert("Oops, the WB Country Land API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+	  };
 }
 //Writes World Bank land size data by Country from API (1970 to current)
 function writeLand(data) {
@@ -63,6 +66,9 @@ function getDataPop(cb) {
 	};
 	xhttp.open("GET", baseUrlwbpopcount, true);
 	xhttp.send();
+	xhttp.onerror = function() {
+		alert("Oops, the WB Country Population API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+	  };
 }
 //Writes World Bank Population data by Country from API
 function writePop(data) {
@@ -104,6 +110,9 @@ function getDataGdp(cb) {
 	};
 	xhttp.open("GET", baseUrlwbgdpcount, true);
 	xhttp.send();
+	xhttp.onerror = function() {
+		alert("Oops, the WB Country GDP API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
+	  };
 }
 //Graphs World Bank GDP data by Country from API
 function writeGdp(data) {
