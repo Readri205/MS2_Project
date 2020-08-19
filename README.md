@@ -8,49 +8,50 @@
 
 ## Contents
 
-  * [Site Goals](#site-goals)
-  * [User Experience (UX)](#user-experience--ux-)
-    + [User stories](#user-stories)
-      - [First Time Visitor Goals](#first-time-visitor-goals)
-      - [Returning Visitor Goals](#returning-visitor-goals)
-      - [Frequent User Goals](#frequent-user-goals)
-      - [Mobile Menu](#mobile-menu)
-    + [Design](#design)
-      - [Colour Scheme](#colour-scheme)
-      - [Typography](#typography)
-      - [Box Content Structure](#box-content-structure)
-      - [Imagery](#imagery)
-    + [Wireframes](#wireframes)
-      - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
-      - [Actual Site Design.](#actual-site-design)
-  * [Features](#features)
-    + [Responsive for Device Size](#responsive-for-device-size)
-    + [Interactive Elements](#interactive-elements)
-    + [Future Features](#future-features)
-  * [Technologies Used](#technologies-used)
-    + [Languages Used](#languages-used)
-    + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
-    + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
-  * [Site Construction](#site-construction)
-    + [Consistent Page Components](#consistent-page-components)
-    + [Home Page](#home-page)
-    + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
-    + [Contacts Page](#contacts-page)
-    + [Construction  Table](#construction--table)
-  * [Testing](#testing)
-    + [Known Bugs and Issues](#known-bugs-and-issues)
-  * [Deployment](#deployment)
-    + [GitHub Pages](#github-pages)
-    + [Forking the GitHub Repository](#forking-the-github-repository)
-    + [Making a Local Clone](#making-a-local-clone)
-  * [Credits](#credits)
-    + [Code](#code)
-    + [Content](#content)
-    + [Media](#media)
-    + [Acknowledgements](#acknowledgements)
-  * [Version Control](#version-control)
+* [Site Goals](#site-goals)
+* [User Experience (UX)](#user-experience--ux-)
+  + [User stories](#user-stories)
+    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [Returning Visitor Goals](#returning-visitor-goals)
+    - [Frequent User Goals](#frequent-user-goals)
+    - [Mobile Menu](#mobile-menu)
+  + [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Box Content Structure](#box-content-structure)
+    - [Imagery](#imagery)
+  + [Wireframes](#wireframes)
+    - [Original Wireframe Design (July 2, 2020).](#original-wireframe-design--july-2--2020-)
+    - [Actual Site Design.](#actual-site-design)
+* [Features](#features)
+  + [Responsive for Device Size](#responsive-for-device-size)
+  + [Interactive Elements](#interactive-elements)
+  + [Future Features](#future-features)
+* [Technologies Used](#technologies-used)
+  + [Languages Used](#languages-used)
+  + [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+  + [Application Programming Interfaces (API's) Used](#application-programming-interfaces--api-s--used)
+* [Site Construction](#site-construction)
+  + [Consistent Page Components](#consistent-page-components)
+  + [Home Page](#home-page)
+  + [Country Details Page (Nigeria has been used by way of example)](#country-details-page--nigeria-has-been-used-by-way-of-example-)
+  + [Contacts Page](#contacts-page)
+  + [Construction  Table](#construction--table)
+* [Testing](#testing)
+  + [Known Bugs and Issues](#known-bugs-and-issues)
+* [Deployment](#deployment)
+  + [GitHub Pages](#github-pages)
+  + [Forking the GitHub Repository](#forking-the-github-repository)
+  + [Making a Local Clone](#making-a-local-clone)
+* [Credits](#credits)
+  + [Code](#code)
+  + [Content](#content)
+  + [Media](#media)
+  + [Acknowledgements](#acknowledgements)
+* [Version Control](#version-control)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
@@ -305,47 +306,47 @@
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.5.0:](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* [Bootstrap 4.5.0:](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
     * Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
+* [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the contact details types and for social media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
+* [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Exo' (main content in all pages) and 'Roboto' (for footer) fonts into the style.css file which are used on all pages.
-1. [Font Awesome:](https://fontawesome.com/)
+* [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used for the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
+* [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used to support JavaScript and is loaded from the [Google CDN](https://www.w3schools.com/jquery/jquery_get_started.asp).
-1. [GitPod:](https://www.gitpod.io/)
+* [GitPod:](https://www.gitpod.io/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+* [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Atom:](https://atom.io/)
+* [Atom:](https://atom.io/)
     - Atom was used as a Markdown Text Editor for README.md and Testing.md
-1. [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
+* [Mapbox:](https://docs.mapbox.com/mapbox-gl-js/api/)
     - Mapbox javascript library is used to create the maps on the 'Home' and 'Country' pages.
-1. [Leaflet:](https://leafletjs.com/)
+* [Leaflet:](https://leafletjs.com/)
     - Leaflet provides a javascript library for Mapbox maps on the 'Home' and 'Country' pages.
-1. [OpenStreetMap:](https://www.openstreetmap.org)
+* [OpenStreetMap:](https://www.openstreetmap.org)
     - OpenStreetMap provides the detail for Mapbox maps on the 'Home' and 'Country' pages.
-1. [Chartsjs:](https://www.chartjs.org/)
+* [Chartsjs:](https://www.chartjs.org/)
     - Chartjs is used to create the line charts and pie charts.
-1. [Emailjs:](https://www.emailjs.com/)
+* [Emailjs:](https://www.emailjs.com/)
     - Emailjs is used to send the email from the contact form on the 'Contact Us' page.
-1. [Favicon.io:](https://favicon.io/)
+* [Favicon.io:](https://favicon.io/)
     - Favicon.io was used for Favicon :earth_africa: web page title images.
-1. [Quackit:](https://www.quackit.com/character_sets/emoji/)
+* [Quackit:](https://www.quackit.com/character_sets/emoji/)
     - Quackit was used for the search function emojis.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+* [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to resize images and edit photos for the website.
-1. [dirtyMarkup:](https://www.10bestdesign.com/dirtymarkup/)
+* [dirtyMarkup:](https://www.10bestdesign.com/dirtymarkup/)
     - dirtyMarkup was used to format HTML, CSS and JS files
-1. [Adobe Stock:](https://stock.adobe.com/uk/)
+* [Adobe Stock:](https://stock.adobe.com/uk/)
     - Adobe Stock was used as a library source for images.
-1. [Unsplash:](https://unsplash.com/)
+* [Unsplash:](https://unsplash.com/)
     - Unsplash was used as a library source for images.
-1. [Balsamiq:](https://balsamiq.com/)
+* [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes]() during the design process.
-1. [Am I Responsive:](http://ami.responsivedesign.is/#)
+* [Am I Responsive:](http://ami.responsivedesign.is/#)
     - Am I Responsive was used to test the page layouts during the build process.  [Results](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/testscreenshots/amiresponsive.png)
 
 ### Application Programming Interfaces (API's) Used
@@ -353,12 +354,12 @@
 * The website sources data from the **[World Bank Database](https://databank.worldbank.org/home.aspx)**. The website primarily makes use of API's to construct the country data, however in certain instances CSV files are used to provide summary level information. The **[Referential](https://rapidapi.com/referential/api/referential)** API via **[RapidAPI](https://rapidapi.com/)** is used to source country codes to construct country information and **[CountryFlags](https://www.countryflags.io/)** for country flag images. **[Leaflet](https://leafletjs.com/)** is used as a javascript library for **[Mapbox](https://www.mapbox.com/)** maps with **[OpenStreetMap](https://www.openstreetmap.org)** tile data, but use the API data to return a Country map for a specific country in the search function.
 * jQuery AJAX is used to load the API calls asynchronously.
 
-  1. [Referential API](https://rapidapi.com/referential/api/referential)
+  * [Referential API](https://rapidapi.com/referential/api/referential)
       * The Referential API (sourced via [RapidAPI](https://rapidapi.com/)) was used to provide the country code to source all the country data in the search function. It provides the full list of countries in the drop down menu and on country selection, the country codes drive the other API's to return the required information. The Referential API is loaded with the 'Continent' denominator for the African Countries 'AF' (shown at the end of the link below). The API returns a full list of countries each with their respective two digit country codes (example: Nigeria='NG'). Please note that the API requires an Application Key so the link will not return a result. Please see the screenshot image of two countries' data, Nigeria (Key=NG) and Rwanda (Key=RW) as an example return (Note the API returns all 54 countries). The full API string is also shown below for documentation purposes.
         * [Country Code List](https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF), **https://referential.p.rapidapi.com/v1/country?fields=currency%25252Ccurrency_num_code%25252Ccurrency_code%25252Ccontinent_code%25252Ccurrency%25252Ciso_a3%25252Cdial_code&continent_code=AF**
 
             ![alt text](https://readri205.github.io/MS2_Project/assets/images/readmeimg/referentialcountrycode33.jpg "Country Codes from Referential API")
-  1. [World Bank Database](https://databank.worldbank.org/home.aspx)
+  * [World Bank Database](https://databank.worldbank.org/home.aspx)
 
       * The World Bank Database was used as the primary source for the data in the site. The relevant World bank API's are requested for data once a user selects a country in the search function which drives the relevant country code. Once the country code is determined, a number of different API's are used to determine Capital City, Land Size, Population and GDP for the World sectors, Africa and the 54 African Countries listed. The World Bank uses a standard link to reach the core of its data (https://api.worldbank.org/v2/country/YY/indicator/XX.XXX.XXX.XX), where;
           * **'YY'** = 'Country Code' eg 'NG'; and
@@ -369,7 +370,7 @@
         * [Population](https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL), **https://api.worldbank.org/v2/country/NG/indicator/SP.POP.TOTL**
         * [GDP](https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKTP.CD), **https://api.worldbank.org/v2/country/NG/indicator/NY.GDP.MKTP.CD**
       * Note that not all countries have complete data in the API's either completely or for any number of years between 1970 and 2019. This will be evident in the line graph returns for any country. Sudan and South Sudan do not return any Land Size data in the land size data API. As this is the case, the Land Size numbers for [Sudan](https://en.wikipedia.org/wiki/Sudan) and [South Sudan](https://en.wikipedia.org/wiki/South_Sudan) are sourced from Wikipideia and the Land Size total for Africa has also been adjusted accordingly.
-  1. [CountryFlags](https://www.countryflags.io/)
+  * [CountryFlags](https://www.countryflags.io/)
       * The Country Flags API was used to return the national flag for the country selected in the search Function. By way of example, the list below links directly to the API return for 'Nigeria', with country code 'NG' in the API link. The link below is also shown in full for documentation purposes;
         * [Country Flag, Nigeria](https://www.countryflags.io/ng/shiny/64.png), **https://www.countryflags.io/ng/shiny/64.png**
 
@@ -879,6 +880,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V26.5 Update all API calls with user error message
     * V26.6 Update testing.md for API fail message
     * V26.7 Upload for API fail message image
+    * V26.8 Amend README.md text
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)
