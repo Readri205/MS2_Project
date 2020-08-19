@@ -10,16 +10,17 @@ View the Main [README here](https://github.com/Readri205/MS2_Project/blob/master
 
 ## Contents
 
-* [User stories](#user-stories)
-  + [First Time Visitor Goals](#first-time-visitor-goals)
-  + [Returning Visitor Goals](#returning-visitor-goals)
-  + [Frequent User Goals](#frequent-user-goals)
-  + [Functional User Tests by Browser](#functional-user-tests-by-browser)
-* [Automated Testing](#automated-testing)
-* [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
-* [Numerical Validation Testing](#numerical-validation-testing)
-* [Contact Form Testing](#contact-form-testing)
-* [Further Testing](#further-testing)
+  * [User stories](#user-stories)
+    + [First Time Visitor Goals](#first-time-visitor-goals)
+    + [Returning Visitor Goals](#returning-visitor-goals)
+    + [Frequent User Goals](#frequent-user-goals)
+    + [Functional User Tests by Browser](#functional-user-tests-by-browser)
+  * [Automated Testing](#automated-testing)
+  * [API Fail Message Test](#api-fail-message-test)
+  * [Peer Code Review (Slack Channel)](#peer-code-review--slack-channel-)
+  * [Numerical Validation Testing](#numerical-validation-testing)
+  * [Contact Form Testing](#contact-form-testing)
+  * [Further Testing](#further-testing)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -228,7 +229,10 @@ The following automated tools were used to test the website during development o
 
     ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/autoprefixercssheader.png "Autoprefixer Header for Vendor Prefixes")
 
+## API Fail Message Test
+The website makes use of a number of API calls as described in the main README.md. If an API request fails to be returned the user will receive an error message telling the user of the error and to ask them to contact us to let us know. This function was tested on a 'local' domain that precludes the API being called. This returned the following message;
 
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/apifail10050.jpg "API Fail Message to User")
 
 ## Peer Code Review (Slack Channel)
 The website was uploaded to the Peer Code Review Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
