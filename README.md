@@ -241,26 +241,26 @@
   - The **'Home'** page includes an **'Information box'**, **'Population and GDP line graphs'**. On scroll down the page would reveal an **'Africa Map'** and an **'Information Table'** listing all 54 countries with their respective **'Population and GDP'** sizes. The **'Information Table'** is intended to be 'clickable' to search for more details on any Country. **'Country Search'** and **'Contact Us'** boxes are also included.
     - The **'Country Search'** page includes a **Country Name** header title with an image of the **National Flag**, an image of the **Capital City**, an **'Information Table'** of historical **Population and GDP data**, **Country Map** and **Line Graphs** of the same data. **'Country Search'** and **'Contact Us'** boxes are also included.
     - Sources for data were considered as follows;
-      1. Maps - [Google Maps](https://console.cloud.google.com/google/maps-apis/)
-      1. Africa country codes - [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/)
-      1. Capital City, Population and GDP data - [World Bank Database](https://databank.worldbank.org/home.aspx)
-      1. National Flag images - [CountryFlags](https://www.countryflags.io/)
-      1. Line and Pie Chart Capability - [Chartsjs](https://www.chartjs.org/)
-      1. Automated Email Response - [Emailjs](https://www.emailjs.com/)
+      - Maps - [Google Maps](https://console.cloud.google.com/google/maps-apis/)
+      - Africa country codes - [Referential](https://rapidapi.com/referential/api/referential) API via [RapidAPI](https://rapidapi.com/)
+      - Capital City, Population and GDP data - [World Bank Database](https://databank.worldbank.org/home.aspx)
+      - National Flag images - [CountryFlags](https://www.countryflags.io/)
+      - Line and Pie Chart Capability - [Chartsjs](https://www.chartjs.org/)
+      - Automated Email Response - [Emailjs](https://www.emailjs.com/)
     - The **Original Wireframe Design** can be viewed here - [View](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf)
 
 - #### Actual Site Design
 
   - The developed site uses many of the concepts from the original Wireframe design. Variations are as follows;
-    1. The main header image was switch to the 'Africa' header image which conveys a strong but not overwhelming 'Africa' theme;
-    1. The **'Contact Form'** was moved to its own page to **declutter** the two main pages. It is accessible from every page either through the main menu or from the footer;
-    1. The **Capital City** images were switch to dynamic **carousel theme** images on all the pages and placed just beneath the main header image. The images are unique and vibrant. If a desktop is left on the site, the images are eye catching due to **vivid colours** and the **carousel movement**;
-    1. The **'Information Tables'** were switched to more graphically appealing **Pie Charts** that are easy to read;
-    1. The **'Search Function'** remains at the bottom of both the 'Home' and 'Country Details' pages.
+    - The main header image was switch to the 'Africa' header image which conveys a strong but not overwhelming 'Africa' theme;
+    - The **'Contact Form'** was moved to its own page to **declutter** the two main pages. It is accessible from every page either through the main menu or from the footer;
+    - The **Capital City** images were switch to dynamic **carousel theme** images on all the pages and placed just beneath the main header image. The images are unique and vibrant. If a desktop is left on the site, the images are eye catching due to **vivid colours** and the **carousel movement**;
+    - The **'Information Tables'** were switched to more graphically appealing **Pie Charts** that are easy to read;
+    - The **'Search Function'** remains at the bottom of both the 'Home' and 'Country Details' pages.
     - The above listed sources were utilised, except for [Google Maps](https://console.cloud.google.com/google/maps-apis/). The following were used primarily to provide a learning experience for the developer;
-      1. Javascript Library - [Leaflet](https://leafletjs.com/)
-      1. Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
-      1. Data - [OpenStreetMap](https://www.openstreetmap.org)
+      - Javascript Library - [Leaflet](https://leafletjs.com/)
+      - Imagery - [Mapbox](https://docs.mapbox.com/mapbox-gl-js/api/)
+      - Data - [OpenStreetMap](https://www.openstreetmap.org)
 
 ## Features
 
@@ -368,7 +368,7 @@
 - [Unsplash:](https://unsplash.com/)
   - Unsplash was used as a library source for images.
 - [Balsamiq:](https://balsamiq.com/)
-  - Balsamiq was used to create the [wireframes]() during the design process.
+  - Balsamiq was used to create the [wireframes](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/wireframes/africa.pdf) during the design process.
 - [Am I Responsive:](http://ami.responsivedesign.is/#)
   - Am I Responsive was used to test the page layouts during the build process. [Results](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/testscreenshots/amiresponsive.png)
 
@@ -663,8 +663,9 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
 - **Other students** (Slack Code Institute Workspace) on the Full Stack Developer Course, via the [Slack Communication Platform](https://slack.com/intl/en-gb/).
 - **Peer Code Review** (Slack Channel)
   The website was uploaded to the 'Peer Code Review' Slack Channel designed to receive direct inputs from other developers. This provides useful third party feedback on the website;
-  _ @Dante **Dante Healy** for continuous positive feedback on the site usability and design and for testing the EmailJS service;
-  _ @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and for testing the EmailJS service; and \* @Jimlynx **Jim Morel** for his review and extremely positive feedback on the site.
+  - @Dante **Dante Healy** for continuous positive feedback on the site usability and design and for testing the EmailJS service;
+  - @Eamonn **Eamonn Smythe** for positive feedback and suggestion to include a margin around the maps to assist page scrolling on mobile devices and for testing the EmailJS service; and
+  - @Jimlynx **Jim Morel** for his review and extremely positive feedback on the site.
 - **Friends and family** providing review and feedback on the site content, navigation and screen size testing. This has been invaluable with two very 'have mobile, will travel' daughters, it is often brutal but effective.
 
 ## Version Control
@@ -934,7 +935,9 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
   - V26.8 Amend README.md text
   - V26.9 Update format in HTML files
   - V27.0 Remove outputs.html test file
-  _ V27.1 Update README.md testing.md format
+  - V27.1 Update README.md testing.md format
+  - V27.2 Further Update README.md testing.md format
+
 
 ---
 
