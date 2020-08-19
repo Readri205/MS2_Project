@@ -1,4 +1,4 @@
-//<----------------Sends email from ontact form using EmalJS functionality --->
+//Sends email from ontact form using EmalJS functionality
 function sendMail(contactForm) {
 	emailjs.send("gmail", "mtb_tours", {
 		"first_name": contactForm.first_name.value,

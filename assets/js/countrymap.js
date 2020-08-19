@@ -1,6 +1,6 @@
-//<-------------------World Bank API for Country Capital and Capital Lat & Long';------------------------>
+//World Bank API for Country Capital and Capital Lat & Long'
 const baseUrlwbcty = "https://api.worldbank.org/v2/country/" + countryCode + "?format=json";
-//gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
+//gets World Bank Country data (Country, Capital, Lat, Long) by Country from API
 function getDataCty(cb) {
 	const xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function () {
@@ -11,7 +11,7 @@ function getDataCty(cb) {
 	xhttp.open("GET", baseUrlwbcty, true);
 	xhttp.send();
 }
-//Writes World Bank Country data Map (Country, Capital, Lat, Long) by Country from API;
+//Writes World Bank Country data Map (Country, Capital, Lat, Long) by Country from API
 const latit = [];
 const lngit = [];
 

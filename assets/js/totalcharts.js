@@ -1,4 +1,4 @@
-//------------------Total Population Graph from CSV---------------------------->
+//Total Population Graph from CSV
 getCsvPop();
 async function getCsvPop() {
 	const response = await fetch('assets/csv/pop.csv');
@@ -8,7 +8,7 @@ async function getCsvPop() {
 	const vaxis = verts.split(',').map(x => parseFloat(x, 10));
 	const haxis = herts.split(',');
 	const totPop = document.getElementById('totPop').getContext('2d');
-	//<-------------Graphs Population from CSV--------------->	
+	//Graphs Population from CSV
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
 	new Chart(totPop, {
@@ -40,7 +40,7 @@ async function getCsvPop() {
 		}
 	});
 }
-//--------------------GDP Total Graph--------------------------------------------->
+//GDP Total Graph
 getCsvGdp();
 async function getCsvGdp() {
 	const response = await fetch('assets/csv/gdp.csv');
@@ -50,7 +50,7 @@ async function getCsvGdp() {
 	const vaxs = virts.split(',').map(x => parseFloat(x, 10));
 	const haxs = hirts.split(',');
 	const totGdp = document.getElementById('totGdp').getContext('2d');
-	//--------------------Graph GDP Total from CSV--------------------------------------------->
+	//Graph GDP Total from CSV
 	new Chart(totGdp, {
 		type: 'line',
 		data: {
@@ -83,7 +83,7 @@ async function getCsvGdp() {
 		}
 	});
 }
-//--------------------Manualy Graph land sizes for World Bank regions--------------------------->
+//Manualy Graph land sizes for World Bank regions
 Chart.defaults.global.defaultFontFamily = 'Roboto';
 Chart.defaults.global.defaultFontColor = '#000000';
 Chart.defaults.global.defaultFontSize = 8;
@@ -107,7 +107,7 @@ new Chart(document.getElementById("landPie"), {
 		}
 	}
 });
-//--------------------Manualy Graph population sizes for World Bank regions--------------------------->
+//Manualy Graph population sizes for World Bank regions
 new Chart(document.getElementById("popPie"), {
 	type: 'pie',
 	data: {
@@ -128,7 +128,7 @@ new Chart(document.getElementById("popPie"), {
 		}
 	}
 });
-//--------------------Manualy Graph GDP sizes for World Bank regions--------------------------->
+//Manualy Graph GDP sizes for World Bank regions
 new Chart(document.getElementById("gdpPie"), {
 	type: 'pie',
 	data: {
