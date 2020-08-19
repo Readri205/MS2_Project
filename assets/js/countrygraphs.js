@@ -3,7 +3,7 @@ const baseUrlwbpop = "https://api.worldbank.org/v2/country/" + countryCode + "/i
 //GETs World Bank Population data by Country from API;
 function getDataPop(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -18,7 +18,7 @@ const ydata = [];
 function writePop(data) {
 	const country = data[1][0].country.value;
 	const item = data[1];
-	item.forEach(function(year) {
+	item.forEach(function (year) {
 		xlabels.push(year.date);
 		ydata.push((year.value / 1000000).toFixed(2));
 	});
@@ -64,7 +64,7 @@ const baseUrlwbgdp = "https://api.worldbank.org/v2/country/" + countryCode + "/i
 //<-------------------GETs World Bank GDP data by Country from API;------------------------>
 function getDataGdp(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -79,7 +79,7 @@ const hdata = [];
 function writeGdp(data) {
 	const country = data[1][0].country.value;
 	const item = data[1];
-	item.forEach(function(year) {
+	item.forEach(function (year) {
 		glabels.push(year.date);
 		hdata.push((year.value / 1000000000).toFixed(2));
 	});
@@ -107,7 +107,7 @@ function writeGdp(data) {
 					ticks: {
 						maxTicksLimit: 6,
 						beginAtZero: false,
-						callback: function(value) {
+						callback: function (value) {
 							return "$" + value;
 						}
 					}

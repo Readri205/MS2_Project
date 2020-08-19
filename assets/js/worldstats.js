@@ -4,7 +4,7 @@ const baseUrlworldland = "https://api.worldbank.org/v2/country/" + regionCode + 
 //GETs World Bank Land Size data from API;
 function getDataLand(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -25,7 +25,7 @@ const baseUrlworldpop = "https://api.worldbank.org/v2/country/" + regionCode + "
 //GETs World Bank Population data by World from API;
 function getDataPop(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -46,7 +46,7 @@ const baseUrlworldgdp = "https://api.worldbank.org/v2/country/" + regionCode + "
 //GETs World Bank Population data by World from API;
 function getDataGdp(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}

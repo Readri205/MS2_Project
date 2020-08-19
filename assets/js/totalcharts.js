@@ -11,7 +11,7 @@ async function getCsvPop() {
 	//<-------------Graphs Population from CSV--------------->	
 	Chart.defaults.global.defaultFontFamily = 'Roboto';
 	Chart.defaults.global.defaultFontColor = '#000000';
-    new Chart(totPop, {
+	new Chart(totPop, {
 		type: 'line',
 		data: {
 			labels: haxis,
@@ -70,7 +70,7 @@ async function getCsvGdp() {
 					ticks: {
 						maxTicksLimit: 6,
 						beginAtZero: true,
-						callback: function(value) {
+						callback: function (value) {
 							return "$" + value;
 						}
 					}

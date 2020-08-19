@@ -3,7 +3,7 @@ const baseUrlwbcty = "https://api.worldbank.org/v2/country/" + countryCode + "?f
 //gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
 function getDataCty(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}

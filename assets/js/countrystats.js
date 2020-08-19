@@ -5,7 +5,7 @@ const baseUrlwbcapital = "https://api.worldbank.org/v2/country/" + countryCode +
 //gets World Bank Country data (Country, Capital, Lat, Long) by Country from API;
 function getDataCapital(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -29,7 +29,7 @@ const baseUrlwblandsize = "https://api.worldbank.org/v2/country/" + countryCode 
 //GETs World Bank Land Size data for Country from API;
 function getDataLandSize(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -54,7 +54,7 @@ getDataLandSize(writeLandSize);
 //GETs World Bank Population data for Country from API;
 function getDataPopulation(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -74,7 +74,7 @@ getDataPopulation(writePopulation);
 //GETs World Bank GDP data for Country from API;
 function getDataCountryGdp(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}

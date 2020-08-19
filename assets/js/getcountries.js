@@ -11,7 +11,7 @@ getDataCountry(writeCountry);
 //<--------gets Country Codes for Africa from API in 'open';---------->
 function getDataCountry(cb) {
 	const xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
+	xhttp.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			cb(JSON.parse(this.responseText));
 		}
@@ -23,7 +23,7 @@ function getDataCountry(cb) {
 }
 //<--------- Country Codes by Country from API & sorted alphabetically;------------->
 function writeCountry(data) {
-	data.sort(function(a, b) {
+	data.sort(function (a, b) {
 		const x = a.value.toLowerCase();
 		const y = b.value.toLowerCase();
 		if (x < y) {
@@ -35,11 +35,11 @@ function writeCountry(data) {
 		return 0;
 	});
 	countries.innerHTML += `<option value="">Select Country</option>`;
-	data.forEach(function(item) {
+	data.forEach(function (item) {
 		countries.innerHTML += `<option value="${item.key}">${item.value}</option>`;
 	});
 }
-countries.addEventListener("change", function() {
+countries.addEventListener("change", function () {
 	//<------------Force redirection to return new country search------------------------>
 	window.location = `/MS2_Project/country.html?country=${countries.value}`;
 });
