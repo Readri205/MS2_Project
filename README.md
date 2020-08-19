@@ -881,6 +881,7 @@ The website was uploaded to the 'Peer Code Review' Slack Channel designed to rec
     * V26.6 Update testing.md for API fail message
     * V26.7 Upload for API fail message image
     * V26.8 Amend README.md text
+    * V26.9 Update format in HTML files
 
 ***
 <b id="f1">1</b> **&** <b id="f2">2</b> **Future Features** in the [README.md](https://github.com/Readri205/MS2_Project/blob/master/README.md) identifies that a 'quick search' could be placed at the top of both the 'Home' page and the 'Country Details' page to facilitate regular and frequent users. Regular and frequent users may wish to immediately see the details for any particular country as soon as they come onto the site. This allows quick access to Country search rather than having to scroll down to the bottom of the page. 1[↩](#a1);2[↩](#a2)
