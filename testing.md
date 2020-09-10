@@ -113,7 +113,7 @@ The user stories are annotated below to describe actual functionality. Screensho
 
 - ### Frequent User Goals
 
-      - #### The frequent visitor will want to;
+    - #### The frequent visitor will want to;
         - find any new information supplied;
             - The Information Box describes existing information and will be updated with additions when published.
         - be able to easily navigate throughout the site to find content;

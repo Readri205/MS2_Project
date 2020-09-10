@@ -938,7 +938,9 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
   - V27.1 Update README.md testing.md format
   - V27.2 Further update README.md testing.md format
   - V27.3 Further update to README.md testing.md format
-  _ v27.4 POST MS2 assessment: Update testing.md format
+  - V27.4 POST MS2 assessment: Update testing.md format
+  - V27.5 Update testing.md for Frequent User Goals format
+
 
 
 ---
