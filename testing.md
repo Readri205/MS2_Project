@@ -30,140 +30,140 @@ The user stories are annotated below to describe actual functionality. Screensho
 
 - ### First Time Visitor Goals
 
-      * #### The first time visitor will want to;
-        * easily understand the main purpose of the site;
-            * The Information Box on the landing site explains the purpose and how to use the site
-        * be able to easily navigate throughout the site to find content;
-            * The site is intuitive and implies use of scroll down to see information.
-        * view the carousel images just beneath the header;
-            * The carousel images are obvious from the landing page.
-        * scroll down through the information, read the content, view the map of **Africa**, then view the line graphs and the pie charts;
-            * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
-            * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
-            * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-        * search the details for a specific country from the dropdown menu;
-            * The search box is the last item on the page reached after viewing the Pie Charts.
-            * The search box is also referenced in the Information Box at the top of the page.
-        * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-            * The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
-            * The map has 'zoom in' and 'zoom out' traditional markers on the top left of the Map Box.
-            * The user can scroll down from the map to view the line charts and pie charts.
-        * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-            * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
-            * The search takes the user back to the top of the page and the user can again scroll down through the information.
-        * see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
-            * On each of the line graphs and the pie charts the user can click or touch screen each of the data points to see the numerical data.
-            * On the pie charts the user can click or touch screen a label to remove it from the pie segments. Click or touch screen again to add the label.
-            * On the pie charts the user can click a pie segment to see the data.
-        * navigate easily back to the 'Home' page;
-            * The user can easily navigate back to the 'Home' page as the menu remain available at the top of the screen. On mobile the menu is a 'hamburger' which is intuitive for touch screen drop down to select a menu item.
-        * read the information about Africa in a World Context;
-            * On the 'Home' page the user can again see all the Africa information on scroll down.
-        * search for another country and read the information about that country;
-            * If the user decides to search another country from the 'Home' page the search box is again immediately available at the bottom of the page.
-        * contact us for more information or to provide comments about the site;
-            * The user is able to navigate to the 'Contact' page from the main menu.
-            * If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
-        * contact us to ask about data projects that they may be interested to have completed as an item of work.
-            * On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
-            * The form is validated for data entry (does not validate real emails at this stage).
-            * On submission a clear modal message pops up to confirm to the user that their details have been sent.
+- #### The first time visitor will want to;
+    - easily understand the main purpose of the site;
+        - The Information Box on the landing site explains the purpose and how to use the site
+        - be able to easily navigate throughout the site to find content;
+            - The site is intuitive and implies use of scroll down to see information.
+        - view the carousel images just beneath the header;
+            - The carousel images are obvious from the landing page.
+        - scroll down through the information, read the content, view the map of **Africa**, then view the line graphs and the pie charts;
+            - On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
+            - On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
+            - On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
+        - search the details for a specific country from the dropdown menu;
+            - The search box is the last item on the page reached after viewing the Pie Charts.
+            - The search box is also referenced in the Information Box at the top of the page.
+        - read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+            - The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
+            - The map has 'zoom in' and 'zoom out' traditional markers on the top left of the Map Box.
+            - The user can scroll down from the map to view the line charts and pie charts.
+        - search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+            - After reviewing the Country information the user will see the search box and another country can be picked for viewing.
+            - The search takes the user back to the top of the page and the user can again scroll down through the information.
+        - see the data points on the line graphs or pie charts possible with a mouse click on desktop/laptop, or touch screen on a mobile device.
+            - On each of the line graphs and the pie charts the user can click or touch screen each of the data points to see the numerical data.
+            - On the pie charts the user can click or touch screen a label to remove it from the pie segments. Click or touch screen again to add the label.
+            - On the pie charts the user can click a pie segment to see the data.
+        - navigate easily back to the 'Home' page;
+            - The user can easily navigate back to the 'Home' page as the menu remain available at the top of the screen. On mobile the menu is a 'hamburger' which is intuitive for touch screen drop down to select a menu item.
+        - read the information about Africa in a World Context;
+            - On the 'Home' page the user can again see all the Africa information on scroll down.
+        - search for another country and read the information about that country;
+            - If the user decides to search another country from the 'Home' page the search box is again immediately available at the bottom of the page.
+        - contact us for more information or to provide comments about the site;
+            - The user is able to navigate to the 'Contact' page from the main menu.
+            - If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
+        - contact us to ask about data projects that they may be interested to have completed as an item of work.
+            - On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
+            - The form is validated for data entry (does not validate real emails at this stage).
+            - On submission a clear modal message pops up to confirm to the user that their details have been sent.
 
 - ### Returning Visitor Goals
 
-      * #### The returning visitor will want to;
-        * find any new information supplied.
-            * The Information Box describes existing information and will be updated with additions when published.
-        * be able to easily navigate throughout the site to find content;
-            * The site is intuitive and implies use of scroll down to see information.
-        * view the carousel images and any new images just beneath the header;
-            * The carousel images are obvious from the landing page.
-        * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-            * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
-            * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
-            * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
-        * search the details for a specific country from the dropdown menu;
-            * The search box is the last item on the page reached after viewing the Pie Charts.
-            * The search box is also referenced in the Information Box at the top of the page.
-        * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-            * The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
-            * The map has 'zoom in' and 'zoom out' traditional markers on the top left of the Map Box.
-            * The user can scroll down from the map to view the line charts and pie charts.
-        * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-            * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
-            * The search takes the user back to the top of the page and the user can again scroll down through the information.
-        * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
-            * On each of the line graphs and the pie charts the user can click or touch screen each of the data points to see the numerical data.
-            * On the pie charts the user can click or touch screen a label to remove it from the pie segments. Click or touch screen again to add the label.
-            * On the pie charts the user can click a pie segment to see the data.
-        * navigate easily back to the 'Home' page;
-            * The user can easily navigate back to the 'Home' page as the menu remain available at the top of the screen. On mobile the menu is a 'hamburger' which is intuitive for touch screen drop down to select a menu item.
-        * search for another country and read the information about that country;
-            * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
-            * The search takes the user back to the top of the page and the user can again scroll down through the information.
-      * **A returning visitor** may want to go straight to the 'Contact Us' page;
-        * contact us for more information or to provide comments about the site;
-            * The user is able to navigate to the 'Contact' page from the main menu.
-            * If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
-        * contact us to ask about data projects that they may be interested to have completed as an item of work
-            * On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
-            * The form is validated for data entry (does not validate real emails at this stage).
-            * On submission a clear modal message pops up to confirm to the user that their details have been sent.
+    - #### The returning visitor will want to;
+        - find any new information supplied.
+            - The Information Box describes existing information and will be updated with additions when published.
+        - be able to easily navigate throughout the site to find content;
+            - The site is intuitive and implies use of scroll down to see information.
+        - view the carousel images and any new images just beneath the header;
+            - The carousel images are obvious from the landing page.
+        - scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+            - On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
+            - On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
+            - On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
+      - **A returning visitor** may want to go straight to the 'Country' search function<sup id="a1">[1](#f1)</sup>;
+        - search the details for a specific country from the dropdown menu;
+            - The search box is the last item on the page reached after viewing the Pie Charts.
+            - The search box is also referenced in the Information Box at the top of the page.
+        - read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+            - The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
+            - The map has 'zoom in' and 'zoom out' traditional markers on the top left of the Map Box.
+            - The user can scroll down from the map to view the line charts and pie charts.
+        - search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+            - After reviewing the Country information the user will see the search box and another country can be picked for viewing.
+            - The search takes the user back to the top of the page and the user can again scroll down through the information.
+        - see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+            - On each of the line graphs and the pie charts the user can click or touch screen each of the data points to see the numerical data.
+            - On the pie charts the user can click or touch screen a label to remove it from the pie segments. Click or touch screen again to add the label.
+            - On the pie charts the user can click a pie segment to see the data.
+        - navigate easily back to the 'Home' page;
+            - The user can easily navigate back to the 'Home' page as the menu remain available at the top of the screen. On mobile the menu is a 'hamburger' which is intuitive for touch screen drop down to select a menu item.
+        - search for another country and read the information about that country;
+            - After reviewing the Country information the user will see the search box and another country can be picked for viewing.
+            - The search takes the user back to the top of the page and the user can again scroll down through the information.
+      - **A returning visitor** may want to go straight to the 'Contact Us' page;
+        - contact us for more information or to provide comments about the site;
+            - The user is able to navigate to the 'Contact' page from the main menu.
+            - If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
+        - contact us to ask about data projects that they may be interested to have completed as an item of work
+            - On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
+            - The form is validated for data entry (does not validate real emails at this stage).
+            - On submission a clear modal message pops up to confirm to the user that their details have been sent.
 
 - ### Frequent User Goals
 
-      * #### The frequent visitor will want to;
-        * find any new information supplied;
-            * The Information Box describes existing information and will be updated with additions when published.
-        * be able to easily navigate throughout the site to find content;
-            * be able to easily navigate throughout the site to find content;
-        * view the carousel images just beneath the header;
-            * The carousel images are obvious from the landing page.
-        * scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
-            * On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
-            * On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
-            * On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
-      * **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
-        * search the details for a specific country from the dropdown menu;
-          * The search box is the last item on the page reached after viewing the Pie Charts.
-          * The search box is also referenced in the Information Box at the top of the page.
-        * read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          * The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
-          * The map has 'zoom in' and 'zoom out' traditional markers on the top left of the Map Box.
-          * The user can scroll down from the map to view the line charts and pie charts.
-        * see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
-          * On each of the line graphs and the pie charts the user can click or touch screen each of the data points to see the numerical data.
-          * On the pie charts the user can click or touch screen a label to remove it from the pie segments. Click or touch screen again to add the label.
-          * On the pie charts the user can click a pie segment to see the data.
-        * search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
-          * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
-          * The search takes the user back to the top of the page and the user can again scroll down through the information.
-        * navigate easily back to the 'Home' page;
-          * The user can easily navigate back to the 'Home' page as the menu remain available at the top of the screen. On mobile the menu is a 'hamburger' which is intuitive for touch screen drop down to select a menu item.
-        * search for another country and read the information about that country;
-          * After reviewing the Country information the user will see the search box and another country can be picked for viewing.
-          * The search takes the user back to the top of the page and the user can again scroll down through the information.
-      * **A frequent visitor** may want to go straight to the 'Contact Us' page;
-        * contact us for more information or to provide comments about the site;
-          * The user is able to navigate to the 'Contact' page from the main menu.
-          * If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
-        * contact us to ask about data projects that they may be interested to have completed as an item of work.
-          * On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
-          * The form is validated for data entry (does not validate real emails at this stage).
-          * On submission a clear modal message pops up to confirm to the user that their details have been sent.
+      - #### The frequent visitor will want to;
+        - find any new information supplied;
+            - The Information Box describes existing information and will be updated with additions when published.
+        - be able to easily navigate throughout the site to find content;
+            - be able to easily navigate throughout the site to find content;
+        - view the carousel images just beneath the header;
+            - The carousel images are obvious from the landing page.
+        - scroll down through the information, read the content, view the map of Africa, then view the line graphs and the pie charts;
+            - On scroll down it is intuitive to scroll down through the information box, map and the line and pie charts.
+            - On large screens scroll down is straight forward using the screen or scroll bars. If the screen is stationary it isn't possible to scroll down when on the 'map' itself but this is 'standard' for maps on screens.
+            - On small screens the a margin is placed around the Map so that scrolling is facilitated. This is 'intuitive' for most users of small screens when viewing maps.
+      - **A frequent visitor** may want to go straight to the 'Country' search function<sup id="a2">[2](#f2)</sup>;
+        - search the details for a specific country from the dropdown menu;
+          - The search box is the last item on the page reached after viewing the Pie Charts.
+          - The search box is also referenced in the Information Box at the top of the page.
+        - read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          - The Information Box is at the top of the page and the map is next to it (large screens) or beneath it (smaller screens)
+          - The map has 'zoom in' and 'zoom out' traditional markers on the top left of the Map Box.
+          - The user can scroll down from the map to view the line charts and pie charts.
+        - see the data points on the line graphs or pie charts possible with a mouse hover on desktop/laptop, or touch screen on a mobile device.
+          - On each of the line graphs and the pie charts the user can click or touch screen each of the data points to see the numerical data.
+          - On the pie charts the user can click or touch screen a label to remove it from the pie segments. Click or touch screen again to add the label.
+          - On the pie charts the user can click a pie segment to see the data.
+        - search for another country and read the information about that country, view the map, zoom in and out on that map, review the line graphs and review the pie charts;
+          - After reviewing the Country information the user will see the search box and another country can be picked for viewing.
+          - The search takes the user back to the top of the page and the user can again scroll down through the information.
+        - navigate easily back to the 'Home' page;
+          - The user can easily navigate back to the 'Home' page as the menu remain available at the top of the screen. On mobile the menu is a 'hamburger' which is intuitive for touch screen drop down to select a menu item.
+        - search for another country and read the information about that country;
+          - After reviewing the Country information the user will see the search box and another country can be picked for viewing.
+          - The search takes the user back to the top of the page and the user can again scroll down through the information.
+      - **A frequent visitor** may want to go straight to the 'Contact Us' page;
+        - contact us for more information or to provide comments about the site;
+          - The user is able to navigate to the 'Contact' page from the main menu.
+          - If the user is at the bottom of the page there is another 'Contact' page selector in the footer, so the user is prompted either at the top or the bottom of the page.
+        - contact us to ask about data projects that they may be interested to have completed as an item of work.
+          - On the 'Contact' page the form is clear and simple with a header message as to how the form can be used.
+          - The form is validated for data entry (does not validate real emails at this stage).
+          - On submission a clear modal message pops up to confirm to the user that their details have been sent.
 
 - ### Functional User Tests by Browser
 
-      * All the functional user tests have been made per the attached [Test Schedule](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/testschedule.xlsx). All functional tests have been on different Browsers including Chrome, MS Edge, Firefox, Opera and Internet Explorer.
-      * Note that there are functional **'fails'** returned from **Internet Explorer** for any search functionality. Internet Explorer was **NOT** tested on mobile. However, **MS Edge** was tested **successfully** on large screen and mobile. The results are shown below;
-        * MacBook Pro 16" Screen;
+    - All the functional user tests have been made per the attached [Test Schedule](https://github.com/Readri205/MS2_Project/blob/master/assets/documents/excelfiles/testschedule.xlsx). All functional tests have been on different Browsers including Chrome, MS Edge, Firefox, Opera and Internet Explorer.
+    - Note that there are functional **'fails'** returned from **Internet Explorer** for any search functionality. Internet Explorer was **NOT** tested on mobile. However, **MS Edge** was tested **successfully** on large screen and mobile. The results are shown below;
+    - MacBook Pro 16" Screen;
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/testschedulemacbook10050.jpg "Functional Test Schedule - MacBook Pro 16 Screen")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/testschedulemacbook10050.jpg "Functional Test Schedule - MacBook Pro 16 Screen")
 
-        * iPhone X 375px screen;
+    - iPhone X 375px screen;
 
-          ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/testscheduleiphonex10050.jpg "Functional Test Schedule - Mobile Screen")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/testscheduleiphonex10050.jpg "Functional Test Schedule - Mobile Screen")
 
 ## Automated Testing
 
