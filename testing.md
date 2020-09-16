@@ -188,9 +188,9 @@ The following automated tools were used to test the website during development o
 
     Please see below the HTML code and the corresponding output referred to in the check;
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/headercodecountry.png "HTML Country Page Code")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/headercodecountry.png "HTML Country Page Code")
 
-      ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/headeroutput.png "HTML Country Page output")
+    ![alt text](https://readri205.github.io/MS2_Project/assets/images/testscreenshots/headeroutput.png "HTML Country Page output")
 
 - **Contact Page**
 
