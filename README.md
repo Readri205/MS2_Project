@@ -943,6 +943,7 @@ A **Zip File** clone can be downloaded from the same "Code" drop down above;
   - V27.6 Update for contact form and further testing indent on images in testing.md
   - V27.7 Update testing.md file for image indent error on country details page
   - V27.8 Update piecountry.js and countrystats.js for WB API update
+  - V27.9 Update country.html to getcountries.js from getcountriesvtest.js
 
 
 
