@@ -17,13 +17,13 @@ function getDataLand(cb) {
 //Writes World Bank land size data by Country from API (1970 to current)
 function writeLand(data) {
 	if (countryCode == "SD") {
-		item = data[1][1];
+		item = data[1][2];
 		countland = 1886068 / 1000000;
 	} else if (countryCode == "SS") {
-		item = data[1][1];
+		item = data[1][2];
 		countland = 619745 / 1000000;
 	} else {
-		item = data[1][1];
+		item = data[1][2];
 		countland = item.value / 1000000;
 	}
 	const roaland = (29.509744 - countland);
@@ -51,7 +51,7 @@ function writeLand(data) {
 				position: "right"
 			}
 		}
-	});
+    });
 }
 getDataLand(writeLand);
 //World Bank API for Country Population 1970 to Current Year'
@@ -68,11 +68,11 @@ function getDataPop(cb) {
 	xhttp.send();
 	xhttp.onerror = function() {
 		alert("Oops, the WB Country Population API return failed - please try again later, but please head over to the contact page and drop us an email so we can look at the error");
-	  };
+      };
 }
 //Writes World Bank Population data by Country from API
 function writePop(data) {
-	const item = data[1][0];
+	const item = data[1][1];
 	const countpop = item.value / 1000000;
 	const roapop = (1303 - countpop);
 	//Graphs World Bank Population data by Country from API (1970 to current)
@@ -95,7 +95,7 @@ function writePop(data) {
 				position: "right"
 			}
 		}
-	});
+    });
 }
 getDataPop(writePop);
 //World Bank API for Country GDP 1970 to Current Year'
@@ -116,7 +116,7 @@ function getDataGdp(cb) {
 }
 //Graphs World Bank GDP data by Country from API
 function writeGdp(data) {
-	const item = data[1][0];
+	const item = data[1][1];
 	const countgdp = item.value / 1000000000;
 	const roagdp = (2425 - countgdp);
 	new Chart(document.getElementById("gdpPie"), {

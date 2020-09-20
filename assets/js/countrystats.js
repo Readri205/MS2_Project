@@ -45,10 +45,10 @@ function writeLandSize(data) {
 		landsize = 619745;
 	} else {
 		item = data[1];
-		landsize = item[1].value.toFixed(0);
-	}
+		landsize = item[3].value.toFixed(0);
+    }
 	perc = (landsize / 295097.44).toFixed(2);
-	document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize + "   Sq. Kms" + " " + " - " + perc + "% of total Africa Land Size (29.5 Mn Sq. Kms)");
+    document.getElementById("landsize").innerHTML += ("Land Size:   " + landsize + "   Sq. Kms" + " " + " - " + perc + "% of total Africa Land Size (29.5 Mn Sq. Kms)");
 }
 getDataLandSize(writeLandSize);
 //GETs World Bank Population data for Country from API
@@ -65,10 +65,10 @@ function getDataPopulation(cb) {
 //Writes World Bank Population data for Country from API
 function writePopulation(data) {
 	const item = data[1];
-	const year = item[0].date;
-	const pop = (item[0].value / 1000000).toFixed(2);
+	const year = item[1].date;
+	const pop = (item[1].value / 1000000).toFixed(2);
 	const perc = (pop / 13.02819408).toFixed(2);
-	document.getElementById("popsize").innerHTML += ("Country Population:   " + year + "    " + pop + " Mn" + " - " + perc + "% of total Africa Population (1.3Bn)");
+    document.getElementById("popsize").innerHTML += ("Country Population:   " + year + "    " + pop + " Mn" + " - " + perc + "% of total Africa Population (1.3Bn)");
 }
 getDataPopulation(writePopulation);
 //GETs World Bank GDP data for Country from API
@@ -85,9 +85,9 @@ function getDataCountryGdp(cb) {
 //Writes World Bank GDP data for Country from API
 function writeCountryGdp(data) {
 	const item = data[1];
-	const year = item[0].date;
-	const gdp = (item[0].value / 1000000000).toFixed(1);
+	const year = item[1].date;
+	const gdp = (item[1].value / 1000000000).toFixed(1);
 	const perc = (gdp / 24.24529223027).toFixed(2);
-	document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp + " Bn - " + perc + "% of the total Africa GDP (US$ 2,424 Bn)");
+    document.getElementById("gdpsize").innerHTML += ("GDP: " + year + " US$ " + gdp + " Bn - " + perc + "% of the total Africa GDP (US$ 2,424 Bn)");
 }
 getDataCountryGdp(writeCountryGdp);
