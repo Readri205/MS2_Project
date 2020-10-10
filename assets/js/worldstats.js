@@ -41,10 +41,11 @@ function getDataPop(cb) {
 }
 //Writes World Bank Population data by Country from API
 function writePop(data) {
-	const size = data[1][0].value / 1000000000;
+	const size = data[1][1].value / 1000000000;
 	const popsize = size.toFixed(1);
 
-	document.getElementById("worldpopsize").innerHTML += ("Population: 1.3 Bn - 17% of World Population" + " (" + popsize + " Bn)");
+    document.getElementById("worldpopsize").innerHTML += ("Population: 1.3 Bn - 17% of World Population" + " (" + popsize + " Bn)");
+    console.log(data)
 }
 getDataPop(writePop);
 //World Bank API for GDP Size
@@ -65,7 +66,7 @@ function getDataGdp(cb) {
 }
 //Writes World Bank GDP data by Country from API (1970 to current)
 function writeGdp(data) {
-	const size = data[1][0].value / 1000000000000;
+	const size = data[1][1].value / 1000000000000;
 	const gdpsize = size.toFixed(1);
 	document.getElementById("worldgdpsize").innerHTML += ("GDP: US$Tn 2.4 - 3% of World GDP (US$Tn " + gdpsize + ")");
 }
